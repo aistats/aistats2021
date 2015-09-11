@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
+  <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
+
+  <link rel="stylesheet" type="text/css" title="Orig" href="{{ "/style.css" | prepend: site.baseurl }}">
+  <!--<link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">-->
+  <!--<link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}" />-->
+</head>
+
+
+  <body>
+
+<center>
+<table border="0" width="1080" cellpadding="0" cellspacing="0">
+<tr>
+<td>
+<table border="0" width="830px" cellpadding="0" cellspacing="0">
+<tr><td class="leftborder" width="30px"></td><td>
+   <div class="container">
+   <div class="os">
+       <div class="logoImageCell"><img src="{{ site.baseurl }}/image/logo.jpg" class="right" alt="[AISTATS Logo]"></div>
+         <div class="logoTextCell">AI &amp; Statistics 2016 </div>
+      </div>
+
+      <!-- <div class="toppict"></div>
+      <div class="topmenu"></div> -->
+
+      <div class="leftmenu">
+         <ul id="leftnavlist">
+            <!-- Conference overview -->
+            <li><a id="LNhome" href="index.html">Home</a></li>
+            <li><a id="LNcfp" href="cfp.html">Call for Papers</a></li>
+            <li><a id="LNdates" href="dates.html">Key Dates</a></li>
+            <li><a id="LNsub" href="submit.html">Submission</a></li>
+            <li><a id="LNreview" href="reviewer.html">Reviewing Process</a></li>
+            <li><a id="LNsponsors" href="sponsors.html">Sponsors</a></li>
+            <li><a id="LNcom" href="committee.html">Committees</a></li>
+
+            <!-- Get ready to the conference -->
+<!--
+            <li><a id="LNreg" href="registration.html">Registration</a></li>
+            <li><a id="LNpresenters" href="presenters.html">Presenter Instruction</a></li>
+            <li><a id="LNlocal" href="local.html">Local Information</a></li>
+-->
+            <li><a id="LNaccommodation" href="accommodation.html">Accommodation</a></li>
+
+            <!-- Conference program -->
+<!--
+            <li><a id="LNschedule" href="schedule.html">Schedule</a></li>
+            <li><a id="LNkeynotes" href="keynotes.html">Keynote Speakers</a></li>
+            <li><a id="LNtutorials" href="tutorials.html">Tutorials</a></li>
+            <li><a id="LNaccepted" href="accepted.html">Talks and Papers</a></li>
+            <li><a id="LNsubht" href="submit_highlight_talks.html">Highlight Talks Submission</a></li>
+            <li><a id="LNpostersessions" href="poster_sessions.html">Poster Sessions</a></li>
+-->
+
+            <!-- ETC -->
+            <li><a id="LNpast" href="past.html">Past Meetings</a></li>
+
+            <!-- 
+            <li><a id="LNsublp" href="submit_latebreaking_posters.html">Latebreaking Posters Submission</a></li>
+            <li><a id="LNproc" href="proceedings.html">Proceedings</a></li>
+            <li><a id="LNaward" href="awards.html">Awards</a></li>
+            -->
+         </ul>
+
+<!--
+<a href="https://twitter.com/aistats2014" class="twitter-follow-button" data-show-count="false">Follow @aistats2014</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script> 
+&nbsp; on Twitter, and tag your tweets with <b>#aistats2014</b>. 
+-->
+      </div>
+
+
+        {{ content }}
+
+
+
+      <div class="footer">
+         AI &amp; Statistics 2016
+      </div>
+
+</div>
+</td>
+<td class="rightborder"></td></tr></table>
+<table border="0" width="830px" cellpadding="0" cellspacing="0">
+<tr>
+    <td class="bottomleftborder" width="30px"><img src="{{ site.baseurl }}/image/bottomleftborder.png" border="0"></td>
+    <td class="bottomcleftborder" width="30px"><img src="{{ site.baseurl }}/image/bottomcenterleftborder.png" border="0"></td>
+    <td class="bottomborder"><img src="{{ site.baseurl }}/image/bottomborder.png" width="100%" height="50" border="0"></td>
+    <td class="bottomcrightborder" width="30px"><img src="{{ site.baseurl }}/image/bottomcenterrightborder.png" border="0"></td>
+    <td class="bottomrightborder" width="30px"><img src="{{ site.baseurl }}/image/bottomrightborder.png" border="0"></td>
+</tr>
+</table>
+</td>
+<td class="tweet">
+
+<div class="tweet">
+
+<!--
+<a class="twitter-timeline" width="250" height="440" data-dnt="true" href="https://twitter.com/search?q=%23aistats2014"  data-widget-id="350284221165760512">Tweets about "#aistats2014"</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+-->
+
+</div>
+
+
+</td>
+</tr>
+</table>
+</center>
+
+  </body>
+
+</html>
