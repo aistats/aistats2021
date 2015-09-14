@@ -3,6 +3,28 @@ layout: default
 permalink: /404.html
 ---
 
+<script type="text/javascript">
+function endsWith(str, suffix) {
+    return str.indexOf(suffix, str.length - suffix.length) !== -1;
+}
+
+var url = window.location.href;
+var fnames = ["index", "cfp", "dates", "submit", "reviewer", "sponsors", "committee", "accommodation", "past"];
+//url = url.replace("http://www", "http://");
+if(endsWith(url, ".php")){
+    // url ends with .php. Check for a redirection
+    for(i=0; i<fnames.length; i++){
+        if(endsWith(url, fnames[i]+".php" )){
+            var redirect = "{{ site.baseurl }}/" + fnames[i] + ".html";
+            console.log("redirecting to: " + redirect);
+            window.location.replace(redirect);
+        }
+    }
+
+
+}
+//window.location.replace("{{ site.baseurl }}/submit.html");
+</script>
 
 <div class="contents">
 
@@ -30,3 +52,4 @@ permalink: /404.html
     </p>
 
 </div>
+
