@@ -7,7 +7,7 @@ body{
 	padding:0;
 	font:76% Verdana,Tahoma,Arial,sans-serif;
 	background-color:#777 ;
-        background-image: url({{ site.baseurl }}/image/icelandbackground.jpg) ;
+        /*background-image: url({{ site.baseurl }}/image/icelandbackground.jpg) ;*/
         background-repeat: tile ;
         background-position: top left ;      
 	color:#303030;
