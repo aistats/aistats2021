@@ -9,142 +9,539 @@ layout: default
 
 <div class="contents">
 
-<h1>AISTATS*2014 Talks and Papers</h1>
+<h1>AISTATS 2016 - List of accepted papers</h1>
 
-
-<h3>Proceedings-track Papers</h3>
-
-The AISTATS 2014 proceedings-track papers are available in the 
-<a href="http://jmlr.org/proceedings/papers/v33/">online proceedings</a>.
-<br><br>
-
-<h3>Highlight Talks</h3>
-
-<p><b>H01 Gaussian Processes for Data-Efficient Learning in Robotics and
-Control</b><br>
-Marc Deisenroth, Dieter Fox, Carl Rasmussen
-<br>
-<b>Abstract:</b><br>
-Autonomous reinforcement learning (RL) approaches typically
-require many interactions with the system to learn controllers,
-which is a practical limitation in real systems, such as robots,
-where many interactions can be impractical and time consuming. To
-address this problem, current learning approaches typically
-require task-specific knowledge in form of expert demonstrations,
-realistic simulators, pre-shaped policies, or specific knowledge
-about the underlying dynamics. We follow a different approach and
-speed up learning by extracting more information from data. In
-particular, we learn a probabilistic, non-parametric Gaussian
-process transition model of the system. By explicitly
-incorporating model uncertainty into long-term planning and
-controller learning our approach reduces the effects of model
-errors, a key problem in model-based learning. Compared to
-state-of-the art RL our model-based policy search method achieves
-an unprecedented speed of learning. We demonstrate its
-applicability to autonomous learning in challenging real robot
-and control tasks.
-<br>
-<b>Citation:</b>
-MP Deisenroth, D Fox, and CE Rasmussen. Gaussian Processes for 
-Data-Efficient Learning in Robotics and Control. 
-IEEE Transactions on Pattern Analysis and Machine Intelligence, 2014. 
-Accepted for publication. 
-<a href="http://doi.ieeecomputersociety.org/10.1109/TPAMI.2013.218">http://doi.ieeecomputersociety.org/10.1109/TPAMI.2013.218</a>
-<br><br>
-
-<p><b>H02 Bayesian Monitoring for the Comprehensive Nuclear-Test-Ban Treaty</b><br>
-Stuart Russell, Erik Sudderth, Nimar Arora
-<br>
-<b>Abstract:</b><br>
-Verification for the Comprehensive Nuclear-Test-Ban Treaty 
-requires detecting and characterizing all seismic events 
-above a minimum magnitude occurring anywhere on Earth. The 
-treaty defines a network of sensors, the International 
-Monitoring System (IMS), managed by the United Nations 
-CTBTO. NET-VISA, a Bayesian monitoring system applied to 
-IMS data, exhibits a 2x-3x reduction in detection failures 
-compared to the current CTBTO system; the UN has 
-recommended its deployment for treaty verification, 
-subject to approval by member states.     NET-VISA's prior 
-is a complex, open-universe generative probability model 
-(written originally in the Bayesian Logic formal language 
-and trained on historical data) describing event 
-occurrence, signal propagation, signal detection, and 
-noise processes; the evidence consists of "blips"
-(above-threshold signals, 90% of which are noise) 
-extracted from raw IMS waveform data. More recent work 
-extends the generative model all the way to the raw 
-waveforms, promising greater sensitivity but requiring 
-new modeling and inference techniques.  
-<br>
-<b>Citation:</b>
-Nimar S. Arora, Stuart Russell, and Erik Sudderth, 
-``NET-VISA: Network Processing Vertically Integrated 
-Seismic Analysis.'' In Bulletin of the Seismological 
-Society of America, 103(2A), 709-729, 2013.
-<a href="http://www.bssaonline.org/content/103/2A/709.abstract">http://www.bssaonline.org/content/103/2A/709.abstract</a>.
-<br><br>
-
-<p><b>H03 Representation Learning: A Review and New Perspectives</b><br>
-Yoshua Bengio
-<br>
-<b>Abstract:</b><br>
-The success of machine learning algorithms generally depends on
-data representation, and we hypothesize that this is because
-different representations can entangle and hide more or less the
-different explanatory factors of variation behind the data.
-Although specific domain knowledge can be used to help design
-representations, learning with generic priors can also be used,
-and the quest for AI is motivating the design of more powerful
-representation-learning algorithms implementing such priors. This
-paper reviews recent work in the area of unsupervised feature
-learning and deep learning, covering advances in probabilistic
-models, auto-encoders, manifold learning, and deep networks.
-This motivates longer-term unanswered questions about the
-appropriate objectives for learning good representations, for
-computing representations (i.e., inference), and the geometrical
-connections between representation learning, density estimation
-and manifold learning.
-<br>
-<b>Citation:</b>
-Yoshua Bengio, Aaron Courville, Pascal Vincent, 
-"Representation Learning: A Review and New Perspectives,"
-IEEE Transactions on Pattern Analysis and Machine Intelligence,
-vol. 35, no. 8, pp. 1798-1828, Aug. 2013, doi:10.1109/TPAMI.2013.50
-<a href="http://www.computer.org/csdl/trans/tp/2013/08/ttp2013081798-abs.html">
-http://www.computer.org/csdl/trans/tp/2013/08/ttp2013081798-abs.html</a>
-<br><br>
-
-<p><b>H04 Spatiotemporal point process models of conflicts</b><br>
-Andrew Zammit-Mangion, Michael Dewar,
-Visakan Kadirkamanathan, Guido Sanguinetti
-<br>
-<b>Abstract:</b><br>
-Modern conflicts are characterised by an ever increasing use of
-information and sensing technology, resulting in vast amounts of
-high resolution data. Modelling and prediction of conflict,
-however, remains a challenging task due to the heterogeneous and
-dynamic nature of the data typically available. Here we propose
-the use of dynamic spatiotemporal modelling tools for the
-identification of complex underlying processes in conflict, such
-as diffusion, relocation, heterogeneous escalation and
-volatility. Using ideas from statistics, signal processing and
-ecology, we provide a predictive framework able to assimilate
-data and give confidence estimates on the predictions. We
-demonstrate our methods on the Wikileaks Afghan War Diary. Our
-results show that the approach allows deeper insights into
-conflict dynamics and allows a strikingly accurate (in a
-statistical sense) forward prediction of armed opposition group
-activity in 2010, based solely on data from previous years.
-<br>
-<b>Citation:</b>
-Andrew Zammit-Mangion, Michael Dewar, Visakan Kadirkamanathan, 
-and Guido Sanguinetti, Point process modelling of the Afghan 
-War Diary, Proc Natl Acad Sci U S A. 2012 July 31; 109(31): 
-12414-12419 Web: 
-<a href="http://www.pnas.org/content/early/2012/07/11/1203177109.abstract">
-http://www.pnas.org/content/early/2012/07/11/1203177109.abstract</a>
-
+<p>Mario Lucic, Olivier Bachem, Andreas Krause, <b>Strong Coresets
+for Hard and Soft Bregman Clustering with Applications to Exponential
+Family Mixtures </b>
+</p>
+<p>Alexandra Carpentier, Michal Valko, <b>Revealing Graph Bandits
+for Maximizing Local Influence </b>
+</p>
+<p>Anastasios Kyrillidis, Bubacarr Bah, Rouzbeh Hasheminezhad, Quoc
+Tran Dinh, Luca Baldassarre, Volkan Cevher, <b>Convex block-sparse
+linear regression with expanders, provably </b>
+</p>
+<p>Daniel Ritchie, Andreas Stuhlmüller, Noah Goodman, <b>C3:
+Lightweight Incrementalized MCMC for Probabilistic Programs using
+Continuations and Callsite Caching </b>
+</p>
+<p>Adrian Weller, Justin Domke, <b>Clamping Improves TRW and Mean
+Field Approximations </b>
+</p>
+<p>Adrian Weller, David Sontag,<b> Tightness of LP Relaxations for
+Almost Balanced Models</b> 
+</p>
+<p>Chris Oates, Mark Girolami, <b>Control Functionals for
+Quasi-Monte Carlo Integration </b>
+</p>
+<p>Markus Schneider, <b>Probability Inequalities for Kernel
+Embeddings in Sampling without Replacement </b>
+</p>
+<p>Nicolas Goix, Anne Sabourin, Stéphan Clémençon, <b>Sparse
+Representation of Multivariate Extremes with Applications to Anomaly
+Ranking </b>
+</p>
+<p>Yale Chang, Yi Li, Adam Ding, Jennifer Dy, <b>A Robust-Equitable
+Copula Dependence Measure for Feature Selection </b>
+</p>
+<p>Raphaël Féraud, Robin Allesiardo, Tanguy Urvoy, Fabrice Clérot,
+<b>Random Forest for the Contextual Bandit Problem </b>
+</p>
+<p>Michael Herman, Tobias Gindele, Jörg Wagner, Felix Schmitt,
+Wolfram Burgard, <b>Inverse Reinforcement Learning with Simultaneous
+Estimation of Rewards and Dynamics </b>
+</p>
+<p>Hemant Tyagi, Anastasios Kyrillidis, Bernd Gärtner, Andreas
+Krause, <b>Learning Sparse Additive Models with Interactions in High
+Dimensions </b>
+</p>
+<p>Megasthenis Asteris, Anastasios Kyrillidis, Dimitris
+Papailiopoulos, Alexandros Dimakis, <b>Bipartite Correlation
+Clustering - Maximizing Agreements </b>
+</p>
+<p>Sergey Bartunov, Dmitry Kondrashkin, Anton Osokin, Dmitry Vetrov,
+<b>Breaking Sticks and Ambiguities with Adaptive Skip-gram </b>
+</p>
+<p>Kwang-Sung Jun, Kevin Jamieson, Robert Nowak, Xiaojin Zhu, <b>Top
+Arm Identification in Multi-Armed Bandits with Batch Arm Pulls </b>
+</p>
+<p>Jonathan Scarlett, Volkan Cevher, <b>Limits on Sparse Support
+Recovery via Linear Sketching with Random Expander Matrices </b>
+</p>
+<p>Lee Dicker, Murat Erdogdu, <b>Maximum Likelihood for Variance
+Estimation in High-Dimensional Linear Models </b>
+</p>
+<p>Daniel Hernandez-Lobato, Jose Miguel Hernandez-Lobato, <b>Scalable
+Gaussian Process Classification via Expectation Propagation </b>
+</p>
+<p>Lingxiao Wang, Quanquan Gu, <b>Precision Matrix Estimation in
+High Dimensional Gaussian Graphical Models with Faster Rates </b>
+</p>
+<p>Jincheng Mei, Hao Zhang, Bao-Liang Lu, <b>On the Reducibility of
+Submodular Functions </b>
+</p>
+<p>Atsushi Nitanda, <b>Accelerated Stochastic Gradient Descent for
+Minimizing Finite Sums </b>
+</p>
+<p>Martin Boissier, Siwei Lyu, Yiming Ying, Ding-Xuan Zhou, <b>Fast
+Convergence of Online Pairwise Learning Algorithms </b>
+</p>
+<p>Andreas Svensson, Arno Solin, Simo Särkkä, Thomas Schön,
+<b>Computationally Efficient Bayesian Learning of Gaussian Process
+State Space Models </b>
+</p>
+<p>Yaniv Tenzer, Gal Elidan, <b>Generalized Ideal Parent (GIP):
+Discovering non-Gaussian Hidden Variables </b>
+</p>
+<p>Alex Matthews, James Hensman, Richard Turner, Zoubin Ghahramani,
+<b>On Sparse Variational Methods and the Kullback-Leibler Divergence
+between Stochastic Processes </b>
+</p>
+<p>Kevin Jamieson Ameet Tawalkar, <b>Non-stochastic Best Arm
+Identification and Hyperparameter Optimization </b>
+</p>
+<p>Philipp Moritz, Robert Nishihara, Michael Jordan,<b> A
+Linearly-Convergent Stochastic L-BFGS Algorithm </b>
+</p>
+<p>Robert Nishihara, David Lopez-Paz, Leon Bottou, <b>No Regret
+Bound for Extreme Bandits </b>
+</p>
+<p>Anima Anandkumar, Prateek Jain, Yang Shi, Niranjan Uma Naresh,
+<b>Tensor vs Matrix Methods: Robust Tensor Decomposition under Block
+Sparse Perturbations </b>
+</p>
+<p>Sougata Chaudhuri, Ambuj Tewari, <b>Online Learning to Rank with
+Feedback at the Top </b>
+</p>
+<p>Christopher Srinivasa, Siamak Ravanbakhsh, Brendan Frey, <b>Survey
+Propagation beyond Constraint Satisfaction Problems </b>
+</p>
+<p>Balazs Csaji, <b>Score Permutation Based Finite Sample Inference
+for Generalized AutoRegressive Conditional Heteroskedasticity (GARCH)
+Models </b>
+</p>
+<p>Vikas Garg, Cynthia Rudin, Tommi Jaakkola, <b>CRAFT:
+ClusteR-specific Assorted Feature selecTion</b> 
+</p>
+<p>Ilija Bogunovic, Jonathan Scarlett, Volkan Cevher, <b>Time-Varying
+Gaussian Process Bandit Optimization </b>
+</p>
+<p>Weici Hu, Peter Frazier, <b>Bayes-Optimal Effort Allocation in
+Crowdsourcing: Bounds and Index Policie </b>
+</p>
+<p>Dinu Kaufmann, Sonali Parbhoo, Aleksander Wieczorek, Sebastian
+Keller, David Adametz, Volker Roth, <b>Bayesian Markov Blanket
+Estimation </b>
+</p>
+<p>Søren Hauberg, Oren Freifeld, Anders Boesen Lindbo Larsen, John
+Fisher, Lars Hansen, <b>Dreaming More Data: Class-dependent
+Distributions over Diffeomorphisms for Learned Data Augmentation </b>
+</p>
+<p>Ethan Fetaya, Boaz Nadler, Ariel Jaffe, Yuval Kluger, Ting Ting
+Jiang, <b>Unsupervised Ensemble Learning with Dependent Classifiers </b>
+</p>
+<p>Krzysztof Chalupka, Frederick Eberhardt, Pietro Perona,
+<b>Multi-Level Cause-Effect Systems </b>
+</p>
+<p>Andrew Wilson, Zhiting Hu, Ruslan Salakhutdinov, Eric Xing, <b>Deep
+Kernel Learning </b>
+</p>
+<p>Lee-Ad Gottlieb, Aryeh Kontorovich, Pinhas Nisnevitch, <b>Nearly
+optimal classification for semimetrics </b>
+</p>
+<p>Chris Lloyd, Tom Gunter, Michael Osborne, Stephen Roberts, Tom
+Nickson, <b>Latent Point Process Allocation </b>
+</p>
+<p>Mijung Park, Wittawat Jitkrittum, Dino Sejdinovic, <b>K2-ABC:
+Approximate Bayesian Computation with Kernel Embeddings </b>
+</p>
+<p>Jes Frellsen, Ole Winther, Zoubin Ghahramani, Jesper
+Ferkinghoff-Borg,Bayesian generalised ensemble Markov chain Monte
+Carlo 
+</p>
+<p>Yan Li, Han Liu, Warren Powell, <b>A Lasso-based Sparse Knowledge
+Gradient Policy for Sequential Optimal Learning </b>
+</p>
+<p>Quanquan Gu, Renkun Ni, <b>Optimal Statistical and Computational
+Rates for One Bit Matrix Completion </b>
+</p>
+<p>Luc Bégin, Pascal Germain, François Laviolette, Jean-Francis
+Roy,<b> PAC-Bayesian Bounds based on the Rényi Divergence </b>
+</p>
+<p>Mihai Cucuringu, Ioannis Koutis, Gary Miller, Richard Peng,
+Sanjay Chawla, <b>Simple and Scalable Constrained Clustering: A
+Generalized Spectral Method </b>
+</p>
+<p>Avradeep Bhowmik, Nathan Liu, Erheng Zhong, Badri Bhaskar, Suju
+Rajan, <b>Geometry Aware Mappings for High Dimensional Sparse Factors
+</b>
+</p>
+<p>Chen-Yu Lee, Patrick Gallagher, Zhuowen Tu, <b>Generalizing
+Pooling Functions in Convolutional Neural Networks: Mixed, Gated, and
+Tree </b>
+</p>
+<p>Chun-Liang Li, Hsuan-Tien Lin, Chi-Jen Lu, <b>Rivalry of Two
+Families of Algorithms for Memory-Restricted Streaming PCA </b>
+</p>
+<p>Ruiqi Guo, Sanjiv Kumar, Krzysztof Choromanski, David Simcha,
+<b>Quantization based Fast Inner Product Search </b>
+</p>
+<p>Tuo Zhao, Xingguo Li, Raman Arora, Han Liu, Mingyi Hong, <b>An
+Improved Convergence Analysis of Cyclic Block Coordinate Descent-type
+Methods for Strongly Convex Minimization </b>
+</p>
+<p>Jie Shen,Ping Li,<b> Learning Structured Low-Rank Representation
+via Matrix Factorization </b>
+</p>
+<p>Zhaohan Guo, Shayan Doroudi, Emma Brunskill, <b>A PAC RL
+Algorithm for Episodic POMDPs </b>
+</p>
+<p>Sujith Ravi, Qiming Diao, <b>Large-Scale Semi-Supervised Learning
+Using Streaming Approximation </b>
+</p>
+<p>Calvin McCarter, Seyoung Kim, <b>Large-Scale Optimization
+Algorithms for Sparse Conditional Gaussian Graphical Models </b>
+</p>
+<p>Yining Wang, Yu-Xiang Wang, Aarti Singh, <b>Graph Connectivity in
+Noisy Sparse Subspace Clustering </b>
+</p>
+<p>Yu Nishiyama, Amir Afsharinejad, Shunsuke Naruse, Byron Boots, Le
+Song, <b>The Nonparametric Kernel Bayes Smoother </b>
+</p>
+<p>Asela Gunawardana, Chris Meek, <b>Universal Models of
+Multivariate Temporal Point Processes </b>
+</p>
+<p>Trung Le, Vu Nguyen, Dinh Phung, <b>Nonparametric Budgeted
+Stochastic Gradient Descent </b>
+</p>
+<p>Zhitang Chen, Pascal Poupart, Yanhui Geng, <b>Online Relative
+Entropy Policy Search using Reproducing Kernel Hilbert Space
+Embeddings </b>
+</p>
+<p>Muneki Yasuda,<b> Relationship between PreTraining and Maximum
+Likelihood Estimation in Deep Boltzmann Machines </b>
+</p>
+<p>Eunice Chen, Arthur Choi, Adnan Darwiche, <b>Enumerating
+Equivalence Classes of Bayesian Networks using CPDAG Graphs </b>
+</p>
+<p>Quanquan Gu, Zhaoran Wang, Han Liu, <b>Low-Rank and Sparse
+Structure Pursuit via Alternating Minimization </b>
+</p>
+<p>Eli Meirom, Pavel Kisilev, <b>NuC-MKL: A Convex Approach to Non
+Linear Multiple Kernel Learning </b>
+</p>
+<p>Fanhua Shang, Yuanyuan Liu, James Cheng, <b>Tractable and
+Scalable Schatten Quasi-Norm Approximations for Rank Minimization </b>
+</p>
+<p>Antoine Rolet, Marco Cuturi, Gabriel Peyré, <b>Fast Dictionary
+Learning with a Smoothed Wasserstein Loss </b>
+</p>
+<p>Canh Hao Nguyen, Hiroshi Mamitsuka, <b>New Resistance Distances
+with Global Information on Large Graphs </b>
+</p>
+<p>Javier Gonzalez, Zhenwen Dai, Philipp Hennig, Neil Lawrence,
+<b>Batch Bayesian Optimization via Local Penalization </b>
+</p>
+<p>Alexandra Carpentier, Teresa Schlueter, <b>Learning relationships
+between data obtained independently </b>
+</p>
+<p>Heejin Choi, Ofer Meshi, Nathan Srebro, <b>Fast and Scalable
+Structural SVM with Slack Rescaling </b>
+</p>
+<p>Simon Bartels, Philipp Hennig, <b>Probabilistic Approximate
+Least-Squares </b>
+</p>
+<p>Thien Nguyen, Akshat Kumar, Hoong Chuin Lau, Daniel Sheldon,
+<b>Approximate Inference Using DC Programming For Collective
+Graphical Models </b>
+</p>
+<p>Yali Wang, Marcus Brubaker, Brahim Chaib-draa, Raquel Urtasun,
+<b>Sequential Inference for Deep Gaussian Process </b>
+</p>
+<p>Stephan Mandt, Farhan Abrol, Rajesh Ranganath, James McInerney,
+David Blei, <b>Multicanonical Stochastic Variational Inference </b>
+</p>
+<p>Yi Zhou, Yaoliang Yu, Wei Dai, Yingbin Liang, Eric Xing, <b>On
+Convergence of Model Parallel Proximal Gradient Algorithm for Stale
+Synchronous Parallel System </b>
+</p>
+<p>Wenzhe Li, Max Welling, Sungjin Ahn, <b>Scalable MCMC for Mixed
+Membership Stochastic Blockmodels </b>
+</p>
+<p>Markus Heinonen, Henrik Mannerström, Juho Rousu, Samuel Kaski,
+Harri Lähdesmäki, <b>Non-Stationary Gaussian Process Regression
+with Hamiltonian Monte Carlo </b>
+</p>
+<p>Yunchen Pu, Xin Yuan, Andrew Stevens, Chunyuan Li, Lawrence
+Carin, <b>A Deep Generative Deconvolutional Image Model </b>
+</p>
+<p>Jialei Wang, Mladen Kolar, Nathan Srebro, <b>Distributed
+Multi-Task Learning </b>
+</p>
+<p>Rishit Sheth, Roni Khardon, <b>A Fixed-Point Operator for
+Inference in Variational Bayesian Latent Gaussian Models </b>
+</p>
+<p>Sebastian Tschiatschek, Josip Djolonga, Andreas Krause, <b>Learning
+Probabilistic Submodular Diversity Models Via Noise Contrastive
+Estimation </b>
+</p>
+<p>Sangkyun Lee, Damian Brzyski, Malgorzata Bogdan, F<b>ast
+Saddle-Point Algorithm for Generalized Dantzig Selector and FDR
+Control with the Ordered $\ell_1$-Norm </b>
+</p>
+<p>Javier Gonzalez, Michael Osborne, Neil Lawrence, <b>GLASSES:
+Relieving The Myopia Of Bayesian Optimisation </b>
+</p>
+<p>Aonan Zhang, San Gultekin, John Paisley, <b>Stochastic
+Variational Inference for the HDP-HMM </b>
+</p>
+<p>Siamak Ravanbakhsh, Barnabas Poczos, Jeff Schneider, Dale
+Schuurmans, Russell Greiner, <b>Stochastic Neural Networks with
+Monotonic Activation Functions </b>
+</p>
+<p>Xiaowei Hu, Prashanth L.A., András György, Csaba Szepesvari,
+<b>(Bandit) Convex Optimization with Biased Noisy Gradient Oracles </b>
+</p>
+<p>Shaobo Han, Xuejun Liao, David Dunson, Lawrence Carin,
+<span style="font-style: normal"><b>Variational Gaussian Copula
+Inference </b></span>
+</p>
+<p>Guillaume Rabusseau, Borja Balle, Shay Cohen, <b>Low-Rank
+Approximation of Weighted Tree Automata </b>
+</p>
+<p>Scott Yang, Mehryar Mohri, <b>Accelerating Optimization via
+Adaptive Prediction </b>
+</p>
+<p>Ye Wang, Antonio Canale, David Dunson, <b>Scalable geometric
+density estimation </b>
+</p>
+<p>Aghiles Salah, Nicoleta Rogovschi, Mohamed Nadif, <b>Model-based
+Co-clustering for High Dimensional Sparse Data </b>
+</p>
+<p>Christina Heinze, Brian McWilliams, Nicolai Meinshausen,<b>
+DUAL-LOCO: Distributing Statistical Estimation Using Random
+Projections </b>
+</p>
+<p>Chun-Liang Li, Barnabas Poczos, Jeff Schneider, Kirthevasan
+Kandasamy, <b>High Dimensional Bayesian Optimization via Restricted
+Projection Pursuit Models </b>
+</p>
+<p>Julien Perolat, Bilal Piot, Bruno Scherrer, Olivier Pietquin, <b>On
+the Use of Non-Stationary Strategies for Solving Two-Player Zero-Sum
+Markov Games </b>
+</p>
+<p>Hanxiao Liu, Yiming Yang, <b>Manifold Learning with Adaptive
+Spectral Transform </b>
+</p>
+<p>Iain Murray, Matthew Graham, <b>Pseudo-Marginal Slice Sampling</b>
+</p>
+<p>Vassilis Kalofolias, <b>How to learn a graph from smooth signals </b>
+</p>
+<p>Mario Figueiredo, Robert Nowak, <b>Ordered Weighted l1
+Regularized Regression with Strongly Correlated Covariates:
+Theoretical Aspects </b>
+</p>
+<p>Peter Auer, Chao-Kai Chiang, Ronald Ortner, <b>Madalina
+Drugan,Pareto Front Identification from Stochastic Bandit Feedback </b>
+</p>
+<p>Amir Ali Abdullah, Suresh Venkatasubramanian, Ravi Kumar, Sergei
+Vassilvitskii, Andrew McGregor, <b>Sketching, embedding and
+dimensionality reduction in information theoretic spaces </b>
+</p>
+<p>Suvrit Sra, Adams Wei Yu, Mu Li, Alex Smola, <b>AdaDelay: Delay
+Adaptive Distributed Stochastic Optimization </b>
+</p>
+<p>Manzil Zaheer, Michael Wick, Jean-Baptiste Tristan, Alex Smola,
+Guy Steele, <b>Exponential Stochastic Cellular Automata for Massively
+Parallel Inference </b>
+</p>
+<p>Pierre-Alexandre Mattei, Charles Bouveyron, Pierre Latouche,
+<b>Globally Sparse Probabilistic PCA </b>
+</p>
+<p>Bo Dai, Niao He, Hanjun Dai, Le Song,<b> Provable Bayesian
+Inference via Particle Mirror Descent </b>
+</p>
+<p>Xiaokai Wei, Philip S. Yu, <b>Unsupervised Feature Selection by
+Preserving Stochastic Neighbors </b>
+</p>
+<p>Victor Gabillon, Alessandro Lazaric, Mohammad Ghavamzadeh, Ronald
+Ortner, Peter Bartlett, <b>Improved Learning Complexity in
+Combinatorial Pure Exploration Bandits </b>
+</p>
+<p>William Herlands, Andrew Wilson, Seth Flaxman, Daniel Neill,
+Wilbert Van Panhuis, Eric Xing, Hannes Nickisch, <b>Scalable Gaussian
+Processes for Characterizing Multidimensional Change Surfaces </b>
+</p>
+<p>Zi Wang, Bolei Zhou, Stefanie Jegelka, <b>Optimization as
+Estimation with Gaussian Processes in Bandit Settings </b>
+</p>
+<p>Jiaqian Yu, Matthew Blaschko, <b>A Convex Surrogate Operator for
+General Non-Modular Loss Functions </b>
+</p>
+<p>Jialei Wang, Mladen Kolar, <b>Inference for High-dimensional
+Exponential Family Graphical Models </b>
+</p>
+<p>Changyou Chen, David Carlson, Zhe Gan, Chunyuan Li, Lawrence
+Carin, <b>Bridging the Gap between Stochastic Gradient MCMC and
+Stochastic Optimization </b>
+</p>
+<p>Andrew McDonald, Massimiliano Pontil, Dimitris Stamos, <b>Fitting
+Spectral Decay with the $k$-Support Norm </b>
+</p>
+<p>David Duvenaud, Dougal Maclaurin, Ryan Adams, <b>Early Stopping
+as Nonparametric Variational Inference </b>
+</p>
+<p>Junier Olivia, Avinava Dubey, Andrew Wilson, Barnabas Poczos,
+Jeff Schneider, Eric Xing, <b>Bayesian Nonparametric Kernel-Learning </b>
+</p>
+<p>Lun-Kai Hsu, Tudor Achim, Stefano Ermon, <b>Tight Variational
+Bounds via Random Projections and I-Projections </b>
+</p>
+<p>Kui Tang, Nicholas Ruozzi, David Belanger, Tony Jebara, <b>Bethe
+Learning of Graphical Models via MAP Decoding </b>
+</p>
+<p>Veronika Rockova, Gemma Moran, Edward George, <b>DREVS:
+Determinantal Regularization for Ensemble Variable Selection </b>
+</p>
+<p>Hao Cheng, Yaoliang Yu, Xinhua Zhang, Eric Xing, Dale Schuurmans,<b>
+Scalable and Sound Low-Rank Tensor Learning </b>
+</p>
+<p>Changwei Hu, Piyush Rai, Lawrence Carin, <b>Efficient
+Non-negative Matrix Factorization for Discrete Data with Structural
+Side-Information </b>
+</p>
+<p>Changwei Hu, Piyush Rai, Lawrence Carin, <b>Scalable Bilinear
+Non-negative Latent Factor Models for Multi-Relational Data </b>
+</p>
+<p>Garrett Bernstein, Daniel Sheldon, <b>Consistently Estimating
+Markov Chains with Noisy Aggregate Data </b>
+</p>
+<p>Gavin Taylor, Tom Goldstein, <b>Unwrapping ADMM: Efficient
+Distributed Computing via Transpose Reduction </b>
+</p>
+<p>Uri Heinemann, Roi Livni, Gal Elidan, Amir Globerson, <b>Improper
+Deep Learning </b>
+</p>
+<p>Bobak Shahriari, Alexandre Bouchard-Cote, Nando de Freitas,
+<b>Unbounded Bayesian Optimization via Regularization </b>
+</p>
+<p>Hiroaki Sasaki, Gang Niu, Masashi Sugiyama, <b>Non-Gaussian
+Component Analysis with Log-Density Gradient Estimation </b>
+</p>
+<p>Tomáš Kocák, Gergely Neu, Michal Valko, <b>Online learning
+with noisy side observations </b>
+</p>
+<p>Jan-Willem Vandemeent, Brooks Paige, David Tolpin, Frank Wood,
+<b>Black-Box Policy Search with Probabilistic Programs</b> 
+</p>
+<p>Cong Han Lim, Stephen Wright, <b>Efficient Bregman Projections
+onto the Generalized Permutahedron </b>
+</p>
+<p>Benito Van der Zander, Maciej Liśkiewicz, <b>Searching for
+Generalized Instrumental Variables</b> 
+</p>
+<p>Hanie Sedghi, Anima Anandkumar, <b>Provable Tensor Methods for
+Learning Mixtures of Generalized Linear Models </b>
+</p>
+<p>Daniel Russo, James Zou, <b>Controlling Bias in Adaptive Data
+Analysis Using Information Theory </b>
+</p>
+<p>François Laviolette, Mario Marchand, Jean-Francis Roy, <b>A
+Column Generation Bound Minimization Approach with PAC-Bayesian
+Generalization Guarantees </b>
+</p>
+<p>Veeru Sadhanala, Yu-Xiang Wang, Ryan Tibshirani, Alex Smola,
+<b>Graph Sparsification Approaches for Laplacian Smoothing Problems </b>
+</p>
+<p>Ian En-Hsu Yen, Dmitry Malioutov, Abhishek Kumar, <b>Scalable
+Exemplar Clustering and Facility Location via Augmented Block
+Coordinate Descent with Column Generation </b>
+</p>
+<p>Xiangli Chen, Brian Ziebart, Mathew Monfort, Anqi Liu, <b>Robust
+Covariate Shift Regression </b>
+</p>
+<p>Cheng Tang, Claire Monteleoni, <b>On Lloyd's algorithm: new
+theoretical insights for clustering in practice</b> 
+</p>
+<p>Panos Toulis, Dustin Tran, Edo Airoldi, <b>Towards stability and
+optimality in stochastic gradient descent </b>
+</p>
+<p>Shang-Tse Chen, Maria-Florina Balcan, Duen Horng Chau,
+<b>Communication Efficient Distributed Agnostic Boosting </b>
+</p>
+<p>Matt Kusner, Yu Sun, Karthik Sridharan, Kilian Weinberger,
+<b>Differentially Private Causal Inference </b>
+</p>
+<p>Guillaume Basse, Aaron Smith, Natesh Pillai,<b> Parallel Markov
+Chain Monte Carlo via Spectral Clustering </b>
+</p>
+<p>Chengtao Li, Stefanie Jegelka,Suvrit Sra, <b>Efficient Sampling
+for k-Determinantal Point Processes </b>
+</p>
+<p>Yasin Abbasi-Yadkori, Peter Bartlett, Stephen Wright, <b>A Fast
+and Reliable Policy Improvement Algorithm </b>
+</p>
+<p>Zhao Song, Ricardo Henao, David Carlson, Lawrence Carin, <b>Learning
+Sigmoid Belief Networks via Monte Carlo Expectation Maximization </b>
+</p>
+<p>Gautamd Dasarathy, Aarti Singh, Maria-Florina Balcan, Jong Park,
+<b>Active Learning Algorithms for Graphical Model Selection </b>
+</p>
+<p>Jeff Phillips, Mina Ghashami, Daniel Perry,<b> Streaming Kernel
+Principal Component Analysis </b>
+</p>
+<p>Qichao Que, Mikhail Belkin, <b>Back to the future: Radial Basis
+Function networks revisited </b>
+</p>
+<p>Loic Landrieu, <b>Cut Pursuit: fast algorithms to learn piecewise
+constant functions </b>
+</p>
+<p>Daniel Filan, Jan Leike, Marcus Hutter, <b>Loss Bounds and Time
+Complexity for Speed Priors </b>
+</p>
+<p>Guy Lever, <b>Natural and Second-Order Policy Search in
+Reproducing Kernel Hilbert Space </b>
+</p>
+<p>Raffaello Camoriano, Lorenzo Rosasco, Alessandro Rudi, Tomás M.
+Angles L., <b>NYTRO: When Subsampling Meets Early Stopping </b>
+</p>
+<p>Hossein Azari, Guillaume Basse, Diane Lambert, <b>Randomization
+and The Pernicious Effects of Limited Budgets on Auction Experiments </b>
+</p>
+<p>Dustin Tran, Minjae Kim, Finale Doshi-Velez, <b>Spectral
+M-estimation </b>
+</p>
+<p>Alan Saul, James Hensman, Aki Vehtari, Neil Lawrence, <b>Chained
+Gaussian Processes </b>
+</p>
+<p>Nedelina Teneva, Pramod Kaushik Mudrakarta, Risi Kondor,
+<b>Multiresolution Matrix Compression </b>
+</p>
+<p>Adam Bloniarz, Ameet Tawalkar, Bin Yu, Christopher Wu, <b>Supervised
+neighborhoods for distributed nonparametric regression </b>
+</p>
+<p>Laura Balzano, Dejiao Zhang, <b>Global Convergence of a
+Grassmannian Gradient Descent Algorithm for Subspace Estimation </b>
+</p>
+<p>Abdullah Rashwan, Pascal Poupart, Han Zhao, <b>Online and
+Distributed Bayesian Moment Matching for SPNs </b>
+</p>
+<p>Balaji Lakshminarayanan, Dan Roy, Yee Whye Teh, <b>Mondrian
+Forests for Large-Scale Regression when Uncertainty Matters </b>
+</p>
+<p>Jinchun Zhan, Brian Lois, Han Guo, Namrata Vaswani, <b>Online
+(and Offline) Robust PCA: Novel Algorithms and Correctness Results </b>
+</p>
+<p>Yan Kaganovsky, Ikenna Odinaka, David Carlson, Lawrence Carin,
+<b>Parallel Majorization Minimization with Dynamically Restricted
+Domains for Nonconvex Optimization </b>
+</p>
+<p>Amirmohammad Rooshenas, Daniel Lowd, <b>Discriminative Structure
+Learning of Arithmetic Circuits </b>
+</p>
+<p>Ping Li, <b>One Scan 1-Bit Compressed Sensing </b>
+</p>
 </div>
 
 <!--- XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX -->
