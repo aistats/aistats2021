@@ -27,15 +27,50 @@ layout: default
     href="http://cseweb.ucsd.edu/~kamalika/">Kamalika Chaudhuri</a>, 
 <i>University of California, San Diego </i>
 
-<p><b>Talk Title TBA</b>
+<p><b>Challenges in Privacy-Preserving Data Analysis</b>
 
 <p>
 <b>Abstract</b> 
-TBA
+Machine learning algorithms increasingly work with sensitive information on
+individuals, and hence the problem of privacy-preserving data analysis -- how to
+design data analysis algorithms that operate on the sensitive data of
+individuals while still guaranteeing the privacy of individuals in the data--
+has achieved great practical importance. In this talk, we address two problems
+in privacy-preserving data analysis.
 
 <p>
-<b>Bio</b>
+First, we address the problem of privacy-preserving classification, and present
+an efficient classifier which is private in the differential privacy model of
+Dwork et al. Our classifier works in the ERM (empirical loss minimization)
+framework, and includes privacy preserving logistic regression and privacy
+preserving support vector machines.  
 
+<p>
+We next address the question of learning from sensitive correlated data, such
+as private information on users connected together in a social network, and
+measurements of physical activity of a single user across time. Unfortunately
+differential privacy cannot adequately address privacy challenges in this kind
+of data, and as such, these challenges have been largely ignored by existing
+literature. We consider a recent generalization of differential privacy, called
+Pufferfish, that can be used to address privacy in correlated data, and present
+new privacy mechanisms in this framework.
+
+<j>
+Based on joint work with Claire Monteleoni (George Washington University),
+Anand Sarwate (Rutgers), Yizhen Wang (UCSD) and Shuang Song (UCSD).
+
+<p> <b>Bio</b>
+Kamalika Chaudhuri is an Assistant Professor in the Computer Science and
+Engineering Department at UC San Diego. Prior to joining the department, she
+received a PhD in Computer Science from UC Berkeley in 2007, and was a
+postdoctoral researcher at UC San Diego from 2007-2010. She is the recipient of
+a Hellman Faculty Fellowship and she received an NSF CAREER award in 2012.
+
+Kamalika's research is on learning theory, which deals with the theoretical
+foundations of machine learning. She is particularly interested in
+privacy-preserving machine learning -- how to learn a good predictor from
+sensitive training data, while ensuring the privacy of individuals in the data
+set.
 
 </td>
 </tr>
