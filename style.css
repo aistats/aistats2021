@@ -13,6 +13,17 @@ body{
 	color:#303030;
 	/*width:830px;*/
 }
+
+code {
+    font-size: 120%;
+
+}
+
+pre {
+    font-size: 120%;
+
+}
+
 td.leftborder{
 	width:30px;
         height:100%;
