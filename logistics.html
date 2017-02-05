@@ -11,9 +11,6 @@ layout: default
 
 <h2>Registration</h2>
 
-(coming soon)
-
-<!--
 <p><b>
 It is important to complete both Step 1 (filling out a form) and Step 2 (payment). 
 If any of these steps are missing, you are not considered as registered and will be required to complete it at the conference registration desk, subject to higher cost for on-site registration. 
@@ -28,10 +25,10 @@ Please fill out <A onclick="window.open(this.href); return false;" href = "https
 <h3>Step 2: Online payment</h3>
 
     Please select a registration option below. Please make sure
-    that the amount of payment matches to your registration option in Step 1.<p>
+    that the amount of payment matches to your registration option in Step 1. <b>Those who register at a student rate should present their student ID or equivalent document at the registration desk.</b><p>
 
-    Please make sure either to <b><font color="red">pay with a credit card in your name</font></b> or to <b><font color="red">provide the same E-mail address used in Step 1</font></b> when you fill the form during payment.
-	If we cannot match your registration form and payment information, your registration is considered as incomplete.<p>
+    Please make sure either to <b><font color="red">pay with a credit card in your name</font></b> or to <b><font color="red">provide the same Paypal e-mail address used in Step 1</font></b> when you fill the form during payment.
+  If we cannot match your registration form and payment information, your registration is considered as incomplete.<p>
 
   <table width="538" border="1" align="center" bgcolor="#CCCCCC">
     <tr>
@@ -41,28 +38,36 @@ Please fill out <A onclick="window.open(this.href); return false;" href = "https
       <th width="226" scope="col"><div align="center">Late Price</div></th>
     </tr>
     <tr>
-      <td><div align="center">Until Mar 8, 2017</div></td>
+      <td><div align="center">Until Mar 7, 2017</div></td>
       <td><div align="center">Mar 8 to Apr 5, 2017</div></td>
       <td><div align="center">After Apr 5, 2017</div></td>
     </tr>
     <tr>
-      <td><div align="center"><em>Regular</em></div></td>
-      <td><div align="center">xxx.00 USD</td>
-      <td><div align="center">xxx.00 USD</td>
-      <td><div align="center">xxx.00 USD</td>
+      <td><div align="center"><em>Student</em></div></td>
+      <td><div align="center">300.00 USD</td>
+      <td><div align="center">400.00 USD</td>
+      <td><div align="center">500.00 USD</td>
     </tr>
     <tr>
-      <td><div align="center"><em>Student</em></div></td>
-      <td><div align="center">xxx.00 USD</td>
-      <td><div align="center">xxx.00 USD</td>
-      <td><div align="center">xxx.00 USD</td>
+      <td><div align="center"><em>Non-student</em></div></td>
+      <td><div align="center">450.00 USD</td>
+      <td><div align="center">550.00 USD</td>
+      <td><div align="center">650.00 USD</td>
     </tr>
   </table>
 
-<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+
+<form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
 <input type="hidden" name="cmd" value="_s-xclick">
-<input type="hidden" name="hosted_button_id" value="AZ95X6YN5HTSA">
-<input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_buynow_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+<input type="hidden" name="hosted_button_id" value="Z5MVEL98RQD3Y">
+<table>
+<tr><td><input type="hidden" name="on0" value="Type of registration">Type of registration</td></tr><tr><td><select name="os0">
+  <option value="Student">Student $300.00 USD</option>
+  <option value="Non-student">Non-student $450.00 USD</option>
+</select> </td></tr>
+</table>
+<input type="hidden" name="currency_code" value="USD">
+<input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
 <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
 </form>
 
@@ -75,7 +80,7 @@ Please fill out <A onclick="window.open(this.href); return false;" href = "https
 If you need to get refunded after registration, please send an email to <B>aistats2017@gmail.com</B> as soon as possible. 
 We will refund certain ratio of your payment based on the table below, depending on when you request refund. 
 Note that 3% of service charge forced by Paypal may not be refundable depending on your original payment method. 
-Regardless of your original payment date, refund is not possible after xxx. 
+Regardless of your original payment date, refund is not possible after Apr 5. 
 
 <br><br>
 
@@ -85,7 +90,7 @@ Regardless of your original payment date, refund is not possible after xxx.
       <th width="126" scope="col"><div align="center">Refund amount</div></th>
     </tr>
     <tr>
-      <td rowspan="3" scope="col"><div align="center">xxx or earlier</div></td>
+      <td rowspan="3" scope="col"><div align="center">Apr 5 or earlier</div></td>
       <td><div align="center">Less than 30 days after your payment</div></td>
       <td><div align="center">100%</div></td>
     </tr>
@@ -98,14 +103,15 @@ Regardless of your original payment date, refund is not possible after xxx.
       <td><div align="center">0%</div></td>
     </tr>
     <tr>
-      <td colspan="2"><div align="center">xxx or later</div></td>
+      <td colspan="2"><div align="center">After Apr 5</div></td>
       <td><div align="center">0%</div></td>
     </tr>
   </table>
 
 <br>
 
--->
+
+
 
 <hr>
 
