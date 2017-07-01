@@ -1,0 +1,1 @@
+ <tr><td>{{ deadline.type }}</td><td>{% if deadline.time %}{{ deadline.time | time_tag }}{% elsif deadline.date %}{{ deadline.date | time_tag: "%A %B, %-d %Y" }}{% endif %}</td></tr>

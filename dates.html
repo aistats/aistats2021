@@ -8,37 +8,21 @@ layout: default
 
 <div class="contents">
 
-<h1>AISTATS 2017 Key Dates</h1>
+<h1>{{ site.conference.name }} {{ site.conference.year }}</h1>
 
 <table border="0" cellpadding="2" cellspacing="0" width="90%">
-  <tr><td><strike>Paper submission deadline</strike></td>		<td>23:59 UTC Oct 13, 2016</td></tr>
-<tr><td><strike>Initial reviews available</td></strike>		<td>Dec 9, 2016</td></tr>
-<tr><td><strike>Author feedback deadline</td></strike>			<td>Dec 14, 2016</td></tr>
-<tr><td><strike>Paper decision notifications</td></strike>		<td>Jan 24, 2017</td></tr>
-<tr><td><strike>Camera-ready (for accepted papers) deadline</td></strike>		<td>Mar 1, 2017</td></tr>
-<tr><td><strike>Early registration deadline</td></strike>				<td>Mar 7, 2017</td></tr>
-<tr><td><strike>Regular registration deadline</td></strike>			<td>Apr 5, 2017</td></tr>
-<tr><td>Late registration deadline</td>				<td>Apr 22, 2017</td></tr>
-<!-- <tr><td>Highlight talks track abstract submission deadline</td>		<td>TBD</td></tr>
-<tr><td>Late-breaking poster track abstract submission deadline</td>	<td>TBD</td></tr>
-<tr><td>Highlight talks track notifications</td>			<td>TBD</td></tr>
-<tr><td>Late-breaking poster track notifications</td>			<td>TBD</td></tr> -->
-<!--<tr><td>Volunteers/travel support application deadline</td>				<td>Jan 20, 2016</td></tr>
-<tr><td>Early registration deadline</td>				<td>Feb 8, 2016</td></tr>
-<tr><td>Proceedings track papers final version deadline</td>		<td>Apr 18, 2016</td></tr>
-<tr><td>ICLR + AISTATS/ICLR joint sessions</td>				<td>May 7 - 9, 2015</td></tr> -->
-<tr><td>AISTATS main conference sessions</td>				<td>Apr 20-22, 2017</td></tr>
+  {% for deadline in conference.deadlines %}
+  {% include listdeadline.html %}
+  {% endfor %}
+  <tr><td>Conference start</td><td>{{ deadline.time | time_tag }}{% elsif deadline.date %}{{ site.conference.dates[0] | time_tag: "%A %B, %-d %Y" }}</td></tr>
 </table>
 
-<UL>
-  <LI>All deadlines are strict. 
-  <LI>All dates and times are the last second of the day in <B>UTC/GMT</B>. 
-  <LI>For more locations, please refer to 
-<a onclick="window.open(this.href); return false;"
-href="http://www.timeanddate.com/worldclock/converter.html">time zone
-converter</a>.
-  </LI>
-</UL>
+<ul>
+  <li>All deadlines are strict. </li>
+  <li>All dates and times are the last second of the day in <B>UTC/GMT</B>. </li>
+  <li>For more locations, please refer to <a onclick="window.open(this.href); return false;" href="http://www.timeanddate.com/worldclock/converter.html">time zone converter</a>.</li>
+  </li>
+</ul>
 
 </div>
 

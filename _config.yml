@@ -44,6 +44,22 @@ conference:
   dates:
   - 2017-04-20
   - 2017-04-22
+
+  deadlines:
+  - type: Paper submission deadline
+    time: 2016-10-13T23:59:00Z
+  - type: Initial reviews available
+    time: 2016-12-9
+  - type: Author feedback deadline
+    time: 2016-12-14
+  - type: Paper decision notifications
+    time: 2017-01-24
+  - type: Camera ready (for accepted papers) deadline
+    time: 2017-03-01
+  - type: Early registration deadline
+    time: 2017-03-07
+  - type: Regular registration deadline
+    time: 2017-04-05
   chairs:
   - type: Program Chairs
     people:
