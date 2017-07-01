@@ -35,6 +35,8 @@ This will be used to host the current AISTATS.
 
 9. Add the team `aistatsXXXX` to the admin rights for the repo `aistatsXXXX`
 
+10. Create a new admin team for this year's page, `aistatsYYYY`, where `YYYY=XXXX+1` and assign it to admin `aistats.github.io` 
+
 ## More information
 
 * See
