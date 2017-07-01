@@ -14,7 +14,7 @@ layout: default
   {% for deadline in conference.deadlines %}
   {% include listdeadline.html %}
   {% endfor %}
-  <tr><td>Conference start</td><td>{{ deadline.time | time_tag }}{% elsif deadline.date %}{{ site.conference.dates[0] | time_tag: "%A %B, %-d %Y" }}</td></tr>
+  <tr><td>Conference start</td><td>{{ site.conference.dates[0] | time_tag: "%A %B, %-d %Y" }}</td></tr>
 </table>
 
 <ul>
