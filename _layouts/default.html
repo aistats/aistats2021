@@ -44,53 +44,20 @@
          <ul id="leftnavlist">
             <!-- Conference overview -->
             <li><a id="LNhome" href="{{ site.baseurl }}/index.html">Home</a></li>
-                        <li><a id="LNschedule" href="{{ site.baseurl }}/schedule.html">Schedule</a></li>
+            <li><a id="LNschedule" href="{{ site.baseurl }}/schedule.html">Schedule</a></li>
 
-<!--<li><a id="LNaccommodation" href="{{ site.baseurl }}/accommodation.html">Accommodation</a></li>-->
-          <li><a id="LNcfp" href="{{ site.baseurl }}/logistics.html">Registration, Hotel and Visa Information</a></li>
-                   <li><a id="LNaccepted" href="http://proceedings.mlr.press/v54/" target="_blank">Proceedings</a></li>
-            <!--<li><a id="LNproc" href="{{ site.baseurl }}/cfp.html">Camera-ready Submission</a></li>-->
+            <li><a id="LNcfp" href="{{ site.baseurl }}/logistics.html">Registration, Hotel and Visa Information</a></li>
+            {% if site.conference.proceedings.url %}<li><a id="LNaccepted" href="{{ site.conference.proceedings.url }}" target="_blank">Proceedings</a></li>{% endif %}
             <li><a id="LNpresenters" href="{{ site.baseurl }}/instr.html">Poster/Talk Instructions</a></li>
-        <!--<li><a id="LNcfp" href="{{ site.baseurl }}/reviewer.html">Reviewer Instructions</a></li>-->
 
             <li><a id="LNcom" href="{{ site.baseurl }}/committee.html">Organizers</a></li>
-                        <li><a id="LNcom" href="{{ site.baseurl }}/sponsors.html">Sponsors</a></li>
-            <!--<li><a id="LNdates" href="{{ site.baseurl }}/travelaward.html">Student Travel Award</a></li>-->
-            <!-- Conference program -->
-<!--            <li><a id="LNkeynotes" href="{{ site.baseurl }}/speakers.html">Invited Speakers</a></li>-->
-<!--            <li><a id="LNjob" href="{{ site.baseurl }}/job_portal.html">Job Portal </a></li>-->
+            <li><a id="LNcom" href="{{ site.baseurl }}/sponsors.html">Sponsors</a></li>
             <li><a id="LNdates" href="{{ site.baseurl }}/dates.html">Key Dates</a></li>
-<!--<li><a id="LNbestpapers" href="{{ site.baseurl }}/best_papers.html">Notable Student Papers</a></li>
-            <li><a id="LNpostersessions" href="poster_sessions.html">Poster Sessions </a></li>
-            <li><a href="http://jmlr.org/proceedings/papers/v51/" target="_blank">Proceedings </a></li>
-            <li><a id="LNreg" href="{{ site.baseurl }}/registration.html">Registration </a>
-                </li>
-            <li><a id="LNreview" href="{{ site.baseurl }}/reviewer.html">Reviewing Process</a></li>
-            <li><a id="LNschedule" href="schedule.html">Schedule </a></li>-->
-<!--            <li><a id="LNsponsors" href="{{ site.baseurl }}/sponsors.html">Sponsors</a></li>-->
-<!--            <li><a id="LNsub" href="{{ site.baseurl }}/submit.html">Submission  </a></li>-->
-<!--            <li><a id="LNtransport" href="http://gecoweb.gesintur.com/pub/1500006/q2/cgi.hrb?idexp=TGPZL&main=shuttle" target="_blank">Transportation</a></li>
-            <li><a id="LNvolunteers" href="{{ site.baseurl }}/volunteers.html">Volunteers </a></li>-->
 
-            <!-- Get ready to the conference -->
-<!--
-            <li><a id="LNpresenters" href="presenters.html">Presenter Instruction</a></li>
-            <li><a id="LNlocal" href="local.html">Local Information</a></li>
--->
-
-<!--
-            <li><a id="LNtutorials" href="tutorials.html">Tutorials</a></li>
-            <li><a id="LNsubht" href="submit_highlight_talks.html">Highlight Talks Submission</a></li>
--->
 
             <!-- ETC -->
             <li><a id="LNpast" href="{{ site.baseurl }}/past.html">Past Meetings</a></li>
 
-            <!-- 
-            <li><a id="LNsublp" href="submit_latebreaking_posters.html">Latebreaking Posters Submission</a></li>
-            <li><a id="LNproc" href="proceedings.html">Proceedings</a></li>
-            <li><a id="LNaward" href="awards.html">Awards</a></li>
-            -->
          </ul>
 
       </div>
@@ -101,7 +68,7 @@
 
 
       <div class="footer">
-         AI &amp; Statistics 2017
+         {{ site.conference.name }} {{ site.conference.year }}
       </div>
 
 </div>

@@ -1,7 +1,7 @@
 
 # Site settings
 title: Artificial Intelligence and Statistics Conference
-email: 
+email: aistats2017@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
   This is the website of the AISTATS conference.
 baseurl: "" # the subpath of your site, e.g. /blog/
@@ -30,7 +30,9 @@ banner:
 conference:
   draft: true # set to True if the programme is draft only.
   hide_tentative: true
-  
+
+  proceedings:
+    url: http://proceedings.mlr.press/v54/
   room: Room
   venue: Hyatt Pier 66 Hotel
   venue_url: https://pier66.hyatt.com/en/hotel/home.html
@@ -42,29 +44,51 @@ conference:
   dates:
   - 2017-04-20
   - 2017-04-22
-  hosts:
-  general:
-  - family: Jones
-    given: Jack
-    url: "http://jackjones.org"
-  - family: Bloggs
-    given: Bill
-    url: "http://billblogs.org"
-  workshop:
-  - family:
-    given:
-    url:
-    institute:
-  symposium:
-  - family:
-    given:
-    url:
-    institute:
-  local:
-  - family:
-    given:
-    url:
-    institute:
+  chairs:
+  - type: Program Chairs
+    people:
+    - family: Singh
+      given: Aarti 
+      url: http://www.cs.cmu.edu/~aarti/
+      institute: Machine Learning Department, Carnegie Mellon University
+    - family: Zhu
+      given: Jerry
+      url: http://pages.cs.wisc.edu/~jerryzhu/
+      institute: Department of Computer Sciences, University of Wisconsin -- Madison
+  - type: Workflow Chairs
+    people:
+    - family: Alfeld
+      given: Scott 
+      url: http://www.cs.wisc.edu/~salfeld
+      institute: Department of Computer Sciences, University of Wisconsin -- Madison
+    - family:  Yu
+      given: Adams Wei
+      url: http://www.cs.cmu.edu/~weiyu/
+      institute: Machine Learning Department, Carnegie Mellon University
+  - type: Publicity Chairs
+    people: 
+    - family: Ramdas
+      given: Aaditya 
+      url: http://www.cs.berkeley.edu/~aramdas
+      institute: EECS and Statistics, University of California -- Berkeley
+  - type: Publication Chair
+    people:
+    - family: Poczos
+      given: Barnabas
+      url: http://www.cs.cmu.edu/~bapoczos/
+      institute: Machine Learning Department, Carnegie Mellon University
+  - type: Fundraising Chair
+    people: 
+    - family: Agarwal
+      given: Alekh 
+      url: http://research.microsoft.com/en-us/um/people/alekha/
+      institute: Microsoft Research, New York
+  - type: Conference Admins
+    people: 
+    - family: Smith
+      given: Karen
+    - family: Pregibon
+      given: Daryl
   sponsors:
   - name:
     url:
