@@ -7,7 +7,7 @@ layout: default
 </script>
 
 <div class="contents">
-  {% assign sorted = (site.github.public_repositories | sort: 'created_at') %}
+  {% assign sorted = (site.github.public_repositories | sort: 'name') %}
   
   <h1>Previous Meetings</h1>
   <ul>
