@@ -4,7 +4,7 @@ The AISTATS current webpage.
 
 This repository contains the current AISTATS conference page. Once the year has past it can be archived to aistats20XX and modified to form the next year's page.
 
-Repository set up by Neil and conversion of the old javascript pages by Wittawat. Pages moved for the 2016 edition of the conference. 
+
 
 ## Archiving Last Year's Page
 
@@ -51,5 +51,7 @@ so that internal links in the web site are generated correctly.
 * ``baseurl:
 ""`` is used only in the current AISTATS site because its files are at the root
 of aistats.github.io.
+
+* Repository set up by Neil Lawrence and conversion of the old javascript pages by Wittawat. Pages then arcived for the 2016 and 2017 editions of the conference. 
 
 
