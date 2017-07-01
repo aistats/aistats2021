@@ -11,10 +11,10 @@ layout: default
 <h1>{{ site.conference.name }} {{ site.conference.year }}</h1>
 
 <table border="0" cellpadding="2" cellspacing="0" width="90%">
-  {% for deadline in conference.deadlines %}
+  {% for deadline in site.conference.deadlines %}
   {% include listdeadline.html %}
   {% endfor %}
-  <tr><td>Conference start</td><td>{{ site.conference.dates[0] | time_tag: "%A %B, %-d %Y" }}</td></tr>
+  <tr><td>Conference start</td><td>{{ site.conference.dates[0] | date: "%A %B, %-d %Y" }}</td></tr>
 </table>
 
 <ul>

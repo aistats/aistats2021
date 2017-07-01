@@ -9,6 +9,8 @@ url: "http://www.aistats.org" # the base hostname & protocol for your site
 #twitter_username: aistat
 github_username:  aistats
 
+TZ: UTC
+
 # Build settings
 markdown: kramdown
 
@@ -23,14 +25,13 @@ keep_files:   [".git", ".svn"]
 encoding:     "utf-8"
 markdown_ext: "markdown,mkdown,mkdn,mkd,md"
 
-banner:
-  image: fortlauderdale.jpg
+image:
+  file: fortlauderdale.jpg
   width: 400
 
 conference:
   draft: true # set to True if the programme is draft only.
   hide_tentative: true
-
   proceedings:
     url: http://proceedings.mlr.press/v54/
   room: Room
@@ -44,22 +45,21 @@ conference:
   dates:
   - 2017-04-20
   - 2017-04-22
-
   deadlines:
   - type: Paper submission deadline
-    time: 2016-10-13T23:59:00Z
+    time: 2016-10-13T23:59:00+0
   - type: Initial reviews available
-    time: 2016-12-9
+    date: 2016-12-9
   - type: Author feedback deadline
-    time: 2016-12-14
+    date: 2016-12-14
   - type: Paper decision notifications
-    time: 2017-01-24
+    date: 2017-01-24
   - type: Camera ready (for accepted papers) deadline
-    time: 2017-03-01
+    date: 2017-03-01
   - type: Early registration deadline
-    time: 2017-03-07
+    date: 2017-03-07
   - type: Regular registration deadline
-    time: 2017-04-05
+    date: 2017-04-05
   chairs:
   - type: Program Chairs
     people:
