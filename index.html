@@ -9,72 +9,17 @@ layout: default
 
 <div class="contents">
 
-	<h1>The 20th International Conference on <br>Artificial Intelligence and Statistics</h1>
-	<h3>Apr 20-22, 2017<br>
-	Fort Lauderdale, Florida, USA </h3>
+  <h1>The {{ site.conference.instance }} International Conference on <br>{{site.conference.full_name }}</h1>
+  <h3>{{ site.conference.dates[0] | date: "%A %B, %-d %Y" }} to {{ site.conference.dates.last | date: "%A %B, %-d %Y" }}<br>
+    {{ site.conference.location }}</h3>
 
-	<!-- <center><img src="{{ site.baseurl }}/image/lj-shores.jpg" alt="La Jolla Shores" width=480></center> -->
-	<center><img src="{{ site.baseurl }}/image/fortlauderdale.jpg" alt="Fort Lauderdale aerial" width=400></center>
+  <center><img src="{{ site.baseurl }}/image/{{ site.banner.image }}" alt="Conference image" width={{ site.banner.width }}></center>
 
-	<!-- <p><B><font color=red>Update</font></B>: Decisions, reviews, and meta-reviews are currently available to authors, and the camera ready version is due on <b>January 25</b>.
--->
-
-	<p>The 20th International Conference on Artificial Intelligence and Statistics (AISTATS 2017) will be held in Fort Lauderdale, Florida, USA from <b>Apr 20-22, 2017</b> at the <a href="https://pier66.hyatt.com/en/hotel/home.html">Hyatt Pier 66 Hotel</a>.&nbsp;
-		Since its inception in 1985, AISTATS has been an interdisciplinary gathering of researchers at the intersection of artificial intelligence, machine learning, statistics, and related areas.&nbsp; <br><br>
-
-    </p>
-
-
-<u><font color="red">Limitations on International Travel</u></font>:
-
-AISTATS is committed to an open international exchange of information, which is critical to the continuing advance of scientific knowledge. Our goal is to open AISTATS conference to researchers from all parts of the world and we regret that government restrictions may make it difficult or impossible for some to participate this year. <i>In the event that no author of an accepted paper can attend due to visa restrictions, we will find ways for authors to present their results via the internet.</i>
-
-
-
-
-<!--
-<h3>Updates</h3>
-    <ul> 
-        <li>May 28, 2016. Added <a href="{{ site.baseurl }}/best_papers.html">notable student papers</a>.        </li>
-            <li>May 10, 2016. Added the <a href="{{ site.baseurl }}/image/summaryPresentation.pdf">conference summary</a> presentation file.</li>
-        <li>May 3, 2016. Added a link to the <a href="http://jmlr.org/proceedings/papers/v51/">proceedings</a>.
-        <li>Apr 12, 2016. Added poster size specification. See <a href="{{ site.baseurl }}/poster_sessions.html">here</a>.</li>
-        <li>Mar 28, 2016. Camera ready version deadline is extended to <b>Apr 18, 2016</b>.
-        <li>Mar 27, 2016. Added <a href="{{ site.baseurl }}/submit.html">final
-            version submission instructions</a>. Please make sure to use the
-        up-to-date <a href="{{ site.baseurl }}/format.zip">style file</a>.
-            Final version deadline: <s>Apr 9, 2016</s> <b>Apr 18,
-            2016</b>.</li>
-        <li>Mar 11, 2016. Added full <a href="{{ site.baseurl }}/schedule.html">schedule</a>.</li>
-        <li>Feb 1, 2016. Early registration deadline is changed to <b>Feb 8, 2016</b>.</li>
-        <li>Jan 30, 2016. Students who applied for volunteers and/or travel support should 
-       register before Jan 31, 2016 to get an early-bird discount. See details 
-       <a href="{{ site.baseurl }}/volunteers.html">here</a>. </li>
-        <li>Dec 31, 2015. Volunteers and travel support application deadline is
-            <b>Jan 20, 2016</b>.</li>
-        <li>Dec 31, 2015. Camera-ready deadline is <b>Apr 9, 2016</b>. </li>
-        <li>Dec 24, 2015. Please see the <a href="{{ site.baseurl}}/registration.html">registration page</a> if you
-            need an invitation 
-        letter for your visa application.</li>
-        <li>Dec 20, 2015. Registration is now open. See the <a href="{{ site.baseurl }}/registration.html">registration page</a>. </li>
-    </ul>
-    
--->    
+  
+  <p>The {{ site.conference.instance }} International Conference on <br>{{site.conference.full_name }} ({{ site.conference.name }} {{ site.conference.year }}) will be held in {{ site.conference.location }} from <b>{{ site.conference.dates[0] | date: "%A %B, %-d %Y" }} to {{ site.conference.dates.last | date: "%A %B, %-d %Y" }}</b> at the <a href="https://pier66.hyatt.com/en/hotel/home.html">{{ site.conference.venue }}</a>.</p>
+	
+  <p>Since its inception in 1985, AISTATS has been an interdisciplinary gathering of researchers at the intersection of artificial intelligence, machine learning, statistics, and related areas.</p>
 
 </div>
 
-
-	<!-- <h3>Colocated Events</h3>
-
-	<p><A onclick="window.open(this.href); return false;" href="http://iclr.cc">International Conference on Learning Representation (ICLR)</A>
-		will be held right before the conference (May 7 - 9, 2015). 
-		May 9 will feature a joint AISTATS/ICLR session.
-
-	<p><A onclick="window.open(this.href); return false;" href="http://www.igb.uci.edu/~pfbaldi/">Pierre Baldi</A> will give a keynote at the joint ICLR/AISTATS session.
-                                                
--->
-
-
-    
-<!--- XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX -->
 

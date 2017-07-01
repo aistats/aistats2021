@@ -23,3 +23,51 @@ keep_files:   [".git", ".svn"]
 encoding:     "utf-8"
 markdown_ext: "markdown,mkdown,mkdn,mkd,md"
 
+banner:
+  image: fortlauderdale.jpg
+  width: 400
+
+conference:
+  draft: true # set to True if the programme is draft only.
+  hide_tentative: true
+  
+  room: Room
+  venue: Hyatt Pier 66 Hotel
+  venue_url: https://pier66.hyatt.com/en/hotel/home.html
+  location: Fort Lauderdale, Florida, USA
+  full_name: Artificial Intelligence and Statistics
+  name: AISTATS
+  year: 2017
+  instance: 20th
+  dates:
+  - 2017-04-20
+  - 2017-04-22
+  hosts:
+  general:
+  - family: Jones
+    given: Jack
+    url: "http://jackjones.org"
+  - family: Bloggs
+    given: Bill
+    url: "http://billblogs.org"
+  workshop:
+  - family:
+    given:
+    url:
+    institute:
+  symposium:
+  - family:
+    given:
+    url:
+    institute:
+  local:
+  - family:
+    given:
+    url:
+    institute:
+  sponsors:
+  - name:
+    url:
+previous_meeting:
+  name:
+  url:
