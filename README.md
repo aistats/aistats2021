@@ -33,6 +33,8 @@ git push --mirror https://github.com/aistats/aistatsXXXX.git
 8. Update the original main repository at [https://github.com/aistats/aistats.github.io](https://github.com/aistats/aistats.github.io) for the current conference.
 This will be used to host the current AISTATS.
 
+9. Add the team `aistatsXXXX` to the admin rights for the repo `aistatsXXXX`
+
 ## More information
 
 * See
