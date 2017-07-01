@@ -24,7 +24,7 @@ Each year the main web page needs to be archived to store as a previous year's c
 mv aistats.github.io.git aistatsXXXX
 cd aistatsXXXX
 git branch -m gh-pages
-
+git push --mirror https://github.com/aistats/aistatsXXXX.git
 ```
 6. Edit the `_config.yml` file in the new repo to set `baseurl` to `aistatsXXXX`
 
