@@ -22,7 +22,7 @@ layout: default
 
 <div class="contents">
 
-<h1>AISTATS 2017 Program of Events</h1>
+<h1>{{ site.conference.name }} {{ site.conference.year }} Program of Events</h1>
 
 
 <!--<b>VENUE MAP</b>: A plan of the hotel and surrounding areas can be found <a href="Hyatt66.plan.pdf">here</a>.<br><br>-->
@@ -40,6 +40,11 @@ layout: default
 <font color=red>Christian Naesseth, Francisco Ruiz, Scott Linderman, David Blei</font><br><br>
 
 
+{% for post in site.posts reversed %}
+{% if post.layout == "singletrack" %}
+{% include listsingle.html %}
+{% endif %}
+{% endfor %}
 
 <h2>19-Apr (Wed)</h2>
 <font color=blue><b>18:30-20:30</b> Registration Desk <br><br></font>
