@@ -9,59 +9,20 @@ layout: default
 
 <div class="contents">
 
-<h1>AISTATS 2017 Organizing Committee</h1>
+<h1>{{ site.conference.name }} {{ site.conference.year }} Organizing Committee</h1>
 
-    General inquiries should be sent to aistats2017@gmail.com.
+General inquiries should be sent to {{ site.email }}
+
+aistats2017@gmail.com.
     
 
-	<h3>Program Chairs</h3>
-            <div>
-               <ul>
-         <li><a href="http://www.cs.cmu.edu/~aarti/">Aarti Singh</a>, <i>Machine Learning Department, Carnegie Mellon University</i> 
-</li> 
-         <li><a href="http://pages.cs.wisc.edu/~jerryzhu/">Jerry Zhu</a>, <i>Department of Computer Sciences, University of Wisconsin -- Madison</i>  
-</li>
-               </ul>
-             </div>
+<h3>Program Chairs</h3>
 
-         <h3>Workflow Chairs</h3>
-             <div>
-               <ul>
-
-                <li><a href="http://www.cs.wisc.edu/~salfeld">Scott Alfeld</a>, <i>Department of Computer Sciences, University of Wisconsin -- Madison
-</i> </li>
-
-
-                <li><a href="http://www.cs.cmu.edu/~weiyu/">Adams Wei Yu</a>, <i>Machine Learning Department, Carnegie Mellon University
-</i> </li>
-            </ul>
-
-             </div>
-
-    <h3>Publicity Chair</h3>
-       <div>
-            <ul>
-            <li><a href="http://www.cs.berkeley.edu/~aramdas">Aaditya Ramdas</a>, <i>EECS and Statistics, University of California -- Berkeley</i></li>
-               </ul>
-
-      </div>
-
-
-    <h3>Publication Chair</h3>
-       <div>
-            <ul>
-            <li><a href="http://www.cs.cmu.edu/~bapoczos/">Barnabas Poczos</a>, <i>Machine Learning Department, Carnegie Mellon University</i> </li>
-               </ul>
-
-      </div>
-
-    <h3>Fundraising Chair</h3>
-       <div>
-            <ul>
-            <li><a href="http://research.microsoft.com/en-us/um/people/alekha/">Alekh Agarwal</a>, <i>Microsoft Research, New York</i></li>
-               </ul>
-
-      </div>
+{% if site.conference.chairs %}
+{% for chair in site.conference.chairs %}
+{% include listchairs.html %}
+{% endfor %}
+{% endif %}
 
       <h3>Conference Admins</h3>
        	 <div>
