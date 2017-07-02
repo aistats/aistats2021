@@ -18,7 +18,7 @@
 
 <body>
 {% if page.title %}
-{% assign label = page.title | downcase | replace:' ','-' %}
+{% assign label = page.title | downcase | replace:' ','-' | replace:',','' | replace: '/','' %}
   <script type="text/javascript">
     document.getElementById('{{ label }}').id='leftcurrent';
   </script>
@@ -42,7 +42,7 @@
 		      {% assign pages = site.pages | sort:"weight"  %}     
 		      {% for p in pages%}
 		      {% if p.title %}
-		      {% assign l = p.title | downcase | replace:' ','-' %}
+		      {% assign l = p.title | downcase | replace:' ','-' | replace:',','' | replace: '/','' %}
 		      <li><a id="{{ l }}" href="{{ p.url | prepend: site.baseurl }}">{{ p.title }}</a>
 		      {% endif %}
   		      {% endfor %}
