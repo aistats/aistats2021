@@ -29,6 +29,8 @@ image:
   file: fortlauderdale.jpg
   width: 400
 
+credit_card_image: credit.png
+
 conference:
   draft: true # set to True if the programme is draft only.
   logo: logo.jpg
