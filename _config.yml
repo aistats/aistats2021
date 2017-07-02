@@ -29,6 +29,9 @@ image:
   file: fortlauderdale.jpg
   width: 400
 
+banner:
+  image: banner.jpg
+
 credit_card_image: credit.png
 
 conference:
