@@ -1,14 +1,13 @@
 ---
 layout: default
+title: Call for Papers
+hide: true
 ---
 
-<script type="text/javascript">
-    document.getElementById('LNcfp').id='leftcurrent';
-</script>
 
-
-<div class="contents">
-
+{% assign submission=site.conference.deadlines | where:"type","submission" | first %}
+{% assign decision=site.conference.deadlines | where:"type","decison" | first %}
+{% assign camera_ready=site.conference.deadlines | where:"type","camera-ready" | first %}
 
 <h1>Final version submission instructions</h1>
 
@@ -19,11 +18,10 @@ layout: default
 
 <h3>Submission Site</h3>
 
-<p>The submission site is <a href="https://cmt.research.microsoft.com/AISTATS2017/">
-    https://cmt.research.microsoft.com/AISTATS2017/</a>. </p>
+<p>The submission site is <a href="{{ site.conference.submission.url }}">
+   {{ site.conference.submission.url }}</a>. </p>
 
-
-<p>The deadline for uploading the final version of your paper is <b>Mar 1, 2017</b>.</p>
+<p>The deadline for uploading the final version of your paper is <b>{{ camera_ready.date | date: "%A %B, %-d %Y" }} </b>.</p>
 
 <p>To prepare your final paper, please change the string<br>
 <code>\usepackage{aistats2017}</code><br>
@@ -110,60 +108,63 @@ submissions until the camera-ready deadline.</li>
 
 
 
-<h1>AISTATS 2017 Call for Papers</h1>
+<h1>{{ site.conference.name }} {{ site.conference.year }} Call for Papers</h1>
 
 
-AISTATS is an interdisciplinary gathering of researchers at the intersection of  artificial intelligence, machine learning, statistics, and related areas. The 20th International Conference on Artificial Intelligence and Statistics (<a href="http://www.aistats.org">AISTATS</a>) will take place in Fort Lauderdale, Florida, USA from <b>April 20-22, 2017</b>. <br><br>
+{{ site.conference.name }} is an interdisciplinary gathering of researchers at the intersection of  artificial intelligence, machine learning, statistics, and related areas. The {{ site.conference.instance }} {{ site.conference.styling }} {{ site.conference.full_name }} (<a href="http://www.aistats.org">{{ site.conference.name }}</a>) will take place in {{ site.conference.location }} from <b>{{ site.conference.dates[0] | date: "%A %B, %-d %Y" }} to {{ site.conference.dates.last | date: "%A %B, %-d %Y" }}</b>. 
 
-The deadline for paper submission is <b>Oct 13, 2016</b> at 23:59 UTC/GMT (<a href="http://www.timeanddate.com/worldclock/converter.html">time zone converter</a>), with final decisions made on Jan 24, 2017. Please use the <a href="https://cmt.research.microsoft.com/AISTATS2017/">Microsoft CMT website</a> for all submissions.<br><br>
+<p>The deadline for paper submission is <b>{%if submission.time %}{{ submission.time | date: "%A %B, %-d %Y %H:%M" }}{%elsif submission.date %}{{ submission.time | date: "%A %B, %-d %Y" }}{%endif%}</b> {% if submission.time %}({{ site.TZ }}) (<a href="http://www.timeanddate.com/worldclock/converter.html">time zone converter</a>){% endif %}, with final decisions made on {{ decision.date | date: "%A %B, %-d %Y" }}. Please use the <a href="{{ site.conference.submission.url }}">{{ site.conference.submission.name }}</a> for all submissions.</p>
  
-<font color = blue>New this year:</font>
+<p><font color = blue>New this year:</font>
 <ol>
-<li>  <b>Fast-track for Electronic Journal of Statistics</b>:   Authors of a small number of accepted papers will be invited to submit an extended version for fast-track publication in a special issue of the Electronic Journal of Statistics (EJS) after the AISTATS decisions are out. Details on how to prepare such extended journal paper submission will be announced after the AISTATS decisions.<br><br>
+<li>  <b>Fast-track for Electronic Journal of Statistics</b>:   Authors of a small number of accepted papers will be invited to submit an extended version for fast-track publication in a special issue of the Electronic Journal of Statistics (EJS) after the {{ site.conference.name }} decisions are out. Details on how to prepare such extended journal paper submission will be announced after the {{ site.conference.name }} decisions.</li>
 
-<li> <b>Review-sharing with NIPS</b>:   Papers previously submitted to NIPS 2016 are required to declare their previous NIPS paper ID, and supply a one-page letter of revision (similar to a revision letter to journal editors; anonymized) in supplemental materials. We will be using duplication detection software on NIPS data to detect revised resubmitted papers that were not declared. AISTATS reviewers will have access to the previous anonymous NIPS reviews.  Other than this, all submissions will be treated equally. <br><br>
-</ol>
+<li> <b>Review-sharing with NIPS</b>:   Papers previously submitted to NIPS 2016 are required to declare their previous NIPS paper ID, and supply a one-page letter of revision (similar to a revision letter to journal editors; anonymized) in supplemental materials. We will be using duplication detection software on NIPS data to detect revised resubmitted papers that were not declared. {{ site.conference.name }} reviewers will have access to the previous anonymous NIPS reviews.  Other than this, all submissions will be treated equally. </li>
+</ol></p>
 
-<font color = blue>Continuing from last year:</font>
+<p><font color = blue>Continuing from last year:</font>
 <ol>
-<li><b>Requests for code</b>: Reviewers may request public or non-proprietary code (and as necessary, accompanying data) as part of the initial reviews for the purpose of better judging the paper.  The authors will then provide the code/data as part of the author response.  This might be, for instance, to check whether the authors' methods work as claimed, or whether it correctly treats particular scenarios the authors did not consider in their initial submission."<br><br>
-</ol>
+<li><b>Requests for code</b>: Reviewers may request public or non-proprietary code (and as necessary, accompanying data) as part of the initial reviews for the purpose of better judging the paper.  The authors will then provide the code/data as part of the author response.  This might be, for instance, to check whether the authors' methods work as claimed, or whether it correctly treats particular scenarios the authors did not consider in their initial submission."</li>
+
  
-<b>Paper Submission:</b> Electronic submission of PDF papers is required. The main part of the paper (single PDF up to 5Mb) may be up to 8 double-column pages in length including tables/figures.  References only can exceed the 8 page limit. The main part should have enough information so that reviewers are able to judge the correctness and merit of the paper.  Authors may optionally submit supplementary material (up to 10Mb) as a single zip file, containing additional proofs, audio, images, video, data or source code.  Reviewing any supplementary material is up to the discretion of the reviewers.<br><br>
+<li><b>Paper Submission:</b> Electronic submission of PDF papers is required. The main part of the paper (single PDF up to 5Mb) may be up to 8 double-column pages in length including tables/figures.  References only can exceed the 8 page limit. The main part should have enough information so that reviewers are able to judge the correctness and merit of the paper.  Authors may optionally submit supplementary material (up to 10Mb) as a single zip file, containing additional proofs, audio, images, video, data or source code.  Reviewing any supplementary material is up to the discretion of the reviewers.</li>
  
-<b>Dual Submissions Policy:</b> Submissions that are identical (or substantially similar) to versions that have been previously published, or accepted for publication, or that have been submitted in parallel to other conferences or journals are not appropriate for AISTATS and violate our dual submission policy. Exceptions to this rule are the following: (a) it is acceptable to submit work that has been made available as a technical report or similar, e.g., on arXiv, without citing it (to preserve anonymity). (b) Submission is permitted for papers presented or to be presented at conferences or workshops without proceedings (e.g., ICML or NIPS workshops), or with only abstracts published. The dual-submission rules apply during the whole AISTATS review period until the authors have been notified about the decision on their paper.<br><br>
+<li><b>Dual Submissions Policy:</b> Submissions that are identical (or substantially similar) to versions that have been previously published, or accepted for publication, or that have been submitted in parallel to other conferences or journals are not appropriate for {{ site.conference.name }} and violate our dual submission policy. Exceptions to this rule are the following: (a) it is acceptable to submit work that has been made available as a technical report or similar, e.g., on arXiv, without citing it (to preserve anonymity). (b) Submission is permitted for papers presented or to be presented at conferences or workshops without proceedings (e.g., ICML or NIPS workshops), or with only abstracts published. The dual-submission rules apply during the whole {{ site.conference.name }} review period until the authors have been notified about the decision on their paper.</li>
  
-<b>Double-blind review:</b> Papers will be selected via a rigorous double-blind peer-review process (the reviewers will not know the identities of the authors, and vice versa). It will be up to the authors to ensure the proper anonymization of their paper and supplemental materials.  Violation of the above rules may lead to rejection without review.  One round of author rebuttal will occur with the initial reviews available to the authors.    <br><br>
+<li><b>Double-blind review:</b> Papers will be selected via a rigorous double-blind peer-review process (the reviewers will not know the identities of the authors, and vice versa). It will be up to the authors to ensure the proper anonymization of their paper and supplemental materials.  Violation of the above rules may lead to rejection without review.  One round of author rebuttal will occur with the initial reviews available to the authors. </li>
  
-<b>Evaluation Criteria:</b> Submissions will be judged on the basis of technical quality, novelty, potential impact, and clarity. Typical papers often (but not always) consist of a mix of algorithmic, theoretical and experimental results, in varying proportions. Results will be judged on the degree to which they have been objectively established and/or their potential for scientific and technological impact.<br><br>
+<li><b>Evaluation Criteria:</b> Submissions will be judged on the basis of technical quality, novelty, potential impact, and clarity. Typical papers often (but not always) consist of a mix of algorithmic, theoretical and experimental results, in varying proportions. Results will be judged on the degree to which they have been objectively established and/or their potential for scientific and technological impact.</li>
  
-<b>Publication and presentation:</b> All accepted papers will be presented at the conference as posters, with a few selected for additional oral presentation. All accepted papers will be treated equally when published in the AISTATS Conference Proceedings (Journal of Machine Learning Research Workshop and Conference Proceedings series).  At least one author of each accepted paper must register and attend AISTATS.  A small number of accepted papers will be invited to submit an extended version for fast-track publication in a special issue of the Electronic Journal of Statistics (EJS) journal after the AISTATS decisions are out.<br><br>
+<li><b>Publication and presentation:</b> All accepted papers will be presented at the conference as posters, with a few selected for additional oral presentation. All accepted papers will be treated equally when published in the {{ site.conference.name }} Conference Proceedings (Journal of Machine Learning Research Workshop and Conference Proceedings series).  At least one author of each accepted paper must register and attend {{ site.conference.name }}.  A small number of accepted papers will be invited to submit an extended version for fast-track publication in a special issue of the Electronic Journal of Statistics (EJS) journal after the {{ site.conference.name }} decisions are out.</li>
  
-<b>Topics:</b> Since its inception in 1985, the primary goal of AISTATS has been to promote the exchange of ideas from artificial intelligence, machine learning, and statistics.  We encourage the submission of all papers in keeping of this objective.  Solicited topics include, but are not limited to:
+<li><b>Topics:</b> Since its inception in 1985, the primary goal of {{ site.conference.name }} has been to promote the exchange of ideas from artificial intelligence, machine learning, and statistics.  We encourage the submission of all papers in keeping of this objective.  Solicited topics include, but are not limited to:
  
  <ul>
-<li> Supervised, unsupervised and semi-supervised learning, kernel and Bayesian methods
+   <li> Supervised, unsupervised and semi-supervised learning, kernel and Bayesian methods</li>
  
-<li> Stochastic processes, hypothesis testing, causality, time-series, nonparametrics, asymptotic theory
+   <li> Stochastic processes, hypothesis testing, causality, time-series, nonparametrics, asymptotic theory</li>
  
-<li> Graphical models and inference, manifold learning and embedding, network analysis, statistical analysis of deep learning
+   <li> Graphical models and inference, manifold learning and embedding, network analysis, statistical analysis of deep learning</li>
 
-<li> Sparse models and compressed sensing, information theory
+   <li> Automated and assisted statistical decision making and automated machine learning</li>
+   
+   <li> Sparse models and compressed sensing, information theory</li>
+   
+   <li> Reinforcement learning, planning, control, multi-agent systems, logic and probability, relational learning</li>
  
-<li> Reinforcement learning, planning, control, multi-agent systems, logic and probability, relational learning
+   <li> Learning theory, game theoretic learning, online learning, bandits, learning for mechanism design</li>
+   
+   <li> Convex and non-convex optimization, discrete optimization, Bayesian optimization</li>
  
-<li> Learning theory, game theoretic learning, online learning, bandits, learning for mechanism design
- 
-<li> Convex and non-convex optimization, discrete optimization, Bayesian optimization
- 
-<li> Algorithms and architectures for high-performance computing
- 
-<li> Applications in biology, cognition, computer vision, natural language, neuroscience, robotics, etc.
- 
-<li> Topological data analysis, selective inference, experimental design, interactive learning, optimal teaching, and other emerging topics
+   <li> Algorithms and architectures for high-performance computing</li>
+   
+   <li> Applications in biology, cognition, computer vision, natural language, neuroscience, robotics, etc.</li>
+   
+   <li> Topological data analysis, selective inference, experimental design, interactive learning, optimal teaching, and other emerging topics</li>
 </ul>
+</li>
+</ol>
 
-<br>
 
 <!--<b>Formatting Instructions: </b> 
 

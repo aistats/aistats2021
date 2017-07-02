@@ -15,15 +15,9 @@
 		    <ul id="leftnavlist">
 		      <!-- Conference overview -->
 		      {% assign pages = site.pages | sort:"weight"  %}     
-		      {% for p in pages%}
-		      {% if p.title %}
-		      {% assign l = p.title | downcase | replace:' ','-' | replace:',','' | replace: '/','' %}
-		      <li><a id="{{ l }}" href="{{ p.url | prepend: site.baseurl }}">{{ p.title }}</a>
-		      {% endif %}
-  		      {% endfor %}
-
-		      
-		      {% if site.conference.proceedings.url %}<li><a href="{{ site.conference.proceedings.url }}" target="_blank">Proceedings</a></li>{% endif %}
+		      {% for p in pages%}{% if p.title %}{% unless p.hide %}{% assign l = p.title | downcase | replace:' ','-' | replace:',','' | replace: '/','' %}		      <li><a id="{{ l }}" href="{{ p.url | prepend: site.baseurl }}">{{ p.title }}</a>{% endunless %}{% endif %}{% endfor %}
+		      {% if site.conference.proceedings.show %}
+		      {% if site.conference.proceedings.url %}<li><a href="{{ site.conference.proceedings.url }}" target="_blank">Proceedings</a></li>{% endif %}{% endif %}
 		      
 		    </ul>
 		    
