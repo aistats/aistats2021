@@ -1,0 +1,36 @@
+{% if page.title %}
+{% assign label = page.title | downcase | replace:' ','-' | replace:',','' | replace: '/','' %}
+  <script type="text/javascript">
+    document.getElementById('{{ label }}').id='leftcurrent';
+  </script>
+{% endif %}
+  <center>
+    <table border="0" width="1080" cellpadding="0" cellspacing="0">
+      <tr>
+	<td>
+	  <table border="0" width="830px" cellpadding="0" cellspacing="0">
+	    <tr><td class="leftborder" width="30px"></td><td>
+		<div class="container">
+		  <div class="os">
+		    <div class="logoImageCell"><img src="{{ site.baseurl }}/image/{{ site.conference.logo }}" class="right" alt="[{{ site.conference.name }} Logo]"></div>
+		    <div class="logoTextCell">{{ site.conference.name }} {{ site.conference.year }}</div>
+		  </div>
+		  
+		  
+		  <div class="leftmenu">
+		    <ul id="leftnavlist">
+		      <!-- Conference overview -->
+		      {% assign pages = site.pages | sort:"weight"  %}     
+		      {% for p in pages%}
+		      {% if p.title %}
+		      {% assign l = p.title | downcase | replace:' ','-' | replace:',','' | replace: '/','' %}
+		      <li><a id="{{ l }}" href="{{ p.url | prepend: site.baseurl }}">{{ p.title }}</a>
+		      {% endif %}
+  		      {% endfor %}
+
+		      
+		      {% if site.conference.proceedings.url %}<li><a href="{{ site.conference.proceedings.url }}" target="_blank">Proceedings</a></li>{% endif %}
+		      
+		    </ul>
+		    
+		  </div>
