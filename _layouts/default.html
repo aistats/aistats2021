@@ -6,97 +6,88 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-
+  
 
   <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
-
+  
   <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
 
-
-
   <link rel="stylesheet" type="text/css" title="Orig" href="{{ "/style.css" | prepend: site.baseurl }}">
-
-  <!--<link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
--->
-  <!--<link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}" />
--->
+  
 </head>
 
 
-  <body>
+<body>
 
-<center>
-<table border="0" width="1080" cellpadding="0" cellspacing="0">
-<tr>
-<td>
-<table border="0" width="830px" cellpadding="0" cellspacing="0">
-<tr><td class="leftborder" width="30px"></td><td>
-   <div class="container">
-   <div class="os">
-       <div class="logoImageCell"><img src="{{ site.baseurl }}/image/logo.jpg" class="right" alt="[AISTATS Logo]"></div>
-         <div class="logoTextCell">AI &amp; Statistics 2017 </div>
-      </div>
+  <center>
+    <table border="0" width="1080" cellpadding="0" cellspacing="0">
+      <tr>
+	<td>
+	  <table border="0" width="830px" cellpadding="0" cellspacing="0">
+	    <tr><td class="leftborder" width="30px"></td><td>
+		<div class="container">
+		  <div class="os">
+		    <div class="logoImageCell"><img src="{{ site.baseurl }}/image/{{ site.conference.logo }}" class="right" alt="[{{ site.conference.name }} Logo]"></div>
+		    <div class="logoTextCell">{{ site.conference.name }} {{ site.conference.year }}</div>
+		  </div>
+		  
+		  
+		  <div class="leftmenu">
+		    <ul id="leftnavlist">
+		      <!-- Conference overview -->
+		      <li><a id="LNhome" href="{{ site.baseurl }}/index.html">Home</a></li>
+		      <li><a id="LNschedule" href="{{ site.baseurl }}/schedule.html">Schedule</a></li>
+		      
+		      <li><a id="LNcfp" href="{{ site.baseurl }}/logistics.html">Registration, Hotel and Visa Information</a></li>
+		      {% if site.conference.proceedings.url %}<li><a id="LNaccepted" href="{{ site.conference.proceedings.url }}" target="_blank">Proceedings</a></li>{% endif %}
+		      <li><a id="LNpresenters" href="{{ site.baseurl }}/instr.html">Poster/Talk Instructions</a></li>
+		      
+		      <li><a id="LNcom" href="{{ site.baseurl }}/committee.html">Organizers</a></li>
+		      <li><a id="LNcom" href="{{ site.baseurl }}/sponsors.html">Sponsors</a></li>
+		      <li><a id="LNdates" href="{{ site.baseurl }}/dates.html">Key Dates</a></li>
 
-      <!-- <div class="toppict"></div>
-      <div class="topmenu"></div> -->
-
-      <div class="leftmenu">
-         <ul id="leftnavlist">
-            <!-- Conference overview -->
-            <li><a id="LNhome" href="{{ site.baseurl }}/index.html">Home</a></li>
-            <li><a id="LNschedule" href="{{ site.baseurl }}/schedule.html">Schedule</a></li>
-
-            <li><a id="LNcfp" href="{{ site.baseurl }}/logistics.html">Registration, Hotel and Visa Information</a></li>
-            {% if site.conference.proceedings.url %}<li><a id="LNaccepted" href="{{ site.conference.proceedings.url }}" target="_blank">Proceedings</a></li>{% endif %}
-            <li><a id="LNpresenters" href="{{ site.baseurl }}/instr.html">Poster/Talk Instructions</a></li>
-
-            <li><a id="LNcom" href="{{ site.baseurl }}/committee.html">Organizers</a></li>
-            <li><a id="LNcom" href="{{ site.baseurl }}/sponsors.html">Sponsors</a></li>
-            <li><a id="LNdates" href="{{ site.baseurl }}/dates.html">Key Dates</a></li>
-
-
-            <!-- ETC -->
-            <li><a id="LNpast" href="{{ site.baseurl }}/past.html">Past Meetings</a></li>
-
-         </ul>
-
-      </div>
+		      
+		      <!-- ETC -->
+		      <li><a id="LNpast" href="{{ site.baseurl }}/past.html">Past Meetings</a></li>
+		      
+		    </ul>
+		    
+		  </div>
 
 
-        {{ content }}
+		  {{ content }}
 
 
+		  
+		  <div class="footer">
+		    {{ site.conference.name }} {{ site.conference.year }}
+		  </div>
+		  
+		</div>
+	      </td>
+	      <td class="rightborder"></td></tr></table>
+	  <table border="0" width="830px" cellpadding="0" cellspacing="0">
+	    <tr>
+	      <td class="bottomleftborder" width="30px"><img src="{{ site.baseurl }}/image/bottomleftborder.png" border="0"></td>
+	      <td class="bottomcleftborder" width="30px"><img src="{{ site.baseurl }}/image/bottomcenterleftborder.png" border="0"></td>
+	      <td class="bottomborder"><img src="{{ site.baseurl }}/image/bottomborder.png" width="100%" height="50" border="0"></td>
+	      <td class="bottomcrightborder" width="30px"><img src="{{ site.baseurl }}/image/bottomcenterrightborder.png" border="0"></td>
+	      <td class="bottomrightborder" width="30px"><img src="{{ site.baseurl }}/image/bottomrightborder.png" border="0"></td>
+	    </tr>
+	  </table>
+	</td>
+	<td class="tweet">
+	  
+	  <div class="tweet">
 
-      <div class="footer">
-         {{ site.conference.name }} {{ site.conference.year }}
-      </div>
+	    
+	  </div>
 
-</div>
-</td>
-<td class="rightborder"></td></tr></table>
-<table border="0" width="830px" cellpadding="0" cellspacing="0">
-<tr>
-    <td class="bottomleftborder" width="30px"><img src="{{ site.baseurl }}/image/bottomleftborder.png" border="0"></td>
-    <td class="bottomcleftborder" width="30px"><img src="{{ site.baseurl }}/image/bottomcenterleftborder.png" border="0"></td>
-    <td class="bottomborder"><img src="{{ site.baseurl }}/image/bottomborder.png" width="100%" height="50" border="0"></td>
-    <td class="bottomcrightborder" width="30px"><img src="{{ site.baseurl }}/image/bottomcenterrightborder.png" border="0"></td>
-    <td class="bottomrightborder" width="30px"><img src="{{ site.baseurl }}/image/bottomrightborder.png" border="0"></td>
-</tr>
-</table>
-</td>
-<td class="tweet">
+	  
+	</td>
+      </tr>
+    </table>
+  </center>
 
-<div class="tweet">
-
-
-</div>
-
-
-</td>
-</tr>
-</table>
-</center>
-
-  </body>
-
+</body>
 </html>

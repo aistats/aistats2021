@@ -31,6 +31,7 @@ image:
 
 conference:
   draft: true # set to True if the programme is draft only.
+  logo: logo.jpg
   hide_tentative: true
   proceedings:
     url: http://proceedings.mlr.press/v54/
