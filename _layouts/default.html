@@ -17,7 +17,11 @@
 </head>
 
 
+{% assign label = page.title | downcase | replace:' ','-' %}
 <body>
+  <script type="text/javascript">
+    document.getElementById('{{ label }}').id='leftcurrent';
+  </script>
 
   <center>
     <table border="0" width="1080" cellpadding="0" cellspacing="0">
@@ -35,6 +39,11 @@
 		  <div class="leftmenu">
 		    <ul id="leftnavlist">
 		      <!-- Conference overview -->
+		      {% assign pages = site.pages | sort:"weight"  %}     
+		      {% for p in pages%}
+		      {% assign l = p.title | downcase | replace:' ','-' %}
+		      <li><a id="{{ l }}" href="{{ p.url | prepend: site.baseurl }}">{{ p.title }}</a>
+  		      {% endfor %}
 		      <li><a id="LNhome" href="{{ site.baseurl }}/index.html">Home</a></li>
 		      <li><a id="LNschedule" href="{{ site.baseurl }}/schedule.html">Schedule</a></li>
 		      

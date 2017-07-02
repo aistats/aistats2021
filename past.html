@@ -1,15 +1,13 @@
 ---
 layout: default
+title: Past Meetings
+menu: LNpast
 ---
-
-<script type="text/javascript">
-    document.getElementById('LNpast').id='leftcurrent';
-</script>
 
 <div class="contents">
   {% assign sorted = (site.github.public_repositories | sort: 'name') %}
   
-  <h1>Previous Meetings</h1>
+  <h1>Past Meetings</h1>
   <ul>
     {% for repository in sorted reversed %}{% if repository.has_pages %}{% unless repository.name contains 'github.io' %}{% if repository.name contains 'aistats' %}
     <li>
