@@ -1,7 +1,7 @@
 ---
 layout: default
 ---
-<div class="contents">
+<div class="post">
 
   <header class="post-header">
     <h1 class="post-title">{{ page.title }}</h1>
@@ -36,7 +36,27 @@ layout: default
     {% include listtalk.html %}
     {% endfor %}
     
-   
+    
+    {% if page.show_abstracts %}
+    <h1 style='font-size:2em'>Abstracts</h1>
+<!--    abstracts-->
+    {% for talk in page.talks %}
+        {% if talk.abstract %}
+
+        <br>
+<h4 id='{{ talk.title | remove: ' ' | remove: ':' }}' style='margin-bottom:0'><b>{{ talk.title }}</b></h4>
+            {{ talk.speaker }}
+
+
+            <p style='margin-top:1em'>
+                {{ talk.abstract }}
+            </p>
+        </br>
+        {% endif %}
+    {% endfor %}
+
+    {% endif %}
+
   </article>
 
 </div>
