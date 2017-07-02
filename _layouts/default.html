@@ -16,13 +16,13 @@
   
 </head>
 
-
-{% assign label = page.title | downcase | replace:' ','-' %}
 <body>
+{% if page.title %}
+{% assign label = page.title | downcase | replace:' ','-' %}
   <script type="text/javascript">
     document.getElementById('{{ label }}').id='leftcurrent';
   </script>
-
+{% endif %}
   <center>
     <table border="0" width="1080" cellpadding="0" cellspacing="0">
       <tr>
@@ -41,8 +41,10 @@
 		      <!-- Conference overview -->
 		      {% assign pages = site.pages | sort:"weight"  %}     
 		      {% for p in pages%}
+		      {% if p.title %}
 		      {% assign l = p.title | downcase | replace:' ','-' %}
 		      <li><a id="{{ l }}" href="{{ p.url | prepend: site.baseurl }}">{{ p.title }}</a>
+		      {% endif %}
   		      {% endfor %}
 		      <li><a id="LNhome" href="{{ site.baseurl }}/index.html">Home</a></li>
 		      <li><a id="LNschedule" href="{{ site.baseurl }}/schedule.html">Schedule</a></li>
