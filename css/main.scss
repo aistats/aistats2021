@@ -54,7 +54,7 @@ td.leftborder{
   padding: 0;
   font-size: 0.9em;
   vertical-align: top;
-  //background-image: url({{ site.baseurl }}/image/leftborder.png) ;
+  background-image: url({{ site.baseurl }}/image/leftborder.png) ;
   background-repeat: tile ;
   background-position: top left ;      
 }
@@ -66,7 +66,7 @@ td.rightborder{
   padding: 0;
   font-size: 0.9em;
   vertical-align: top;
-  //background-image: url({{ site.baseurl }}/image/rightborder.png) ;
+  background-image: url({{ site.baseurl }}/image/rightborder.png) ;
   background-repeat: tile ;
   background-position: top left ;      
 }
@@ -135,7 +135,7 @@ td.bottomcrightborder{
 .os { 
   margin:  0em auto 0em auto; 
   padding-left: 1em ;  
-  //background-image: url({{ site.baseurl }}/image/{{ site.banner.image }}) ;
+  background-image: url({{ site.baseurl }}/image/{{ site.banner.image }}) ;
   background-size: 800px 150px;
   background-repeat: no-repeat ;
   background-position: top left ;
