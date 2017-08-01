@@ -11,7 +11,7 @@ github_username:  aistats
 
 github:
   edit: true
-  repository: aistats.github.io
+  repository: aistats2018.github.io
 TZ: UTC
 
 # Build settings
