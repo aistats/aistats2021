@@ -2,11 +2,12 @@
 layout: default
 title: Organizers
 hide: false
+navigation_weight: 2
 ---
 
 <h1>{{ site.conference.name }} {{ site.conference.year }} Organizing Committee</h1>
 
-General inquiries should be sent to {{ site.email }}.
+
 
 {% if site.conference.chairs %}
 {% for chair in site.conference.chairs %}
@@ -14,7 +15,7 @@ General inquiries should be sent to {{ site.email }}.
 {% endfor %}
 {% endif %}
 
-
+General inquiries should be sent to {{ site.email }}.
 <!--<h3>Senior Program Committee</h3>-->
 <!--<div>   -->
   <!--Akshay Krishnamurthy    (Univ. of Massachusetts, Amherst) <br>-->

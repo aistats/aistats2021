@@ -5,7 +5,7 @@ email: aistats2018@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
   This is the website of the AISTATS conference.
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://www.aistats.org" # the base hostname & protocol for your site
+#url: "http://www.aistats.org" # the base hostname & protocol for your site
 #twitter_username: aistat
 github_username:  aistats
 
@@ -119,7 +119,7 @@ conference:
     - family: Lacoste-Julien
       given: Simon
       url: http://www.di.ens.fr/~slacoste/
-      institute: Universite de Montreal
+      institute: Universit&eacute; d&eacute; Montreal
 #  - type: Conference Admins
 #    people: 
 #    - family: Smith
