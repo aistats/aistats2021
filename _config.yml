@@ -71,12 +71,12 @@ conference:
     date: 2017-12-22
     type: decision
   - name: Camera ready (for accepted papers) deadline
-    date: 2017-02-20
+    date: 2018-02-20
     type: camera-ready
   - name: Early registration deadline
-    date: 2017-01-31
+    date: 2018-01-31
   - name: Regular registration deadline
-    date: 2017-04-11
+    date: 2018-04-11
   chairs:
   - type: Program Chairs
     people:
@@ -90,10 +90,14 @@ conference:
       institute: Swiss Data Science Centre, ETH Zurich
   - type: Workflow Chairs
     people:
-    - family: 
-      given: Scott 
-      url: http://www.cs.wisc.edu/~salfeld
-      institute: Department of Computer Sciences, University of Wisconsin -- Madison
+    - family: Crowley
+      given: Elliot
+      url: http://homepages.inf.ed.ac.uk/ecrowley/
+      institute: School of Informatics, University of Edinburgh
+#    - family: Alfeld
+#      given: Scott
+#      url: http://www.cs.wisc.edu/~salfeld
+#      institute: Department of Computer Sciences, University of Wisconsin -- Madison
     - family:  Ruiz 
       given: Francisco
       url: http://franrruiz.github.io/
