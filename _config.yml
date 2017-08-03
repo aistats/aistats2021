@@ -1,17 +1,17 @@
 
 # Site settings
 title: Artificial Intelligence and Statistics Conference
-email: aistats2017@gmail.com
+email: aistats2018@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
   This is the website of the AISTATS conference.
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://www.aistats.org" # the base hostname & protocol for your site
+#url: "http://www.aistats.org" # the base hostname & protocol for your site
 #twitter_username: aistat
 github_username:  aistats
 
 github:
   edit: true
-  repository: aistats.github.io
+  repository: aistats2018.github.io
 TZ: UTC
 
 # Build settings
@@ -29,7 +29,7 @@ encoding:     "utf-8"
 markdown_ext: "markdown,mkdown,mkdn,mkd,md"
 
 image:
-  file: fortlauderdale.jpg
+  file: pvw.i7.png
   width: 400
 
 banner:
@@ -42,111 +42,115 @@ conference:
   logo: logo.jpg
   hide_tentative: true
   proceedings:
-    url: http://proceedings.mlr.press/v54/
-    show: true
+    url: 
+    show: false
   room: Room
-  venue: Hyatt Pier 66 Hotel
-  venue_url: https://pier66.hyatt.com/en/hotel/home.html
-  location: Fort Lauderdale, Florida, USA
+  venue: Hotel H10 Rubicon Palace
+  venue_url: https://www.h10hotels.com/en/lanzarote-hotels/h10-rubicon-palace
+  location: Playa Blanca, Lanzarote
   full_name: Artificial Intelligence and Statistics
   name: AISTATS
-  year: 2017
-  instance: 20th
+  year: 2018
+  instance: 21st
   styling: International Conference on
   dates:
-  - 2017-04-20
-  - 2017-04-22
+  - 2018-04-09
+  - 2018-04-11
   submission:
-    url: https://cmt.research.microsoft.com/AISTATS2017/
+    url: https://cmt.research.microsoft.com/AISTATS2018/
     name: Microsoft CMT website
   deadlines:  
   - name: Paper submission deadline
     type: submission
-    time: 2016-10-13T23:59:00+0
+    time: 2017-10-13T23:59:00+0
   - name: Initial reviews available
-    date: 2016-12-9
+    date: 2017-11-22
   - name: Author feedback deadline
-    date: 2016-12-14
+    date: 2017-11-29
   - name: Paper decision notifications
-    date: 2017-01-24
+    date: 2017-12-22
     type: decision
   - name: Camera ready (for accepted papers) deadline
-    date: 2017-03-01
+    date: 2018-02-20
     type: camera-ready
   - name: Early registration deadline
-    date: 2017-03-07
+    date: 2018-01-31
   - name: Regular registration deadline
-    date: 2017-04-05
+    date: 2018-04-11
   chairs:
   - type: Program Chairs
     people:
-    - family: Singh
-      given: Aarti 
-      url: http://www.cs.cmu.edu/~aarti/
-      institute: Machine Learning Department, Carnegie Mellon University
-    - family: Zhu
-      given: Jerry
-      url: http://pages.cs.wisc.edu/~jerryzhu/
-      institute: Department of Computer Sciences, University of Wisconsin -- Madison
+    - family: Storkey
+      given: Amos
+      url: http://homepages.inf.ed.ac.uk/amos/
+      institute: School of Informatics, University of Edinburgh
+    - family: Perez-Cruz
+      given: Fernando
+      url: http://www.tsc.uc3m.es/~fernando
+      institute: Swiss Data Science Centre, ETH Zurich
   - type: Workflow Chairs
     people:
-    - family: Alfeld
-      given: Scott 
-      url: http://www.cs.wisc.edu/~salfeld
-      institute: Department of Computer Sciences, University of Wisconsin -- Madison
-    - family:  Yu
-      given: Adams Wei
-      url: http://www.cs.cmu.edu/~weiyu/
-      institute: Machine Learning Department, Carnegie Mellon University
+    - family: Crowley
+      given: Elliot
+      url: http://homepages.inf.ed.ac.uk/ecrowley/
+      institute: School of Informatics, University of Edinburgh
+#    - family: Alfeld
+#      given: Scott
+#      url: http://www.cs.wisc.edu/~salfeld
+#      institute: Department of Computer Sciences, University of Wisconsin -- Madison
+    - family:  Ruiz 
+      given: Francisco
+      url: http://franrruiz.github.io/
+      institute: Columbia University
   - type: Publicity Chairs
     people: 
-    - family: Ramdas
-      given: Aaditya 
-      url: http://www.cs.berkeley.edu/~aramdas
-      institute: EECS and Statistics, University of California -- Berkeley
-  - type: Publication Chair
-    people:
-    - family: Poczos
-      given: Barnabas
-      url: http://www.cs.cmu.edu/~bapoczos/
-      institute: Machine Learning Department, Carnegie Mellon University
+    - family: Antoniou
+      given: Antreas
+      url: https://www.inf.ed.ac.uk/people/students/Antreas_Antoniou.html
+      institute: School of Informatics, University of Edinburgh
+#  - type: Publication Chair
+#    people:
+#    - family:
+#      given: 
+#      url: 
+#      institute: 
   - type: Fundraising Chair
     people: 
-    - family: Agarwal
-      given: Alekh 
-      url: http://research.microsoft.com/en-us/um/people/alekha/
-      institute: Microsoft Research, New York
-  - type: Conference Admins
-    people: 
-    - family: Smith
-      given: Karen
-    - family: Pregibon
-      given: Daryl
+    - family: Lacoste-Julien
+      given: Simon
+      url: http://www.di.ens.fr/~slacoste/
+      institute: Universit&eacute; d&eacute; Montreal
+#  - type: Conference Admins
+#    people: 
+#    - family: Smith
+#      given: Karen
+#    - family: Pregibon
+#      given: Daryl
   sponsors:
-  - name: Disney Research
-    logo: dr-logo-red.png
-    url: http://www.disneyresearch.com
-    width: 250
-  - name: Google
-    url: http://research.google.com
-    logo: google.png
-    width: 250
-  - name: Netflix
-    url: http://www.netflix.com
-    logo: netflix.png
-    width: 250
-  - name: Tencent
-    url: http://www.tencent.com
-    logo: tencent.png
-    width: 250
-  - name: Springer
-    logo: springer.png
-    width: 300
-    url: http://www.springer.com
-  - name: Microsoft Research
-    logo: MSFT_logo_rgb_C-Gray.png
-    url: http://research.microsoft.com
-    width: 300
+#  - name: Disney Research
+#    logo: dr-logo-red.png
+#    url: http://www.disneyresearch.com
+#    width: 250
+#  - name: Google
+#    url: http://research.google.com
+#    logo: google.png
+#    width: 250
+#  - name: Netflix
+#    url: http://www.netflix.com
+#    logo: netflix.png
+#    width: 250
+#  - name: Tencent
+#    url: http://www.tencent.com
+#    logo: tencent.png
+#    width: 250
+#  - name: Springer
+#    logo: springer.png
+#    width: 300
+#    url: http://www.springer.com
+#  - name: Microsoft Research
+#    logo: MSFT_logo_rgb_C-Gray.png
+#    url: http://research.microsoft.com
+#    width: 300
 
 previous_meeting:
   name:
