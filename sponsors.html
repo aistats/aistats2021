@@ -10,11 +10,8 @@ navigation_weight: 8
 
 {% for sponsor in site.conference.sponsors %}
 {% if sponsor.url %}<a href="{{ sponsor.url }}">{% endif %}{% if sponsor.logo %}<img border="0" {% if sponsor.name %}alt="{{ sponsor.name }}"{% endif %} src="/image/{{ sponsor.logo }}" {% if sponsor.width %}width="{{ sponsor.width }}"{% endif %}>{% elsif sponsor.name %}{{ sponsor.name }}{% endif %}{% if sponsor.url %}</a>{% endif %}{% endfor %}
- 
-<br>The above are listed by amount sponsored (and alphabetically within).<br>
 
-
-<br><hr><br>
+<!--<br><hr><br>-->
 
 
 <h1>Call for Sponsors</h1>
