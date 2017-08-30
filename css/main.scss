@@ -5,7 +5,7 @@
 
 // Our variables
 $base-font-family: Verdana,Tahoma,Arial,sans-serif;
-$base-font-size:   12px;
+$base-font-size:   2px;
 $small-font-size:  $base-font-size * 0.875;
 $base-line-height: 1.5;
 
@@ -56,7 +56,7 @@ td.leftborder{
   vertical-align: top;
   background-image: url({{ site.baseurl }}/image/leftborder.png) ;
   background-repeat: tile ;
-  background-position: top left ;      
+  background-position: top left ;
 }
 
 td.rightborder{
@@ -68,7 +68,7 @@ td.rightborder{
   vertical-align: top;
   background-image: url({{ site.baseurl }}/image/rightborder.png) ;
   background-repeat: tile ;
-  background-position: top left ;      
+  background-position: top left ;
 }
 
 td.bottomleftborder{
@@ -79,7 +79,7 @@ td.bottomleftborder{
   font-size: 0.9em;
   vertical-align: top;
   background-repeat: tile ;
-  background-position: top left ;      
+  background-position: top left ;
 }
 
 td.bottomrightborder{
@@ -90,7 +90,7 @@ td.bottomrightborder{
   font-size: 0.9em;
   vertical-align: top;
   background-repeat: tile ;
-  background-position: top left ;      
+  background-position: top left ;
 }
 
 td.bottomborder{
@@ -99,7 +99,7 @@ td.bottomborder{
   margin: 0px 0px 0px 0px;
   padding: 0;
   font-size: 0.9em;
-  background-position: top left ;      
+  background-position: top left ;
   background-repeat: tile ;
 }
 
@@ -111,7 +111,7 @@ td.bottomcleftborder{
   font-size: 0.9em;
   vertical-align: top;
   background-repeat: tile ;
-  background-position: top left ;      
+  background-position: top left ;
 }
 
 td.bottomcrightborder{
@@ -122,7 +122,7 @@ td.bottomcrightborder{
   font-size: 0.9em;
   vertical-align: top;
   background-repeat: tile ;
-  background-position: top left ;      
+  background-position: top left ;
 }
 
 
@@ -132,9 +132,9 @@ td.bottomcrightborder{
   margin: 0 auto;
   height: 100%;
 }
-.os { 
-  margin:  0em auto 0em auto; 
-  padding-left: 1em ;  
+.os {
+  margin:  0em auto 0em auto;
+  padding-left: 1em ;
   background-image: url({{ site.baseurl }}/image/{{ site.banner.image }}) ;
   background-size: 800px 150px;
   background-repeat: no-repeat ;
@@ -157,31 +157,31 @@ td.bottomcrightborder{
   background-color: inherit;
 }
 .logoImageCell {
-  padding: 0 10px 0 0; 
+  padding: 0 10px 0 0;
   margin: 0;
   border: 0;
 }
 .logoImageCell h1 {
   border: 2px solid #ddd  ;
 }
-.logoTextCell {   
-  margin-left: 0.6em ; 
-  padding-left: 0px ; 
-  padding-top: 10px ; 
-  padding-bottom: 50px ; 
-  font-weight: bold ; 
+.logoTextCell {
+  margin-left: 0.6em ;
+  padding-left: 0px ;
+  padding-top: 10px ;
+  padding-bottom: 50px ;
+  font-weight: bold ;
 /*  font-size: 1.7em ; */
-  text-align: left ; 
+  text-align: left ;
   height: 100px ;
   color: white;
   font-size: 2.8em;
 }
-.logoCredit {   
-  vertical-align: bottom;   
-  padding-right: 5px;   
-  padding-bottom: 10px;   
-  text-align: right;   
-  font-size: .6em;   
+.logoCredit {
+  vertical-align: bottom;
+  padding-right: 5px;
+  padding-bottom: 10px;
+  text-align: right;
+  font-size: .6em;
   color: black;
 }
 .imgLogo {margin: 5px ;   padding:1px 10px 1px 1px ;   vertical-align: middle ;}
@@ -224,14 +224,14 @@ td.bottomcrightborder{
   margin: 0 5px 20px 0px;
   padding: 0;
   font-size: 1em;
-}  
+}
 .leftmenu li{
   margin-bottom: 4px;
 }
 .leftmenu li div{
   font-weight: bold;
   min-height: 20px;
-  text-decoration: none; 
+  text-decoration: none;
   color: #999;
   display: block;
   padding: 6px 10px 0 0px;
@@ -240,7 +240,7 @@ td.bottomcrightborder{
 .leftmenu li a{
   font-weight: bold;
   min-height: 20px;
-  text-decoration: none; 
+  text-decoration: none;
   color: #000;
   display: block;
   padding: 6px 10px 0 0px;
@@ -258,15 +258,43 @@ td.bottomcrightborder{
 
 
 /******************* Main Contents ***************/
+h1 {
+  font-size: 1.2em;
+  margin: 0 0 0.5em 0;
+  padding-bottom: 3px;
+  font-weight: bold;
+  border-bottom: #aaaaaa solid 1px;
+  color: #001862; }
 
-.contents {
+h2 {
+  font-size: 1.1em;
+  margin: 0 0 0.5em 0;
+  padding-bottom: 3px;
+  color: #003399; }
+
+h3 {
+  font-size: 1.0em;
+  color: #444444; }
+
+h4 {
+  font-size: 0.9em;
+  margin: 0 0 0.5em 0;
+  padding: 0 0 0 30px;
+  color: #3399FF; }
+
+
+contents {
   margin: 0px 160px 0px 0px;
-  height: 100% ;
+  height: 100%;
   border-right: 1px solid #d1d1d1;
   padding: 0px 10px 15px 20px;
   line-height: 1.6em;
   text-align: left;
-  background-color: #fff ;
+  background-color: #fff;
+ }
+p {
+    color: black;
+    font-size: 80% ;
 }
 .contents img{
   margin: 7px ;
@@ -302,8 +330,8 @@ a img{
   border-top: 1px solid #0033cc;
   width: 770px;
   text-align: center;
-  background-color: #eee ; 
-  color: #0033cc;  
+  background-color: #eee ;
+  color: #0033cc;
   font-size: 0.9em;
 }
 
@@ -347,6 +375,6 @@ td.tweet {
 }
 
 td.tweet div {
-  margin-top: 149px; 
+  margin-top: 149px;
 }
 
