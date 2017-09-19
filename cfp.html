@@ -1,176 +1,50 @@
 ---
 layout: default
-title: Call for Papers
-hide: true
+title: Call for papers
+hide: false
+navigation_weight: 7
 ---
 
+<h1>AISTATS 2018 Call for Papers</h1>
 
-{% assign submission=site.conference.deadlines | where:"type","submission" | first %}
-{% assign decision=site.conference.deadlines | where:"type","decison" | first %}
-{% assign camera_ready=site.conference.deadlines | where:"type","camera-ready" | first %}
+<p>AISTATS is an interdisciplinary gathering of researchers at the intersection of computer science, artificial 
+intelligence, machine learning, statistics, and related areas. Since its inception in 1985, the primary goal of 
+AISTATS has been to broaden research in these fields by promoting the exchange of ideas among them. We encourage the 
+    submission of all papers which are in keeping with this objective at AISTATS.</p>
 
-<h1>Final version submission instructions</h1>
+<h3>Paper Submission:</h3>
 
+<p><b>Proceedings track:</b> This is the standard AISTATS paper submission track. Papers will be selected via
+    a rigorous double-blind peer-review process. All accepted papers will be presented at the Conference as
+    contributed talks or as posters and will be published in the Proceedings.</p>
 
-<p><b>Please make sure that you are using the <font color="red">up-to-date <a
-            id="styles" href="AISTATS2018FinalAuthorKit.zip">style file</a></font> </b> (updated on: Feb 2, 2017).
-
-
-<h3>Submission Site</h3>
-
-<p>The submission site is <a href="{{ site.conference.submission.url }}">
-   {{ site.conference.submission.url }}</a>. </p>
-
-<p>The deadline for uploading the final version of your paper is <b>{{ camera_ready.date | date: "%A %B, %-d %Y" }} </b>.</p>
-
-<p>To prepare your final paper, please change the string<br>
-<code>\usepackage{aistats2018}</code><br>
-to<br>
-<code>\usepackage[accepted]{aistats2018}</code><br>
-in you LaTeX source file.  Please do not modify the layout given by the style
-file. If you have questions about the style file or its usage, please
-contact the workflow chairs.
-
-<p>
-In the CMT <a
-href="https://cmt.research.microsoft.com/AISTATS2018/Protected/Author/">Author
-Console</a>, there is now a new column labeled &ldquo;Camera
-Ready,&rdquo; and in this column, for each accepted paper, a link
-labeled &ldquo;Edit.&rdquo; Use this link to submit camera-ready papers.
-The CMT form will ask you for
-the list of authors, the title, the abstract, and the following files
-(where 642 is to be replaced by your paper ID):
-
-<pre>
-642.pdf
-642-supp.xxx    (optional)
-</pre>
-
-If a supplementary file is included, its type xxx can be pdf, zip, tgz
-or gz. In addition, you will be asked to provide submission code obtained
-by an automated style checker and confirm that you agree with having
-your work published in the proceedings.
-</p>
-
-<ol>
-<li> Please ensure that the submitted title and abstract match the
-ones in the camera-ready version, and do not include any LaTeX commands or
-other non-human-readable markup.</li>
-
-<li> Please ensure that the submitted list of authors and the ordering
-among them matches the camera-ready version.</li>
-
-<li> Please make sure any supplementary material is submitted as a
-separate file and not appended to the main paper.</li>
-
-<li> In preparing the camera-ready version, we request that you take
-into account reviewer and meta-reviewer feedback.
-Your camera-ready submission should be named 642.pdf (with 642
-replaced by your paper ID).  We only accept pdf
-files.  Please ensure that your camera-ready submission contains
-author information (instead of &ldquo;Anonymous Author N&rdquo; as
-was required for the original submission), and that you use the
-standard style as provided above.
-See detailed instructions for preparing the camera-ready paper in
-Section 3 of the file sample_paper.pdf, included with the style files.</li>
-
-<li> Please verify that your paper follows the style requirements by
-submitting your pdf file to the
-<a 
-href="http://machinelearning.wustl.edu/pub/AISTATS2018/">
-style checking script</a>. You will need to provide the paper ID,
-your name (just one author), your e-mail and the pdf file. If the paper passes
-the style checks, you will obtain a submission code. (Please
-ignore the warnings of the style checker.) The CMT form
-will ask you to provide this submission code.</li>
-
-<li> The final version will appear in the proceedings, published by JMLR
-W&amp;CP. The CMT will ask you to agree to have your
-work published by JMLR according to the agreement outlined
-<a
-href="http://jmlr.org/proceedings/jmlrPublicationForm.pdf">here</a>.
-Please print this form, sign it and upload a scanned version as a supplementary file.</li>
-
-<li> You may optionally submit supplementary material, e.g., detailed
-proofs, code, data, or slides.  Please submit these as
-642-supp.xxx (with 642 replaced by your paper ID and xxx
-replaced by the file type).
-If the supplementary material includes multiple files, please
-compress these into a single zip, tgz or gz file.</li>
-
-<li> You may continue to edit your camera-ready
-submissions until the camera-ready deadline.</li>
-</ol>
-
-
-<br><br>
-
-
-
-
-<h1>{{ site.conference.name }} {{ site.conference.year }} Call for Papers</h1>
-
-
-{{ site.conference.name }} is an interdisciplinary gathering of researchers at the intersection of  artificial intelligence, machine learning, statistics, and related areas. The {{ site.conference.instance }} {{ site.conference.styling }} {{ site.conference.full_name }} (<a href="http://www.aistats.org">{{ site.conference.name }}</a>) will take place in {{ site.conference.location }} from <b>{{ site.conference.dates[0] | date: "%A %B, %-d %Y" }} to {{ site.conference.dates.last | date: "%A %B, %-d %Y" }}</b>. 
-
-<p>The deadline for paper submission is <b>{%if submission.time %}{{ submission.time | date: "%A %B, %-d %Y %H:%M" }}{%elsif submission.date %}{{ submission.time | date: "%A %B, %-d %Y" }}{%endif%}</b> {% if submission.time %}({{ site.TZ }}) (<a href="http://www.timeanddate.com/worldclock/converter.html">time zone converter</a>){% endif %}, with final decisions made on {{ decision.date | date: "%A %B, %-d %Y" }}. Please use the <a href="{{ site.conference.submission.url }}">{{ site.conference.submission.name }}</a> for all submissions.</p>
- 
-<p><font color = blue>New this year:</font>
-<ol>
-<li>  <b>Fast-track for Electronic Journal of Statistics</b>:   Authors of a small number of accepted papers will be invited to submit an extended version for fast-track publication in a special issue of the Electronic Journal of Statistics (EJS) after the {{ site.conference.name }} decisions are out. Details on how to prepare such extended journal paper submission will be announced after the {{ site.conference.name }} decisions.</li>
-
-<li> <b>Review-sharing with NIPS</b>:   Papers previously submitted to NIPS 2016 are required to declare their previous NIPS paper ID, and supply a one-page letter of revision (similar to a revision letter to journal editors; anonymized) in supplemental materials. We will be using duplication detection software on NIPS data to detect revised resubmitted papers that were not declared. {{ site.conference.name }} reviewers will have access to the previous anonymous NIPS reviews.  Other than this, all submissions will be treated equally. </li>
-</ol></p>
-
-<p><font color = blue>Continuing from last year:</font>
-<ol>
-<li><b>Requests for code</b>: Reviewers may request public or non-proprietary code (and as necessary, accompanying data) as part of the initial reviews for the purpose of better judging the paper.  The authors will then provide the code/data as part of the author response.  This might be, for instance, to check whether the authors' methods work as claimed, or whether it correctly treats particular scenarios the authors did not consider in their initial submission."</li>
-
- 
-<li><b>Paper Submission:</b> Electronic submission of PDF papers is required. The main part of the paper (single PDF up to 5Mb) may be up to 8 double-column pages in length including tables/figures.  References only can exceed the 8 page limit. The main part should have enough information so that reviewers are able to judge the correctness and merit of the paper.  Authors may optionally submit supplementary material (up to 10Mb) as a single zip file, containing additional proofs, audio, images, video, data or source code.  Reviewing any supplementary material is up to the discretion of the reviewers.</li>
- 
-<li><b>Dual Submissions Policy:</b> Submissions that are identical (or substantially similar) to versions that have been previously published, or accepted for publication, or that have been submitted in parallel to other conferences or journals are not appropriate for {{ site.conference.name }} and violate our dual submission policy. Exceptions to this rule are the following: (a) it is acceptable to submit work that has been made available as a technical report or similar, e.g., on arXiv, without citing it (to preserve anonymity). (b) Submission is permitted for papers presented or to be presented at conferences or workshops without proceedings (e.g., ICML or NIPS workshops), or with only abstracts published. The dual-submission rules apply during the whole {{ site.conference.name }} review period until the authors have been notified about the decision on their paper.</li>
- 
-<li><b>Double-blind review:</b> Papers will be selected via a rigorous double-blind peer-review process (the reviewers will not know the identities of the authors, and vice versa). It will be up to the authors to ensure the proper anonymization of their paper and supplemental materials.  Violation of the above rules may lead to rejection without review.  One round of author rebuttal will occur with the initial reviews available to the authors. </li>
- 
-<li><b>Evaluation Criteria:</b> Submissions will be judged on the basis of technical quality, novelty, potential impact, and clarity. Typical papers often (but not always) consist of a mix of algorithmic, theoretical and experimental results, in varying proportions. Results will be judged on the degree to which they have been objectively established and/or their potential for scientific and technological impact.</li>
- 
-<li><b>Publication and presentation:</b> All accepted papers will be presented at the conference as posters, with a few selected for additional oral presentation. All accepted papers will be treated equally when published in the {{ site.conference.name }} Conference Proceedings (Journal of Machine Learning Research Workshop and Conference Proceedings series).  At least one author of each accepted paper must register and attend {{ site.conference.name }}.  A small number of accepted papers will be invited to submit an extended version for fast-track publication in a special issue of the Electronic Journal of Statistics (EJS) journal after the {{ site.conference.name }} decisions are out.</li>
- 
-<li><b>Topics:</b> Since its inception in 1985, the primary goal of {{ site.conference.name }} has been to promote the exchange of ideas from artificial intelligence, machine learning, and statistics.  We encourage the submission of all papers in keeping of this objective.  Solicited topics include, but are not limited to:
- 
- <ul>
-   <li> Supervised, unsupervised and semi-supervised learning, kernel and Bayesian methods</li>
- 
-   <li> Stochastic processes, hypothesis testing, causality, time-series, nonparametrics, asymptotic theory</li>
- 
-   <li> Graphical models and inference, manifold learning and embedding, network analysis, statistical analysis of deep learning</li>
-
-   <li> Automated and assisted statistical decision making and automated machine learning</li>
-   
-   <li> Sparse models and compressed sensing, information theory</li>
-   
-   <li> Reinforcement learning, planning, control, multi-agent systems, logic and probability, relational learning</li>
- 
-   <li> Learning theory, game theoretic learning, online learning, bandits, learning for mechanism design</li>
-   
-   <li> Convex and non-convex optimization, discrete optimization, Bayesian optimization</li>
- 
-   <li> Algorithms and architectures for high-performance computing</li>
-   
-   <li> Applications in biology, cognition, computer vision, natural language, neuroscience, robotics, etc.</li>
-   
-   <li> Topological data analysis, selective inference, experimental design, interactive learning, optimal teaching, and other emerging topics</li>
+<p>Solicited topics include, but are not limited to:</p>
+<ul>
+<li><p>Models and estimation: graphical models, causality, Gaussian processes, approximate inference, kernel methods,
+nonparametric models, statistical and computational learning theory, manifolds and embedding, sparsity and compressed 
+sensing, ...</p>
+<li><p>Classification, regression, density estimation, unsupervised and semi-supervised learning, clustering, topic
+models, ...</p>
+<li><p>Structured prediction, relational learning, logic and probability</p></li>
+<li><p>Reinforcement learning, planning, control</p></li>
+<li><p>Game theory, no-regret learning, multi-agent systems</p></li>
+<li><p>Algorithms and architectures for high-performance computation in AI and statistics</p></li>
+<li><p>Software for and applications of AI and statistics</p></li>
 </ul>
-</li>
-</ol>
+<p> For a more detailed list of keywords, please see <a href="keywords.html">here</a>.</p>
 
+<h3>Submission Requirements for Proceedings Track:</h3>
 
-<!--<b>Formatting Instructions: </b> 
+<p>Electronic submission of papers is required. 
+Papers may be up to 8 double-column pages in length, excluding references. Authors may optionally submit also supplementary material. 
+    Formatting and submission information is available at <a href="submit.html">here</a>.</p>
 
-Please download the <a href="AISTATS2017AuthorKit.zip">the author kit for AISTATS 2017</a>. Please do not modify the layout given by the style
-file.  -->
-<!--The PDF papers, supplementary material and review rebuttals will need to be submitted at <a href="https://cmt.research.microsoft.com/AISTATS2017/">the Microsoft CMT system for AISTATS 2017</a>.-->
+<p>All accepted papers will be presented at the Conference either as contributed talks or as posters, and will be 
+published in the AISTATS Conference Proceedings in the Journal of Machine Learning Research Workshop and Conference 
+    Proceedings series.  Papers for talks and posters will be treated equally in publication.</p>
 
-<br><br>
+<h3>Submission Deadline:</h3>
+
+<p>See the submission deadline and other important dates <a href="dates.html">here</a>.</p>
+
 
