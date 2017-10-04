@@ -15,7 +15,7 @@ output_file = ["- type: Senior Committee\npeople:\n"]
 
 for entry in data:
     name, surname, institution, email = entry.replace("\n", "").split(",")
-    entry_line = "  - family: {surname}\n    given: {name}\n    url: {url}\n    institute: ({institution})\n".format(
+    entry_line = "  - family: {surname}\n    given: {name}\n    url: {url}\n    institute: {institution}\n".format(
         name=name, surname=surname, institution=institution, url=email)
     output_file.append(entry_line)
 
