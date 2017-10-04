@@ -132,7 +132,7 @@ conference:
 #      given: Karen
 #    - family: Pregibon
 #      given: Daryl
-  - type: Senior Committee
+  - type: Area Chairs
     people:
     - family: Adams
       given: Ryan
