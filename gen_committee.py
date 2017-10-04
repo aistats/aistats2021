@@ -7,7 +7,7 @@ with open(data_dir, mode="r") as open_csv:
     data = open_csv.readlines()
 
 data = data[1:]
-output_file = ["- type: Senior Committee\npeople:\n"]
+output_file = ["- type: Area Chairs\npeople:\n"]
     # - family: Crowley
     #   given: Elliot
     #   url: http://homepages.inf.ed.ac.uk/ecrowley/
