@@ -47,7 +47,7 @@ conference:
   room: Room
   venue: Hotel H10 Rubicon Palace
   venue_url: https://www.h10hotels.com/en/lanzarote-hotels/h10-rubicon-palace
-  location: Playa Blanca, Lanzarote
+  location: Playa Blanca, Lanzarote, Canary Islands
   full_name: Artificial Intelligence and Statistics
   name: AISTATS
   year: 2018
@@ -120,6 +120,12 @@ conference:
       given: Simon
       url: http://www.di.ens.fr/~slacoste/
       institute: Universit&eacute; de Montr&eacute;al
+  - type: Proceedings Chair
+    people:
+    - family: Azencott
+      given: Chloe-Agathe
+      url: chloe-agathe.azencott@mines-paristech.fr
+      institute: MINES Paris Tech
 #  - type: Conference Admins
 #    people: 
 #    - family: Smith
