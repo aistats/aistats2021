@@ -1,226 +1,56 @@
-- type: Senior Committee
-  people:
-  - family: Adams
-    given: Ryan
-    url: rpa@seas.harvard.edu
-    institute: Harvard University
-  - family: Artes
-    given: Antonio
-    url: antonio@tsc.uc3m.es
-    institute: UC3M
-  - family: Barber
-    given: David
-    url: d.barber@cs.ucl.ac.uk
-    institute: UCL
-  - family: Bonilla
-    given: Edwin
-    url: e.bonilla@unsw.edu.au
-    institute: University of New South Wales
-  - family: Carreira-Perpinan
-    given: Miguel
-    url: mcarreira-perpinan@ucmerced.edu
-    institute: UC Merced
-  - family: Cesa-Bianchi
-    given: Nicolò
-    url: nicolo.cesa-bianchi@unimi.it
-    institute: University of Milan
-  - family: Chiappa
-    given: Silvia
-    url: chiappa.silvia@gmail.com
-    institute: DeepMind
-  - family: Choromanska
-    given: Anna
-    url: ac5455@nyu.edu
-    institute: NYU
-  - family: Cohen
-    given: Shay
-    url: scohen@inf.ed.ac.uk
-    institute: University of Edinburgh
-  - family: Crammer
-    given: Koby
-    url: koby@ee.technion.ac.il
-    institute: Technion
-  - family: Cuturi
-    given: Marco
-    url: marco.cuturi@ensae.fr
-    institute: ENSAE/CREST
-  - family: Dai
-    given: Andrew
-    url: adai@google.com
-    institute: Google Brain
-  - family: Deisenroth
-    given: Mark
-    url: m.deisenroth@imperial.ac.uk
-    institute: Imperial College London
-  - family: Doshi-Velez
-    given: Finale
-    url: finale@seas.harvard.edu
-    institute: Harvard University
-  - family: Duvenaud
-    given: David
-    url: duvenaud@cs.toronto.edu
-    institute: University of Toronto
-  - family: Flach
-    given: Peter
-    url: peter.flach@bristol.ac.uk
-    institute: University of Bristol
-  - family: Foti
-    given: Nicholas
-    url: nfoti@uw.edu
-    institute: University of Washington
-  - family: Gal
-    given: Yarin
-    url: yg279@cam.ac.uk
-    institute: University of Cambridge
-  - family: Gomez Rodriguez
-    given: Manuel
-    url: manuelgr@mpi-sws.org
-    institute: Max Planck Institute for Software Systems
-  - family: Goodman
-    given: Noah
-    url: ngoodman@stanford.edu
-    institute: Stanford University
-  - family: Graham
-    given: Matthew
-    url: m.m.graham@ed.ac.uk
-    institute: University of Edinburgh
-  - family: Gutmann
-    given: Michael
-    url: michael.gutmann@ed.ac.uk
-    institute: University of Edinburgh
-  - family: Harmeling
-    given: Stefan
-    url: harmeling@hhu.de
-    institute: HHU
-  - family: Heess
-    given: Nicolas
-    url: heess@google.com
-    institute: DeepMind
-  - family: Heller
-    given: Katherine
-    url: kheller@stat.duke.edu
-    institute: Duke University
-  - family: Hennig
-    given: Philipp
-    url: ph@tue.mpg.de
-    institute: University of Tübingen
-  - family: Hernandez-Lobato
-    given: Jose Miguel
-    url: jmh233@cam.ac.uk
-    institute: University of Cambridge
-  - family: Hernández-Lobato
-    given: Daniel
-    url: daniel.hernandez@uam.es
-    institute: Autonoma
-  - family: Hoffman
-    given: Matthias
-    url: matt@matthewdhoffman.com
-    institute: Google
-  - family: Holmes
-    given: Chris
-    url: cholmes@stats.ox.ac.uk
-    institute: University of Oxford
-  - family: Husmeier
-    given: Dirk
-    url: dirk.husmeier@glasgow.ac.uk
-    institute: University of Glasgow
-  - family: Jaggi
-    given: Martin
-    url: martin.jaggi@epfl.ch
-    institute: EPFL
-  - family: Jaitly
-    given: Navdeep
-    url: ndjaitly@google.com
-    institute: Google
-  - family: Joulin
-    given: Armand Joulin
-    url: ajoulin@fb.com
-    institute: Facebook
-  - family: Kaski
-    given: Samuel
-    url: samuel.kaski@aalto.fi
-    institute: Aalto University
-  - family: Khardon
-    given: Roni
-    url: roni@cs.tufts.edu
-    institute: Tufts University
-  - family: Lacoste-Julien
-    given: Simon
-    url: simon.lacoste-julien@umontreal.ca
-    institute: Université de Montréal
-  - family: Lozano
-    given: Aurelie
-    url: aclozano@us.ibm.com
-    institute: IBM
-  - family: Mohamed
-    given: Shakir
-    url: shakir.mohamed@gmail.com
-    institute: DeepMind
-  - family: Mukherjee
-    given: Sayan Mukherjee
-    url: sayan@stat.duke.edu
-    institute: Duke University
-  - family: Nowozin
-    given: Sebastian
-    url: sebastian.nowozin@microsoft.com
-    institute: Microsoft
-  - family: Osborne
-    given: Michael
-    url: mosb@robots.ox.ac.uk
-    institute: University of Oxford
-  - family: Ranganath
-    given: Rajesh
-    url: rajeshr@cs.princeton.edu
-    institute: Princeton University
-  - family: Rao
-    given: Vinayak
-    url: varao@purdue.edu
-    institute: Purdue University
-  - family: Sabourin
-    given: Anne
-    url: anne.sabourin@telecom-paristech.fr
-    institute: Telecom ParisTech
-  - family: Santos-Rodriguez
-    given: Raul
-    url: enrsr@bristol.ac.uk
-    institute: University of Bristol
-  - family: Särkkä
-    given: Simo
-    url: simo.sarkka@aalto.fi
-    institute: Aalto University
-  - family: Sha
-    given: Fei
-    url: feisha@usc.edu
-    institute: UCLA
-  - family: Shlens
-    given: Jon
-    url: shlens@google.com
-    institute: Google
-  - family: Szabo
-    given: Zoltan
-    url: zoltan.szabo@polytechnique.edu
-    institute: École Polytechnique
-  - family: Titsias
-    given: Michalis
-    url: mtitsias@aueb.gr
-    institute: AUEB
-  - family: Urner
-    given: Ruth
-    url: ruth.urner@tuebingen.mpg.de
-    institute: Max Planck Institute for Intelligent Systems
-  - family: Valera
-    given: Isabel
-    url: miv24@cam.ac.uk
-    institute: University of Cambridge
-  - family: Weller
-    given: Adrian
-    url: adrian.weller@eng.cam.ac.uk
-    institute: University of Cambridge
-  - family: Winther
-    given: Ole
-    url: olwi@dtu.dk
-    institute: DTU
-  - family: Zhu
-    given: Zhanxing
-    url: zhanxing.zhu@pku.edu.cn
-    institute: Peking University
+<li><p>Ryan Adams    (Harvard University) </li></p>
+<li><p>Antonio Artes    (UC3M) </li></p>
+<li><p>David Barber    (UCL) </li></p>
+<li><p>Edwin Bonilla    (University of New South Wales) </li></p>
+<li><p>Miguel Carreira-Perpinan    (UC Merced) </li></p>
+<li><p>Nicolò Cesa-Bianchi    (University of Milan) </li></p>
+<li><p>Silvia Chiappa    (DeepMind) </li></p>
+<li><p>Anna Choromanska    (NYU) </li></p>
+<li><p>Shay Cohen    (University of Edinburgh) </li></p>
+<li><p>Koby Crammer    (Technion) </li></p>
+<li><p>Marco Cuturi    (ENSAE/CREST) </li></p>
+<li><p>Andrew Dai    (Google Brain) </li></p>
+<li><p>Mark Deisenroth    (Imperial College London) </li></p>
+<li><p>Finale Doshi-Velez    (Harvard University) </li></p>
+<li><p>David Duvenaud    (University of Toronto) </li></p>
+<li><p>Peter Flach    (University of Bristol) </li></p>
+<li><p>Nicholas Foti    (University of Washington) </li></p>
+<li><p>Yarin Gal    (University of Cambridge) </li></p>
+<li><p>Manuel Gomez Rodriguez    (Max Planck Institute for Software Systems) </li></p>
+<li><p>Noah Goodman    (Stanford University) </li></p>
+<li><p>Matthew Graham    (University of Edinburgh) </li></p>
+<li><p>Michael Gutmann    (University of Edinburgh) </li></p>
+<li><p>Stefan Harmeling    (HHU) </li></p>
+<li><p>Nicolas Heess    (DeepMind) </li></p>
+<li><p>Katherine Heller    (Duke University) </li></p>
+<li><p>Philipp Hennig    (University of Tübingen) </li></p>
+<li><p>Jose Miguel Hernandez-Lobato    (University of Cambridge) </li></p>
+<li><p>Daniel Hernández-Lobato    (Autonoma) </li></p>
+<li><p>Matthias Hoffman    (Google) </li></p>
+<li><p>Chris Holmes    (University of Oxford) </li></p>
+<li><p>Dirk Husmeier    (University of Glasgow) </li></p>
+<li><p>Martin Jaggi    (EPFL) </li></p>
+<li><p>Navdeep Jaitly    (Google) </li></p>
+<li><p>Armand Joulin Joulin    (Facebook) </li></p>
+<li><p>Samuel Kaski    (Aalto University) </li></p>
+<li><p>Roni Khardon    (Tufts University) </li></p>
+<li><p>Simon Lacoste-Julien    (Université de Montréal) </li></p>
+<li><p>Aurelie Lozano    (IBM) </li></p>
+<li><p>Shakir Mohamed    (DeepMind) </li></p>
+<li><p>Sayan Mukherjee Mukherjee    (Duke University) </li></p>
+<li><p>Sebastian Nowozin    (Microsoft) </li></p>
+<li><p>Michael Osborne    (University of Oxford) </li></p>
+<li><p>Rajesh Ranganath    (Princeton University) </li></p>
+<li><p>Vinayak Rao    (Purdue University) </li></p>
+<li><p>Anne Sabourin    (Telecom ParisTech) </li></p>
+<li><p>Raul Santos-Rodriguez    (University of Bristol) </li></p>
+<li><p>Simo Särkkä    (Aalto University) </li></p>
+<li><p>Fei Sha    (UCLA) </li></p>
+<li><p>Jon Shlens    (Google) </li></p>
+<li><p>Zoltan Szabo    (École Polytechnique) </li></p>
+<li><p>Michalis Titsias    (AUEB) </li></p>
+<li><p>Ruth Urner    (Max Planck Institute for Intelligent Systems) </li></p>
+<li><p>Isabel Valera    (University of Cambridge) </li></p>
+<li><p>Adrian Weller    (University of Cambridge) </li></p>
+<li><p>Ole Winther    (DTU) </li></p>
+<li><p>Zhanxing Zhu    (Peking University) </li></p>

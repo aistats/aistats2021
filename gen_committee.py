@@ -7,16 +7,12 @@ with open(data_dir, mode="r") as open_csv:
     data = open_csv.readlines()
 
 data = data[1:]
-output_file = ["- type: Area Chairs\npeople:\n"]
-    # - family: Crowley
-    #   given: Elliot
-    #   url: http://homepages.inf.ed.ac.uk/ecrowley/
-    #   institute: School of Informatics, University of Edinburgh
+output_file = []
 
 for entry in data:
-    name, surname, institution, email = entry.replace("\n", "").split(",")
-    entry_line = "  - family: {surname}\n    given: {name}\n    url: {url}\n    institute: {institution}\n".format(
-        name=name, surname=surname, institution=institution, url=email)
+    name, surname, institution, email = entry.split(",")
+    entry_line = "<li><p>{name} {surname}    ({institution}) </li></p>\n".format(name=name, surname=surname,
+                                                                          institution=institution)
     output_file.append(entry_line)
 
 with open(target_dir, mode="wb+") as write_file:
