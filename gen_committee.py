@@ -1,8 +1,7 @@
 import sys
 import os
-
-data_dir = "/home/antreas/antreasantoniou.github.io/committee.csv"
-target_dir = "/home/antreas/antreasantoniou.github.io/committee.txt"
+data_dir = "committee.csv"
+target_dir = "committee.txt"
 with open(data_dir, mode="r") as open_csv:
     data = open_csv.readlines()
 
@@ -11,7 +10,7 @@ output_file = []
 
 for entry in data:
     name, surname, institution, email = entry.split(",")
-    entry_line = "<li><p>{name} {surname}    ({institution}) </li></p>\n".format(name=name, surname=surname,
+    entry_line = "<li>{name} {surname}    ({institution}) </li>\n".format(name=name, surname=surname,
                                                                           institution=institution)
     output_file.append(entry_line)
 
