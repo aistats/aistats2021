@@ -1,57 +1,58 @@
 First Name,Last Name,Institution,Email
-Ryan,Adams,Harvard University,rpa@seas.harvard.edu
-Antonio,Artes,UC3M,antonio@tsc.uc3m.es
-David,Barber,UCL,d.barber@cs.ucl.ac.uk
-Edwin,Bonilla,University of New South Wales,e.bonilla@unsw.edu.au
-Miguel,Carreira-Perpinan,UC Merced,mcarreira-perpinan@ucmerced.edu
-Nicolò,Cesa-Bianchi,University of Milan,nicolo.cesa-bianchi@unimi.it
-Silvia,Chiappa,DeepMind,chiappa.silvia@gmail.com
-Anna,Choromanska,NYU,ac5455@nyu.edu
-Shay,Cohen,University of Edinburgh,scohen@inf.ed.ac.uk
-Koby,Crammer,Technion,koby@ee.technion.ac.il
-Marco,Cuturi,ENSAE/CREST,marco.cuturi@ensae.fr
+Adrian,Weller,University of Cambridge,adrian.weller@eng.cam.ac.uk
 Andrew,Dai,Google Brain,adai@google.com
-Mark,Deisenroth,Imperial College London,m.deisenroth@imperial.ac.uk
-Finale,Doshi-Velez,Harvard University,finale@seas.harvard.edu
-David,Duvenaud,University of Toronto,duvenaud@cs.toronto.edu
-Peter,Flach,University of Bristol,peter.flach@bristol.ac.uk
-Nicholas,Foti,University of Washington,nfoti@uw.edu
-Yarin,Gal,University of Cambridge,yg279@cam.ac.uk
-Manuel,Gomez Rodriguez,Max Planck Institute for Software Systems,manuelgr@mpi-sws.org
-Noah,Goodman,Stanford University,ngoodman@stanford.edu
-Matthew,Graham,University of Edinburgh,m.m.graham@ed.ac.uk
-Michael,Gutmann,University of Edinburgh,michael.gutmann@ed.ac.uk
-Stefan,Harmeling,HHU,harmeling@hhu.de
-Nicolas,Heess,DeepMind,heess@google.com
-Katherine,Heller,Duke University,kheller@stat.duke.edu
-Philipp,Hennig,University of Tübingen,ph@tue.mpg.de
-Jose Miguel,Hernandez-Lobato,University of Cambridge,jmh233@cam.ac.uk
-Daniel,Hernández-Lobato,Autonoma,daniel.hernandez@uam.es
-Matthias,Hoffman,Google,matt@matthewdhoffman.com
-Chris,Holmes,University of Oxford,cholmes@stats.ox.ac.uk
-Dirk,Husmeier,University of Glasgow,dirk.husmeier@glasgow.ac.uk
-Martin,Jaggi,EPFL,martin.jaggi@epfl.ch
-Navdeep,Jaitly,Google,ndjaitly@google.com
+Andrew Gordon,Wilson,Cornell University,andrew@cornell.edu
+Anna,Choromanska,NYU,ac5455@nyu.edu
+Anne,Sabourin,Telecom ParisTech,anne.sabourin@telecom-paristech.fr
+Antonio,Artes,UC3M,antonio@tsc.uc3m.es
 Armand Joulin,Joulin,Facebook,ajoulin@fb.com
-Samuel,Kaski,Aalto University,samuel.kaski@aalto.fi
-Roni,Khardon,Tufts University,roni@cs.tufts.edu
-Simon,Lacoste-Julien,Université de Montréal,simon.lacoste-julien@umontreal.ca
 Aurelie,Lozano,IBM,aclozano@us.ibm.com
-Shakir,Mohamed,DeepMind,shakir.mohamed@gmail.com
+Chris,Holmes,University of Oxford,cholmes@stats.ox.ac.uk
+Daniel,Hernández-Lobato,Autonoma,daniel.hernandez@uam.es
+David,Barber,UCL,d.barber@cs.ucl.ac.uk
+David,Duvenaud,University of Toronto,duvenaud@cs.toronto.edu
+Dirk,Husmeier,University of Glasgow,dirk.husmeier@glasgow.ac.uk
+Edwin,Bonilla,University of New South Wales,e.bonilla@unsw.edu.au
+Fei,Sha,UCLA,feisha@usc.edu
+Finale,Doshi-Velez,Harvard University,finale@seas.harvard.edu
+Isabel,Valera,University of Cambridge,miv24@cam.ac.uk
+Jon,Shlens,Google,shlens@google.com
+Jose Miguel,Hernandez-Lobato,University of Cambridge,jmh233@cam.ac.uk
+Katherine,Heller,Duke University,kheller@stat.duke.edu
+Koby,Crammer,Technion,koby@ee.technion.ac.il
+Manuel,Gomez Rodriguez,Max Planck Institute for Software Systems,manuelgr@mpi-sws.org
+Marco,Cuturi,ENSAE/CREST,marco.cuturi@ensae.fr
+Mark,Deisenroth,Imperial College London,m.deisenroth@imperial.ac.uk
+Martin,Jaggi,EPFL,martin.jaggi@epfl.ch
+Matthew,Graham,University of Edinburgh,m.m.graham@ed.ac.uk
+Matthias,Hoffman,Google,matt@matthewdhoffman.com
+Michael,Gutmann,University of Edinburgh,michael.gutmann@ed.ac.uk
+Michael,Osborne,University of Oxford,mosb@robots.ox.ac.uk
+Michalis,Titsias,AUEB,mtitsias@aueb.gr
+Miguel,Carreira-Perpinan,UC Merced,mcarreira-perpinan@ucmerced.edu
+Navdeep,Jaitly,Google,ndjaitly@google.com
+Nicholas,Foti,University of Washington,nfoti@uw.edu
+Nicolas,Heess,DeepMind,heess@google.com
+Nicolò,Cesa-Bianchi,University of Milan,nicolo.cesa-bianchi@unimi.it
+Noah,Goodman,Stanford University,ngoodman@stanford.edu
+Ole,Winther,DTU,olwi@dtu.dk
+Peter,Flach,University of Bristol,peter.flach@bristol.ac.uk
+Philipp,Hennig,University of Tübingen,ph@tue.mpg.de
+Rajesh,Ranganath,Princeton University,rajeshr@cs.princeton.edu
+Raul,Santos-Rodriguez,University of Bristol,enrsr@bristol.ac.uk
+Roni,Khardon,Tufts University,roni@cs.tufts.edu
+Ruth,Urner,Max Planck Institute for Intelligent Systems,ruth.urner@tuebingen.mpg.de
+Ryan,Adams,Harvard University,rpa@seas.harvard.edu
+Samuel,Kaski,Aalto University,samuel.kaski@aalto.fi
 Sayan Mukherjee,Mukherjee,Duke University,sayan@stat.duke.edu
 Sebastian,Nowozin,Microsoft,sebastian.nowozin@microsoft.com
-Michael,Osborne,University of Oxford,mosb@robots.ox.ac.uk
-Rajesh,Ranganath,Princeton University,rajeshr@cs.princeton.edu
-Vinayak,Rao,Purdue University,varao@purdue.edu
-Anne,Sabourin,Telecom ParisTech,anne.sabourin@telecom-paristech.fr
-Raul,Santos-Rodriguez,University of Bristol,enrsr@bristol.ac.uk
+Shakir,Mohamed,DeepMind,shakir.mohamed@gmail.com
+Shay,Cohen,University of Edinburgh,scohen@inf.ed.ac.uk
+Silvia,Chiappa,DeepMind,chiappa.silvia@gmail.com
 Simo,Särkkä,Aalto University,simo.sarkka@aalto.fi
-Fei,Sha,UCLA,feisha@usc.edu
-Jon,Shlens,Google,shlens@google.com
-Zoltan,Szabo,École Polytechnique,zoltan.szabo@polytechnique.edu
-Michalis,Titsias,AUEB,mtitsias@aueb.gr
-Ruth,Urner,Max Planck Institute for Intelligent Systems,ruth.urner@tuebingen.mpg.de
-Isabel,Valera,University of Cambridge,miv24@cam.ac.uk
-Adrian,Weller,University of Cambridge,adrian.weller@eng.cam.ac.uk
-Ole,Winther,DTU,olwi@dtu.dk
+Simon,Lacoste-Julien,Université de Montréal,simon.lacoste-julien@umontreal.ca
+Stefan,Harmeling,HHU,harmeling@hhu.de
+Vinayak,Rao,Purdue University,varao@purdue.edu
+Yarin,Gal,University of Cambridge,yg279@cam.ac.uk
 Zhanxing,Zhu,Peking University,zhanxing.zhu@pku.edu.cn
+Zoltan,Szabo,École Polytechnique,zoltan.szabo@polytechnique.edu
