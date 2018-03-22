@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="113.69524mm"
+   height="39.061291mm"
+   viewBox="0 0 402.85714 138.40615"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.91 r13725"
+   sodipodi:docname="Baidu-RGB_cropped.svg"
+   inkscape:export-filename="/home/antreas/aistats.github.io/logos/IBM/IBM_LOGO_cropped.png"
+   inkscape:export-xdpi="90"
+   inkscape:export-ydpi="90">
+  <defs
+     id="defs4">
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath3376">
+      <rect
+         style="opacity:0.43209881;fill:#f0f156;fill-opacity:0.98630138;fill-rule:nonzero;stroke:#dd9788;stroke-width:0.79937011;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         id="rect3378"
+         width="317.71429"
+         height="91.428574"
+         x="174.28572"
+         y="-342.57144"
+         transform="scale(1,-1)" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath3382">
+      <rect
+         style="opacity:0.43209881;fill:#f0f156;fill-opacity:0.98630138;fill-rule:nonzero;stroke:#dd9788;stroke-width:0.79937011;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         id="rect3384"
+         width="290.28571"
+         height="61.714287"
+         x="190.28574"
+         y="-326.57144"
+         transform="scale(1,-1)" />
+    </clipPath>
+    <clipPath
+       id="clipPath3466"
+       clipPathUnits="userSpaceOnUse">
+      <path
+         inkscape:connector-curvature="0"
+         id="path3468"
+         d="m 0,637.795 476.22,0 L 476.22,0 0,0 0,637.795 Z" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath3561">
+      <rect
+         style="opacity:0.43209881;fill:#f0f156;fill-opacity:0.98630138;fill-rule:nonzero;stroke:#dd9788;stroke-width:0.79937011;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         id="rect3563"
+         width="322.28571"
+         height="125.71428"
+         x="74.110046"
+         y="-469.58206"
+         transform="scale(1,-1)" />
+    </clipPath>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.35"
+     inkscape:cx="633.57137"
+     inkscape:cy="-357.14286"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     inkscape:window-width="1248"
+     inkscape:window-height="1388"
+     inkscape:window-x="1312"
+     inkscape:window-y="24"
+     inkscape:window-maximized="0" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(739.99994,-36.813205)">
+    <g
+       transform="matrix(1.25,0,0,-1.25,-832.6375,605.05408)"
+       inkscape:label="Baidu-RGB.ai"
+       id="g3460"
+       clip-path="url(#clipPath3561)">
+      <g
+         id="g3462">
+        <g
+           clip-path="url(#clipPath3466)"
+           id="g3464">
+          <g
+             transform="translate(206.3062,406.2217)"
+             id="g3470">
+            <path
+               inkscape:connector-curvature="0"
+               id="path3472"
+               style="fill:#2932e1;fill-opacity:1;fill-rule:nonzero;stroke:none"
+               d="M 0,0 C 10.086,2.171 8.715,14.065 8.392,16.689 7.908,20.722 3.136,27.721 -3.348,27.142 -11.51,26.472 -12.716,14.797 -12.716,14.797 -13.795,9.392 -10.044,-2.126 0,0 m 18.699,20.018 c 5.558,0 10.072,6.343 10.072,14.174 0,7.855 -4.514,14.179 -10.072,14.179 -5.547,0 -10.069,-6.324 -10.069,-14.179 0,-7.831 4.522,-14.174 10.069,-14.174 m 23.967,-0.924 c 7.436,-0.98 12.25,6.889 13.175,12.846 0.951,5.952 -3.821,12.844 -9.099,14.013 -5.277,1.234 -11.849,-7.14 -12.481,-12.588 -0.702,-6.659 0.988,-13.347 8.405,-14.271 M 72.145,9.09 c 0,2.838 -2.373,11.415 -11.279,11.415 -8.846,0 -10.047,-8.086 -10.047,-13.817 0,-5.484 0.45,-13.094 11.513,-12.876 11.017,0.234 9.813,12.411 9.813,15.278 M 60.866,-15.92 c 0,0 -11.476,8.795 -18.2,18.33 C 33.559,16.47 20.613,10.748 16.298,3.595 11.999,-3.528 5.277,-8.09 4.294,-9.278 c -0.963,-1.171 -13.889,-8.077 -11.01,-20.701 2.863,-12.623 12.949,-12.36 12.949,-12.36 0,0 7.456,-0.737 16.038,1.121 8.661,1.907 16.076,-0.417 16.076,-0.417 0,0 20.139,-6.689 25.671,6.17 5.505,12.843 -3.152,19.545 -3.152,19.545" />
+          </g>
+          <g
+             transform="translate(226.8076,402.5488)"
+             id="g3474">
+            <path
+               inkscape:connector-curvature="0"
+               id="path3476"
+               style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none"
+               d="m 0,0 0,-8.464 -6.981,0 c 0,0 -6.985,-0.534 -9.422,-8.391 -0.868,-5.221 0.755,-8.291 1.024,-8.984 0.325,-0.64 2.539,-4.45 8.205,-5.547 l 13.084,0 0,31.314 L 0,0 Z m -0.112,-26.273 -5.277,0 c 0,0 -3.666,0.171 -4.782,4.388 -0.568,1.861 0.08,3.986 0.351,4.841 0.308,0.858 1.514,2.772 4.075,3.545 l 5.633,0 0,-12.774 z" />
+          </g>
+          <g
+             transform="translate(235.9248,393.3516)"
+             id="g3478">
+            <path
+               inkscape:connector-curvature="0"
+               id="path3480"
+               style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none"
+               d="m 0,0 0,-16.501 c 0,0 0.283,-4.139 6.125,-5.608 l 15.076,0 0,22.109 -6.495,0 0,-16.642 -6.212,0 c 0,0 -2.014,0.315 -2.369,1.879 L 6.125,0.09 0,0 Z" />
+          </g>
+          <g
+             transform="translate(328.8794,404.1494)"
+             id="g3482">
+            <path
+               inkscape:connector-curvature="0"
+               id="path3484"
+               style="fill:#e10602;fill-opacity:1;fill-rule:nonzero;stroke:none"
+               d="m 0,0 0,6.964 -46.264,0 -0.069,-7.043 19.9,0 -1.838,-4.236 -16.942,0 0,-34.887 40.187,0 c 4.187,0 3.837,4.167 3.837,4.167 l 0,30.72 -16.938,0 L -16.665,0 0,0 Z m -8.979,-31.749 c 0,0 -0.485,-1.158 -1.179,-1.158 l -26.674,0 0,8.129 27.853,0 0,-6.971 z m -0.045,13.717 -27.808,0 0,7.611 27.808,0 0,-7.611 z" />
+          </g>
+          <g
+             transform="translate(381.77,410.9268)"
+             id="g3486">
+            <path
+               inkscape:connector-curvature="0"
+               id="path3488"
+               style="fill:#e10602;fill-opacity:1;fill-rule:nonzero;stroke:none"
+               d="m 0,0 -18.174,0 0,3.502 -8.474,0 0,-3.315 -20.875,0 0,-46.11 7.518,0 0,40.142 L 0,-5.781 0,0 Z m -4.899,-9.532 0,2.676 -7.324,0 0,-2.676 -15.015,0 0,2.567 -6.984,0 0,-2.567 -4.693,0 0.102,-5.232 4.591,0 0,-9.799 25.325,0 c 3.54,0 3.998,3.677 3.998,3.677 l 0,6.122 5.389,0 0,5.232 -5.389,0 z m -7.324,-8.798 c 0,0 -0.647,-1.155 -1.492,-1.155 l -13.641,0 0,4.832 15.133,0 0,-3.677 z m -25.64,-13.416 11.681,-6.688 c -0.951,-0.966 -4.916,-2.236 -4.916,-2.236 l -7.817,0 0,-5.155 10.603,0 c 3.101,0.628 8.968,3.548 8.968,3.548 2.413,-2.173 7.054,-3.077 7.054,-3.077 l 12.004,0 0,5.138 -9.077,0 c -2.418,0.344 -4.608,1.718 -4.608,1.718 l 13.685,7.799 0,4.198 -37.577,0 0,-5.245 z m 24.25,0.138 -6.638,-3.48 -6.117,3.48 12.755,0 z" />
+          </g>
+          <path
+             inkscape:connector-curvature="0"
+             id="path3490"
+             style="fill:#e10602;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             d="m 179.633,403.6 10.099,0 0,8.795 -10.099,0 0,-8.795 z m 0,-38.434 10.099,0 0,34.594 -10.099,0 0,-34.594 z" />
+          <g
+             transform="translate(163.2139,399.7256)"
+             id="g3492">
+            <path
+               inkscape:connector-curvature="0"
+               id="path3494"
+               style="fill:#e10602;fill-opacity:1;fill-rule:nonzero;stroke:none"
+               d="m 0,0 -21.548,0.061 0,-7.267 18.902,0 c 0,0 4.492,-1.078 4.492,-3.922 l 0,-2.561 -17.107,0 c 0,0 -6.738,-0.627 -8.885,-8.542 -0.356,-3.75 0.145,-5.597 0.377,-6.252 0.255,-0.704 2.221,-5.114 8.103,-6.187 l 27.236,0 0,24.783 c 0,0 -1.329,8.481 -11.57,9.887 m 1.846,-27.828 -13.748,0 c -1.886,0.737 -2.493,1.967 -2.611,2.281 -0.142,0.25 -0.541,1.424 -0.051,2.465 1.099,2.161 2.932,2.675 2.932,2.675 l 13.478,0 0,-7.421 z" />
+          </g>
+          <g
+             transform="translate(136.8193,377.3184)"
+             id="g3496">
+            <path
+               inkscape:connector-curvature="0"
+               id="path3498"
+               style="fill:#e10602;fill-opacity:1;fill-rule:nonzero;stroke:none"
+               d="m 0,0 c 0.352,8.404 -7.296,11.329 -7.296,11.329 6.452,3.343 5.649,11.764 5.649,11.764 -0.696,12.86 -16.631,12.297 -16.631,12.297 l -24.581,0 0,-48.045 27.785,0 C 1.222,-12.623 0,0 0,0 m -15.654,-3.749 0,0 -16.638,0 0,10.36 16.568,0 0.554,-0.108 c 0,0 3.155,-0.566 4.276,-3.349 0,0 0.681,-2.684 -0.765,-4.621 0,0 -1.041,-1.815 -3.995,-2.282 m 3.523,22.279 c 0,0 -1.126,-2.011 -4.116,-2.486 l -16.045,0 0,9.973 16.009,0 c 0,0 3.493,0.155 4.624,-2.611 0,0 0.691,-2.878 -0.472,-4.876" />
+          </g>
+          <path
+             inkscape:connector-curvature="0"
+             id="path3500"
+             style="fill:#eeeeef;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             d="m 476.22,0 -476.712,0 0,184.562 476.712,0 0,-184.562 z" />
+          <path
+             inkscape:connector-curvature="0"
+             id="path3502"
+             style="fill:none;stroke:#e50012;stroke-width:0.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:1, 3;stroke-dashoffset:0;stroke-opacity:1"
+             d="m 421.22,49.572 -364.428,0 0,89.303 364.428,0 0,-89.303 z" />
+          <g
+             transform="translate(114.7383,135.7891)"
+             id="g3504">
+            <path
+               inkscape:connector-curvature="0"
+               id="path3506"
+               style="fill:none;stroke:#e50012;stroke-width:0.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:1, 3;stroke-dashoffset:0;stroke-opacity:1"
+               d="M 0,0 0,-83.121" />
+          </g>
+        </g>
+      </g>
+      <text
+         id="text3508"
+         style="font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.45390034px;font-family:'Adobe Heiti Std R';-inkscape-font-specification:FZHTJW--GB1-0;writing-mode:tb-rl;fill:#e50012;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         transform="matrix(1,0,0,-1,80.33215,112.19667)">
+        <tspan
+           id="tspan3510"
+           sodipodi:role="line"
+           y="0 14.79929 29.598579 44.397869"
+           x="0">注意事项</tspan>
+      </text>
+      <text
+         id="text3512"
+         style="font-variant:normal;font-weight:normal;font-stretch:normal;font-size:9.24950027px;font-family:FZXiDengXian-Z06S;-inkscape-font-specification:FZXDXJW--GB1-0;writing-mode:lr-tb;fill:#040000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         transform="matrix(1,0,0,-1,127.1655,117.2373)">
+        <tspan
+           id="tspan3514"
+           sodipodi:role="line"
+           y="0"
+           x="0 5.9613028 15.210803 19.650562 24.386307 29.159048 33.894794 43.144291 52.393791 61.643291 70.892792 80.142296 89.391792 98.641296 107.89079 117.14029 126.38979 135.6393 144.88879 154.13829 163.38779 172.6373 181.8868 191.13629 200.38579">1、LOGO要整体使用，不可随意更改比例更换颜色。</tspan>
+        <tspan
+           id="tspan3516"
+           sodipodi:role="line"
+           y="17.657295"
+           x="0 4.5877519 13.837252 23.086752 32.33625 41.585751 50.835251 60.084751 69.334251 78.583755 87.833252 97.082748 106.33225 110.80901 115.75749 125.007 129.66875 134.14549 139.09398 148.34348 152.75549 157.23225 162.18074 171.43024 177.39154 181.86829 186.34505 191.29353">2、在黑白背景时（灰度在0%－30%和90%－100%）</tspan>
+        <tspan
+           id="tspan3518"
+           sodipodi:role="line"
+           y="35.31459"
+           x="0 12.246338 21.495838 30.745338 39.994839 49.244339 58.493839 67.74334 76.992836 86.24234 95.491837 104.74134 109.21809 114.16658 123.41608 129.382 133.85876 138.80725">在彩色背景时（纯度在0%－10%）</tspan>
+        <tspan
+           id="tspan3520"
+           sodipodi:role="line"
+           y="52.971886"
+           x="0 4.6617479 13.911248 23.160748 32.410248 36.850006 41.585751 46.358494 51.094238 60.343739 69.593239 78.842735 88.092239 97.341736 106.59124 115.84074 125.09024 134.33974 143.58923 152.83875 162.08824 171.33774 180.58723 189.83673 199.08624 208.33574 217.58524 226.83473">3、有关LOGO的使用授权问题可咨询法务部、品牌管理部。</tspan>
+      </text>
+    </g>
+  </g>
+</svg>
