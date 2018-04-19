@@ -12,7 +12,7 @@ Each year the main web page needs to be archived to store as a previous year's c
 
 1. Create the new repo in github by going to <https://github.com/organizations/aistats/repositories/new>, use the name coding `aistatsXXXX` where `XXXX` is the year of the archived conference. 
 
-2. Give the conference a description, "Web page for the XXXX AISTATS Conference"
+2. Give the conference a description, "April 9 - 11, Playa Blanca, Lanzarote, Canary Islands"
 
 3. Do *not* create an initial README for the conference. 
 
