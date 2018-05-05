@@ -1,7 +1,7 @@
 
 # Site settings
 title: Artificial Intelligence and Statistics Conference
-email: aistats2018@gmail.com
+email: aistats2019@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
   This is the website of the AISTATS conference.
 baseurl: "" # the subpath of your site, e.g. /blog/
@@ -11,7 +11,7 @@ github_username:  aistats
 
 github:
   edit: true
-  repository: aistats2018.github.io
+  repository: aistats.github.io
 TZ: UTC
 
 # Build settings
@@ -29,11 +29,11 @@ encoding:     "utf-8"
 markdown_ext: "markdown,mkdown,mkdn,mkd,md"
 
 image:
-  file: pvw.i7.png
+  file: fukusyu-en_zenkei1L.jpg
   width: 400
 
 banner:
-  image: banner.png
+  image: banner2019.png
 
 credit_card_image: credit.png
 
@@ -45,87 +45,87 @@ conference:
     url: 
     show: false
   room: Room
-  venue: Hotel H10 Rubicon Palace
-  venue_url: https://www.h10hotels.com/en/lanzarote-hotels/h10-rubicon-palace
-  location: Playa Blanca, Lanzarote, Canary Islands
+  venue: LOISIR Hotel Naha (3-2-1 Nishi, Naha-shi, Okinawa, 900-0036, Japan)
+  venue_url: http://www.solarehotels.com/en/hotel/okinawa/loisir-naha/?_ga=2.26044093.18688415.1504828500-1079017007.1493258416
+  location: Naha, Okinawa, Japan
   full_name: Artificial Intelligence and Statistics
   name: AISTATS
-  year: 2018
-  instance: 21st
+  year: 2019
+  instance: 22nd
   styling: International Conference on
   dates:
-  - 2018-04-09
-  - 2018-04-11
+  - 2019-04-16
+  - 2019-04-18
   submission:
-    url: https://cmt.research.microsoft.com/AISTATS2018/
+    url: #https://cmt.research.microsoft.com/AISTATS2018/
     name: Microsoft CMT website
-  deadlines:  
-  - name: Paper submission deadline
-    type: submission
-    time: 2017-10-13T23:59:00+0
-  - name: Initial reviews available
-    date: 2017-11-22
-  - name: Author feedback deadline
-    date: 2017-11-29
-  - name: Paper decision notifications
-    date: 2017-12-22
-    type: decision
-  - name: Camera ready (for accepted papers) deadline
-    date: 2018-02-20
-    type: camera-ready
-  - name: Early registration deadline
-    date: 2018-01-31
-  - name: Regular registration deadline
-    date: 2018-04-11
+    #  deadlines:  
+    #  - name: Paper submission deadline
+    #    type: submission
+    #    time: 2017-10-13T23:59:00+0
+    #  - name: Initial reviews available
+    #    date: 2017-11-22
+    #  - name: Author feedback deadline
+    #    date: 2017-11-29
+    #  - name: Paper decision notifications
+    #    date: 2017-12-22
+    #    type: decision
+    #  - name: Camera ready (for accepted papers) deadline
+    #    date: 2018-02-20
+    #    type: camera-ready
+    #  - name: Early registration deadline
+    #    date: 2018-01-31
+    #  - name: Regular registration deadline
+    #    date: 2018-04-11
   chairs:
   - type: Program Chairs
     people:
-    - family: Storkey
-      given: Amos
-      url: http://homepages.inf.ed.ac.uk/amos/
-      institute: School of Informatics, University of Edinburgh
-    - family: Perez-Cruz
-      given: Fernando
-      url: http://www.tsc.uc3m.es/~fernando
-      institute: Swiss Data Science Centre, ETH Zurich
-  - type: Workflow Chairs
-    people:
-    - family: Crowley
-      given: Elliot
-      url: http://homepages.inf.ed.ac.uk/ecrowley/
-      institute: School of Informatics, University of Edinburgh
+    - family: Chaudhuri
+      given: Kamalika
+      url: http://cseweb.ucsd.edu/~kamalika/
+      institute: University of California, San Diego
+    - family: Sugiyama
+      given: Masashi
+      url: http://www.ms.k.u-tokyo.ac.jp/sugi/
+      institute: RIKEN and University of Tokyo
+      #  - type: Workflow Chairs
+      #    people:
+      #    - family: Crowley
+      #      given: Elliot
+      #      url: http://homepages.inf.ed.ac.uk/ecrowley/
+      #      institute: School of Informatics, University of Edinburgh
 #    - family: Alfeld
 #      given: Scott
 #      url: http://www.cs.wisc.edu/~salfeld
 #      institute: Department of Computer Sciences, University of Wisconsin -- Madison
-    - family:  Ruiz 
-      given: Francisco
-      url: http://franrruiz.github.io/
-      institute: Columbia University
-  - type: Publicity Chairs
-    people: 
-    - family: Antoniou
-      given: Antreas
-      url: https://www.inf.ed.ac.uk/people/students/Antreas_Antoniou.html
-      institute: School of Informatics, University of Edinburgh
+#    - family:  Ruiz 
+#      given: Francisco
+#      url: http://franrruiz.github.io/
+#      institute: Columbia University
+#  - type: Publicity Chairs
+#    people: 
+#    - family: Antoniou
+#      given: Antreas
+#      url: https://www.inf.ed.ac.uk/people/students/Antreas_Antoniou.html
+#      institute: School of Informatics, University of Edinburgh
 #  - type: Publication Chair
 #    people:
 #    - family:
 #      given: 
 #      url: 
 #      institute: 
-  - type: Fundraising Chair
-    people: 
-    - family: Lacoste-Julien
-      given: Simon
-      url: http://www.di.ens.fr/~slacoste/
-      institute: Universit&eacute; de Montr&eacute;al
-  - type: Proceedings Chair
-    people:
-    - family: Azencott
-      given: Chloe-Agathe
-      url: http://cazencott.info/
-      institute: MINES Paris Tech
+#  - type: Fundraising Chair
+#    people: 
+#    - family: Lacoste-Julien
+#      given: Simon
+#      url: http://www.di.ens.fr/~slacoste/
+#      institute: Universit&eacute; de Montr&eacute;al
+#  - type: Proceedings Chair
+#    people:
+#    - family: Azencott
+#      given: Chloe-Agathe
+#      url: http://cazencott.info/
+#      institute: MINES Paris Tech
 #  - type: Conference Admins
 #    people: 
 #    - family: Smith
