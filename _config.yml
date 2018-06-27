@@ -62,7 +62,7 @@ conference:
   deadlines:
     - name: Paper submission deadline
       type: submission
-      time: 2018-10-05 23:59:00
+      text: Friday, 5 October 2018 23:59 PDT
     - name: Author feedback deadline
       date: 2018-11-20
     - name: Paper decision notifications
