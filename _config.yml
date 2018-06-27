@@ -12,7 +12,7 @@ github_username:  aistats
 github:
   edit: true
   repository: aistats.github.io
-TZ: UTC
+TZ: PDT
 
 # Build settings
 markdown: kramdown
@@ -59,6 +59,17 @@ conference:
   submission:
     url: #https://cmt.research.microsoft.com/AISTATS2018/
     name: Microsoft CMT website
+  deadlines:
+    - name: Paper submission deadline
+      type: submission
+      time: 2018-10-05 23:59:00
+    - name: Author feedback deadline
+      date: 2018-11-20
+    - name: Paper decision notifications
+      date: 2018-12-24
+      type: decision
+    - name: Camera ready (for accepted papers) deadline
+      date: 2019-03-16
     #  deadlines:  
     #  - name: Paper submission deadline
     #    type: submission
@@ -88,6 +99,38 @@ conference:
       given: Masashi
       url: http://www.ms.k.u-tokyo.ac.jp/sugi/
       institute: RIKEN and University of Tokyo
+  - type: Local Chair
+    people:
+    - family: Takeuchi
+      given: Ichiro
+      url: http://www-als.ics.nitech.ac.jp/~takeuchi/
+      institute: Nagoya Institute of Technology and RIKEN
+  - type: Workflow Chairs
+    people:
+    - family: Foulds
+      given: James
+      url: http://jfoulds.informationsystems.umbc.edu/
+      institute: University of Maryland, Baltimore County
+    - family: Yamada
+      given: Makoto
+      url: http://www.makotoyamada-ml.com/
+      institute: Kyoto University and RIKEN
+  - type: Publication Chairs
+    people:
+    - family: Sarkar
+      given: Purna
+      url: https://psarkar.github.io/
+      institute: University of Texas at Austin
+    - family: Takeda
+      given: Akiko
+      url: https://www.opt.mist.i.u-tokyo.ac.jp/~takeda/profile-e.html
+      institute: University of Tokyo and RIKEN
+  - type: Publicity Chair
+    people:
+    - family: Hsu
+      given: Daniel
+      url: http://www.cs.columbia.edu/~djhsu/ 
+      institute: Columbia University
       #  - type: Workflow Chairs
       #    people:
       #    - family: Crowley
