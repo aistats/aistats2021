@@ -60,6 +60,9 @@ conference:
     url: #https://cmt.research.microsoft.com/AISTATS2018/
     name: Microsoft CMT website
   deadlines:
+    - name: Submission server open
+      type: submission
+      text: Friday, 14 September 2018
     - name: Paper submission deadline
       type: submission
       text: Thursday, 4 October 2018 23:59 PDT
