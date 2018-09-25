@@ -75,11 +75,11 @@ conference:
       date: 2019-01-07
     - name: Deadline for camera-ready title and abstract
       date: 2019-01-31
-    - name: Deadline for camera-ready papers
-      date: 2019-03-16
     - name: Early registration deadline
       date: 2019-02-16
     - name: Regular registration deadline
+      date: 2019-03-16
+    - name: Deadline for camera-ready papers
       date: 2019-03-16
     #  deadlines:  
     #  - name: Paper submission deadline
