@@ -57,7 +57,8 @@ conference:
   - 2019-04-16
   - 2019-04-18
   submission:
-    url: #https://cmt.research.microsoft.com/AISTATS2018/
+    show: true
+    url: http://cmt3.research.microsoft.com/AISTATS2019/ #https://cmt.research.microsoft.com/AISTATS2018/
     name: Microsoft CMT website
   deadlines:
     - name: Submission server open
