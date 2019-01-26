@@ -74,14 +74,12 @@ conference:
       type: decision
     - name: Registration open
       text: Monday, 21 January 2019 00:00 UTC
-    - name: Deadline for camera-ready title and abstract
-      date: 2019-01-31
     - name: Early registration deadline
       date: 2019-02-16
     - name: Regular registration deadline
       date: 2019-03-16
     - name: Deadline for camera-ready papers
-      date: 2019-03-16
+      date: 2019-02-25
     #  deadlines:  
     #  - name: Paper submission deadline
     #    type: submission
