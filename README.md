@@ -27,7 +27,7 @@ cd aistatsXXXX
 git branch -m gh-pages
 git push --mirror https://github.com/aistats/aistatsXXXX.git
 ```
-6. Edit the `_config.yml` file in the new repo to set `baseurl` to `aistatsXXXX`
+6. Edit the `_config.yml` file in the new repo to set `baseurl` to `/aistatsXXXX`
 
 7. Check that the archived page appears online at http://aistats.org/aistatsXXXX/
 
