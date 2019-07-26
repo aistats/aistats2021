@@ -1,7 +1,7 @@
 
 # Site settings
 title: Artificial Intelligence and Statistics Conference
-email: aistats2019@gmail.com
+email: aistats2020@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
   This is the website of the AISTATS conference.
 baseurl: "" # the subpath of your site, e.g. /blog/
@@ -50,123 +50,93 @@ conference:
   location: Naha, Okinawa, Japan
   full_name: Artificial Intelligence and Statistics
   name: AISTATS
-  year: 2019
-  instance: 22nd
+  year: 2020
+  instance: 23rd
   styling: International Conference on
   dates:
-  - 2019-04-16
-  - 2019-04-18
+  - 2020-06-03
+  - 2020-06-05
   submission:
     show: true
-    url: http://cmt3.research.microsoft.com/AISTATS2019/ #https://cmt.research.microsoft.com/AISTATS2018/
+    url: http://cmt3.research.microsoft.com/AISTATS2020/ #https://cmt.research.microsoft.com/AISTATS2018/
     name: Microsoft CMT website
   deadlines:
     - name: Submission server open
       type: submission
-      text: Friday, 14 September 2018
+      text: Tuesday, 17 Settember 2019
     - name: Paper submission deadline
       type: submission
-      text: Thursday, 4 October 2018 23:59 PDT
+      text: Tuesday, 8 October 2019 23:59 PDT
     - name: Author feedback deadline
-      date: 2018-11-21
+      date: 2019-11-22
     - name: Paper decision notifications
-      date: 2018-12-24
+      date: 2020-01-06
       type: decision
-    - name: Registration open
-      text: Monday, 21 January 2019 00:00 UTC
-    - name: Early registration deadline
-      date: 2019-02-16
-    - name: Regular registration deadline
-      date: 2019-03-16
-    - name: Deadline for camera-ready papers
-      date: 2019-02-25
-    #  deadlines:  
-    #  - name: Paper submission deadline
-    #    type: submission
-    #    time: 2017-10-13T23:59:00+0
-    #  - name: Initial reviews available
-    #    date: 2017-11-22
-    #  - name: Author feedback deadline
-    #    date: 2017-11-29
-    #  - name: Paper decision notifications
-    #    date: 2017-12-22
-    #    type: decision
-    #  - name: Camera ready (for accepted papers) deadline
-    #    date: 2018-02-20
-    #    type: camera-ready
-    #  - name: Early registration deadline
-    #    date: 2018-01-31
-    #  - name: Regular registration deadline
-    #    date: 2018-04-11
+    #  name: Registration open
+    # text: Monday, 21 January 2019 00:00 UTC
+    # - name: Early registration deadline
+    # date: 2019-02-16
+    # - name: Regular registration deadline
+    # date: 2019-03-16
+    # - name: Deadline for camera-ready papers
+    # date: 2019-02-25
   chairs:
   - type: Program Chairs
     people:
-    - family: Chaudhuri
-      given: Kamalika
-      url: http://cseweb.ucsd.edu/~kamalika/
-      institute: University of California, San Diego
-    - family: Sugiyama
-      given: Masashi
-      url: http://www.ms.k.u-tokyo.ac.jp/sugi/
-      institute: RIKEN and University of Tokyo
+    - family: Calandra
+      given: Roberto
+      url: https://www.robertocalandra.com/about/
+      institute: Facebook AI Research
+    - family: Chiappa
+      given: Silvia
+      url: https://csilviavr.github.io/
+      institute: DeepMind
   - type: Local Chair
     people:
-    - family: Takeuchi
-      given: Ichiro
-      url: http://www-als.ics.nitech.ac.jp/~takeuchi/
-      institute: Nagoya Institute of Technology and RIKEN
+    - family: Lo presti
+      given: Liliana
+      url: http://www.diid.unipa.it/cvip/people/lopresti/
+      institute: University of Palermo
   - type: Workflow Chairs
     people:
-    - family: Foulds
-      given: James
-      url: http://jfoulds.informationsystems.umbc.edu/
-      institute: University of Maryland, Baltimore County
-    - family: Yamada
-      given: Makoto
-      url: http://www.makotoyamada-ml.com/
-      institute: Kyoto University and RIKEN
-  - type: Publication Chairs
+    - family: Paganini
+      given: Michela
+      url: https://mickypaganini.github.io/
+      institute: Facebook AI Research
+    - family: Trovò
+      given: Francesco
+      url: https://home.deib.polimi.it/trovo/index.html
+      institute: Politecnico di Milano 
+  - type: Publication Chair
     people:
-    - family: Sarkar
-      given: Purna
-      url: https://psarkar.github.io/
-      institute: University of Texas at Austin
-    - family: Takeda
-      given: Akiko
-      url: https://www.opt.mist.i.u-tokyo.ac.jp/~takeda/profile-e.html
-      institute: University of Tokyo and RIKEN
+    - family: Restrelli      
+      given: Marcello
+      url: http://home.deib.polimi.it/restelli/MyWebSite/index.shtml
+      institute: Politecnico di Milano
   - type: Publicity Chair
     people:
-    - family: Hsu
-      given: Daniel
-      url: http://www.cs.columbia.edu/~djhsu/ 
-      institute: Columbia University
-      #  - type: Workflow Chairs
-      #    people:
-      #    - family: Crowley
-      #      given: Elliot
-      #      url: http://homepages.inf.ed.ac.uk/ecrowley/
-      #      institute: School of Informatics, University of Edinburgh
-#    - family: Alfeld
-#      given: Scott
-#      url: http://www.cs.wisc.edu/~salfeld
-#      institute: Department of Computer Sciences, University of Wisconsin -- Madison
-#    - family:  Ruiz 
-#      given: Francisco
-#      url: http://franrruiz.github.io/
-#      institute: Columbia University
-#  - type: Publicity Chairs
-#    people: 
-#    - family: Antoniou
-#      given: Antreas
-#      url: https://www.inf.ed.ac.uk/people/students/Antreas_Antoniou.html
-#      institute: School of Informatics, University of Edinburgh
-#  - type: Publication Chair
-#    people:
-#    - family:
-#      given: 
-#      url: 
-#      institute: 
+    - family: Ricci
+      given: Elisa
+      url: http://elisaricci.eu/
+      institute: University of Trento 
+  - type: Family Chair
+    people:
+    - family: Huszár
+      given: Ferenc
+      url: https://www.inference.vc/about/
+      institute: Twitter 
+  - type: D&I Chair
+    people:
+    - family: Belgrave
+      given: Danielle 
+      url: https://www.imperial.ac.uk/people/d.belgrave
+      institute: Microsoft Research Cambridge
+  - type: D&I Chair
+    people:
+    - family: Palla
+      given: Konstantina 
+      url: https://www.microsoft.com/en-us/research/people/kopalla/
+      institute: Microsoft Research Cambridge
 #  - type: Fundraising Chair
 #    people: 
 #    - family: Lacoste-Julien
