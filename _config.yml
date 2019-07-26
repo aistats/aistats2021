@@ -45,9 +45,9 @@ conference:
     url: http://proceedings.mlr.press/v89/
     show: true
   room: Room
-  venue: LOISIR Hotel Naha (3-2-1 Nishi, Naha-shi, Okinawa, 900-0036, Japan)
-  venue_url: http://www.solarehotels.com/en/hotel/okinawa/loisir-naha/?_ga=2.26044093.18688415.1504828500-1079017007.1493258416
-  location: Naha, Okinawa, Japan
+  venue: Teatro Politeama, Palermo, Italy
+  venue_url: 
+  location: Palermo, Sicily, Italy
   full_name: Artificial Intelligence and Statistics
   name: AISTATS
   year: 2020
@@ -131,7 +131,7 @@ conference:
       given: Danielle 
       url: https://www.imperial.ac.uk/people/d.belgrave
       institute: Microsoft Research Cambridge
-  - type: D&I Chair
+  - type: Sponsorship Chair
     people:
     - family: Palla
       given: Konstantina 
