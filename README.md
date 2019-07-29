@@ -20,7 +20,7 @@ Each year the main web page needs to be archived to store as a previous year's c
 
 4. Create the Repo.
 
-**This step can be done with an account that has write access to the aistats.github.io.git**
+**These steps can be done with an account that has write access to the aistats.github.io.git**
 
 5. Go to a suitable directory on your machine and type:
 
