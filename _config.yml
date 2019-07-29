@@ -63,7 +63,7 @@ conference:
   deadlines:
     - name: Submission server open
       type: submission
-      text: Tuesday, 17 Settember 2019
+      text: Tuesday, 17 September 2019
     - name: Paper submission deadline
       type: submission
       text: Tuesday, 8 October 2019 23:59 PDT
