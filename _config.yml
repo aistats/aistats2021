@@ -57,7 +57,7 @@ conference:
   - 2020-06-03
   - 2020-06-05
   submission:
-    show: true
+    show: false
     url: http://cmt3.research.microsoft.com/AISTATS2020/ #https://cmt.research.microsoft.com/AISTATS2018/
     name: Microsoft CMT website
   deadlines:
