@@ -43,7 +43,7 @@ conference:
   hide_tentative: true
   proceedings:
     url: http://proceedings.mlr.press/v89/
-    show: true
+    show: false
   room: Room
   venue: Teatro Politeama, Palermo, Italy
   venue_url: 
