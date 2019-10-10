@@ -68,7 +68,7 @@ conference:
       type: submission
       text: Tuesday, 8 October 2019 23:59 PDT
     - name: Author feedback deadline
-      date: 2019-11-25
+      date: 2019-11-28
     - name: Paper decision notifications
       date: 2020-01-06
       type: decision
