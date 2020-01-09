@@ -85,14 +85,14 @@ conference:
   chairs:
   - type: Program Chairs
     people:
-    - family: Calandra
-      given: Roberto
-      url: https://www.robertocalandra.com/about/
-      institute: Facebook AI Research
     - family: Chiappa
       given: Silvia
       url: https://csilviavr.github.io/
       institute: DeepMind
+    - family: Calandra
+      given: Roberto
+      url: https://www.robertocalandra.com/about/
+      institute: Facebook AI Research
   - type: Local Chair
     people:
     - family: Lo Presti
@@ -101,14 +101,14 @@ conference:
       institute: University of Palermo
   - type: Workflow Chairs
     people:
-    - family: Paganini
-      given: Michela
-      url: https://mickypaganini.github.io/
-      institute: Facebook AI Research
     - family: Trovò
       given: Francesco
       url: https://home.deib.polimi.it/trovo/index.html
       institute: Politecnico di Milano 
+    - family: Paganini
+      given: Michela
+      url: https://mickypaganini.github.io/
+      institute: Facebook AI Research
   - type: Publication Chair
     people:
     - family: Restelli      
