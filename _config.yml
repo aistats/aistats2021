@@ -81,7 +81,7 @@ conference:
     # - name: Regular registration deadline
     # date: 2019-03-16
     - name: Deadline for camera-ready papers
-      date: 2020-02-29
+      text: Saturday, 29 February 2020 15:59 UTC  
   chairs:
   - type: Program Chairs
     people:
