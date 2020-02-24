@@ -105,10 +105,10 @@ conference:
       given: Francesco
       url: https://home.deib.polimi.it/trovo/index.html
       institute: Politecnico di Milano 
-    - family: Paganini
-      given: Michela
-      url: https://mickypaganini.github.io/
-      institute: Facebook AI Research
+#     - family: Paganini
+#       given: Michela
+#       url: https://mickypaganini.github.io/
+#       institute: Facebook AI Research
   - type: Publication Chair
     people:
     - family: Restelli      
