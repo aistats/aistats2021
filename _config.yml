@@ -88,11 +88,11 @@ conference:
     - family: Chiappa
       given: Silvia
       url: https://csilviavr.github.io/
-      institute: DeepMind, aistats2020@gmail.com 
+      institute: DeepMind
     - family: Calandra
       given: Roberto
       url: https://www.robertocalandra.com/about/
-      institute: Facebook AI Research, aistats2020@gmail.com 
+      institute: Facebook AI Research
   - type: Local Chair
     people:
     - family: Lo Presti
@@ -114,7 +114,7 @@ conference:
     - family: Restelli      
       given: Marcello
       url: http://home.deib.polimi.it/restelli/MyWebSite/index.shtml
-      institute: Politecnico di Milano, aistats2020pc@gmail.com 
+      institute: Politecnico di Milano
   - type: Publicity Chair
     people:
     - family: Ricci
@@ -126,19 +126,19 @@ conference:
     - family: Huszár
       given: Ferenc
       url: https://www.inference.vc/about/
-      institute: Twitter, aistats2020dfi@gmail.com 
+      institute: Twitter
   - type: D&I Chair
     people:
     - family: Belgrave
       given: Danielle 
       url: https://www.imperial.ac.uk/people/d.belgrave
-      institute: Microsoft Research Cambridge, aistats2020dfi@gmail.com 
+      institute: Microsoft Research Cambridge
   - type: Sponsorship Chair
     people:
     - family: Palla
       given: Konstantina 
       url: https://www.microsoft.com/en-us/research/people/kopalla/
-      institute: Microsoft Research Cambridge, aistats2020sc@gmail.com 
+      institute: Microsoft Research Cambridge
 #  - type: Fundraising Chair
 #    people: 
 #    - family: Lacoste-Julien
