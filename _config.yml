@@ -42,8 +42,8 @@ conference:
   logo: logo.jpg
   hide_tentative: true
   proceedings:
-    url: http://proceedings.mlr.press/v89/
-    show: false
+    url: http://proceedings.mlr.press/v108/
+    show: true
   room: Room
   venue: Teatro Politeama
   venue_url: 
