@@ -54,8 +54,8 @@ conference:
   instance: 23rd
   styling: International Conference on
   dates:
-  - 2020-06-03
-  - 2020-06-05
+  - 2020-10-26
+  - 2020-10-28
   submission:
     show: false
     url: http://cmt3.research.microsoft.com/AISTATS2020/ #https://cmt.research.microsoft.com/AISTATS2018/
@@ -74,12 +74,8 @@ conference:
     - name: Paper decision notifications
       date: 2020-01-06
       type: decision
-    - name: Registration open
-      text: Around mid February 
-    # - name: Early registration deadline
-    # date: 2019-02-16
-    # - name: Regular registration deadline
-    # date: 2019-03-16
+    - name: Registration deadline
+      date: 2020-08-10
     - name: Deadline for camera-ready papers
       text: Saturday, 29 February 2020 15:59 UTC  
   chairs:
