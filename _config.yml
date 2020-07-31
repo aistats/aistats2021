@@ -1,7 +1,7 @@
 
 # Site settings
 title: Artificial Intelligence and Statistics Conference
-email: aistats2020@gmail.com
+email: aistats2021pc@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
   This is the website of the AISTATS conference.
 baseurl: "/aistats2021" # the subpath of your site, e.g. /blog/
@@ -45,11 +45,11 @@ conference:
     show: true
   room: Room
   venue: Teatro Politeama
-  venue_url: 
-  location: Palermo, Sicily, Italy
+  venue_url:
+  location: San Diego, California, USA
   full_name: Artificial Intelligence and Statistics
   name: AISTATS
-  year: 2020
+  year: 2021
   instance: 23rd
   styling: International Conference on
   dates:
@@ -57,7 +57,7 @@ conference:
   - <del> 2020-06-05</del> 2020-10-28
   submission:
     show: false
-    url: http://cmt3.research.microsoft.com/AISTATS2020/ 
+    url: http://cmt3.research.microsoft.com/AISTATS2021/
     name: Microsoft CMT website
   deadlines:
     - name: Submission server open
@@ -69,12 +69,12 @@ conference:
     - name: Author response period starts
       date: 2019-11-24
     - name: Author response period ends
-      text: Saturday, 30 November 2019 20:59 UTC    
+      text: Saturday, 30 November 2019 20:59 UTC
     - name: Paper decision notifications
       date: 2020-01-06
       type: decision
     - name: Deadline for camera-ready papers
-      text: Saturday, 29 February 2020 15:59 UTC  
+      text: Saturday, 29 February 2020 15:59 UTC
     - name: Registration deadline
       date: 2020-08-10
 
@@ -100,10 +100,10 @@ conference:
     - family: Trovò
       given: Francesco
       url: https://home.deib.polimi.it/trovo/index.html
-      institute: Politecnico di Milano 
+      institute: Politecnico di Milano
   - type: Publication Chair
     people:
-    - family: Restelli      
+    - family: Restelli
       given: Marcello
       url: http://home.deib.polimi.it/restelli/MyWebSite/index.shtml
       institute: Politecnico di Milano
@@ -122,13 +122,13 @@ conference:
   - type: D&I Chair
     people:
     - family: Belgrave
-      given: Danielle 
+      given: Danielle
       url: https://www.imperial.ac.uk/people/d.belgrave
       institute: Microsoft Research Cambridge
   - type: Sponsorship Chair
     people:
     - family: Palla
-      given: Konstantina 
+      given: Konstantina
       url: https://www.microsoft.com/en-us/research/people/kopalla/
       institute: Microsoft Research Cambridge
 
