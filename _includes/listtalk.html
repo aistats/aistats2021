@@ -1,6 +1,0 @@
-<br>{{ talk.start }}{% if talk.end %}- {{ talk.end }}{% endif %} {% if talk.title %}<b>{{talk.title}}</b> {% endif %}{% assign lastone={{talk.author | last }} %}{% for person in talk.author %}{% include listperson.html %}{% endfor %}{% if talk.slides %} [<a href="{{ site.url }}{{ site.baseurl }}/slides/{{ talk.slides }}">slides</a>]{% endif %}{% if talk.ipynb %}[<a href=https://nbviewer.jupyter.org/github/{{ site.github_username }}/{{ site.github.repository }}/blob/gh-pages/slides/{{ talk.ipynb }}>jupyter notebook</a>]{% endif %}</br>{% if talk.room %}
-<br><i>{{talk.room }}</i>{% endif %}{% if talk.abstract %}
-<p>{{ talk.abstract }}</p>{% endif %}{% if talk.bio %}
-<p><font color=blue><u>Bio</u>: {{ talk.bio }}</p>{% endif %}{% if talk.youtube %} 
-<iframe width="{{ site.youtube.width }}" height="{{ site.youtube.height }}" src="https://www.youtube.com/embed/{{ talk.youtube }}" frameborder="0" allowfullscreen></iframe>
-{% endif %}

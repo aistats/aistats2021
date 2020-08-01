@@ -1,32 +1,15 @@
-  <center>
-    <table border="0" width="1080" cellpadding="0" cellspacing="0">
-      <tr>
-	<td>
-	  <table border="0" width="830px" cellpadding="0" cellspacing="0">
-	    <tr><td class="leftborder" width="30px"></td><td>
-		<div class="container">
-		  <div class="os">
-		    <div class="logoImageCell"><img src="{{ site.baseurl }}/image/{{ site.conference.logo }}" class="right" alt="[{{ site.conference.name }} Logo]"></div>
-		    <div class="logoTextCell">{{ site.conference.name }} {{ site.conference.year }}</div>
-		  </div>
-		  
-		  
-		  <div class="leftmenu">
-		    <ul id="leftnavlist">
-		      <!-- Conference overview -->
-		      {% assign pages = site.pages | sort:"navigation_weight"  %}
-		      {% for p in pages%}{% if p.title %}{% unless p.hide %}{% assign l = p.title | downcase | replace:' ','-' | replace:',','' | replace: '/','' %}		      <li><a id="{{ l }}" href="{{ p.url | prepend: site.baseurl }}">{{ p.title }}</a>{% endunless %}{% endif %}{% endfor %}
-          {% if site.conference.submission.show %}
-          {% if site.conference.submission.url %}<li><a href="{{ site.conference.submission.url }}" target="_blank">Submission Site</a></li>{% endif %}{% endif %}
-		      {% if site.conference.proceedings.show %}
-		      {% if site.conference.proceedings.url %}<li><a href="{{ site.conference.proceedings.url }}" target="_blank">Proceedings</a></li>{% endif %}{% endif %}
-		      
-		    </ul>
-		    
-		  </div>
+<div class="hero-image">
+  <div class="hero-text">
+    <img src="{{ site.baseurl }}/assets/images/{{ site.conference.logo }}" alt="[{{ site.conference.name }} Logo]">
+  {{ site.conference.name }} {{ site.conference.year }}</div>
+</div>
+<div class="leftmenu">
+  {% include nav-bar.html %}
+</div>
+
 {% if page.title %}
 {% assign label = page.title | downcase | replace:' ','-' | replace:',','' | replace: '/','' %}
-  <script type="text/javascript">
-    document.getElementById('{{ label }}').id='leftcurrent';
-  </script>
+<script type="text/javascript">
+  document.getElementById('{{ label }}').id='leftcurrent';
+</script>
 {% endif %}

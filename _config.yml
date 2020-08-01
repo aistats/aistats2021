@@ -8,9 +8,17 @@ baseurl: "/aistats2021" # the subpath of your site, e.g. /blog/
 #twitter_username: aistat
 github_username:  aistats
 
-github:
+author:
+  name: AISTATS
+comments: false
+plugins:
+- jekyll-remote-theme
+remote_theme: lawrennd/proceedings
+
+ghub:
   edit: true
   repository: aistats2021
+
 TZ: PDT
 
 # Build settings
@@ -19,20 +27,12 @@ markdown: kramdown
 # change encoding for the generated output files to utf-8
 encoding: utf-8
 
-# Handling Reading
-#safe:         false
-#include:      [".htaccess"]
-exclude: [ "accommodation.html", "andreas_krause.html", "david_blei.html", "jeniffer_hill.html", "student_volunteers_application.html" ]
-keep_files:   [".git", ".svn"]
-encoding:     "utf-8"
-markdown_ext: "markdown,mkdown,mkdn,mkd,md"
-
 image:
   file: Palermo.jpg
   width: 400
 
 banner:
-  image: TaorminaTheatre.png
+  image: TaorminaTheatre.jpg # Banner image should be placed in assets/images
 
 credit_card_image: credit.png
 
@@ -41,8 +41,8 @@ conference:
   logo: logo.jpg
   hide_tentative: true
   proceedings:
-    url: http://proceedings.mlr.press/v108/
-    show: true
+    url: 
+    show: false
   room: Room
   venue: Teatro Politeama
   venue_url:
