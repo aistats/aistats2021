@@ -40,7 +40,7 @@ conference:
   proceedings:
     url: 
     show: false
-  room: Room
+  room: 
   venue: Teatro Politeama
   venue_url:
   location: San Diego, California, USA

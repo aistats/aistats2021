@@ -1,12 +1,15 @@
-# aistats.github.io
+# AISTATS 2021
 
-The AISTATS current webpage.
+This is the webpage for AISTATS 2021.
+
+The AISTATS webpages are hosted on github and generated using a custom theme from Jekyll.
+
+
 
 This repository contains the current AISTATS conference page. Once the year has past it can be archived to aistats20XX and modified to form the next year's page.
 
+## To Create a New Conference Page follow these Instructions
 
-
-## Archiving Last Year's Page
 
 Each year the main web page needs to be archived to store as a previous year's conference. To do this, the first thing you need to do is duplicate this repository. 
 
@@ -14,7 +17,7 @@ Each year the main web page needs to be archived to store as a previous year's c
 
 1. Create the new repo in github by going to <https://github.com/organizations/aistats/repositories/new>, use the name coding `aistatsXXXX` where `XXXX` is the year of the archived conference. 
 
-2. Give the conference a description, "April 9 - 11, Playa Blanca, Lanzarote, Canary Islands"
+2. Give the conference a description e.g., "April 9 - 11, Playa Blanca, Lanzarote, Canary Islands"
 
 3. Do *not* create an initial README for the conference. 
 
@@ -25,8 +28,8 @@ Each year the main web page needs to be archived to store as a previous year's c
 5. Go to a suitable directory on your machine and type:
 
 ```
-git clone --bare https://github.com/aistats/aistats.github.io.git
-mv aistats.github.io.git aistatsXXXX
+git clone --bare https://github.com/aistats/stub.git
+mv stub.git aistatsXXXX
 cd aistatsXXXX
 git branch -m gh-pages
 git push --mirror https://github.com/aistats/aistatsXXXX.git
