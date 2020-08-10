@@ -1,25 +1,6 @@
 ---
-layout: default
-title: Past Meetings
-navigation_weight: 10
+title: Other Meetings
+layout: other
 ---
-<!--| sort: 'name'-->
-{% assign sorted = (site.github.public_repositories)  %}
-  
-<h1>Past Meetings</h1>
-<ul>
-  {% for repository in sorted reversed %}{% if repository.has_pages %}{% unless repository.name contains 'github.io' %}{% if repository.name contains 'aistats' %}
-  <li>
-    <a href="{{ repository.name | prepend: site.baseurl }}"><b>AISTATS {{ repository.name | remove_first: "aistats" }}</b></a> {{ repository.description }} 
-  </li>
-    {% endif %}{% endunless %}{% endif %}{% endfor %}    
-  <li><a href="http://www.ics.uci.edu/~aistats/">AISTATS 2009</a> </li>
-  <li><a href="http://www.stat.umn.edu/%7Eaistat/">AISTATS 2007</a></li>
-  <li><a href="http://www.gatsby.ucl.ac.uk/aistats/index.html">AISTATS 2005</a></li>
-  <li><a href="http://research.microsoft.com/conferences/aistats2003/">AISTATS 2003</a></li>
-  <li><a href="http://www.gatsby.ucl.ac.uk/aistats/aistats2001/index.html">AISTATS 2001</a></li>
-  <li><a href="http://www.gatsby.ucl.ac.uk/aistats/workshops.html">AISTATS 1985-1999</a></li>
-  <br>
-  <li><a href="http://www.gatsby.ucl.ac.uk/aistats/society.html">Society for AI and Statistics</a></li>
-</ul>
 
+<a href="/">The Society for AI and Statistics Main Website</a>
