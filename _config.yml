@@ -29,30 +29,30 @@ markdown: kramdown
 # change encoding for the generated output files to utf-8
 encoding: utf-8
 
-banner: TaorminaTheatre.jpg # Banner image should be placed in assets/images
+banner: san_diego.jpg # Banner image should be placed in assets/images
 
 credit_card_image: credit.png
 
 conference:
   draft: true # set to True if the programme is draft only.
-  image: Palermo.jpg
+  image: san_diego_square.jpg
   hide_tentative: true
   proceedings:
-    url: 
+    url:
     show: false
-  room: 
-  venue: Teatro Politeama
+  room:
+  venue: San Diego Convention Center
   venue_url:
   location: San Diego, California, USA
   full_name: Artificial Intelligence and Statistics
   short_name: AISTATS
   name: Artificial Intelligence and Statistics
   year: 2021
-  instance: 23rd
+  instance: 24th
   styling: International Conference on
   dates:
-  - <del> 2020-06-03</del> 2020-10-26
-  - <del> 2020-06-05</del> 2020-10-28
+  - <del> 2021-04-13</del> 2020-10-26
+  - <del> 2021-04-15</del> 2020-10-28
   submission:
     show: false
     url: http://cmt3.research.microsoft.com/AISTATS2021/
@@ -78,56 +78,56 @@ conference:
   chairs:
   - type: Program Chairs
     people:
-    - family: Chiappa
-      given: Silvia
-      url: https://csilviavr.github.io/
-      institute: DeepMind
-    - family: Calandra
-      given: Roberto
-      url: https://www.robertocalandra.com/about/
-      institute: Facebook AI Research
+    - family: Banerjee
+      given: Arindam
+      url: https://www-users.cs.umn.edu/~banerjee/
+      institute: University of Minnesota
+    - family: Fukumizu
+      given: Kenji
+      url: https://www.ism.ac.jp/~fukumizu/
+      institute: The Institute of Statistical Mathematics
   - type: Local Chair
     people:
-    - family: Lo Presti
-      given: Liliana
-      url: http://www.diid.unipa.it/cvip/people/lopresti/
-      institute: University of Palermo
+    - family: TBD
+      given: TBD
+      url:
+      institute:
   - type: Workflow Chairs
     people:
-    - family: Trovò
-      given: Francesco
-      url: https://home.deib.polimi.it/trovo/index.html
-      institute: Politecnico di Milano
+    - family: Jitkrittum
+      given: Wittawat
+      url: http://wittawat.com/
+      institute: Google Research
   - type: Publication Chair
     people:
-    - family: Restelli
-      given: Marcello
-      url: http://home.deib.polimi.it/restelli/MyWebSite/index.shtml
-      institute: Politecnico di Milano
+    - family: Muandet
+      given: Krikamol
+      url: http://www.krikamol.org/
+      institute: Max Planck Institute for Intelligent Systems
   - type: Publicity Chair
     people:
-    - family: Ricci
-      given: Elisa
-      url: http://elisaricci.eu/
-      institute: University of Trento & FBK
+    - family: Giaquinto
+      given: Robert
+      url: https://www-users.cs.umn.edu/~giaquinto/
+      institute: University of Minnesota
   - type: Family Chair
     people:
-    - family: Huszár
-      given: Ferenc
-      url: https://www.inference.vc/about/
-      institute: Twitter
+    - family: TBD
+      given: TBD
+      url:
+      institute: TBD
   - type: D&I Chair
     people:
-    - family: Belgrave
-      given: Danielle
-      url: https://www.imperial.ac.uk/people/d.belgrave
-      institute: Microsoft Research Cambridge
+    - family: TBD
+      given: TBD
+      url:
+      institute: TBD
   - type: Sponsorship Chair
     people:
-    - family: Palla
-      given: Konstantina
-      url: https://www.microsoft.com/en-us/research/people/kopalla/
-      institute: Microsoft Research Cambridge
+    - family: TBD
+      given: TBD
+      url:
+      institute: TBD
 
 previous_meeting:
   name:
