@@ -100,7 +100,7 @@ conference:
       given:
       url:
       institute:
-  - type: Workflow Chairs
+  - type: Workflow Chair
     people:
     - family: Jitkrittum
       given: Wittawat
