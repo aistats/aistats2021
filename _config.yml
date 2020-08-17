@@ -35,7 +35,7 @@ credit_card_image: credit.png
 
 conference:
   draft: true # set to True if the programme is draft only.
-  image: san_diego_square.jpg
+  image: san_diego_square_night.jpg
   hide_tentative: true
   proceedings:
     url:
@@ -51,8 +51,8 @@ conference:
   instance: 24th
   styling: International Conference on
   dates:
-  - <del> 2021-04-13</del> 2020-10-26
-  - <del> 2021-04-15</del> 2020-10-28
+  - 2021-04-13
+  - 2021-04-15
   submission:
     show: false
     url: http://cmt3.research.microsoft.com/AISTATS2021/
@@ -60,21 +60,29 @@ conference:
   deadlines:
     - name: Submission server open
       type: submission
-      text: Tuesday, 17 September 2019
+      text: September 8, 2020
+      date: 2020-09-08 08:00 -08:00
+    - name: Abstract submission
+      type: submission
+      text: October 8, 2020, 08:00 AM PDT
+      date: 2020-10-08 08:00 -08:00
     - name: Paper submission deadline
       type: submission
-      text: Tuesday, 8 October 2019 23:59 PDT
-    - name: Author response period starts
-      date: 2019-11-24
-    - name: Author response period ends
-      text: Saturday, 30 November 2019 20:59 UTC
-    - name: Paper decision notifications
-      date: 2020-01-06
+      text: October 15, 2020, 08:00 AM PDT
+      date: 2020-10-15 08:00 -08:00
+    - name: Reviews released
+      text: November 23, 2020
+      date: 2020-11-23
+    - name: Author rebuttals due
+      text: November 28, 2020
+      date: 2020-11-28
+    - name: Final decisions
       type: decision
+      date: 2021-01-08
     - name: Deadline for camera-ready papers
-      text: Saturday, 29 February 2020 15:59 UTC
+      date:
     - name: Registration deadline
-      date: 2020-08-10
+      date:
   chairs:
   - type: Program Chairs
     people:
@@ -88,8 +96,8 @@ conference:
       institute: The Institute of Statistical Mathematics
   - type: Local Chair
     people:
-    - family: TBD
-      given: TBD
+    - family:
+      given:
       url:
       institute:
   - type: Workflow Chairs
@@ -112,22 +120,22 @@ conference:
       institute: University of Minnesota
   - type: Family Chair
     people:
-    - family: TBD
-      given: TBD
+    - family:
+      given:
       url:
-      institute: TBD
+      institute:
   - type: D&I Chair
     people:
-    - family: TBD
-      given: TBD
+    - family:
+      given:
       url:
-      institute: TBD
+      institute:
   - type: Sponsorship Chair
     people:
-    - family: TBD
-      given: TBD
-      url:
-      institute: TBD
+    - family: Sha
+      given: Fei
+      url: https://viterbi-web.usc.edu/~feisha/
+      institute: University of Southern California
 
 previous_meeting:
   name:
