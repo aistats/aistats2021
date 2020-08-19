@@ -18,7 +18,7 @@ remote_theme: lawrennd/proceedings
 style: aistats
 
 ghub:
-  edit: true
+  edit: false
   repository: aistats2021
 
 TZ: PDT
@@ -62,7 +62,7 @@ conference:
       type: submission
       text: September 8, 2020
       date: 2020-09-08 08:00 -08:00
-    - name: Abstract submission
+    - name: Abstract submission deadline
       type: submission
       text: October 8, 2020, 08:00 AM PDT
       date: 2020-10-08 08:00 -08:00
@@ -94,12 +94,12 @@ conference:
       given: Kenji
       url: https://www.ism.ac.jp/~fukumizu/
       institute: The Institute of Statistical Mathematics
-  - type: Local Chair
-    people:
-    - family:
-      given:
-      url:
-      institute:
+  # - type: Local Chair
+  #   people:
+  #   - family:
+  #     given:
+  #     url:
+  #     institute:
   - type: Workflow Chair
     people:
     - family: Jitkrittum
@@ -118,18 +118,18 @@ conference:
       given: Robert
       url: https://www-users.cs.umn.edu/~giaquinto/
       institute: University of Minnesota
-  - type: Family Chair
-    people:
-    - family:
-      given:
-      url:
-      institute:
-  - type: D&I Chair
-    people:
-    - family:
-      given:
-      url:
-      institute:
+  # - type: Family Chair
+  #   people:
+  #   - family:
+  #     given:
+  #     url:
+  #     institute:
+  # - type: D&I Chair
+  #   people:
+  #   - family:
+  #     given:
+  #     url:
+  #     institute:
   - type: Sponsorship Chair
     people:
     - family: Sha
