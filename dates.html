@@ -5,7 +5,7 @@ hide: false
 navigation_weight: 5
 ---
 
-<h1>{{ site.conference.name }} {{ site.conference.year }}</h1>
+<h1>{{ site.conference.short_name }} {{ site.conference.year }} Key Dates</h1>
 
 <table border="0" cellpadding="2" cellspacing="0" width="90%">
   {% for deadline in site.conference.deadlines %}
@@ -19,7 +19,6 @@ navigation_weight: 5
 
 <ul>
   <li>Please be careful to account for summer time differences. For example, 23:59 PDT is 6:59 UTC the next day.</li>
-  <!--  <li>All dates and times are <B>UTC</B>. Please be careful to account for summer time differences.</li> -->
   <li>For more locations, please refer to <a onclick="window.open(this.href); return false;" href="http://www.timeanddate.com/worldclock/converter.html">time zone converter</a>.</li>
   </li>
 </ul>
