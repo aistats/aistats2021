@@ -79,10 +79,10 @@ conference:
     - name: Final decisions
       type: decision
       date: 2021-01-08
-    - name: Deadline for camera-ready papers
-      date:
-    - name: Registration deadline
-      date:
+    # - name: Deadline for camera-ready papers
+    #   date:
+    # - name: Registration deadline
+    #   date:
   chairs:
   - type: Program Chairs
     people:
