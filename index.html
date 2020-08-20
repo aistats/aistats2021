@@ -1,8 +1,23 @@
 ---
 title: Home
-layout: home
+layout: default
 weight: 1
 ---
+
+<h1>The {{ site.conference.instance }} {{ site.conference.styling }} <br> {{site.conference.full_name }}</h1>
+
+<h3>{{ site.conference.dates[0] | date: "%B %-d"}} - {{ site.conference.dates.last | date: "%-d, %Y" }}<br>
+    {{ site.conference.location }} and Online</h3>
+
+
+<center><img src="{{ site.baseurl }}/assets/images/{{ site.conference.image }}" alt="Conference image" width="60%"></center>
+
+<p>The {{ site.conference.instance }} {{ site.conference.styling }} {{site.conference.full_name }} ({{ site.conference.short_name }} {{ site.conference.year }}) will tentatively be held in {{ site.conference.location }} from <b>{{ site.conference.dates[0] | date: "%A, %-d %B %Y" }} to {{ site.conference.dates.last | date: "%A, %-d %B %Y" }}</b>.</p>
+<!-- at the <a href="{{ site.conference.venue_url }}">{{ site.conference.venue }}</a> -->
+
+<p>Since its inception in 1985, AISTATS has been an interdisciplinary gathering of researchers at the intersection of artificial intelligence, machine learning, statistics, and related areas.</p>
+
+{%if site.conference.proceedings.show %}<p>The <a href="{{ site.conference.proceedings.url }}">Proceedings of {{ site.conference.name }} {{ site.conference.year }}</a> are now available.</p>{% endif %}
 
 <br>
 
