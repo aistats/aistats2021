@@ -18,7 +18,7 @@ remote_theme: lawrennd/proceedings
 style: aistats
 
 ghub:
-  edit: true
+  edit: false
   repository: aistats2021
 
 TZ: PDT
