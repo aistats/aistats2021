@@ -1,6 +1,6 @@
 ---
 title: Home
-layout: default
+layout: home
 weight: 1
 ---
 
