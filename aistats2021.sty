@@ -1,7 +1,7 @@
 % File:  aistats2021.sty
 
 % Modified by Robert Giaquinto and Krikamol Muandet 2021: changed
-% venue, year, and volume number.
+% venue, year, and volume number. Adjust spacing in the copyright box.
 %
 % Modified by Marcello Restelli, 2020: changed \evensidemargin and
 % \oddsidemargin in order to center the text with respect to the page.
@@ -38,15 +38,14 @@
 % Originally this file contains the LaTeX formatting parameters for the Morgan
 % Kaufmann two column, 8 1/2 by 11 inch proceedings format.
 
-
 \NeedsTeXFormat{LaTeX2e}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Content to be changed from year to year
 
-\ProvidesPackage{aistats2021}[2020/08/20 AISTATS2021 submission/camera-ready style file]
+\ProvidesPackage{aistats2021}[2020/08/23 AISTATS2021 submission/camera-ready style file]
 
-\newcommand{\@conferenceordinal}{24\textsuperscript{rd}}
+\newcommand{\@conferenceordinal}{24\textsuperscript{th}}
 \newcommand{\@conferenceyear}{2021}
 \newcommand{\@conferencelocation}{San Diego, California, USA}
 \newcommand{\@conferencevolume}{108}  % To be assigned by JMLR
@@ -68,7 +67,7 @@
 \newcommand{\statePaper}{0}
 \newcommand{\acceptedPaper}{1}
 \newcommand{\Notice@String}{Preliminary work. Under review by AISTATS \@conferenceyear. Do not distribute.}
-\newcommand{\AISTATS@appearing}{Proceedings of the \@conferenceordinal International Conference on Artificial
+\newcommand{\AISTATS@appearing}{Proceedings of the \@conferenceordinal\,International Conference on Artificial
   Intelligence and Statistics (AISTATS) \@conferenceyear,  \@conferencelocation\@. PMLR: Volume  \@conferencevolume. Copyright
   \@conferenceyear\/ by the author(s).}
 
