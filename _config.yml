@@ -106,6 +106,10 @@ conference:
       given: Wittawat
       url: http://wittawat.com/
       institute: Google Research
+    - family: Mototake
+      given: Yoh-ichi
+      url: https://www.ism.ac.jp/~mototake/
+      institute: The Institute of Statistical Mathematics
   - type: Publication Chair
     people:
     - family: Muandet
