@@ -58,10 +58,10 @@ conference:
     url: http://cmt3.research.microsoft.com/AISTATS2021/
     name: Microsoft CMT website
   deadlines:
-    - name: Submission server open
-      type: submission
-      text: September 16, 2020
-      date: 2020-09-08 08:00 -08:00
+    # - name: Submission server open
+    #   type: submission
+    #   text: September 16, 2020
+    #   date: 2020-09-08 08:00 -08:00
     - name: Abstract submission deadline
       type: submission
       text: October 8, 2020, 08:00 AM PDT
