@@ -11,10 +11,10 @@ navigation_weight: 5
   {% for deadline in site.conference.deadlines %}
   <!-- {% include listdeadline.html %} -->
 
-  <tr><td>{{ deadline.name }}</td><td>{% if deadline.text %}{{ deadline.text }}{% elsif deadline.time %}<time datetime="{{ deadline.time }}">{{ deadline.time | date: "%A, %-d %B %Y %H:%M" }}{% if site.TZ %} ({{ site.TZ }}){% endif %}</time>{% elsif deadline.date %}<time datetime="{{ deadline.date }}">{{ deadline.date | date: "%B %-d, %Y" }}</time>{% endif %}</td></tr>
+  <tr><td>{{ deadline.name }}</td><td>{% if deadline.text %}{{ deadline.text }}{% elsif deadline.time %}<time datetime="{{ deadline.time }}">{{ deadline.time | date: "%A, %-d %B %Y %H:%M" }}{% if site.TZ %} ({{ site.TZ }}){% endif %}</time>{% elsif deadline.date %}<time datetime="{{ deadline.date }}">{{ deadline.date | date: "%A, %B %-d, %Y" }}</time>{% endif %}</td></tr>
 
   {% endfor %}
-  <tr><td>Conference start</td><td>{{ site.conference.dates[0] | date: "%B %-d, %Y" }}</td></tr>
+  <tr><td>Conference start</td><td>{{ site.conference.dates[0] | date: "%A, %B %-d, %Y" }}</td></tr>
 </table>
 
 <ul>
