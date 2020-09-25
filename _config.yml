@@ -41,9 +41,9 @@ conference:
     url:
     show: false
   room:
-  venue: San Diego Convention Center
+  venue: A Virtual Conference
   venue_url:
-  location: San Diego, California, USA
+  location: A Virtual Conference
   full_name: Artificial Intelligence and Statistics
   short_name: AISTATS
   name: Artificial Intelligence and Statistics
@@ -70,15 +70,19 @@ conference:
       type: submission
       text: October 15, 2020, 08:00 AM PDT
       date: 2020-10-15 08:00 -08:00
+    - name: Supplementary material submission deadline
+      type: submission
+      text: October 22, 2020, 08:00 AM PDT
+      date: 2020-10-22 08:00 -08:00
     - name: Reviews released
-      text: November 23, 2020
-      date: 2020-11-23
+      text: November 25, 2020
+      date: 2020-11-25
     - name: Author rebuttals due
-      text: November 28, 2020
-      date: 2020-11-28
+      text: December 1, 2020
+      date: 2020-12-01
     - name: Final decisions
       type: decision
-      date: 2021-01-08
+      date: 2021-01-22
     # - name: Deadline for camera-ready papers
     #   date:
     # - name: Registration deadline
