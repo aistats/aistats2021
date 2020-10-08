@@ -14,6 +14,7 @@ plugins:
 - jekyll-feed
 - jekyll-seo-tag
 - jekyll-remote-theme
+- jekyll-redirect-from
 remote_theme: lawrennd/proceedings
 style: aistats
 
