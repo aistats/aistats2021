@@ -65,5 +65,3 @@ so that internal links in the web site are generated correctly.
 of aistats.github.io.
 
 * Repository set up by Neil Lawrence and conversion of the old javascript pages by Wittawat. Pages then arcived for the 2016 and 2017 editions of the conference. 
-
-
