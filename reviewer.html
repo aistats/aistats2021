@@ -1,109 +1,291 @@
 ---
 layout: default
+title: Reviewer Guidelines
+hide: false
+navigation_weight: 7
 ---
 
-<script type="text/javascript">
-    document.getElementById('LNreview').id='leftcurrent';
-</script>
+<h1>{{ site.conference.short_name }} {{ site.conference.year }} Reviewer Guidelines</h1>
 
-<div class="contents">
+<h3>How to review?</h3>
+
+<p>The intent of the review process is twofold. First, to identify papers which offer significant contributions to the fields of artificial intelligence and statistics, for attendees and readers. Second, to provide constructive feedback to authors that they can use to improve their work. Your role as a reviewer is critical to both goals. When reviewing a paper, always think about the impact the work may have on the community in the long run—out-of-the-box ideas, novel problems and “bridging fields" contributions are crucial for the successful development of the field so do not neglect high-level picture in favor of technical correctness, which is also important. </p>
+
+<p><b>Keep in mind:</b> Novel and/or interdisciplinary works (e.g., which are not incremental extensions of previously studied problems but instead perhaps formulate a new problem of interest) are often very easy to criticize, because, for example, the assumptions they make and the models they use are not yet widely accepted by the community (due to novelty). However, such work may be of high importance for the progress of the field in the long run, so please try to be aware of this bias, and avoid dismissive criticism. </p>
+
+<p>This document has two parts:</p>
+<ul>
+<li><b>Part 1:</b> Guidelines for writing a good review, aligned with the <a href="http://aistats.org/aistats2021/review_form.html">AISTATS'21 Review Form</a>, and</li>
+<li><b>Part 2:</b> Examples of review content.</li>
+</ul>
+
+<p><i>Acknowledgments: The guidelines and examples of good reviews we use in this document are partially adopted from the NeurIPS 2020 reviewer guidelines, which in turn utilize reviews written for some NeurIPS, ICML, and ICLR papers.</i></p>
 
 
-<h1>Reviewer Instructions for AISTATS 2018</h1>
+<h2>Part 1. Guidelines for writing a good review</h2>
 
-Reviews must be entered electronically through the 
-<a href="https://cmt.research.microsoft.com/AISTATS2018/">CMT system for AISTATS 2017</a>.
+<p>The review form will ask you for the following:</p>
 
 
-<h3>Review Content</h3>
-<p>
-Each review should begin with a paragraph providing an overview of the paper, and summarizing its main contributions. In particular, some thought should be given to how the paper fits with the aims and topics of the conference (not interpreted overly narrowly). The paragraph should relate the ideas in the paper to to previous work in the field.
-</p>
-<p>
-The next section of the review should deal with major comments, issues that the reviewer sees as standing in the way of acceptance of the paper, or issues that should be addressed prior to publication, or reasons for rejecting the paper.
-</p>
-<p>
-The final section of the review should deal with any minor issues, such as typographical errors, spelling mistakes, or areas where presentation could be improved.
-</p>
-<p>
-As was done last year, reviewers may request public or non-proprietary code/data as part of the initial reviews for the purpose of better judging the paper.  The authors will then provide the code/data as part of the author response.  This might be, for instance, to check whether the authors' methods work as claimed, or whether it correctly treats particular scenarios the authors did not consider in their initial submission.  Note this request is NOT to be used to ask the authors to release their code after the paper has been published.  Code/data should only be requested in the event that this is the deciding factor in paper acceptance. The request should be reasonable in light of the duration of the discussion period, which limits the time available for review.  The SPC member in charge of the paper will confirm whether a code/data request is warranted and reasonable. Authors may only submit separate code and data at the invitation of a reviewer; otherwise, the usual restrictions apply on author response length. The conference chairs will enable the anonymous transfer of code and data to the relevant reviewers.
-</p>
+<p><b>1. Summary and contributions: Briefly summarize the paper and its contributions</b></p>
 
-<h3>Evaluation Criteria</h3>
-<p>
-Contributions of AISTATS papers can be categorized into four areas a) algorithmic, b) theoretical, c) unifying or d) application.
-</p>
-<p>
-Algorithmic contributions may make a particular approach feasible for the first time or may extend the applicability of an approach (for example allowing it to be applied to very large data sets).
-</p>
-<p>
-A theoretical contribution should provide a new result about a model or algorithm. For example convergence proofs, consistency proofs or performance guarantees.
-</p>
-<p>
-A unifying contribution may bring together several apparently different ideas and show how they are related, providing new insights and directions for future research.
-</p>
-<p>
-Finally, an application contribution should typically have aspects that present particular statistical challenges which require solution in a novel way or through clever adaptation of existing techniques.
-</p>
-<p>
-A paper may exhibit one or more of these contributions, where each of them are important in advancing the state of the art in the field. Of course, at AISTATS we are also particularly keen to see work which relates machine learning and statistics or highlights novel connections between the fields or even contrasts them.
-</p>
-<p>
-One aspect of result presentation that is often neglected is a discussion of the failure cases of an algorithm, often due to concern that reviewers will penalize authors who provide this information. We emphasize that description of failure cases as well as successes should be encouraged and rewarded in submissions.
-</p>
-<p>
-When reviewing, bear in mind that one of the most important aspects of a successful conference paper is that it should be thought provoking. Thought provoking papers sometimes generate strong reactions on initial reading, which may sometimes be negative. However, if the paper genuinely represents a paradigm shift it may take a little longer than a regular paper to come around to the author's way of thinking. Keep an eye out for such papers, although they may take longer to review, if they do represent an important advance the effort will be well worth it.
-</p>
-<p>
-Finally, we would like to signal to newcomers to AISTATS (and to machine-learning conferences generally) that the review process is envisioned in exactly the same spirit as in a top quality journal like JRSS B, JASA, or Annals of Statistics. Accepted contributions are published in proceedings, and acceptance is competitive, so authors can rightly include these contributions in their publication list, on par with papers published in top quality journals. Further, AISTATS does not give the option to revise and resubmit: if a paper cannot be accepted with minor revisions (e.g., as proposed by the authors in their response to the reviews), it should be rejected.
-</p>
-<p>
-Given the culture gap between the statistics and machine learning communities, we thus want to emphasize from the start the required levels of quality and innovation. All deadlines are very strict, as we cannot delay an overall tight schedule.
-</p>
+<p>Summarize the paper motivation, key contributions and achievements in a paragraph.</p>
 
-<h3>Confidentiality and Double Blind Process</h3>
+<p>Although this part of the review may not provide much new information to authors, it is invaluable to ACs, and program chairs, and it can help the authors determine whether there are misunderstandings that need to be addressed in their author response.</p>
 
-<p>
-AISTATS 2017 is a double blind reviewed conference. Whilst we expect authors to remove information that will obviously reveal their identity, we also trust reviewers not to take positive steps to try and uncover the authors' identity.
-</p>
-<p>
-We are happy for authors to submit material that they have placed online as tech reports (such as in arXiv), or that they have submitted to existing workshops that do not produce published proceedings. This can clearly present a problem with regard to anonymization. Please do not seek out such reports on line in an effort to deanonymize.
-</p>
-<p>
-The review process is double blind. Authors do not know reviewer identities, and this includes any authors on the senior program committee (i.e., the area chairs). However, area chairs do see reviewer identities. Also, during the discussion phase reviewer identities will be made available to other reviewers. In other words, whilst the authors will not know your identity, your co-reviewers will. This should help facilitate discussion of the papers.
-</p>
-<p>
-If a reviewer requests code from the authors, this code should be anonymized (e.g., author names should be removed from the file headers). That said, we understand that it might be difficult to remove all traces of the authors from the files, and will exercise reasonable judgment if innocent mistakes are made.
-</p>
-<p>
-The AISTATS reviewing process is confidential. By agreeing to review you agree not to use ideas, results, code, and data from submitted papers in your work. This includes research and grant proposals. This applies unless that work has appeared in other publicly available formats, for example technical reports or other published work. You also agree not to distribute submitted papers, ideas, code, or data to anyone else. If you request code and accompanying data, you agree that this is provided for your sole use, and only for the purposes of assessing the submission. All code and data must be discarded once the review is complete, and may not be used in further research or transferred to third parties.
-</p>
+<p>There are many examples of contributions that warrant publication at AISTATS. These contributions may be theoretical, methodological, algorithmic, empirical, connecting ideas in disparate fields (“bridge papers"), or providing a critical analysis (e.g., principled justifications of why the community is going after the wrong outcome or using the wrong types of approaches.). </p>
 
-<h3>The CMT Reviewing System</h3>
 
-<p>The first step in the review process is to enter conflicts of interests. These conflicts can be entered as domain names (e.g., cmu.edu) and also by marking specific authors with whom you have a conflict. The use of double blind reviewing means you may not able to determine the papers you have a conflict with, so it is important you go through this list carefully and mark any conflicts. You should mark a conflict with anyone who is or ever was your student or mentor, is a current or recent colleague, or is a close collaborator. If in doubt, it's probably better to mark a conflict, in order to avoid the appearance of impropriety. Your own username should be automatically marked as a conflict, but sometimes the same person may have more than one account, in which case you should definitely mark your other accounts as a conflict as well. If you do not mark a conflict with an author, it is assumed that you do not have a conflict by default.
-</p>
-<p>
-CMT also requests subject information which will be used to assist allocation of reviewers to papers. Please enter relevant keywords to assist in paper allocation.
-</p>
-<p>
-You can revise your review multiple times before the submission. Your formal invite to be a reviewer will come from the CMT system. The email address used in this invite is your login, you can change your password with a password reset from the login screen.
-</p>
+<p><b>2. Strengths: Describe the strengths of the work. Typical criteria include: soundness of the claims (theoretical grounding, empirical evaluation), significance and novelty of the contribution, and relevance to the AISTATS community.</b></p>
 
-<h3>Supplementary Material</h3>
-<p>
-Supplementary material is allowed by AISTATS 2017. For example, this supplementary material could include proofs, video, source code or audio. As a reviewer you should feel free to make use of this supplementary material to help in your review, though reviewing supplementary material is up to your discretion.  One exception is the letter of revision from papers previously submitted to NIPS.  If this letter is present in the supplementary material, we ask you to take it into consideration.
-</p>
+<p>List the strengths of the submission. For instance, it could be about the soundness of the theoretical claim or the soundness of empirical methodology used to validate an empirical approach. Another important axis is the significance and the novelty of the contributions relative to what has been done already in the literature, and here you may want to cite these relevant prior works. One measure of the significance of a contribution is (your belief about) the level to which researchers or practitioners will make use of or be influenced by the proposed ideas. Solid, technical papers that explore new territory or point out new directions for research are preferable to papers that advance the state of the art, but only incrementally. Finally, a possible strength is the relevance of the line of work for the AISTATS community.<p>
 
-<h3>Simultaneous Submission</h3>
-<p>
-Simultaneous submission to other conference venues in the areas of machine learning and statistics is not permitted.
-</p>
-<p>
-Simultaneous submission to journal publications of significantly extended versions of the paper is permitted, as long as the publication date of the journal is not before May 2017.
-</p>
 
-</div>
+<p><b>3. Weaknesses: Explain the limitations of this work along the same axes as above.</b></p>
 
-<!--- XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX -->
+<p>This is like above, but now focussing on the limitations of this work.</p>
+
+<p>Your comments should be detailed, specific, and polite. Please avoid vague, subjective complaints. Think about the times when you received an unfair, unjustified, short, or dismissive review. Try not to be that reviewer! Always be constructive and help the authors understand your viewpoint, without being dismissive or using inappropriate language. Remember that you are not reviewing your level of interest in the submission, but its scientific contribution to the field!</p>
+
+
+<p><b>4. Correctness: Are the claims and method correct? Is the empirical methodology correct?</b></p>
+
+<p>Explain if there is anything incorrect with the paper. Incorrect claims or methodology are the primary reason for rejection. Be as detailed, specific and polite as possible. Thoroughly motivate your criticism so that authors will understand your point of view and potentially respond to you.</p>
+
+
+
+<p><b>5. Clarity: Is the paper well written?</b></p>
+
+<p>Rate the clarity of exposition of the paper. Give examples of what parts of the paper need revision to improve clarity.</p>
+
+
+
+<p><b>6. Relation to prior work: Is it clearly discussed how this work differs from previous contributions?</b></p>
+
+<p>Explain whether the submission is written with the due scholarship, relating the proposed work with the prior work in the literature. The related work section should not just list prior work, but explain how the proposed work differs from prior work appeared in the literature.</p>
+
+<p>Note that authors are excused for not knowing about all non-refereed work (e.g, those appearing on ArXiv). Papers (whether refereed or not) appearing less than two months before the submission deadline are considered contemporaneous to AISTATS submissions; authors are not obligated to make detailed comparisons to such papers (though, especially for the camera ready versions of accepted papers, authors are encouraged to).</p>
+
+
+<p><b>7. Reproducibility: Are there enough details to reproduce the major results of this work?</b></p>
+
+<p>Mark whether the work is not reproducible, some aspects are reproducible, or most aspects are reproducible. Lack of reproducibility should be listed among the weaknesses of the submission.</p>
+
+
+
+<p><b>8. Additional feedback, comments, suggestions for improvement and questions for the authors (Optional)</b></p>
+
+<p>Add here any additional comment you might have about the submission, including questions and suggestions for improvement.</p>
+
+
+
+<p><b>9. Overall score:</b></p>
+
+<p>You should NOT assume that you were assigned a representative sample of submissions, nor should you adjust your scores to match the overall conference acceptance rates. The “Overall Score" for each submission should reflect your assessment of the submission's contributions.</p>
+
+<ul>
+<li>10: Top 5% of accepted AISTATS papers. Truly groundbreaking work.</li>
+<li>9: Top 15% of accepted AISTATS papers. An excellent submission; a strong accept.</li>
+<li>8: Top 50% of accepted AISTATS papers. A very good submission; a clear accept.</li>
+<li><p>7: A good submission; accept.</p>
+	<p>I vote for accepting this submission, although I would not be upset if it were rejected.</p></li>
+
+<li><p>6: Marginally above the acceptance threshold.</p>
+ <p>I tend to vote for accepting this submission, but rejecting it would not be that bad.</p></li>
+
+<li><p>5: Marginally below the acceptance threshold.</p>
+ <p>I tend to vote for rejecting this submission, but accepting it would not be that bad.</p></li>
+
+<li><p>4: An okay submission, but not good enough; a reject.</p>
+	<p>I vote for rejecting this submission, although I would not be upset if it were accepted.</p></li>
+<li><p>3: A clear reject.</p>
+	<p>I vote and argue for rejecting this submission.</p></li>
+<li>2: I'm surprised this work was submitted to AISTATS; a strong reject.</li>
+<li>1: Trivial, wrong, or already known.</li>
+</ul>
+
+
+<p><b>10. Confidence score:</b></p>
+
+<ul>
+<li>5: You are absolutely certain about your assessment. You are very familiar with the related work.</li>
+<li>4: You are confident in your assessment, but not absolutely certain. It is unlikely, but not impossible, that you did not understand some parts of the submission or that you are unfamiliar with some pieces of related work.</li>
+<li>3: You are fairly confident in your assessment. It is possible that you did not understand some parts of the submission or that you are unfamiliar with some pieces of related work. Math/other details were not carefully checked.</li>
+<li>2: You are willing to defend your assessment, but it is quite likely that you did not understand central parts of the submission or that you are unfamiliar with some pieces of related work. Math/other details were not carefully checked.</li>
+<li>1: Your assessment is an educated guess. The submission is not in your area or the submission was difficult to understand. Math/other details were not carefully checked.</li>
+</ul>
+
+
+<p><b>11. Does the submission raise potential ethical concerns? This includes methods, applications, or data that create or reinforce unfair bias or that have a primary purpose of harm or injury. If so, please explain briefly.</b></p>
+
+<p>Yes or No. Note that your rating should be independent of this. Your duty here is to flag papers that might need additional review from the ethical perspective.</p>
+
+
+<p><b>12. If you said 'Yes' in 11, please briefly explain the potential ethical concerns.</b></p>
+
+<p>If the submission might raise any potential ethical concern, please briefly explain the potential concerns.</p>
+
+
+<p><b>13. Agree to abide by the AISTATS code of conduct</b></p>
+
+<p>The AISTATS code of conduct can be found here: <a href="http://aistats.org/aistats2021/conduct.html">AISTATS Code of Conduct</a></p>
+
+
+<p><b>14. Confidential comments for the Area Chair (optional)</b></p>
+
+<p>If you have comments that you wish to be kept confidential from the authors, you can use the “Confidential Comments to Area Chair" text field. Such comments might include explicit comparisons of the submission to other submissions and criticisms that are more bluntly stated. If you accidentally find out the identities of the authors, please do not divulge the identities to anyone.</p>
+
+
+
+
+<br>
+<h2>Part 2. Examples of Review Content</h2>
+
+<p><b>Contributions:</b> The following are examples of contributions a paper might make. This list is not exhaustive.</p>
+
+<p>“The paper provides a thorough experimental validation of the proposed algorithm, demonstrating much faster runtimes without loss in performance compared to strong baselines."</p>
+
+<p>“The paper proposes an algorithm for [insert] with computational complexity scaling linearly in the observed dimensions; in contrast, existing algorithms scale cubicly."</p>
+
+<p>“The paper presents a method for robustly handling covariate shift in cases where [insert assumptions], and demonstrated the impact on [insert application]."</p>
+
+<p>“The authors provide a framework that unifies [insert field A] and [insert field B], two previously disparate research areas."</p>
+
+<p>“This paper demonstrates how the previously popular approach of [insert] has serious limitations when applied to [insert]."</p>
+
+<p>“The authors propose a new framework for quantifying fairness of ML algorithms."</p>
+
+<p>“The authors show how the definition of fairness in [insert citation] fails to capture [insert], which is a critical example of its failure mode."</p>
+
+
+
+
+<br>
+<p><b>Quality:</b> Is the submission technically sound? Are claims well supported by theoretical analysis or experimental results? Is this a complete piece of work or work in progress? Are the authors careful and honest about evaluating both the strengths and weaknesses of their work?</p>
+
+<p>Example from <a href="http://media.nips.cc/nipsbooks/nipspapers/paper_files/nips30/reviews/1548.html">nips30/reviews/1548.html</a></p>
+
+<p>“The technical content of the paper appears to be correct albeit some small careless mistakes that I believe are typos instead of technical flaw (see #4 below).</p>
+
+<p>...</p>
+
+<p>4. The equation in line 125 appears to be wrong. Shouldn't there be a line break before the last equal sign, and shouldn't the last expression be equal to E_q[(\frac{p(z,x)}{q(z)})^2]?"</p>
+
+<p>“The idea of having a sandwich bound for the log-marginal likelihood is certainly good. While the authors did demonstrate that the bound does indeed contain the log-marginal likelihood as expected, it is not entirely clear that the sandwich bound will be useful for model selection. This is not demonstrated in the experiment despite being one of the selling point of the paper. It's important to back up this claim using simulated data in experiment."</p>
+
+<hr style="width:40%">
+<p>Example from <a href="https://openreview.net/forum?id=SyCSsUDee&noteId=rJvfq-GEg">OpenReview</a></p>
+
+<p>“Technical issues: The move from (1) to (2) is problematic. Yes it is a lower bound, but by ignoring H(Z), equation (2) ignores the fact that H(Z) will potentially vary more significantly that H(Z|Y). As a result of removing H(Z), the objective (2) encourages Z that are low entropy as the H(Z) term is ignored, doubly so as low entropy Z results in low entropy Z|Y. Yes the -H(X|Z) mitigates against a complete entropy collapse for H(Z), but it still neglects critical terms. In fact one might wonder if this is the reason that semantic noise addition needs to be done anyway, just to push up the entropy of Z to stop it reducing too much. In (3) arbitrary balancing parameters lamda_1 and lambda_2 are introduced ex-nihilo - they were not there in (2). This is not ever justified. Then in (5), a further choice is made by simply adding L_{NLL} to the objective. But in the supervised case, the targets are known and so turn up in H(Z|Y). Hence now H(Z|Y) should be conditioned on the targets. However instead another objective is added again without justification, and the conditional entropy of Z is left disconnected from the data it is to be conditioned on. One might argue the C(X,Y,Z) simply acts as a prior on the networks (and hence implicitly on the weights) that we consider, which is then combined with a likelihood term, but this case is not made. In fact there is no explicit probabilistic or information theoretic motivation for the chosen objective. Given these issues, it is then not too surprising that some further things need to be done, such as semantic noise addition to actually get things working properly. It may be the form of noise addition is a good idea, but given the troublesome objective being used in the first place, it is very hard to draw conclusions. In summary, substantially better theoretical justification of the chosen model is needed, before any reasonable conclusion on the semantic noise modelling can be made."</p>
+
+
+
+
+<br>
+<p><b>Clarity:</b> Is the submission clearly written? Is it well organized? (If not, please make constructive suggestions for improving its clarity.) Does it adequately inform the reader? (Note: a superbly written paper provides enough information for an expert reader to reproduce its results.)</p>
+
+<p>Example from <a href="http://media.nips.cc/nipsbooks/nipspapers/paper_files/nips30/reviews/1548.html">/nips30/reviews/1548.html</a></p>
+
+<p>“While the paper is pretty readable, there is certainly room for improvements in the clarity of the paper. I find paragraphs in section 1 and 2 to be repetitive. It is clear enough from the Introduction that the key advantages of CHIVI are the zero avoiding approximations and the sandwich bound. I don't find it necessary to be stressing that much more in section 2. Other than that, many equations in the paper do not have numbers. The references to the appendices are also wrong (There is no Appendix D or F). There is an extra period in line 188.</p>
+
+<p>The Related Work section is well-written. Good job!"</p>
+
+<hr style="width:40%">
+<p>Example from <a href="https://media.nips.cc/nipsbooks/nipspapers/paper_files/nips30/reviews/1173.html">/nips30/reviews/1173.html</a></p>
+
+<p>“The paper is generally well-written and structured clearly. The notation could be improved in a couple of places. In the inference model (equations between ll. 82-83), I would suggest adding a frame superscript to clarify that inference is occurring within each frame, e.g. q_{\phi}(z_2^{(n)} | x^{(n)}) and q_{\phi}(z_1^{(n)} | x^{(n)}, z_2^{(n)}). In addition, in Section 3 it was not immediately clear that a frame is defined to itself be a sub-sequence."</p>
+
+
+
+<br>
+<p><b>Originality:</b> Are the tasks or methods new? Is the work a novel combination of well-known techniques? Is it clear how this work differs from previous contributions? Is related work adequately cited? (For reference, abstracts and links to last year's AISTATS proceedings are available here: <a href="http://proceedings.mlr.press/v108/">http://proceedings.mlr.press/v108/</a>.)</p>
+
+<p>Example from <a href="http://media.nips.cc/nipsbooks/nipspapers/paper_files/nips30/reviews/60.html">/nips30/reviews/60.html</a></p>
+
+<p>“The main contribution of this paper is to offer a convergence proof for minimizing sum fi(x) + g(x) where fi(x) is smooth, and g is nonsmooth, in an asynchronous setting. The problem is well-motivated; there is indeed no known proof for this, in my knowledge.</p>
+
+<p>...</p>
+
+<p>There are two main theoretical results. Theorem 1 gives a convergence rate for proxSAGA, which is incrementally better than a previous result. Theorem 2 gives the rate for an asynchronous setting, which is more groundbreaking."</p>
+
+<hr style="width:40%">
+<p>Example from <a href="https://media.nips.cc/nipsbooks/nipspapers/paper_files/nips30/reviews/1173.html">/nips30/reviews/1173.html</a></p>
+
+<p>“The paper is missing a related work section and also does not cite several related works, particularly regarding RNN variants with latent variables (Fraccaro et al. 2016; Chung et al. 2017), hierarchical probabilistic generative models (Johnson et al. 2016; Edwards & Storkey 2017) and disentanglement in generative models (Higgins et al. 2017). The proposed graphical model is similar to that of Edwards & Storkey (2017), though the frame-level Seq2Seq makes the proposed method sufficiently original. The study of disentanglement for sequential data is also fairly novel."</p>
+
+
+
+
+
+<br>
+<p><b>Significance:</b> Are the results important? Are others (researchers or practitioners) likely to use the ideas or build on them? Does the submission address a difficult task in a better way than previous work? Does it advance the state of the art in a demonstrable way? Does it provide unique data, unique conclusions about existing data, or a unique theoretical or experimental approach?</p>
+
+
+<p>Example from <a href="http://media.nips.cc/nipsbooks/nipspapers/paper_files/nips30/reviews/688.html">/nips30/reviews/688.html</a></p>
+
+<p>“I liked this article very much. It answers a very natural question: gradient descent is an extremely classical, and very simple algorithm. Although it is known not to be the fastest one in many situations, it is widely used in practice; we need to understand its convergence rate. The proof is also conceptually simple and elegant, and I found its presentation very clear."</p>
+
+
+<hr style="width:40%">
+<p>Example from <a href="https://media.nips.cc/nipsbooks/nipspapers/paper_files/nips30/reviews/3278.html">/nips30/reviews/3278.html</a></p>
+
+<p>"This paper seems to be a useful contribution to the literature on protein docking, showing a modest improvement over the state of the art. As such, I think the paper would be well-suited for publication in a molecular biology venue, or perhaps as an application paper at NIPS. The main weakness of the paper in my view is that it is a fairly straightforward application of an existing technique (GCNs) to a new domain (plus some feature engineering). As such I am leaning towards a rejection for NIPS."</p>
+
+
+
+
+<br>
+<p><b>Constructive Feedback:</b> Please comment on and take into account the strengths of the submission. It can be tempting to only comment on the weaknesses; however, ACs, and program chairs need to understand both the strengths and the weaknesses in order to make an informed decision. It is useful for the ACs, and program chairs if you include a list of arguments for and against acceptance. If you believe that a submission is out of scope for AISTATS, then please justify this judgement appropriately, including, but not limited to, looking at subject areas and previous AISTATS papers. If you need to cite existing work, please be as precise as possible and give a complete citation.</p>
+
+<p>Example from <a href="http://media.nips.cc/nipsbooks/nipspapers/paper_files/nips30/reviews/587.html">/nips30/reviews/587.html</a></p>
+
+<p>“There are several things to like about this paper:</p>
+
+<p>- The problem of safe RL is very important, of great interest to the community and without too much in the way of high quality solutions.</p>
+
+<p>- The authors make good use of the developed tools in model-based control and provide some bridge between developments across sub-fields.</p>
+
+<p>- The simulations support the insight from the main theoretical analysis, and the algorithm seems to outperform its baseline.</p>
+
+
+<p>However, I found that there were several shortcomings:</p>
+<ul>
+<li>I found the paper as a whole a little hard to follow and even poorly written as a whole. For a specific example of this see the paragraph beginning 197.</li>
+<li>The treatment of prior work and especially the "exploration/exploitation" problem is inadequate and seems to be treated as an afterthought: but of course it is totally central to the problem! Prior work such as [34] deserve a much more detailed discussion and comparison so that the reader can understand how/why this method is different.</li>
+<li>Something is confusing (or perhaps even wrong) about the way that Figure 1 is presented. In an RL problem you cannot just "sample" state-actions, but instead you may need to plan ahead over multiple timesteps for efficient exploration.</li>
+<li>The main theorems are hard to really internalize in any practical way, would something like a "regret bound" be possible instead? I'm not sure that these types of guarantees are that useful.</li>
+<li>The experiments are really on quite a simple toy domain that didn't really enthuse me."</li>
+</ul>
+
+
+<hr style="width:40%">
+<p>Example from <a href="https://openreview.net/forum?id=SkkTMpjex&noteId=rkgMSRKrx">OpenReview</a></p>
+
+<p>“The main contributions of the paper are:</p>
+<ol>
+<li>Distributed variant of K-FAC that is efficient for optimizing deep neural networks. The authors mitigate the computational bottlenecks of the method (second order statistic computation and Fisher Block inverses) by asynchronous updating.</li>
+<li>The authors propose a “doubly-factored" Kronecker approximation for layers whose inputs are too large to be handled by the standard Kronecker-factored approximation. They also present (Appendix A) a cheaper Kronecker factored approximation for convolutional layers.</li>
+<li>Empirically illustrate the performance of the method, and show:</li>
+	<ul>
+	<li>Asynchronous Fisher Block inversions do not adversely affect the performance of the method (CIFAR-10)</li>
+	<li>K-FAC is faster than Synchronous SGD (with and without BN, and with momentum) (ImageNet)</li>
+	<li>Doubly-factored K-FAC method does not deteriorate the performance of the method (ImageNet and ResNet)</li>
+	<li>Favorable scaling properties of K-FAC with mini-batch size</li>
+	</ul>
+</ol>
+
+<p>Pros:</p>
+<ul>
+	<li>Paper presents interesting ideas on how to make computationally demanding aspects of K-FAC tractable.</li>
+	<li>Experiments are well thought out and highlight the key advantages of the method over Synchronous SGD (with and without BN).</li>
+</ul>
+
+<p>Cons:</p>
+<ul>
+	<li>“...it should be possible to scale our implementation to a larger distributed system with hundreds of workers." The authors mention that this should be possible, but fail to mention the potential issues with respect to communication, load balancing and node (worker) failure. That being said, as a proof-of-concept, the method seems to perform well and this is a good starting point.</li>
+	<li>Mini-batch size scaling experiments: the authors do not provide validation curves, which may be interesting for such an experiment. Keskar et. al. 2016 (On Large-Batch Training for Deep Learning: Generalization Gap and Sharp Minima) provide empirical evidence that large-batch methods do not generalize as well as small batch methods. As a result, even if the method has favorable scaling properties (in terms of mini-batch sizes), this may not be effective."</li>
+</ul>
+
+
+
 

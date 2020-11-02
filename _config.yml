@@ -134,12 +134,16 @@ conference:
   #     given:
   #     url:
   #     institute:
-  # - type: D&I Chair
-  #   people:
-  #   - family:
-  #     given:
-  #     url:
-  #     institute:
+  - type: D&I Chair
+    people:
+    - family: Williamson
+      given: Sinead
+      url: https://sinead.github.io
+      institute: University of Texas at Austin
+    - family: Koyejo
+      given: Sanmi
+      url: https://sanmi.cs.illinois.edu
+      institute: University of Illinois at Urbana-Champaign
   - type: Sponsorship Chair
     people:
     - family: Sha
