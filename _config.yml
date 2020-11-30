@@ -79,8 +79,8 @@ conference:
       text: Wednesday, November 25, 2020
       date: 2020-11-25
     - name: Author rebuttals due
-      text: Wednesday, December 2, 2020, 08:00 PM PDT
-      date: 2020-12-02 20:00 -08:00
+      text: Wednesday, December 2, 2020, 10:59 PM PDT
+      date: 2020-12-02 22:59 -08:00
     - name: Final decisions
       type: decision
       text: Friday, January 22, 2021
