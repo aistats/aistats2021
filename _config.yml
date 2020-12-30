@@ -100,12 +100,12 @@ conference:
       given: Kenji
       url: https://www.ism.ac.jp/~fukumizu/
       institute: The Institute of Statistical Mathematics
-  # - type: Local Chair
-  #   people:
-  #   - family:
-  #     given:
-  #     url:
-  #     institute:
+  - type: Virtual Conference Chair
+    people:
+    - family: Dasarathy
+      given: Gautam
+      url: http://gautamdasarathy.com/
+      institute: Arizona State University
   - type: Workflow Chair
     people:
     - family: Jitkrittum
