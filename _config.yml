@@ -85,7 +85,7 @@ conference:
       type: decision
       text: Friday, January 22, 2021
       date: 2021-01-22
-    - name: Deadline for camera-ready papers
+    - name: Camera-ready papers deadline
       type: submission
       text: Thursday, February 25, 2020, 16:00 PM PST
       date: 2021-02-25 16:00 -08:00
