@@ -30,13 +30,13 @@ markdown: kramdown
 # change encoding for the generated output files to utf-8
 encoding: utf-8
 
-banner: san_diego.jpg # Banner image should be placed in assets/images
+banner: virtual_conference_banner.jpg # Banner image should be placed in assets/images
 
 credit_card_image: credit.png
 
 conference:
   draft: true # set to True if the programme is draft only.
-  image: san_diego_square_night.jpg
+  image: virtual_conference.jpeg
   hide_tentative: true
   proceedings:
     url:
