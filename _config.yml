@@ -65,28 +65,30 @@ conference:
       date: 2020-09-18 08:00 -08:00
     - name: Abstract submission deadline
       type: submission
-      text: Thursday, October 8, 2020, 08:00 AM PDT
+      text: Thursday, October 8, 2020, 08:00 AM PST
       date: 2020-10-08 08:00 -08:00
     - name: Paper submission deadline
       type: submission
-      text: Thursday, October 15, 2020, 08:00 AM PDT
+      text: Thursday, October 15, 2020, 08:00 AM PST
       date: 2020-10-15 08:00 -08:00
     - name: Supplementary material submission deadline
       type: submission
-      text: Thursday, October 22, 2020, 08:00 AM PDT
+      text: Thursday, October 22, 2020, 08:00 AM PST
       date: 2020-10-22 08:00 -08:00
     - name: Reviews released
       text: Wednesday, November 25, 2020
       date: 2020-11-25
     - name: Author rebuttals due
-      text: Wednesday, December 2, 2020, 20:59 PM PDT
+      text: Wednesday, December 2, 2020, 20:59 PM PST
       date: 2020-12-02 20:59 -08:00
     - name: Final decisions
       type: decision
       text: Friday, January 22, 2021
       date: 2021-01-22
-    # - name: Deadline for camera-ready papers
-    #   date:
+    - name: Deadline for camera-ready papers
+      type: submission
+      text: Thursday, February 25, 2020, 16:00 PM PST
+      date: 2021-02-25 16:00 -08:00
     # - name: Registration deadline
     #   date:
   chairs:

@@ -5,52 +5,85 @@ hide: true
 navigation_weight: 6
 ---
 
-<!-- <h1>Camera Ready Instructions</h1>
+<h1>Camera Ready Instructions</h1>
 
-<h3>Submission Site</h3>
+<p>
+The deadline for uploading the final version of your paper is Thursday, February 25, 2021, 16:00 PST. No extensions to the deadline will be granted in any cases. If you miss the deadline your paper will not be included in the proceedings.
+</p>
+
+
+<h3>Formatting Instructions</h3>
+
+<p>
+A few important points to keep in mind:
+</p>
+
+<ol style="font-size: 80%">
+<li> Submissions are limited to 8 pages <em>excluding</em> acknowledgments and references. The number of pages containing citations alone is not limited. </li>
+<li> You have to upload 1 main file (mandatory), 1 filled and signed copyright form (mandatory; <a href="http://proceedings.mlr.press/pmlr-license-agreement.pdf">http://proceedings.mlr.press/pmlr-license-agreement.pdf</a>), and (optionally) 1 supplemental file.  </li>
+<li> Please change the string "<tt>\usepackage{aistats2021}</tt>" to "<tt>\usepackage[accepted]{aistats2021}</tt>" in your LaTeX source file. </li>
+<li> Please Uncomment "<tt>\special{papersize = 8.5in, 11in}</tt>", "<tt>\setlength{\pdfpageheight}{11in}</tt>", and "<tt>\setlength{\pdfpagewidth}{8.5in}</tt>" in your LaTeX source file. </li>
+<li> Please use the new version of the <a href="aistats2021.sty">style file</a>. Do not modify the layout given by the style file. If you have questions about the style file or its usage, please contact the publications chair (<a href="mailto:aistats2021pc@gmail.com">aistats2021pc@gmail.com</a>).</li>
+<li> Citations within the text should include the <em>author's last name and year</em> e.g., (Cheesman, 1985). Apart from including the author's last name and year, citations can follow any style, as long as the style is consistent throughout the paper. </li>
+<li> In preparing the camera-ready version, we request that you take into account reviewer and meta-reviewer feedback. </li>
+<li> Please consider the following colorblind-friendly guidelines for introducing color in your figures and plots: <a href="https://usabilla.com/blog/how-to-design-for-color-blindness/">https://usabilla.com/blog/how-to-design-for-color-blindness/</a> </li>
+</ol>
+
+
+<p>The most commonly violated formatting instructions are:</p>
+<ol style="font-size: 80%">
+<li> Please make sure any supplementary material is submitted as a separate file and not appended to the main paper.</li>
+<li> <p>Your paper must be in US letter size (i.e., not A4 or other sizes). If you want to produce a complete PDF first before splitting to main and supplementary PDFs, be sure to use tools that preserve the page size, such as</p> </li>
+
+
+<p><tt>pdftk complete.pdf cat 1-10 output main.pdf</tt></p>
+
+<p><tt>pdftk complete.pdf cat 11-end output supplementary.pdf</tt></p>
+
+<p>Do not use MacOS Preview to split the pdf, because that does not necessarily preserve the page size.</p>
+
+<li> Your paper must contain author names, affiliations, and contact information.</li>
+<li> Please ensure that your camera-ready submission contains author information (instead of "Anonymous Author N" as was required for the original submission), and that the submitted list of authors and the ordering among them matches the camera-ready version, and that you use the standard style as provided above. Formatting instructions can be found in <a href="sample_paper.pdf">sample_paper.pdf</a> 
+</ol>
+
+
+
+
+
+<h3>Submission to CMT</h3>
 
 <p>The submission site is <a href="https://cmt3.research.microsoft.com/AISTATS2021/">https://cmt3.research.microsoft.com/AISTATS2021/</a></p>
 
-<h3>Instructions</h3>
-
 <p>
-The deadline for uploading the final version of your paper is TBD.
-To prepare your final paper, please
+You will be asked to provide submission code obtained by an automated style checker and confirm that you agree with having your work published in the proceedings.
 </p>
-<ol style="font-size: 80%">
-<li> Change the string "<tt>\usepackage{aistats2021}</tt>" to "<tt>\usepackage[accepted]{aistats2021}</tt>"
-  in your LaTeX source file.</li>
-<li> Uncomment "<tt>\special{papersize = 8.5in, 11in}</tt>"
-  "<tt>\setlength{\pdfpageheight}{11in}</tt>"
-  "<tt>\setlength{\pdfpagewidth}{8.5in}</tt>"</li>
-<li> Use the new style file <a href="aistats2021.sty">here</a>.
-</ol>
-<p>
-Do not modify the layout given by the style file. If you have questions about the style file or its usage, please contact the publications chair (<a href="mailto:aistats2021pc@gmail.com">aistats2021pc@gmail.com</a>).
-</p>
-
-<p>Submissions are limited to 8 pages <em>excluding</em> acknowledgments and references. The number of pages containing citations
-alone is not limited.
-</p>
-
-<p>Citations within the text should include the <em>author's last name and year</em> e.g., (Cheesman, 1985). Apart from including the author's last
-name and year, citations can follow any style, as long as the style is consistent throughout the paper.
-</p>
-
-<p>
-In the CMT Author Console there is now a new column labeled "Camera Ready," and in this column, for each accepted paper, a link labeled "Edit." Use this link to submit camera-ready papers. The CMT form will ask you for the list of authors, the title, the abstract, and the following files (where 642 is to be replaced by your paper ID):
-<tt>642.pdf</tt>,
-<tt>642-supp.xxx</tt> (optional).
-If a supplementary file is included, its type xxx can be pdf, zip, tgz or gz. In addition, you will be asked to provide submission code obtained by an automated style checker and confirm that you agree with having your work published in the proceedings.
-</p>
-
 <ol style="font-size: 80%">
   <li>Please ensure that the submitted title and abstract match the ones in the camera-ready version, and do not include any LaTeX commands or other non-human-readable markup.</li>
-  <li>Please ensure that the submitted list of authors and the ordering among them matches the camera-ready version.</li>
-  <li>Please make sure any supplementary material is submitted as a separate file and not appended to the main paper.</li>
-  <li>In preparing the camera-ready version, we request that you take into account reviewer and meta-reviewer feedback. Your camera-ready submission should be named 642.pdf (with 642 replaced by your paper ID). We only accept pdf files. Please ensure that your camera-ready submission contains author information (instead of "Anonymous Author N" as was required for the original submission), and that you use the standard style as provided above. Formatting instructions can be found in <a href="sample_paper.pdf">sample_paper.pdf</a>.</li>
   <li>Please verify that your paper follows the style requirements by submitting your pdf file to the <a href="https://research.engineering.wustl.edu/machinelearning/pub/AISTATS2020/">style checking script</a>. You will need to provide the paper ID, your name (just one author), your e-mail and the pdf file. If the paper passes the style checks, you will obtain a submission code. (Please ignore the warnings of the style checker.) The CMT form will ask you to provide this submission code.</li>
-  <li>The final version will appear in the proceedings, published by JMLR W&CP. The CMT will ask you to agree to have your work published by JMLR according to the agreement outlined <a href="http://proceedings.mlr.press/pmlr-license-agreement.pdf">here</a>. Please print this form, sign it and upload a scanned version as a supplementary file named 642-Permission.pdf (with 642 replaced by your paper ID).</li>
+  <li>The final version will appear in the proceedings, published by JMLR W&CP. The CMT will ask you to agree to have your work published by JMLR according to the agreement outlined <a href="http://proceedings.mlr.press/pmlr-license-agreement.pdf">here</a>. Please save this form, sign it, and upload as a supplementary file named 642-Permission.pdf (with 642 replaced by your paper ID).</li>
   <li>You may optionally submit supplementary material, e.g., detailed proofs, code, data, or slides. Please submit these as 642-supp.xxx (with 642 replaced by your paper ID and xxx replaced by the file type). If the supplementary material includes multiple files, please compress these into a single zip, tgz or gz file.</li>
   <li>You may continue to edit your camera-ready submissions until the camera-ready deadline.</li>
-</ol> -->
+</ol>
+
+<p>
+In the CMT Author Console there is now a new column labeled "Camera Ready," and in this column, for each accepted paper, a link labeled "Edit." Use this link to submit camera-ready papers. The CMT form will ask you for the list of authors, the title, the abstract, and the following files (where 642 is to be replaced by your paper ID): <tt>642.pdf</tt>, <tt>642-supp.xxx</tt> (optional).</p>
+
+<p>If a supplementary file is included the file type can be either pdf, zip, tgz, or gz. Your camera-ready submission should be named 642.pdf (with 642 replaced by your paper ID). We only accept pdf files. </p>
+
+
+
+
+
+
+
+
+
+<h3>Paper Thumbnails</h3>
+<p>We will need to show a thumbnail image of your paper on the virtual website. While we can create one automatically, you can indicate a URL where we can download these images if you wish to customize them. Images need to be in PNG format and have size either 600x600 or 600x400 pixels (landscape format).</p>
+
+<h3>Poster</h3>
+<p>Authors will be instructed shortly on the deadline and how to prepare their poster pdf, as we are still nailing down the details of the poster session.</p>
+
+<h3>Video Recordings</h3>
+<p>SlidesLive will contact you soon with instructions to prepare a video describing your work. While all authors will receive an email from SlidesLive, only the presenting author is required to upload the video recording. We will share soon more information about how poster and orals are going to be presented in the virtual conference.</p>
+
