@@ -36,7 +36,7 @@ credit_card_image: credit.png
 
 conference:
   draft: true # set to True if the programme is draft only.
-  image: san_diego_square_night.jpg
+  image: virtual_conference_animated.jpg
   hide_tentative: true
   proceedings:
     url:
