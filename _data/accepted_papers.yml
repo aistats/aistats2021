@@ -1,0 +1,2625 @@
+- PaperID: '4'
+  PaperTitle: On the Effect of Auxiliary Tasks on Representation Dynamics
+  Authors: Clare Lyle (University of Oxford); Mark Rowland (DeepMind); Georg Ostrovski
+    (DeepMind); Will Dabney (DeepMind)
+  AuthorNames: Lyle, Clare; Rowland, Mark; Ostrovski, Georg; Dabney, Will
+- PaperID: '6'
+  PaperTitle: 'LassoNet: Neural Networks with Feature Sparsity'
+  Authors: Ismael Lemhadri (Stanford University); Feng Ruan (Stanford University);
+    Rob Tibshirani (Stanford University)
+  AuthorNames: Lemhadri, Ismael; Ruan, Feng; Tibshirani, Rob
+- PaperID: '7'
+  PaperTitle: Projection-Free Optimization on Uniformly Convex Sets
+  Authors: "Thomas Kerdreux (INRIA/ ENS); Alexandre d'Aspremont (CNRS - Ecole Normale\
+    \ Sup\xE9rieure); Sebastian Pokutta (ZIB)"
+  AuthorNames: Kerdreux, Thomas; d'Aspremont, Alexandre; Pokutta, Sebastian
+- PaperID: '8'
+  PaperTitle: 'Differentiable Greedy Algorithm for Monotone Submodular Maximization:
+    Guarantees, Gradient Estimators, and Applications'
+  Authors: Shinsaku Sakaue (The University of Tokyo)
+  AuthorNames: Sakaue, Shinsaku
+- PaperID: '12'
+  PaperTitle: Graphical Normalizing Flows
+  Authors: "Antoine Wehenkel (University of Li\xE8ge); Gilles Louppe (University of\
+    \ Li\xE8ge)"
+  AuthorNames: Wehenkel, Antoine; Louppe, Gilles
+- PaperID: '14'
+  PaperTitle: One-Round Communication Efficient Distributed M-Estimation
+  Authors: Yajie Bao (Shanghai Jiao Tong University); Weijia Xiong (Columbia University)
+  AuthorNames: Bao, Yajie; Xiong, Weijia
+- PaperID: '16'
+  PaperTitle: 'CWY Parametrization: a Solution for Parallelized Optimization of Orthogonal
+    and Stiefel Matrices'
+  Authors: Valerii Likhosherstov (University of Cambridge); Jared Q Davis (Stanford
+    University | DeepMind); Krzysztof Choromanski (Google Brain Robotics); Adrian
+    Weller (University of Cambridge)
+  AuthorNames: Likhosherstov, Valerii; Davis, Jared Q; Choromanski, Krzysztof; Weller,
+    Adrian
+- PaperID: '19'
+  PaperTitle: Regularized Policies are Reward Robust
+  Authors: Hisham Husain (The Australian National University); Kamil Ciosek (Microsoft);
+    Ryota Tomioka (Microsoft Research)
+  AuthorNames: Husain, Hisham; Ciosek, Kamil; Tomioka, Ryota
+- PaperID: '27'
+  PaperTitle: Semi-Supervised Learning with Meta-Gradient
+  Authors: Taihong Xiao (University of California at Merced); Xin-Yu Zhang (Nankai
+    University); Haolin Jia (Tongji University); Ming-Ming Cheng (Nankai University);
+    Ming-Hsuan Yang (University of California at Merced)
+  AuthorNames: Xiao, Taihong; Zhang, Xin-Yu; Jia, Haolin; Cheng, Ming-Ming; Yang,
+    Ming-Hsuan
+- PaperID: '39'
+  PaperTitle: On Information Gain and Regret Bounds in Gaussian Process Bandits
+  Authors: Sattar Vakili (MediaTek Research); Kia Khezeli (Mayo Clinic); Victor Picheny
+    (Prowler)
+  AuthorNames: Vakili, Sattar; Khezeli, Kia; Picheny, Victor
+- PaperID: '41'
+  PaperTitle: On the proliferation of support vectors in high dimensions
+  Authors: Daniel Hsu (Columbia University); Vidya Muthukumar (UC Berkeley); Ji Xu
+    (Columbia University)
+  AuthorNames: Hsu, Daniel; Muthukumar, Vidya; Xu, Ji
+- PaperID: '44'
+  PaperTitle: Continual Learning using a Bayesian Nonparametric Dictionary of Weight
+    Factors
+  Authors: Nikhil Mehta (Duke University); Kevin J Liang (Duke University); Vinay
+    Kumar Verma (Duke University); Lawrence Carin Duke (CS)
+  AuthorNames: Mehta, Nikhil; Liang, Kevin J; Verma, Vinay Kumar; Duke, Lawrence Carin
+- PaperID: '50'
+  PaperTitle: A Fast and Robust Method for Global Topological Functional Optimization
+  Authors: Yitzchak E Solomon (Duke University); Alexander Wagner (Duke); Paul Bendich
+    (Duke University)
+  AuthorNames: Solomon, Yitzchak E; Wagner, Alexander; Bendich, Paul
+- PaperID: '62'
+  PaperTitle: Regression Discontinuity Design under Self-selection
+  Authors: Sida Peng (MICROSOFT RESEARCH); Yang Ning (Cornell University)
+  AuthorNames: Peng, Sida; Ning, Yang
+- PaperID: '63'
+  PaperTitle: 'Decision Making Problems with Funnel Structure: A Multi-Task Learning
+    Approach with Application to Email Marketing Campaigns'
+  Authors: Ziping Xu (University of Michigan); Amirhossein Meisami (Adobe); Ambuj
+    Tewari (University of Michigan)
+  AuthorNames: Xu, Ziping; Meisami, Amirhossein; Tewari, Ambuj
+- PaperID: '66'
+  PaperTitle: 'When OT meets MoM: Robust estimation of Wasserstein Distance'
+  Authors: "Guillaume Staerman (T\xE9l\xE9com Paris); Pierre Laforgue (Universit\xE0\
+    \ degli Studi di Milano); Pavlo Mozharovskyi (T\xE9l\xE9com Paris); Florence d'Alch\xE9\
+    -Buc (T\xE9l\xE9com Paris)"
+  AuthorNames: "Staerman, Guillaume; Laforgue, Pierre; Mozharovskyi, Pavlo; d'Alch\xE9\
+    -Buc, Florence"
+- PaperID: '68'
+  PaperTitle: Learning Individually Fair Classifier with Path-Specific Causal-Effect
+    Constraint
+  Authors: Yoichi Chikahara (NTT); Shinsaku Sakaue (The University of Tokyo); Akinori
+    Fujino (NTT); Hisashi Kashima (Kyoto University)
+  AuthorNames: Chikahara, Yoichi; Sakaue, Shinsaku; Fujino, Akinori; Kashima, Hisashi
+- PaperID: '70'
+  PaperTitle: Unconstrained MAP Inference, Exponentiated Determinantal Point Processes,
+    and Exponential Inapproximability
+  Authors: Naoto Ohsaka (NEC Corporation)
+  AuthorNames: Ohsaka, Naoto
+- PaperID: '71'
+  PaperTitle: False Discovery Rates in Biological Networks
+  Authors: Lu Yu (University of Toronto, Vector Institute); Tobias Kaufmann (NORMENT;
+    Oslo University Hospital); Johannes Lederer (Ruhr-University Bochum)
+  AuthorNames: Yu, Lu; Kaufmann, Tobias; Lederer, Johannes
+- PaperID: '73'
+  PaperTitle: Fourier Bases for Solving Permutation Puzzles
+  Authors: Horace Pan (University of Chicago); Risi Kondor (University of Chicago)
+  AuthorNames: Pan, Horace; Kondor, Risi
+- PaperID: '76'
+  PaperTitle: Accelerating Metropolis-Hastings with Lightweight Inference Compilation
+  Authors: Feynman Liang (UC Berkeley); Nimar S Arora (Facebook); Nazanin Tehrani
+    (Facebook); Yucen Li (Facebook); Michael Tingley (Facebook); Erik Meijer (Facebook)
+  AuthorNames: Liang, Feynman; Arora, Nimar S; Tehrani, Nazanin; Li, Yucen; Tingley,
+    Michael; Meijer, Erik
+- PaperID: '77'
+  PaperTitle: Simultaneously Reconciled Quantile Forecasting of Hierarchically Related
+    Time Series
+  Authors: Xing Han (The University of Texas at Austin); Sambarta Dasgupta (Intuit);
+    Joydeep Ghosh (UT Austin)
+  AuthorNames: Han, Xing; Dasgupta, Sambarta; Ghosh, Joydeep
+- PaperID: '78'
+  PaperTitle: Fully Gap-Dependent Bounds for Multinomial Logit Bandit
+  Authors: Jiaqi Yang (Tsinghua University)
+  AuthorNames: Yang, Jiaqi
+- PaperID: '82'
+  PaperTitle: Alternating Direction Method of Multipliers for Quantization
+  Authors: Tianjian Huang (University of Southern California); Prajwal Singhania (IIT
+    Kharagpur); Maziar Sanjabi (USC); Pabitra Mitra (IIT Kharagpur); Meisam Razaviyayn
+    (USC)
+  AuthorNames: Huang, Tianjian; Singhania, Prajwal; Sanjabi, Maziar; Mitra, Pabitra;
+    Razaviyayn, Meisam
+- PaperID: '101'
+  PaperTitle: Online Forgetting Process for Linear Regression Models
+  Authors: Yuantong Li (purdue university); Chi-Hua Wang (Purdue University); Guang
+    Cheng (Purdue University)
+  AuthorNames: Li, Yuantong; Wang, Chi-Hua; Cheng, Guang
+- PaperID: '103'
+  PaperTitle: A Bayesian nonparametric approach to count-min sketch under power-law
+    data streams
+  Authors: Emanuele Dolera (University of Pavia); Stefano Favaro (University of Torino
+    and Collegio Carlo Alberto); Stefano Peluchetti (Cogent Labs)
+  AuthorNames: Dolera, Emanuele; Favaro, Stefano; Peluchetti, Stefano
+- PaperID: '104'
+  PaperTitle: 'Nonlinear Functional Output Regression: A Dictionary Approach'
+  Authors: "Dimitri Bouche (T\xE9l\xE9com Paris); Marianne Clausel (IECL); Fran\xE7\
+    ois Roueff (T\xE9l\xE9com Paris); Florence d'Alch\xE9-Buc (T\xE9l\xE9com Paris)"
+  AuthorNames: "Bouche, Dimitri; Clausel, Marianne; Roueff, Fran\xE7ois; d'Alch\xE9\
+    -Buc, Florence"
+- PaperID: '108'
+  PaperTitle: When MAML Can Adapt Fast and How to Assist When It Cannot
+  Authors: "S\xE9bastien M. R. Arnold (USC); Shariq Iqbal (University of Southern\
+    \ California); Fei Sha (Google Research)"
+  AuthorNames: "Arnold, S\xE9bastien M. R.; Iqbal, Shariq; Sha, Fei"
+- PaperID: '111'
+  PaperTitle: Learning Smooth and Fair Representations
+  Authors: Xavier Gitiaux (George Mason University); Huzefa Rangwala (George Mason
+    University)
+  AuthorNames: Gitiaux, Xavier; Rangwala, Huzefa
+- PaperID: '114'
+  PaperTitle: 'On Projection Robust Optimal Transport: Sample Complexity and Model
+    Misspecification'
+  Authors: Tianyi Lin (UC Berkeley); Zeyu Zheng (Department of Industrial Engineering
+    and Operations Research, University of California, Berkeley); Elynn Chen (UC Berkeley);
+    Marco Cuturi (Google and CREST/ENSAE); Michael Jordan (UC Berkeley)
+  AuthorNames: Lin, Tianyi; Zheng, Zeyu; Chen, Elynn; Cuturi, Marco; Jordan, Michael
+- PaperID: '115'
+  PaperTitle: Contextual Blocking Bandits
+  Authors: Soumya Basu (Google); Orestis Papadigenopoulos (The University of Texas
+    at Austin); Constantine Caramanis (University of Texas); Sanjay Shakkottai (University
+    of Texas at Austin)
+  AuthorNames: Basu, Soumya; Papadigenopoulos, Orestis; Caramanis, Constantine; Shakkottai,
+    Sanjay
+- PaperID: '120'
+  PaperTitle: 'Kernel Distributionally Robust Optimization: Generalized Duality Theorem
+    and Stochastic Approximation'
+  Authors: "Jia-Jie Zhu (MPI for Intelligent Systems, T\xFCbingen); Wittawat Jitkrittum\
+    \ (Google); Moritz Diehl (University of Freiburg); Bernhard Sch\xF6lkopf (MPI\
+    \ for Intelligent Systems, T\xFCbingen)"
+  AuthorNames: "Zhu, Jia-Jie; Jitkrittum, Wittawat; Diehl, Moritz; Sch\xF6lkopf, Bernhard"
+- PaperID: '123'
+  PaperTitle: A comparative study on sampling with replacement vs Poisson sampling
+    in optimal subsampling
+  Authors: HaiYing Wang (University of Connecticut); Jiahui Zou (Chinese Academy of
+    Sciences)
+  AuthorNames: Wang, HaiYing; Zou, Jiahui
+- PaperID: '135'
+  PaperTitle: Robust Imitation Learning from Noisy Demonstrations
+  Authors: Voot Tangkaratt (RIKEN); Nontawat Charoenphakdee (The University of Tokyo
+    / RIKEN); Masashi Sugiyama (RIKEN/The University of Tokyo)
+  AuthorNames: Tangkaratt, Voot; Charoenphakdee, Nontawat; Sugiyama, Masashi
+- PaperID: '141'
+  PaperTitle: Online Active Model Selection for Pre-trained Classifiers
+  Authors: "Mohammad Reza Karimi (ETH Z\xFCrich); Nezihe Merve G\xFCrel (ETH Z\xFC\
+    rich); Bojan Karla\u0161 (ETH Z\xFCrich); Johannes Rausch (ETH Zurich); Ce Zhang\
+    \ (ETH); Andreas Krause (ETH Z\xFCrich)"
+  AuthorNames: "Karimi, Mohammad Reza; G\xFCrel, Nezihe Merve; Karla\u0161, Bojan;\
+    \ Rausch, Johannes; Zhang, Ce; Krause, Andreas"
+- PaperID: '147'
+  PaperTitle: Online Sparse Reinforcement Learning
+  Authors: Botao Hao (Deepmind); Tor Lattimore (DeepMind); Csaba Szepesvari (DeepMind/University
+    of Alberta); Mengdi Wang (Princeton University/DeepMind)
+  AuthorNames: Hao, Botao; Lattimore, Tor; Szepesvari, Csaba; Wang, Mengdi
+- PaperID: '157'
+  PaperTitle: A Contraction Approach to Model-based Reinforcement Learning
+  Authors: Ting-Han Fan (Princeton University); Peter J Ramadge (Princeton)
+  AuthorNames: Fan, Ting-Han; Ramadge, Peter J
+- PaperID: '158'
+  PaperTitle: The Spectrum of Fisher Information of Deep Networks Achieving Dynamical
+    Isometry
+  Authors: Tomohiro Hayase (Fujitsu Laboratories); Ryo Karakida (National Institute
+    of Advanced Industrial Science and Technology)
+  AuthorNames: Hayase, Tomohiro; Karakida, Ryo
+- PaperID: '160'
+  PaperTitle: Benchmarking Simulation-Based Inference
+  Authors: "Jan-Matthis Lueckmann (University of T\xFCbingen); Jan F Boelts (Technical\
+    \ University of Munich); David S Greenberg (Helmholtz Centre Geesthacht); Pedro\
+    \ Goncalves (research center caesar); Jakob H Macke (University of T\xFCbingen\
+    \ and MPI Intelligent Systems)"
+  AuthorNames: Lueckmann, Jan-Matthis; Boelts, Jan F; Greenberg, David S; Goncalves,
+    Pedro; Macke, Jakob H
+- PaperID: '161'
+  PaperTitle: Fisher Auto-Encoders
+  Authors: Khalil Elkhalil (Duke University); Ali Hasan (Duke University); Jie Ding
+    (University of Minnesota); Sina Farsiu (Duke University); Vahid Tarokh (Duke University)
+  AuthorNames: Elkhalil, Khalil; Hasan, Ali; Ding, Jie; Farsiu, Sina; Tarokh, Vahid
+- PaperID: '164'
+  PaperTitle: Deep Spectral Ranking
+  Authors: Ilkay Yildiz (Northeastern University); Jennifer Dy (Northeastern); Deniz
+    Erdogmus (Northeastern University); Susan Ostmo (Oregon Health & Science University);
+    J. Peter Campbell (Oregon Health & Science University); Michael F. Chiang (Oregon
+    Health & Science University); Stratis Ioannidis (Northeastern University)
+  AuthorNames: Yildiz, Ilkay; Dy, Jennifer; Erdogmus, Deniz; Ostmo, Susan; Campbell,
+    J. Peter; Chiang, Michael F.; Ioannidis, Stratis
+- PaperID: '168'
+  PaperTitle: Tight Regret Bounds for Infinite-armed Linear Contextual Bandits
+  Authors: Yingkai Li (Northwestern University); Yining Wang (CMU); Xi Chen (New York
+    University); Yuan Zhou (UIUC)
+  AuthorNames: Li, Yingkai; Wang, Yining; Chen, Xi; Zhou, Yuan
+- PaperID: '171'
+  PaperTitle: On the Absence of Spurious Local Minima in Nonlinear Low-Rank Matrix
+    Recovery Problems
+  Authors: Yingjie Bi (University of California, Berkeley); Javad Lavaei (UC Berkeley)
+  AuthorNames: Bi, Yingjie; Lavaei, Javad
+- PaperID: '175'
+  PaperTitle: Fast Learning in Reproducing Kernel Krein Spaces via Generalized Measures
+  Authors: Fanghui Liu (KU Leuven); Xiaolin Huang (Shanghai Jiao Tong University);
+    Yingyi Chen (KU Leuven); Johan Suykens (KU Leuven)
+  AuthorNames: Liu, Fanghui; Huang, Xiaolin; Chen, Yingyi; Suykens, Johan
+- PaperID: '184'
+  PaperTitle: Approximate Message Passing with Spectral Initialization for Generalized
+    Linear Models
+  Authors: Marco Mondelli (IST Austria); Ramji Venkataramanan (University of Cambridge)
+  AuthorNames: Mondelli, Marco; Venkataramanan, Ramji
+- PaperID: '185'
+  PaperTitle: Active Learning with Maximum Margin Sparse Gaussian Processes
+  Authors: Weishi Shi (Rochester Institute of Technology); Qi Yu (Rochester Institute
+    of Technology)
+  AuthorNames: Shi, Weishi; Yu, Qi
+- PaperID: '187'
+  PaperTitle: A Stein Goodness-of-test for Exponential Random Graph Models
+  Authors: Wenkai Xu (Gatsby Unit, UCL); Gesine  D  Reinert  (University of Oxford
+    )
+  AuthorNames: 'Xu, Wenkai; Reinert , Gesine  D '
+- PaperID: '190'
+  PaperTitle: The Sample Complexity of Level Set Approximation
+  Authors: "Francois Bachoc (Institut de Math\xE9matiques de Toulouse); Tommaso R.\
+    \ Cesari  (ANITI / Toulouse School of Economics); Sebastien Gerchinovitz (IRT\
+    \ Saint Exup\xE9ry & Institut de Math\xE9matiques de Toulouse)"
+  AuthorNames: Bachoc, Francois; Cesari , Tommaso R.; Gerchinovitz, Sebastien
+- PaperID: '193'
+  PaperTitle: Curriculum Learning by Optimizing Learning Dynamics
+  Authors: Tianyi Zhou (University of Washington); Shengjie Wang (University of Washington);
+    Jeff Bilmes (UW)
+  AuthorNames: Zhou, Tianyi; Wang, Shengjie; Bilmes, Jeff
+- PaperID: '194'
+  PaperTitle: Approximating Lipschitz continuous functions with GroupSort neural networks
+  Authors: Ugo Tanielian (UPMC-Criteo); Gerard Biau (University Paris 7)
+  AuthorNames: Tanielian, Ugo; Biau, Gerard
+- PaperID: '197'
+  PaperTitle: Learning GPLVM with arbitrary kernels using the unscented transformation
+  Authors: "Daniel A de Souza (Federal University of Cear\xE1); Diego Mesquita (Aalto\
+    \ University); Jo\xE3o Paulo Gomes (Federal University of Cear\xE1); C\xE9sar\
+    \ Lincoln C Mattos (Federal University of Cear\xE1)"
+  AuthorNames: "de Souza, Daniel A; Mesquita, Diego; Gomes, Jo\xE3o Paulo; Mattos,\
+    \ C\xE9sar Lincoln C"
+- PaperID: '201'
+  PaperTitle: Low-Rank Generalized Linear Bandit Problems
+  Authors: Yangyi Lu (University of Michigan); Amirhossein Meisami (Adobe); Ambuj
+    Tewari (University of Michigan)
+  AuthorNames: Lu, Yangyi; Meisami, Amirhossein; Tewari, Ambuj
+- PaperID: '208'
+  PaperTitle: On the convergence of the Metropolis algorithm with fixed-order updates
+    for multivariate binary probability distributions
+  Authors: "Kai Br\xFCgge (DIKU, University of Copenhagen); Asja Fischer (Ruhr University,\
+    \ Bochum); Christian Igel (University of Copenhagen)"
+  AuthorNames: "Br\xFCgge, Kai; Fischer, Asja; Igel, Christian"
+- PaperID: '214'
+  PaperTitle: Learning Partially Known Stochastic Dynamics with Empirical PAC Bayes
+  Authors: "Manuel Hau\xDFmann (Heidelberg University); Sebastian Gerwinn (Bosch Center\
+    \ for Artificial Intelligence); Andreas Look (Bosch); Barbara Rakitsch (Bosch\
+    \ Center for Artificial Intelligence); Melih Kandemir (Bosch Center for Artificial\
+    \ Intelligence)"
+  AuthorNames: "Hau\xDFmann, Manuel; Gerwinn, Sebastian; Look, Andreas; Rakitsch,\
+    \ Barbara; Kandemir, Melih"
+- PaperID: '218'
+  PaperTitle: 'SONIA: A Symmetric Blockwise Truncated Optimization Algorithm'
+  Authors: Majid Jahani (Lehigh University); MohammadReza Nazari (SAS Institute Inc.);
+    Rachael Tappenden (University of Canterbury); Albert S Berahas (University of
+    Michigan); Martin Takac (Lehigh University)
+  AuthorNames: Jahani, Majid; Nazari, MohammadReza; Tappenden, Rachael; Berahas, Albert
+    S; Takac, Martin
+- PaperID: '221'
+  PaperTitle: Predictive Power of Nearest Neighbors Algorithm under Random Perturbation
+  Authors: Yue Xing (Purdue University); Qifan Song (Purdue University ); Guang Cheng
+    (Purdue University)
+  AuthorNames: Xing, Yue; Song, Qifan; Cheng, Guang
+- PaperID: '222'
+  PaperTitle: On the Generalization Properties of Adversarial Training
+  Authors: Yue Xing (Purdue University); Qifan Song (Purdue University ); Guang Cheng
+    (Purdue University)
+  AuthorNames: Xing, Yue; Song, Qifan; Cheng, Guang
+- PaperID: '223'
+  PaperTitle: Adversarial Robust Estimate and Risk Analysis in Linear Regression
+  Authors: Yue Xing (Purdue University); Ruizhi Zhang (University of Nebraska-Lincoln);
+    Guang Cheng (Purdue University)
+  AuthorNames: Xing, Yue; Zhang, Ruizhi; Cheng, Guang
+- PaperID: '233'
+  PaperTitle: Adaptive Approximate Policy Iteration
+  Authors: Botao Hao (Deepmind); Nevena Lazic (DeepMind); Yasin Abbasi-Yadkori (DeepMind);
+    Pooria Joulani (DeepMind); Csaba Szepesvari (DeepMind/University of Alberta)
+  AuthorNames: Hao, Botao; Lazic, Nevena; Abbasi-Yadkori, Yasin; Joulani, Pooria;
+    Szepesvari, Csaba
+- PaperID: '238'
+  PaperTitle: 'Nearest Neighbour Based Estimates of Gradients: Sharp Nonasymptotic
+    Bounds and Applications'
+  Authors: "Guillaume Ausset ( T\xE9l\xE9com Paris); Stephan Cl\xE9men\xE7on (T\xE9\
+    l\xE9com Paris); Fran\xE7ois Portier (T\xE9l\xE9com Paris)"
+  AuthorNames: "Ausset, Guillaume; Cl\xE9men\xE7on, Stephan; Portier, Fran\xE7ois"
+- PaperID: '244'
+  PaperTitle: Foundations of Bayesian Learning from Synthetic Data
+  Authors: Harrison Wilde (University Of Warwick); Jack E Jewson (University of Warwick);
+    Sebastian Vollmer (University of Warwick); Chris Holmes (University of Oxford)
+  AuthorNames: Wilde, Harrison; Jewson, Jack E; Vollmer, Sebastian; Holmes, Chris
+- PaperID: '246'
+  PaperTitle: 'Generalization of Quasi-Newton Methods: Application to Robust Symmetric
+    Multisecant Updates'
+  Authors: Damien Scieur (Samsung - SAIT AI Lab Montreal); Lewis Liu (Mila & DIRO);
+    Thomas Pumir (Princeton); Nicolas Boumal (EPFL)
+  AuthorNames: Scieur, Damien; Liu, Lewis; Pumir, Thomas; Boumal, Nicolas
+- PaperID: '250'
+  PaperTitle: Hierarchical Clustering via Sketches and Hierarchical Correlation Clustering
+  Authors: Danny Vainstein (Tel-Aviv University); Vaggos Chatziafratis (Stanford University,
+    California); Gui Citovsky (Google); Anand Rajagopalan (Google); Mohammad Mahdian
+    (Google); Yossi Azar (Tel-Aviv University)
+  AuthorNames: Vainstein, Danny; Chatziafratis, Vaggos; Citovsky, Gui; Rajagopalan,
+    Anand; Mahdian, Mohammad; Azar, Yossi
+- PaperID: '252'
+  PaperTitle: Generalization Bounds for Stochastic Saddle Point Problems
+  Authors: Junyu Zhang (Princeton University); Mingyi Hong (University of Minnesota);
+    Mengdi Wang (Princeton University/DeepMind); Shuzhong Zhang (University of Minnesota)
+  AuthorNames: Zhang, Junyu; Hong, Mingyi; Wang, Mengdi; Zhang, Shuzhong
+- PaperID: '254'
+  PaperTitle: Learning to Defense by Learning to Attack
+  Authors: Haoming Jiang (Georgia Tech); Zhehui Chen (Georgia Tech); Yuyang Shi (Georgia
+    Tech); Bo Dai (Google Brain); Tuo Zhao (Gatech)
+  AuthorNames: Jiang, Haoming; Chen, Zhehui; Shi, Yuyang; Dai, Bo; Zhao, Tuo
+- PaperID: '257'
+  PaperTitle: A Deterministic Streaming Sketch for Ridge Regression
+  Authors: Benwei Shi (University of Utah); Jeff Phillips (University of Utah)
+  AuthorNames: Shi, Benwei; Phillips, Jeff
+- PaperID: '259'
+  PaperTitle: 'Deep Probabilistic Accelerated Evaluation: A Robust Certifiable Rare-Event
+    Simulation for Black-Box Safety-Critical Systems'
+  Authors: Mansur Arief (Carnegie Mellon University); Zhiyuan Huang (Carnegie Mellon
+    University); Guru Koushik Senthil Kumar (Carnegie Mellon University); Yuanlu Bai
+    (Columbia University); Shengyi He (Columbia University); Wenhao Ding (Carnegie
+    Mellon University); Henry Lam (Columbia University); Ding Zhao (Carnegie Mellon
+    University)
+  AuthorNames: Arief, Mansur; Huang, Zhiyuan; Senthil Kumar, Guru Koushik; Bai, Yuanlu;
+    He, Shengyi; Ding, Wenhao; Lam, Henry; Zhao, Ding
+- PaperID: '260'
+  PaperTitle: On the role of data in PAC-Bayes
+  Authors: Gintare Karolina Dziugaite (Element AI); Kyle Hsu (Stanford University);
+    Waseem Gharbieh (Element AI); Gabriel Arpino (University of Toronto); Daniel M.
+    Roy (University of Toronto)
+  AuthorNames: Dziugaite, Gintare Karolina; Hsu, Kyle; Gharbieh, Waseem; Arpino, Gabriel;
+    Roy, Daniel M.
+- PaperID: '264'
+  PaperTitle: 'CADA: Communication-Adaptive Distributed Adam'
+  Authors: Tianyi Chen (Rensselaer Polytechnic Institute); Ziye Guo (Rensselaer Polytechnic
+    Institute); Yuejiao Sun (University of California, Los Angeles); Wotao Yin (University
+    of California, Los Angeles)
+  AuthorNames: Chen, Tianyi; Guo, Ziye; Sun, Yuejiao; Yin, Wotao
+- PaperID: '267'
+  PaperTitle: 'Bandit algorithms: Letting go of logarithmic regret for statistical
+    robustness'
+  Authors: Kumar Ashutosh (Indian Institute of Technology Bombay); Jayakrishnan U
+    Nair ("Assist. Prof, EE, IIT Bombay"); Anmol Kagrecha (IIT Bombay); Krishna Jagannathan
+    (Indian Institute of Technology Madras)
+  AuthorNames: Ashutosh, Kumar; Nair, Jayakrishnan U; Kagrecha, Anmol; Jagannathan,
+    Krishna
+- PaperID: '271'
+  PaperTitle: Geometrically Enriched Latent Spaces
+  Authors: "Georgios Arvanitidis (MPI for Intelligent Systems, T\xFCbingen); Soren\
+    \ Hauberg (Technical University of Denmark, Denmark); Bernhard Sch\xF6lkopf (MPI\
+    \ for Intelligent Systems, T\xFCbingen)"
+  AuthorNames: "Arvanitidis, Georgios; Hauberg, Soren; Sch\xF6lkopf, Bernhard"
+- PaperID: '272'
+  PaperTitle: Confident Off-Policy Evaluation and Selection through Self-Normalized
+    Importance Weighting
+  Authors: Ilja Kuzborskij  (DeepMind); Claire Vernade (Deepmind); Andras Gyorgy (DeepMind);
+    Csaba Szepesvari (DeepMind/University of Alberta)
+  AuthorNames: Kuzborskij , Ilja; Vernade, Claire; Gyorgy, Andras; Szepesvari, Csaba
+- PaperID: '274'
+  PaperTitle: 'Kernel regression in high dimensions: Refined analysis beyond double
+    descent'
+  Authors: Fanghui Liu (KU Leuven); Zhenyu Liao (University of California, Berkeley);
+    Johan Suykens (KU Leuven)
+  AuthorNames: Liu, Fanghui; Liao, Zhenyu; Suykens, Johan
+- PaperID: '277'
+  PaperTitle: 'Self-Concordant Analysis of Generalized Linear Bandits with Forgetting '
+  Authors: "Yoan Russac (ENS Paris); Louis Faury (Criteo AI Lab); Olivier Capp\xE9\
+    \ (ENS Paris); Aur\xE9lien Garivier (ENS Lyon)"
+  AuthorNames: "Russac, Yoan; Faury, Louis; Capp\xE9, Olivier; Garivier, Aur\xE9lien"
+- PaperID: '284'
+  PaperTitle: 'Logical Team Q-learning: An approach towards factored policies in cooperative
+    MARL'
+  Authors: "Lucas C Cassano (EPFL); Ali H. Sayed (Ecole Polytechnique F\xE9d\xE9rale\
+    \ de Lausanne)"
+  AuthorNames: Cassano, Lucas C; Sayed, Ali H.
+- PaperID: '290'
+  PaperTitle: Automatic structured variational inference
+  Authors: Luca Ambrogioni (Radboud University); Kate Lin (Google); Emily Fertig (Google);
+    Sharad Vikram (Google); Max Hinne (Radboud University); Dave Moore (Google); Marcel
+    van Gerven (Radboud University)
+  AuthorNames: Ambrogioni, Luca; Lin, Kate; Fertig, Emily; Vikram, Sharad; Hinne,
+    Max; Moore, Dave; van Gerven, Marcel
+- PaperID: '292'
+  PaperTitle: Neural Enhanced Belief Propagation on Factor Graphs
+  Authors: "V\xEDctor Garcia Satorras (University of Amsterdam); Max Welling (University\
+    \ of Amsterdam)"
+  AuthorNames: "Garcia Satorras, V\xEDctor; Welling, Max"
+- PaperID: '294'
+  PaperTitle: Predictive Complexity Priors
+  Authors: Eric T Nalisnick (University of Amsterdam); Jonathan Gordon (University
+    of Cambridge); Jose Miguel Hernandez-Lobato (University of Cambridge)
+  AuthorNames: Nalisnick, Eric T; Gordon, Jonathan; Hernandez-Lobato, Jose Miguel
+- PaperID: '302'
+  PaperTitle: Improving predictions of Bayesian neural nets via local linearization
+  Authors: "Alexander Immer (ETH Zurich, MPI T\xFCbingen); Maciej  Jan Korzepa (Technical\
+    \ University of Denmark); Matthias Bauer (DeepMind)"
+  AuthorNames: Immer, Alexander; Korzepa, Maciej  Jan; Bauer, Matthias
+- PaperID: '304'
+  PaperTitle: Generalized Spectral Clustering via Gromov-Wasserstein Learning
+  Authors: Samir Chowdhury (Stanford University); Tom Needham (Florida State University)
+  AuthorNames: Chowdhury, Samir; Needham, Tom
+- PaperID: '309'
+  PaperTitle: 'Shapley Flow: A Graph-based Approach to Interpreting Model Predictions'
+  Authors: Jiaxuan Wang (University of Michigan, Ann Arbor); Jenna Wiens (University
+    of Michigan); Scott Lundberg (Microsoft Research)
+  AuthorNames: Wang, Jiaxuan; Wiens, Jenna; Lundberg, Scott
+- PaperID: '311'
+  PaperTitle: Scalable Constrained Bayesian Optimization
+  Authors: David Eriksson (Facebook); Matthias Poloczek (Amazon)
+  AuthorNames: Eriksson, David; Poloczek, Matthias
+- PaperID: '312'
+  PaperTitle: Sample efficient learning of image-based diagnostic classifiers via
+    probabilistic labels
+  Authors: Roberto I Vega (University of Alberta); Pouneh Gorji (University of Alberta);
+    Zichen Zhang (University of Alberta); Xuebin Qin (University of Alberta); Abhilash
+    Rakkunedeth (University of Alberta); Jeevesh Kapur (MedoAI); Jacob Jaremko (University
+    of Alberta); Russell Greiner (U Alberta)
+  AuthorNames: Vega, Roberto I; Gorji, Pouneh; Zhang, Zichen; Qin, Xuebin; Rakkunedeth,
+    Abhilash; Kapur, Jeevesh; Jaremko, Jacob; Greiner, Russell
+- PaperID: '317'
+  PaperTitle: Nonparametric Variable Selection with Optimal Decision Stumps
+  Authors: Jason M Klusowski (Princeton University); Peter M Tian (Princeton University)
+  AuthorNames: Klusowski, Jason M; Tian, Peter M
+- PaperID: '319'
+  PaperTitle: Sharp Analysis of a Simple Model for Random Forests
+  Authors: Jason M Klusowski (Princeton University)
+  AuthorNames: Klusowski, Jason M
+- PaperID: '321'
+  PaperTitle: Nested Barycentric Coordinate System as an Explicit Feature Map
+  Authors: Lee-Ad  Gottlieb (Ariel University); Eran Kaufman (Ariel University); Aryeh
+    Kontorovich (Ben-Gurion University of the Negev); Gabriel Nivasch (Ariel University
+    ); Ofir Pele (Sandisk)
+  AuthorNames: ' Gottlieb, Lee-Ad; Kaufman, Eran; Kontorovich, Aryeh; Nivasch, Gabriel;
+    Pele, Ofir'
+- PaperID: '327'
+  PaperTitle: An Analysis of the Adaptation Speed of Causal Models
+  Authors: "R\xE9mi Le Priol (Mila & University of Montreal); Reza Babanezhad (Samsung);\
+    \ Yoshua Bengio (Mila); Simon Lacoste-Julien (Mila, Universit\xE9 de Montr\xE9\
+    al)"
+  AuthorNames: "Le Priol, R\xE9mi; Babanezhad, Reza; Bengio, Yoshua; Lacoste-Julien,\
+    \ Simon"
+- PaperID: '332'
+  PaperTitle: 'Learning Fair Scoring Functions: Bipartite Ranking under ROC-based
+    Fairness Constraints'
+  Authors: "Robin Vogel (T\xE9l\xE9com Paris); Aur\xE9lien Bellet (INRIA); Stephan\
+    \ Cl\xE9men\xE7on (T\xE9l\xE9com Paris)"
+  AuthorNames: "Vogel, Robin; Bellet, Aur\xE9lien; Cl\xE9men\xE7on, Stephan"
+- PaperID: '339'
+  PaperTitle: Efficient Computation and Analysis of Distributional Shapley Values
+  Authors: Yongchan Kwon (Stanford University); Manuel A. Rivas (Stanford University);
+    James Zou (Stanford University)
+  AuthorNames: Kwon, Yongchan; Rivas, Manuel A.; Zou, James
+- PaperID: '344'
+  PaperTitle: A constrained risk inequality for general losses
+  Authors: John Duchi (Stanford University); Feng Ruan (Stanford University)
+  AuthorNames: Duchi, John; Ruan, Feng
+- PaperID: '349'
+  PaperTitle: Sample Complexity Bounds for Two Timescale Value-based Reinforcement
+    Learning Algorithms
+  Authors: Tengyu Xu (The Ohio State University); Yingbin Liang (The Ohio State University)
+  AuthorNames: Xu, Tengyu; Liang, Yingbin
+- PaperID: '351'
+  PaperTitle: 'Learning Prediction Intervals for Regression: Generalization and Calibration'
+  Authors: Haoxian Chen (Columbia University); Ziyi Huang (Columbia University); Henry
+    Lam (Columbia University); Huajie Qian (Columbia University); Haofeng Zhang (Columbia
+    University)
+  AuthorNames: Chen, Haoxian; Huang, Ziyi; Lam, Henry; Qian, Huajie; Zhang, Haofeng
+- PaperID: '355'
+  PaperTitle: 'Regularization Matters: A Nonparametric Perspective on Overparametrized
+    Neural Network'
+  Authors: Tianyang Hu (Purdue University); Wenjia Wang (Hong Kong University of Science
+    and Technology); Cong Lin (East China Normal University); Guang Cheng (Purdue
+    University)
+  AuthorNames: Hu, Tianyang; Wang, Wenjia; Lin, Cong; Cheng, Guang
+- PaperID: '357'
+  PaperTitle: 'Revisiting Model-Agnostic Private Learning: Faster Rates and Active
+    Learning'
+  Authors: Chong Liu (UC Santa Barbara); Yuqing Zhu (UC Santa Barbara); Kamalika Chaudhuri
+    (University of California, San Diego); Yu-Xiang Wang (UC Santa Barbara)
+  AuthorNames: Liu, Chong; Zhu, Yuqing; Chaudhuri, Kamalika; Wang, Yu-Xiang
+- PaperID: '358'
+  PaperTitle: Multi-Fidelity High-Order Gaussian Processes for Physical Simulation
+  Authors: Zheng Wang (University of Utah); Wei Xing (University of Utah); Robert
+    Kirby (University of Utah); Shandian Zhe (University of Utah)
+  AuthorNames: Wang, Zheng; Xing, Wei; Kirby, Robert; Zhe, Shandian
+- PaperID: '366'
+  PaperTitle: Deep Fourier Kernel for Self-Attentive Point Processes
+  Authors: Shixiang Zhu (Georgia Institute of Technology); Minghe Zhang (Georgia Institute
+    of Technology); Ruyi Ding (Northeastern University); Yao Xie (Georgia Tech)
+  AuthorNames: Zhu, Shixiang; Zhang, Minghe; Ding, Ruyi; Xie, Yao
+- PaperID: '370'
+  PaperTitle: Robustness and scalability under heavy tails, without strong convexity
+  Authors: Matthew J Holland (Osaka University)
+  AuthorNames: Holland, Matthew J
+- PaperID: '372'
+  PaperTitle: Understanding the wiring evolution in differentiable neural architecture
+    search
+  Authors: Sirui Xie (UCLA); Shoukang Hu (The Chinese University of Hong Kong); Xinjiang
+    Wang (); Chunxiao Liu (SenseTime Research); Jianping Shi (Sensetime Group Limited);
+    Xunying Liu (The Chinese University of Hong Kong); Dahua Lin (The Chinese University
+    of Hong Kong)
+  AuthorNames: Xie, Sirui; Hu, Shoukang; Wang, Xinjiang; Liu, Chunxiao; Shi, Jianping;
+    Liu, Xunying; Lin, Dahua
+- PaperID: '376'
+  PaperTitle: Provable Hierarchical Imitation Learning via EM
+  Authors: Zhiyu Zhang (Boston University); Ioannis Paschalidis (Boston University)
+  AuthorNames: Zhang, Zhiyu; Paschalidis, Ioannis
+- PaperID: '378'
+  PaperTitle: Learning with risk-averse feedback under potentially heavy tails
+  Authors: "Matthew J Holland (Osaka University); El Mehdi Haress (CentraleSup\xE9\
+    lec)"
+  AuthorNames: Holland, Matthew J; Haress, El Mehdi
+- PaperID: '379'
+  PaperTitle: Parametric Programming Approach for More Powerful and General Lasso
+    Selective Inference
+  Authors: Vo Nguyen Le Duy (Nagoya Institute of Technology / RIKEN); Ichiro Takeuchi
+    (Nagoya Institute of Technology / RIKEN)
+  AuthorNames: Duy, Vo Nguyen Le; Takeuchi, Ichiro
+- PaperID: '383'
+  PaperTitle: On the High Accuracy Limitation of Adaptive Property Estimation
+  Authors: Yanjun Han (Stanford University)
+  AuthorNames: Han, Yanjun
+- PaperID: '384'
+  PaperTitle: 'Neural Function Modules with Sparse Arguments: A Dynamic Approach to
+    Integrating Information across Layers'
+  Authors: "Alex M Lamb (Universite de Montreal); Anirudh Goyal (University of Montreal);\
+    \ Agnieszka S\u0142owik (Department of Computer Science and Technology University\
+    \ of Cambridge); Michael C Mozer (Google Research / University of Colorado); Philippe\
+    \ Beaudoin (Waverly); Yoshua Bengio (Mila)"
+  AuthorNames: "Lamb, Alex M; Goyal, Anirudh; S\u0142owik, Agnieszka; Mozer, Michael\
+    \ C; Beaudoin, Philippe; Bengio, Yoshua"
+- PaperID: '391'
+  PaperTitle: 'Learning-to-Rank with Partitioned Preference: Fast Estimation for the
+    Plackett-Luce Model'
+  Authors: Jiaqi Ma (University of Michigan); Xinyang Yi (Google); Weijing Tang (University
+    of Michigan); Zhe Zhao (Google Brain); Lichan Hong (Google); Ed H. Chi (Google);
+    Qiaozhu Mei (University of Michigan)
+  AuthorNames: Ma, Jiaqi; Yi, Xinyang; Tang, Weijing; Zhao, Zhe; Hong, Lichan; Chi,
+    Ed H.; Mei, Qiaozhu
+- PaperID: '397'
+  PaperTitle: Interpretable Random Forests via Rule Extraction
+  Authors: "Cl\xE9ment B\xE9nard (Safran Tech - Sorbonne Universit\xE9); G\xE9rard\
+    \ Biau (Sorbonne Universit\xE9); S\xE9bastien da Veiga (Safran Tech); Erwan Scornet\
+    \ (\xC9cole Polytechnique)"
+  AuthorNames: "B\xE9nard, Cl\xE9ment; Biau, G\xE9rard; da Veiga, S\xE9bastien; Scornet,\
+    \ Erwan"
+- PaperID: '398'
+  PaperTitle: Regret Minimization for Causal Inference on Large Treatment Space
+  Authors: Akira Tanimoto (NEC / Kyoto University / RIKEN AIP); Tomoya Sakai (NEC
+    / RIKEN); Takashi Takenouchi (Future University Hakodate/RIKEN Center for Advanced
+    Intelligence Project); Hisashi Kashima (Kyoto University)
+  AuthorNames: Tanimoto, Akira; Sakai, Tomoya; Takenouchi, Takashi; Kashima, Hisashi
+- PaperID: '400'
+  PaperTitle: Bayesian Model Averaging for Causality Estimation and its Approximation
+    based on Gaussian Scale Mixture Distributions
+  Authors: Shunsuke Horii (Waseda University)
+  AuthorNames: Horii, Shunsuke
+- PaperID: '406'
+  PaperTitle: 'Adaptive Sampling for Fast Constrained Maximization of Submodular Functions '
+  Authors: "Francesco Quinzan (Hasso Plattner Institute); Vanja Doskoc (Hasso Plattner\
+    \ Institute); Andreas G\xF6bel (Hasso Plattner Institute); Tobias Friedrich (Hasso\
+    \ Plattner Institute)"
+  AuthorNames: "Quinzan, Francesco; Doskoc, Vanja; G\xF6bel, Andreas; Friedrich, Tobias"
+- PaperID: '416'
+  PaperTitle: Mean-Variance Analysis in Bayesian Optimization under Uncertainty
+  Authors: Shogo Iwazaki (Nagoya Institute of Technology); Yu Inatsu (Nagoya Institute
+    of Technology); Ichiro Takeuchi (Nagoya Institute of Technology / RIKEN)
+  AuthorNames: Iwazaki, Shogo; Inatsu, Yu; Takeuchi, Ichiro
+- PaperID: '419'
+  PaperTitle: Hadamard Wirtinger Flow for Sparse Phase Retrieval
+  Authors: Fan Wu (University of Oxford); Patrick Rebeschini (University of Oxford)
+  AuthorNames: Wu, Fan; Rebeschini, Patrick
+- PaperID: '420'
+  PaperTitle: Stochastic Linear Bandits Robust to Adversarial Attacks
+  Authors: "Ilija Bogunovic (ETH Zurich); Arpan Losalka (National University of Singapore);\
+    \ Andreas Krause (ETH Z\xFCrich); Jonathan Scarlett (National University of Singapore)"
+  AuthorNames: Bogunovic, Ilija; Losalka, Arpan; Krause, Andreas; Scarlett, Jonathan
+- PaperID: '423'
+  PaperTitle: 'ATOL: Measure Vectorization for Automatic Topologically-Oriented Learning'
+  Authors: "Martin Royer (INRIA); Frederic Chazal (INRIA); Cl\xE9ment Levrard (Laboratoire\
+    \ de Probabilit\xE9s, Statistique et Mod\xE9lisation, Universit\xE9 Paris Diderot);\
+    \ Yuhei Umeda (Fujitsu); Yuichi Ike (Fujitsu Laboratories Ltd.)"
+  AuthorNames: "Royer, Martin; Chazal, Frederic; Levrard, Cl\xE9ment; Umeda, Yuhei;\
+    \ Ike, Yuichi"
+- PaperID: '425'
+  PaperTitle: Optimizing Percentile Criterion using Robust MDPs
+  Authors: Bahram Behzadian (University of New Hampshire); Reazul Hasan Russel (University
+    of New Hampshire); Marek Petrik (University of New Hampshire); Chin Pang Ho (HK
+    City University)
+  AuthorNames: Behzadian, Bahram; Russel, Reazul Hasan; Petrik, Marek; Ho, Chin Pang
+- PaperID: '426'
+  PaperTitle: On Riemannian Stochastic Approximation Schemes with Fixed Step-Size
+  Authors: "Alain Durmus (ENS Paris Saclay); Pablo Jim\xE9nez (Ecole Polytechnique);\
+    \ Eric Moulines (Ecole Polytechnique); Salem SAID (CNRS)"
+  AuthorNames: "Durmus, Alain; Jim\xE9nez, Pablo; Moulines, Eric; SAID, Salem"
+- PaperID: '431'
+  PaperTitle: Optimal Quantisation of Probability Measures Using Maximum Mean Discrepancy
+  Authors: Onur Teymur (Newcastle University); Jackson C Gorham (Whisper.ai); Marina
+    Riabiz (King's College London); Chris Oates (Newcastle)
+  AuthorNames: Teymur, Onur; Gorham, Jackson C; Riabiz, Marina; Oates, Chris
+- PaperID: '434'
+  PaperTitle: Aligning Time Series on Incomparable Spaces
+  Authors: Samuel Cohen (University College London); Giulia Luise (University College
+    London); Alexander Terenin (Imperial College London); Brandon Amos (Facebook AI
+    Research); Marc Deisenroth (University College London)
+  AuthorNames: Cohen, Samuel; Luise, Giulia; Terenin, Alexander; Amos, Brandon; Deisenroth,
+    Marc
+- PaperID: '439'
+  PaperTitle: The Unexpected Deterministic and Universal Behavior of Large Softmax
+    Classifiers
+  Authors: "Mohamed El Amine Seddik (Ecole Polytechnique); Cosme Louart (CEA); Romain\
+    \  COUILLET (CentraleSup\xE9lec, GIPSA-lab @ Universit\xE9 Grenoble-Alpes); Mohamed\
+    \ Tamaazousti (CEA Saclay)"
+  AuthorNames: Seddik, Mohamed El Amine; Louart, Cosme; COUILLET, Romain ; Tamaazousti,
+    Mohamed
+- PaperID: '441'
+  PaperTitle: Measure Transport with Kernel Stein Discrepancy
+  Authors: Matthew A Fisher (Newcastle University); Tui Nolan (Cornell University);
+    Matthew Graham (Newcastle University); Dennis Prangle (Newcastle University);
+    Chris Oates (Newcastle)
+  AuthorNames: Fisher, Matthew A; Nolan, Tui; Graham, Matthew; Prangle, Dennis; Oates,
+    Chris
+- PaperID: '442'
+  PaperTitle: Unifying Clustered and Non-stationary Bandits
+  Authors: Chuanhao Li (University of Virginia); Qingyun Wu (Microsoft); Hongning  Wang
+    (University of Virginia)
+  AuthorNames: 'Li, Chuanhao; Wu, Qingyun; Wang, Hongning '
+- PaperID: '444'
+  PaperTitle: A Theoretical Analysis of Catastrophic Forgetting through the NTK Overlap
+    Matrix
+  Authors: "Thang Doan (Mila / McGill University); Mehdi Abbana Bennani (Aqemia);\
+    \ Bogdan Mazoure (MILA,McGill University); Guillaume Rabusseau (Mila - Universit\xE9\
+    \ de Montr\xE9al); Pierre Alquier (RIKEN)"
+  AuthorNames: Doan, Thang; Abbana Bennani, Mehdi; Mazoure, Bogdan; Rabusseau, Guillaume;
+    Alquier, Pierre
+- PaperID: '456'
+  PaperTitle: Transforming  Gaussian Processes With Normalizing Flows
+  Authors: "Juan Maro\xF1as (Universidad Polit\xE9cnica de Valencia); Oliver A Hamelijnck\
+    \ (The Alan Turing Institute); Jeremias  Knoblauch (University of Warwick); Theodoros\
+    \ Damoulas (University of Warwick)"
+  AuthorNames: "Maro\xF1as, Juan; Hamelijnck, Oliver A; Knoblauch, Jeremias ; Damoulas,\
+    \ Theodoros"
+- PaperID: '457'
+  PaperTitle: Linearly Constrained Gaussian Processes with Boundary Conditions
+  Authors: Markus Lange-Hegermann (Technische Hochschule Ostwestfalen-Lippe)
+  AuthorNames: Lange-Hegermann, Markus
+- PaperID: '459'
+  PaperTitle: Noise Contrastive Meta-Learning for ConditionalDensity Estimation using
+    Kernel Mean Embeddings
+  Authors: Jean-Francois Ton (University of Oxford); Lucian CHAN (University of Oxford);
+    Yee Whye Teh (University of Oxford); Dino Sejdinovic (University of Oxford)
+  AuthorNames: Ton, Jean-Francois; CHAN, Lucian; Teh, Yee Whye; Sejdinovic, Dino
+- PaperID: '461'
+  PaperTitle: Top-m identification for linear bandits
+  Authors: "Cl\xE9mence R\xE9da (Inserm and Inria); Emilie Kaufmann (CNRS); Andr\xE9\
+    e Delahaye-Duriez (Inserm and Sorbonne Paris Nord)"
+  AuthorNames: "R\xE9da, Cl\xE9mence; Kaufmann, Emilie; Delahaye-Duriez, Andr\xE9e"
+- PaperID: '463'
+  PaperTitle: When Will Generative Adversarial Imitation Learning Algorithms Attain
+    Global Convergence
+  Authors: Ziwei Guan (The Ohio State University); Tengyu Xu (The Ohio State University);
+    Yingbin Liang (The Ohio State University)
+  AuthorNames: Guan, Ziwei; Xu, Tengyu; Liang, Yingbin
+- PaperID: '475'
+  PaperTitle: Online k-means Clustering
+  Authors: Vincent Cohen-Addad (Google Research); Benjamin Guedj (Inria and University
+    College London); Varun Kanade (University of Oxford); Guy Rom (University of Oxford)
+  AuthorNames: Cohen-Addad, Vincent; Guedj, Benjamin; Kanade, Varun; Rom, Guy
+- PaperID: '476'
+  PaperTitle: 'Consistent k-Median: Simpler, Better and Robust'
+  Authors: Xiangyu Guo (University at Buffalo); Janardhan Kulkarni (Microsoft Research);
+    Shi Li (University at Buffalo); Jiayi Xian (University at Buffalo)
+  AuthorNames: Guo, Xiangyu; Kulkarni, Janardhan; Li, Shi; Xian, Jiayi
+- PaperID: '478'
+  PaperTitle: Algorithms for Fairness in Sequential Decision Making
+  Authors: Min Wen (University of Pennsylvania); Osbert Bastani (University of Pennsylvania);
+    Ufuk Topcu (University of Texas at Austin)
+  AuthorNames: Wen, Min; Bastani, Osbert; Topcu, Ufuk
+- PaperID: '481'
+  PaperTitle: On Learning Continuous Pairwise Markov Random Fields
+  Authors: Abhin Shah (MIT); Devavrat Shah (MIT); Gregory W Wornell (MIT)
+  AuthorNames: Shah, Abhin; Shah, Devavrat; Wornell, Gregory W
+- PaperID: '483'
+  PaperTitle: Abstract Value Iteration for Hierarchical Reinforcement Learning
+  Authors: Kishor Jothimurugan (University of Pennsylvania); Osbert Bastani (University
+    of Pennsylvania); Rajeev Alur (University of Pennsylvania )
+  AuthorNames: Jothimurugan, Kishor; Bastani, Osbert; Alur, Rajeev
+- PaperID: '488'
+  PaperTitle: Differentially Private Analysis on Graph Streams
+  Authors: Jalaj Upadhyay (Apple); Sarvagya Upadhyay (Fujitsu Laboratories of America);
+    Raman Arora (Johns Hopkins University)
+  AuthorNames: Upadhyay, Jalaj; Upadhyay, Sarvagya; Arora, Raman
+- PaperID: '494'
+  PaperTitle: Learning with Hyperspherical Uniformity
+  Authors: "Weiyang Liu (University of Cambridge); Rongmei Lin (Emory University);\
+    \ Zhen Liu (Mila, University of Montreal); Li Xiong (Emory University); Bernhard\
+    \ Sch\xF6lkopf (MPI for Intelligent Systems, T\xFCbingen); Adrian Weller (University\
+    \ of Cambridge)"
+  AuthorNames: "Liu, Weiyang; Lin, Rongmei; Liu, Zhen; Xiong, Li; Sch\xF6lkopf, Bernhard;\
+    \ Weller, Adrian"
+- PaperID: '497'
+  PaperTitle: Finding First-Order Nash Equilibria of Zero-Sum Games with the Regularized
+    Nikaido-Isoda Function
+  Authors: Ioannis Tsaknakis (University of Minnesota); Mingyi Hong (University of
+    Minnesota)
+  AuthorNames: Tsaknakis, Ioannis; Hong, Mingyi
+- PaperID: '500'
+  PaperTitle: Latent Derivative Bayesian Last Layer Networks
+  Authors: "Joe Watson (TU Darmstadt); Jihao Andreas Lin (Technische Universit\xE4\
+    t Darmstadt); Pascal Klink (TU Darmstadt); Joni Pajarinen (Aalto University);\
+    \ Jan Peters (TU Darmstadt + Max Planck Institute for Intelligent Systems)"
+  AuthorNames: Watson, Joe; Lin, Jihao Andreas; Klink, Pascal; Pajarinen, Joni; Peters,
+    Jan
+- PaperID: '504'
+  PaperTitle: Hogwild! over Distributed Local Data Sets with Linearly Increasing Mini-Batch
+    Sizes
+  Authors: Nhuong Van Nguyen (University of Connecticut); Toan N Nguyen (University
+    of Connecticut); PHUONG HA NGUYEN (eBay); Quoc Tran-Dinh (The University of North
+    Carolina at Chapel Hill); Lam M Nguyen (IBM Research, Thomas J. Watson Research
+    Center); Marten van Dijk (CWI, Amsterdam)
+  AuthorNames: Nguyen, Nhuong Van; Nguyen, Toan N; NGUYEN, PHUONG HA; Tran-Dinh, Quoc;
+    Nguyen, Lam M; van Dijk, Marten
+- PaperID: '505'
+  PaperTitle: Provably Safe PAC-MDP Exploration Using Analogies
+  Authors: Melrose Roderick (Carnegie Mellon University); Vaishnavh Nagarajan (CMU);
+    Zico Kolter (Carnegie Mellon University)
+  AuthorNames: Roderick, Melrose; Nagarajan, Vaishnavh; Kolter, Zico
+- PaperID: '506'
+  PaperTitle: Maximal Couplings of the Metropolis-Hastings Algorithm
+  Authors: Guanyang Wang (Rutgers University); John O'Leary (Harvard University);
+    Pierre E Jacob (Harvard University)
+  AuthorNames: Wang, Guanyang; O'Leary, John; Jacob, Pierre E
+- PaperID: '511'
+  PaperTitle: Gaming Helps! Learning from Strategic Interactions in Natural Dynamics
+  Authors: Yahav Bechavod (Hebrew University of Jerusalem); Katrina Ligett (Hebrew
+    University); Steven Wu (Carnegie Mellon University); Juba Ziani (University of
+    Pennsylvania)
+  AuthorNames: Bechavod, Yahav; Ligett, Katrina; Wu, Steven; Ziani, Juba
+- PaperID: '513'
+  PaperTitle: Goodness-of-Fit Test of Mismatched Models for Self-Exciting Processes
+  Authors: Song Wei (Georgia Tech); Shixiang Zhu (Georgia Institute of Technology);
+    Minghe Zhang (Georgia Institute of Technology); Yao Xie (Georgia Tech)
+  AuthorNames: Wei, Song; Zhu, Shixiang; Zhang, Minghe; Xie, Yao
+- PaperID: '518'
+  PaperTitle: 'Dominate or Delete: Decentralized Competing Bandits in Serial Dictatorship'
+  Authors: Abishek Sankararaman (The University of Texas at Austin); Soumya Basu (Google);
+    Karthik Abinav Sankararaman (University of Maryland)
+  AuthorNames: Sankararaman, Abishek; Basu, Soumya; Sankararaman, Karthik Abinav
+- PaperID: '522'
+  PaperTitle: A Study of Condition Numbers for First-Order Optimization
+  Authors: Charles Guille-Escuret (U. Montreal, Mila); Manuela Girotti (Mila, Universite
+    de Montreal, Concordia University); Baptiste Goujaud (Mila); Ioannis Mitliagkas
+    (Mila, University of Montreal)
+  AuthorNames: Guille-Escuret, Charles; Girotti, Manuela; Goujaud, Baptiste; Mitliagkas,
+    Ioannis
+- PaperID: '523'
+  PaperTitle: 'Linear Regression Games: Convergence Guarantees to Approximate Out-of-Distribution
+    Solutions'
+  Authors: Kartik Ahuja (MILA); Karthikeyan Shanmugam (IBM Research NY); Amit Dhurandhar
+    (IBM Research)
+  AuthorNames: Ahuja, Kartik; Shanmugam, Karthikeyan; Dhurandhar, Amit
+- PaperID: '525'
+  PaperTitle: Differentially Private Online Submodular Maximization
+  Authors: Sebastian Perez Salazar (Georgia Institute of Technology); Rachel Cummings
+    (Georgia Tech)
+  AuthorNames: Perez Salazar, Sebastian; Cummings, Rachel
+- PaperID: '527'
+  PaperTitle: Anderson acceleration of coordinate descent
+  Authors: "Quentin Bertrand (INRIA); Mathurin Massias (Universit\xE0 di Genova)"
+  AuthorNames: Bertrand, Quentin; Massias, Mathurin
+- PaperID: '529'
+  PaperTitle: Inference in Stochastic Epidemic Models via Multinomial Approximations
+  Authors: Nick Whiteley (Bristol); Lorenzo Rimella (University of Bristol)
+  AuthorNames: Whiteley, Nick; Rimella, Lorenzo
+- PaperID: '533'
+  PaperTitle: 'Stochastic Polyak Step-size for SGD: An Adaptive Learning Rate for
+    Fast Convergence'
+  Authors: "Nicolas Loizou ( Mila, Universit\xE9 de Montr\xE9al ); Sharan Vaswani\
+    \ (University of Alberta); Issam Hadj Laradji (Element AI); Simon Lacoste-Julien\
+    \ (Mila, Universit\xE9 de Montr\xE9al)"
+  AuthorNames: Loizou, Nicolas; Vaswani, Sharan; Laradji, Issam Hadj; Lacoste-Julien,
+    Simon
+- PaperID: '534'
+  PaperTitle: 'SGD for Structured Nonconvex Functions: Learning Rates, Minibatching
+    and Interpolation'
+  Authors: "Robert M Gower (Telecom Paris Tech); Othmane Sebbouh (ENS Paris); Nicolas\
+    \ Loizou ( Mila, Universit\xE9 de Montr\xE9al )"
+  AuthorNames: Gower, Robert M; Sebbouh, Othmane; Loizou, Nicolas
+- PaperID: '542'
+  PaperTitle: Stable ResNet
+  Authors: Soufiane Hayou (University of Oxford); Eugenio Clerico (University of Oxford);
+    Bobby He (University of Oxford); George Deligiannidis (Oxford); Arnaud Doucet
+    (Oxford University); Judith Rousseau (University of Oxford)
+  AuthorNames: Hayou, Soufiane; Clerico, Eugenio; He, Bobby; Deligiannidis, George;
+    Doucet, Arnaud; Rousseau, Judith
+- PaperID: '546'
+  PaperTitle: Latent variable modeling with random features
+  Authors: Gregory Gundersen (Princeton University); Michael Zhang (University of
+    Hong Kong); Barbara Engelhardt (Princeton University)
+  AuthorNames: Gundersen, Gregory; Zhang, Michael; Engelhardt, Barbara
+- PaperID: '547'
+  PaperTitle: Reaping the Benefits of Bundling under High Production Costs
+  Authors: Will Ma (Columbia University); David Simchi-Levi (MIT)
+  AuthorNames: Ma, Will; Simchi-Levi, David
+- PaperID: '549'
+  PaperTitle: Momentum Improves Optimization on Riemannian Manifolds
+  Authors: Foivos Alimisis (IST Austria); Antonio Orvieto (ETH Zurich); Gary Becigneul
+    (); Aurelien Lucchi (ETH Zurich)
+  AuthorNames: Alimisis, Foivos; Orvieto, Antonio; Becigneul, Gary; Lucchi, Aurelien
+- PaperID: '553'
+  PaperTitle: Quick Streaming Algorithms for Maximization of Monotone Submodular Functions
+    in Linear Time
+  Authors: Alan Kuhnle (Florida State University)
+  AuthorNames: Kuhnle, Alan
+- PaperID: '558'
+  PaperTitle: On Data Efficiency of Meta-learning for Personalized Federated Learning
+  Authors: Maruan Al-Shedivat (Carnegie Mellon University); Liam Li (Carnegie Mellon
+    University); Eric Xing (Petuum Inc. and CMU); Ameet Talwalkar (CMU)
+  AuthorNames: Al-Shedivat, Maruan; Li, Liam; Xing, Eric; Talwalkar, Ameet
+- PaperID: '559'
+  PaperTitle: Hyperparameter Transfer Learning with Adaptive Complexity
+  Authors: "Samuel Horv\xE1th (KAUST); Aaron Klein (AWS Berlin); Peter Richtarik (KAUST);\
+    \ Cedric Archambeau (AWS)"
+  AuthorNames: "Horv\xE1th, Samuel; Klein, Aaron; Richtarik, Peter; Archambeau, Cedric"
+- PaperID: '560'
+  PaperTitle: ' Local Stochastic Gradient Descent Ascent: Convergence Analysis and
+    Communication Efficiency'
+  Authors: Yuyang Deng (Penn State); Mehrdad Mahdavi (Penn State)
+  AuthorNames: Deng, Yuyang; Mahdavi, Mehrdad
+- PaperID: '562'
+  PaperTitle: Problem-Complexity Adaptive Model Selection for Stochastic Linear Bandits
+  Authors: Avishek Ghosh (University of California, Berkeley); Abishek Sankararaman
+    (UC Berkeley); Ramchandran Kannan (Department of Electrical Engineering and Computer
+    Science University of California, Berkeley)
+  AuthorNames: Ghosh, Avishek; Sankararaman, Abishek; Kannan, Ramchandran
+- PaperID: '564'
+  PaperTitle: On the Minimax Optimality of the EM Algorithm for Learning Two-Component
+    Mixed Linear Regression
+  Authors: Jeongyeol Kwon (The University of Texas at Austin); Nhat Ho (University
+    of Texas at Austin); Constantine Caramanis (University of Texas)
+  AuthorNames: Kwon, Jeongyeol; Ho, Nhat; Caramanis, Constantine
+- PaperID: '568'
+  PaperTitle: 'Amortized Bayesian Prototype Meta-learning: A New Probabilistic Meta-learning
+    Approach to Few-shot Image Classification'
+  Authors: Zhuo Sun (University College London); Jijie Wu (Lanzhou University of Technology);
+    Xiaoxu Li (Lanzhou University of Technology); Wenming Yang (Tsinghua University);
+    Jing-Hao Xue (University College London)
+  AuthorNames: Sun, Zhuo; Wu, Jijie; Li, Xiaoxu; Yang, Wenming; Xue, Jing-Hao
+- PaperID: '571'
+  PaperTitle: Tractable contextual bandits beyond realizability
+  Authors: Sanath Kumar Krishnamurthy (Stanford University); Vitor Hadad (); Susan
+    Athey (Stanford University)
+  AuthorNames: Krishnamurthy, Sanath Kumar; Hadad, Vitor; Athey, Susan
+- PaperID: '574'
+  PaperTitle: Learning User Preferences in Non-Stationary Environments
+  Authors: Wasim Huleihel (Tel-Aviv University); Soumyabrata Pal (Umass Amherst);
+    Ofer Shayevitz (Tel-Aviv University)
+  AuthorNames: Huleihel, Wasim; Pal, Soumyabrata; Shayevitz, Ofer
+- PaperID: '575'
+  PaperTitle: 'Last iterate convergence in no-regret learning: constrained min-max
+    optimization for convex-concave landscapes'
+  Authors: Qi Lei (Princeton University); Sai Ganesh Nagarajan (SUTD); Ioannis Panageas
+    (UC Irvine); xiao wang (Shanghai University of Finance and Economics)
+  AuthorNames: Lei, Qi; Nagarajan, Sai Ganesh; Panageas, Ioannis; wang, xiao
+- PaperID: '577'
+  PaperTitle: Efficient Statistics for Sparse Graphical Models from Truncated Samples
+  Authors: Arnab Bhattacharyya (National University of Singapore); Rathin Desai (National
+    University of Singapore); Sai Ganesh Nagarajan (SUTD); Ioannis Panageas (UC Irvine)
+  AuthorNames: Bhattacharyya, Arnab; Desai, Rathin; Nagarajan, Sai Ganesh; Panageas,
+    Ioannis
+- PaperID: '580'
+  PaperTitle: Have We Learned to Explain?
+  Authors: Neil Jethani (NYU); Mukund Sudarshan (New York University); Yindalon Aphinyanaphongs
+    (New York University School of Medicine); Rajesh Ranganath (New York University)
+  AuthorNames: Jethani, Neil; Sudarshan, Mukund; Aphinyanaphongs, Yindalon; Ranganath,
+    Rajesh
+- PaperID: '583'
+  PaperTitle: Feedback Coding for Active Learning
+  Authors: Gregory H Canal (Georgia Institute of Technology); Matthieu Bloch ("Georgia
+    Institute of Technology, USA"); Christopher J Rozell (Georgia Institute of Technology)
+  AuthorNames: Canal, Gregory H; Bloch, Matthieu; Rozell, Christopher J
+- PaperID: '599'
+  PaperTitle: Shadow Manifold Hamiltonian Monte Carlo
+  Authors: Chris van der Heide (The University of Queensland); Fred Roosta (University
+    of Queensland); Liam Hodgkinson (University of California, Berkeley); Dirk Kroese
+    (The University of Queensland)
+  AuthorNames: van der Heide, Chris; Roosta, Fred; Hodgkinson, Liam; Kroese, Dirk
+- PaperID: '604'
+  PaperTitle: Towards Understanding the Optimal Behaviors of Deep Active Learning
+    Algorithms
+  Authors: Yilun Zhou (MIT); Adi Renduchintala (Facebook AI); Xian Li (Facebook);
+    Sida I Wang (Facebook AI Research); Yashar Mehdad (Facebook AI); Asish Ghoshal
+    (Purdue University)
+  AuthorNames: Zhou, Yilun; Renduchintala, Adi; Li, Xian; Wang, Sida I; Mehdad, Yashar;
+    Ghoshal, Asish
+- PaperID: '612'
+  PaperTitle: Identification of Matrix Joint Block Diagonalization
+  Authors: Yunfeng Cai (Baidu Research); Ping Li (Baidu)
+  AuthorNames: Cai, Yunfeng; Li, Ping
+- PaperID: '613'
+  PaperTitle: Understanding Gradient Clipping In Incremental Gradient Methods
+  Authors: Jiang Qian (Ping An Technology (Shenzhen)); Yuren Wu (Pingan Technology);
+    Bojin Zhuang (Ping An Technology (Shenzhen) Co., Ltd.); Shaojun Wang (Ping An
+    Technology (Shenzhen) Co., Ltd.); Jing Xiao (Ping An Insurance (Group) Company
+    of China)
+  AuthorNames: Qian, Jiang; Wu, Yuren; Zhuang, Bojin; Wang, Shaojun; Xiao, Jing
+- PaperID: '615'
+  PaperTitle: A Variational Information Bottleneck Approach to Multi-Omics Data Integration
+  Authors: Changhee Lee (University of California, Los Angeles); Mihaela van der Schaar
+    (University of California, Los Angeles)
+  AuthorNames: Lee, Changhee; van der Schaar, Mihaela
+- PaperID: '621'
+  PaperTitle: On the Privacy Properties of GAN-generated Samples
+  Authors: Zinan Lin (Carnegie Mellon University); Vyas Sekar (Carnegie Mellon University);
+    Giulia Fanti (CMU)
+  AuthorNames: Lin, Zinan; Sekar, Vyas; Fanti, Giulia
+- PaperID: '624'
+  PaperTitle: Multitask Bandit Learning Through Heterogeneous Feedback Aggregation
+  Authors: Zhi Wang (University of California, San Diego); Chicheng Zhang (University
+    of Arizona); Manish Kumar Singh (University of California, San Diego); Laurel
+    Riek (University of California San Diego); Kamalika Chaudhuri (University of California,
+    San Diego)
+  AuthorNames: Wang, Zhi; Zhang, Chicheng; Singh, Manish Kumar; Riek, Laurel; Chaudhuri,
+    Kamalika
+- PaperID: '626'
+  PaperTitle: Learning Complexity of Simulated Annealing
+  Authors: Avrim Blum (Toyota Technological Institute of Chicago); Chen Dan (Carnegie
+    Mellon University); Saeed Seddighin (Toyota Technological Institute)
+  AuthorNames: Blum, Avrim; Dan, Chen; Seddighin, Saeed
+- PaperID: '628'
+  PaperTitle: Independent Innovation Analysis for Nonlinear Vector Autoregressive
+    Process
+  Authors: "Hiroshi Morioka (RIKEN & ATR); Hermanni H\xE4lv\xE4 (University of Helsinki);\
+    \ Aapo Hyvarinen (University of Helsinki)"
+  AuthorNames: "Morioka, Hiroshi; H\xE4lv\xE4, Hermanni; Hyvarinen, Aapo"
+- PaperID: '629'
+  PaperTitle: Robust Mean Estimation on Highly Incomplete Data with Arbitrary Outliers
+  Authors: Lunjia Hu (Stanford University); Omer Reingold (Stanford University)
+  AuthorNames: Hu, Lunjia; Reingold, Omer
+- PaperID: '643'
+  PaperTitle: Uniform Convergence in  Offline Policy Evaluation and Learning for Reinforcement
+    Learning
+  Authors: Ming Yin (UC Santa Barbara); Yu Bai (Salesforce Research); Yu-Xiang Wang
+    (UC Santa Barbara)
+  AuthorNames: Yin, Ming; Bai, Yu; Wang, Yu-Xiang
+- PaperID: '647'
+  PaperTitle: $Q$-learning with Logarithmic Regret
+  Authors: Kunhe Yang (Institute for Interdisciplinary Information Sciences, Tsinghua
+    University); Lin Yang (UCLA); Simon Du (University of Washington)
+  AuthorNames: Yang, Kunhe; Yang, Lin; Du, Simon
+- PaperID: '648'
+  PaperTitle: 'An Efficient Algorithm For Generalized Linear Bandit: Online Stochastic
+    Gradient Descent and Thompson Sampling'
+  Authors: QIN DING (University of California, Davis); Cho-Jui Hsieh (UCLA); James
+    Sharpnack (University of California, Davis)
+  AuthorNames: DING, QIN; Hsieh, Cho-Jui; Sharpnack, James
+- PaperID: '654'
+  PaperTitle: Communication Efficient Primal-Dual Algorithm for Nonconvex Nonsmooth
+    Distributed Optimization
+  Authors: Congliang Chen (The Chinese University of Hong Kong(Shenzhen)); Jiawei
+    Zhang (The Chinese University of Hong Kong, Shenzhen); Li Shen (Tencent AI Lab);
+    Peilin Zhao (Tencent AI Lab); Zhiquan Luo (The Chinese University of Hong Kong,
+    Shenzhen and Shenzhen Research Institute of Big Data)
+  AuthorNames: Chen, Congliang; Zhang, Jiawei; Shen, Li; Zhao, Peilin; Luo, Zhiquan
+- PaperID: '657'
+  PaperTitle: Robust and Private Learning of Halfspaces
+  Authors: Badih Ghazi (Google); Ravi Kumar (Google); Pasin Manurangsi (Google); Thao
+    Nguyen (Google)
+  AuthorNames: Ghazi, Badih; Kumar, Ravi; Manurangsi, Pasin; Nguyen, Thao
+- PaperID: '658'
+  PaperTitle: Minimax Model Learning
+  Authors: Cameron Voloshin (Caltech); Nan Jiang (University of Illinois at Urbana-Champaign);
+    Yisong Yue (Caltech)
+  AuthorNames: Voloshin, Cameron; Jiang, Nan; Yue, Yisong
+- PaperID: '660'
+  PaperTitle: On the Faster Alternating Least-Squares for CCA
+  Authors: Zhiqiang Xu (Baidu); Ping Li (Baidu Research)
+  AuthorNames: Xu, Zhiqiang; Li, Ping
+- PaperID: '663'
+  PaperTitle: Exploiting Equality Constraints in Causal Inference
+  Authors: Chi Zhang (University of California, Los Angeles); Carlos Cinelli (UCLA);
+    Bryant Chen (IBM Research AI); Judea Pearl (University of California, Los Angeles)
+  AuthorNames: Zhang, Chi; Cinelli, Carlos; Chen, Bryant; Pearl, Judea
+- PaperID: '664'
+  PaperTitle: Collaborative Classification from Noisy Labels
+  Authors: "Lucas Maystre (Spotify); Nagarjuna Kumarappan (Spotify); Judith B\xFC\
+    tepage (Spotify); Mounia Lalmas (Spotify)"
+  AuthorNames: "Maystre, Lucas; Kumarappan, Nagarjuna; B\xFCtepage, Judith; Lalmas,\
+    \ Mounia"
+- PaperID: '669'
+  PaperTitle: Fenchel-Young Losses with Skewed Entropies for Class-posterior Probability
+    Estimation
+  Authors: Han Bao (The University of Tokyo / RIKEN); Masashi Sugiyama (RIKEN/The
+    University of Tokyo)
+  AuthorNames: Bao, Han; Sugiyama, Masashi
+- PaperID: '681'
+  PaperTitle: Maximizing Agreements for Ranking, Clustering and Hierarchical Clustering
+    via MAX-CUT
+  Authors: Vaggos Chatziafratis (Stanford University, California); Mohammad Mahdian
+    (Google); Sara Ahmadian (Google)
+  AuthorNames: Chatziafratis, Vaggos; Mahdian, Mohammad; Ahmadian, Sara
+- PaperID: '684'
+  PaperTitle: Why did the distribution change?
+  Authors: "Kailash Budhathoki (Amazon Research T\xFCbingen); Dominik Janzing (Amazon);\
+    \ Patrick Bloebaum (Amazon Research Tuebingen); Hoiyi Ng (Amazon)"
+  AuthorNames: Budhathoki, Kailash; Janzing, Dominik; Bloebaum, Patrick; Ng, Hoiyi
+- PaperID: '688'
+  PaperTitle: Non-Volume Preserving Hamiltonian Monte Carlo and No-U-TurnSamplers
+  Authors: Hadi Mohasel Afshar (Centre of Translational Data Science, The University
+    of Sydney); Rafael Oliveira (The University of Sydney); Sally  Cripps (University
+    of Sydney)
+  AuthorNames: 'Mohasel Afshar, Hadi; Oliveira, Rafael; Cripps, Sally '
+- PaperID: '689'
+  PaperTitle: Iterative regularization for convex regularizers
+  Authors: "Cesare Molinari (IIT); Mathurin Massias (Universit\xE0 di Genova); Lorenzo\
+    \ Rosasco (unige, mit, iit); Silvia Villa (Universit\xE0 di Genova)"
+  AuthorNames: Molinari, Cesare; Massias, Mathurin; Rosasco, Lorenzo; Villa, Silvia
+- PaperID: '690'
+  PaperTitle: 'Competing AI: How does competition feedback affect machine learning?'
+  Authors: Tony Ginart (Stanford University); Eva Y Zhang (Stanford University); Yongchan
+    Kwon (Stanford University); James Zou (Stanford University)
+  AuthorNames: Ginart, Tony; Zhang, Eva Y; Kwon, Yongchan; Zou, James
+- PaperID: '698'
+  PaperTitle: Stability and Risk Bounds of Iterative Hard Thresholding
+  Authors: Xiaotong Yuan (Nanjing University of Information Science and Technology);
+    Ping Li (Baidu)
+  AuthorNames: Yuan, Xiaotong; Li, Ping
+- PaperID: '699'
+  PaperTitle: Novel Change of Measure Inequalities with Applications to PAC-Bayesian
+    Bounds  and Monte Carlo Estimation
+  Authors: Yuki Ohnishi (Purdue University); Jean Honorio (Purdue)
+  AuthorNames: Ohnishi, Yuki; Honorio, Jean
+- PaperID: '703'
+  PaperTitle: 'On the Convergence of Gradient Descent in GANs:  MMD GAN As a Gradient
+    Flow'
+  Authors: Youssef Mroueh (IBM Research); Truyen V. Nguyen (The University of Akron)
+  AuthorNames: Mroueh, Youssef; Nguyen, Truyen V.
+- PaperID: '707'
+  PaperTitle: Wasserstein Random Forests and Applications in Heterogeneous Treatment
+    Effects
+  Authors: "Qiming Du (Sorbonne Universit\xE9); G\xE9rard Biau (Sorbonne Universit\xE9\
+    ); Francois Petit (Universit\xE9 de Paris); Rapha\xEBl Porcher (Universit\xE9\
+    \ de Paris)"
+  AuthorNames: "Du, Qiming; Biau, G\xE9rard; Petit, Francois; Porcher, Rapha\xEBl"
+- PaperID: '716'
+  PaperTitle: Improved Complexity Bounds in Wasserstein Barycenter Problem
+  Authors: Darina Dvinskikh (Weierstrass Institute for Applied Analysis and Stochastics);
+    Daniil Tiapkin (Higher School of Economics)
+  AuthorNames: Dvinskikh, Darina; Tiapkin, Daniil
+- PaperID: '724'
+  PaperTitle: Sparse Algorithms for Markovian Gaussian Processes
+  Authors: William Wilkinson (Aalto University); Arno Solin (Aalto University); Vincent
+    Adam (PROWLER.io)
+  AuthorNames: Wilkinson, William; Solin, Arno; Adam, Vincent
+- PaperID: '726'
+  PaperTitle: Generating Interpretable Counterfactual Explanations By Implicit Minimisation
+    of Epistemic and Aleatoric Uncertainties
+  Authors: Lisa Schut (University of Oxford); Oscar Key (UCL); Rory Mc Grath (Accenture
+    Labs); Luca Costabello (Accenture Labs); Bogdan Sacaleanu (Accenture Labs); medb
+    corcoran (Accenture Labs); Yarin Gal (University of Oxford)
+  AuthorNames: Schut, Lisa; Key, Oscar; Mc Grath, Rory; Costabello, Luca; Sacaleanu,
+    Bogdan; corcoran, medb; Gal, Yarin
+- PaperID: '729'
+  PaperTitle: 'Deep Neural Networks Are Congestion Games: From Loss Landscape to Wardrop
+    Equilibrium and Beyond'
+  Authors: Nina Vesseron (ENS Lyon); Ievgen Redko (Laboratoire Hubert Curien); Charlotte
+    Laclau (Laboratory Hubert Curien, Univ. St-Etienne)
+  AuthorNames: Vesseron, Nina; Redko, Ievgen; Laclau, Charlotte
+- PaperID: '731'
+  PaperTitle: All of the Fairness for Edge Prediction with Optimal Transport
+  Authors: Charlotte Laclau (Laboratory Hubert Curien, Univ. St-Etienne); Ievgen Redko
+    (Laboratoire Hubert Curien); Manvi Choudhary (Laboratory Hubert Curien); Christine
+    Largeron (LabHC Lyon University)
+  AuthorNames: Laclau, Charlotte; Redko, Ievgen; Choudhary, Manvi; Largeron, Christine
+- PaperID: '733'
+  PaperTitle: "\u03B3-ABC: Outlier-Robust Approximate Bayesian Computation based on\
+    \ A Robust Divergence Estimator"
+  Authors: Masahiro Fujisawa (The University of Tokyo / RIKEN); Takeshi Teshima (The
+    University of Tokyo / RIKEN); Issei Sato (The university of Tokyo/RIKEN); Masashi
+    Sugiyama (RIKEN/The University of Tokyo)
+  AuthorNames: Fujisawa, Masahiro; Teshima, Takeshi; Sato, Issei; Sugiyama, Masashi
+- PaperID: '734'
+  PaperTitle: Understanding and Mitigating Exploding Inverses in Invertible Neural
+    Networks
+  Authors: Jens Behrmann (University of Bremen); Paul Vicol (University of Toronto);
+    Kuan-Chieh Wang (University of Toronto); Roger B Grosse (University of Toronto);
+    Joern-Henrik Jacobsen (Vector Institute)
+  AuthorNames: Behrmann, Jens; Vicol, Paul; Wang, Kuan-Chieh; Grosse, Roger B; Jacobsen,
+    Joern-Henrik
+- PaperID: '736'
+  PaperTitle: Online probabilistic label trees
+  Authors: "Marek Wydmuch (Pozna\u0144 University of Technology); Kalina Jasinska\
+    \ (Poznan University of Technology); Devanathan Thiruvenkatachari (Verizon Media);\
+    \ Krzysztof Dembczynski (Verizon Media)"
+  AuthorNames: Wydmuch, Marek; Jasinska, Kalina; Thiruvenkatachari, Devanathan; Dembczynski,
+    Krzysztof
+- PaperID: '739'
+  PaperTitle: 'Nonparametric Estimation of Heterogeneous Treatment Effects: From Theory
+    to Learning Algorithms'
+  Authors: Alicia Curth (University of Cambridge); Mihaela van der Schaar (University
+    of Cambridge)
+  AuthorNames: Curth, Alicia; van der Schaar, Mihaela
+- PaperID: '740'
+  PaperTitle: 'DP-MERF: Differentially Private Mean Embeddings with RandomFeatures
+    for Practical Privacy-preserving Data Generation'
+  Authors: Frederik Harder (Max Planck Institute); Kamil Adamczewski (Max Planck Institute
+    for Intelligent Systems); Mijung Park (Max Planck Institute for Intelligent Systems)
+  AuthorNames: Harder, Frederik; Adamczewski, Kamil; Park, Mijung
+- PaperID: '746'
+  PaperTitle: 'Fork or Fail: Cycle-Consistent Training with Many-to-One Mappings'
+  Authors: Qipeng Guo (Fudan University); Zhijing Jin (University of Hong Kong); Ziyu
+    Wang (Tsinghua University); Xipeng Qiu (Fudan University); Weinan Zhang (Shanghai
+    Jiao Tong University); Jun Zhu (Tsinghua University); Zheng Zhang (New York University
+    Shanghai); Wipf David (Amazon)
+  AuthorNames: Guo, Qipeng; Jin, Zhijing; Wang, Ziyu; Qiu, Xipeng; Zhang, Weinan;
+    Zhu, Jun; Zhang, Zheng; David, Wipf
+- PaperID: '747'
+  PaperTitle: 'Sparse Gaussian Processes Revisited: Bayesian Approaches to Inducing-Variable
+    Approximations'
+  Authors: Simone Rossi (EURECOM); Markus Heinonen (Aalto University); Edwin V. Bonilla
+    (CSIRO's Data61); Zheyang Shen (Aalto University); Maurizio Filippone (EURECOM)
+  AuthorNames: Rossi, Simone; Heinonen, Markus; Bonilla, Edwin V.; Shen, Zheyang;
+    Filippone, Maurizio
+- PaperID: '753'
+  PaperTitle: Free-rider Attacks on Model Aggregation in Federated Learning
+  Authors: Yann Fraboni (Accenture); Richard Vidal (Accenture); Marco Lorenzi (INRIA)
+  AuthorNames: Fraboni, Yann; Vidal, Richard; Lorenzi, Marco
+- PaperID: '756'
+  PaperTitle: Reinforcement Learning in Parametric MDPs with Exponential Families
+  Authors: Sayak Ray Chowdhury (Indian Institute of Science); Aditya Gopalan (Indian
+    Institute of Science (IISc), Bangalore); Odalric Maillard (Inria)
+  AuthorNames: Ray Chowdhury, Sayak; Gopalan, Aditya; Maillard, Odalric
+- PaperID: '758'
+  PaperTitle: 'Thresholded Adaptive Validation: Tuning the Graphical Lasso for Graph
+    Recovery'
+  Authors: Mike Laszkiewicz (Ruhr University Bochum); Johannes Lederer (Ruhr-University
+    Bochum); Asja Fischer (Ruhr University, Bochum)
+  AuthorNames: Laszkiewicz, Mike; Lederer, Johannes; Fischer, Asja
+- PaperID: '759'
+  PaperTitle: No-regret Algorithms for Multi-task Bayesian Optimization
+  Authors: Sayak Ray Chowdhury (Indian Institute of Science); Aditya Gopalan (Indian
+    Institute of Science (IISc), Bangalore)
+  AuthorNames: Ray Chowdhury, Sayak; Gopalan, Aditya
+- PaperID: '773'
+  PaperTitle: Explicit Regularization of Stochastic Gradient Methods through Duality
+  Authors: "Anant Raj (Max-Planck Institute for Intelligent Systems); Francis Bach\
+    \ (INRIA - Ecole Normale Sup\xE9rieure)"
+  AuthorNames: Raj, Anant; Bach, Francis
+- PaperID: '776'
+  PaperTitle: Towards Understanding the Implicit Bias of the Noise in Nonconvex Matrix
+    Factorization
+  Authors: Tianyi Liu (Georgia Institute of Technology); Yan Li (Georgia Tech); Song
+    Wei (Georgia Tech); Enlu Zhou (Georgia Institute of Technology); Tuo Zhao (Gatech)
+  AuthorNames: Liu, Tianyi; Li, Yan; Wei, Song; Zhou, Enlu; Zhao, Tuo
+- PaperID: '780'
+  PaperTitle: 'CONTRA: Contrarian statistics for controlled variable selection'
+  Authors: Mukund Sudarshan (New York University); Aahlad Puli (New York University);
+    Lakshmi Subramanian (NYU); Sriram Sankararaman (UCLA); Rajesh Ranganath (New York
+    University)
+  AuthorNames: Sudarshan, Mukund; Puli, Aahlad; Subramanian, Lakshmi; Sankararaman,
+    Sriram; Ranganath, Rajesh
+- PaperID: '783'
+  PaperTitle: Approximately Solving Mean Field Games via Entropy-Regularized Deep
+    Reinforcement Learning
+  Authors: Kai Cui (TU Darmstadt); Heinz Koeppl (TU Darmstadt)
+  AuthorNames: Cui, Kai; Koeppl, Heinz
+- PaperID: '788'
+  PaperTitle: Moment-Based Variational Inference for Stochastic Differential Equations
+  Authors: Christian Wildner (TU Darmstadt); Heinz Koeppl (TU Darmstadt)
+  AuthorNames: Wildner, Christian; Koeppl, Heinz
+- PaperID: '795'
+  PaperTitle: 'PClean: Bayesian Data Cleaning at Scale via Domain-Specific Probabilistic
+    Programming'
+  Authors: Alexander K. Lew (MIT); Monica N Agrawal (MIT); David Sontag (MIT); Vikash
+    Mansinghka (Massachusetts Institute of Technology)
+  AuthorNames: Lew, Alexander K.; Agrawal, Monica N; Sontag, David; Mansinghka, Vikash
+- PaperID: '796'
+  PaperTitle: Adaptive wavelet pooling for convolutional neural networks
+  Authors: Moritz Wolter (Bonn University); Jochen Garcke (University Bonn)
+  AuthorNames: Wolter, Moritz; Garcke, Jochen
+- PaperID: '799'
+  PaperTitle: 'The Minecraft Kernel: Modelling correlated Gaussian Processes in the
+    Fourier domain'
+  Authors: Fergus  Simpson (Secondmind); Alexis Boukouvalas (Prowler.io); Vaclav Cadek
+    (PROWLER.io); Elvijs Sarkans (PROWLER.io); Nicolas Durrande (Secondmind)
+  AuthorNames: Simpson, Fergus ; Boukouvalas, Alexis; Cadek, Vaclav; Sarkans, Elvijs;
+    Durrande, Nicolas
+- PaperID: '808'
+  PaperTitle: Exponential Convergence Rates of Classification Errors on Learning with
+    SGD and Random Features
+  Authors: Shingo Yashima (The University of Tokyo); Atsushi Nitanda (The University
+    of Tokyo / RIKEN / JST PRESTO); Taiji Suzuki (The University of Tokyo / RIKEN)
+  AuthorNames: Yashima, Shingo; Nitanda, Atsushi; Suzuki, Taiji
+- PaperID: '811'
+  PaperTitle: High-Dimensional Multi-Task Averaging and Application to Kernel Mean
+    Embedding
+  Authors: "Hannah Marienwald (Technische Universit\xE4t Berlin); Jean-Baptiste Fermanian\
+    \ (Ens Rennes); Gilles Blanchard (Universit\xE9 Paris-Saclay)"
+  AuthorNames: Marienwald, Hannah; Fermanian, Jean-Baptiste; Blanchard, Gilles
+- PaperID: '816'
+  PaperTitle: Counterfactual Representation Learning with Balancing Weights
+  Authors: Serge Assaad (Duke University); Shuxi Zeng (Duke University); Chenyang
+    Tao (Duke University); Shounak Datta (Duke University); Nikhil Mehta (Duke University);
+    Ricardo Henao (Duke University); Fan Li (Duke University); Lawrence Carin Duke
+    (CS)
+  AuthorNames: Assaad, Serge; Zeng, Shuxi; Tao, Chenyang; Datta, Shounak; Mehta, Nikhil;
+    Henao, Ricardo; Li, Fan; Duke, Lawrence Carin
+- PaperID: '821'
+  PaperTitle: Gradient Descent in RKHS with Importance Labeling
+  Authors: Tomoya Murata (NTT DATA Mathematical Systems Inc.); Taiji Suzuki (The University
+    of Tokyo / RIKEN)
+  AuthorNames: Murata, Tomoya; Suzuki, Taiji
+- PaperID: '823'
+  PaperTitle: Learning with Gradient Descent and Weakly Convex Losses
+  Authors: Dominic Richards (University of Oxford); Mike Rabbat (Facebook FAIR)
+  AuthorNames: Richards, Dominic; Rabbat, Mike
+- PaperID: '835'
+  PaperTitle: Off-policy Evaluation in Infinite-Horizon Reinforcement Learning with
+    Latent Confounders
+  Authors: Andrew Bennett (Cornell University); Nathan Kallus (Cornell University);
+    Lihong Li (Amazon); Ali Mousavi (Google Brain)
+  AuthorNames: Bennett, Andrew; Kallus, Nathan; Li, Lihong; Mousavi, Ali
+- PaperID: '865'
+  PaperTitle: Approximate Data Deletion from Machine Learning Models
+  Authors: Zachary Izzo (Stanford); Mary Anne Smart (University of California, San
+    Diego); Kamalika Chaudhuri (University of California, San Diego); James Zou (Microsoft)
+  AuthorNames: Izzo, Zachary; Smart, Mary Anne; Chaudhuri, Kamalika; Zou, James
+- PaperID: '867'
+  PaperTitle: Budgeted and Non-budgeted Causal Bandits
+  Authors: Vineet Nair (Technion); Vishakha Patil (Indian Institute of Science); Gaurav
+    Sinha (ADOBE RESEARCH)
+  AuthorNames: Nair, Vineet; Patil, Vishakha; Sinha, Gaurav
+- PaperID: '869'
+  PaperTitle: Stability and Differential Privacy of Stochastic Gradient Descent for
+    Pairwise Learning with Non-Smooth Loss
+  Authors: Zhenhuan Yang (State University of New York at Albany); Yunwen Lei (University
+    of Birmingham); Siwei Lyu (University at Buffalo); Yiming Ying (State University
+    of New York at Albany)
+  AuthorNames: Yang, Zhenhuan; Lei, Yunwen; Lyu, Siwei; Ying, Yiming
+- PaperID: '872'
+  PaperTitle: Equitable and Optimal Transport with Multiple Agents
+  Authors: "Meyer Scetbon (ENSAE); Laurent Meunier (Dauphine University - FAIR Paris);\
+    \ Jamal Atif (Universit\xE9 Paris-Dauphine); Marco Cuturi (Google and CREST/ENSAE)"
+  AuthorNames: Scetbon, Meyer; Meunier, Laurent; Atif, Jamal; Cuturi, Marco
+- PaperID: '875'
+  PaperTitle: A Variational Inference Approach to Learning Multivariate Wold Processes
+  Authors: "William Trouleau (EPFL); Jalal Etesami (Bosch Research Center for AI,\
+    \ Germany); Matthias Grossglauser (\xC9cole Polytechnique F\xE9d\xE9rale de Lausanne\
+    \ (EPFL)); Negar Kiyavash (\xC9cole Polytechnique F\xE9d\xE9rale de Lausanne);\
+    \ Patrick Thiran (EPFL)"
+  AuthorNames: Trouleau, William; Etesami, Jalal; Grossglauser, Matthias; Kiyavash,
+    Negar; Thiran, Patrick
+- PaperID: '876'
+  PaperTitle: Active Online Learning with Hidden Shifting Domains
+  Authors: Yining Chen (Stanford University); Haipeng Luo (USC); Tengyu Ma (Stanford);
+    Chicheng Zhang (University of Arizona)
+  AuthorNames: Chen, Yining; Luo, Haipeng; Ma, Tengyu; Zhang, Chicheng
+- PaperID: '880'
+  PaperTitle: No-Regret Algorithms for Private Gaussian Process Bandit Optimization
+  Authors: Abhimanyu Dubey (Massachusetts Institute of Technology)
+  AuthorNames: Dubey, Abhimanyu
+- PaperID: '884'
+  PaperTitle: The Teaching Dimension of Kernel Perceptron
+  Authors: Akash Kumar (MPI-SWS); Hanqi Zhang (UChicago); Adish Singla (MPI-SWS);
+    Yuxin Chen (UChicago)
+  AuthorNames: Kumar, Akash; Zhang, Hanqi; Singla, Adish; Chen, Yuxin
+- PaperID: '885'
+  PaperTitle: Quantum Tensor Networks, Stochastic Processes, and Weighted Automata
+  Authors: "Sandesh M Adhikary (Univerity of Washington); Siddarth Srinivasan (University\
+    \ of Washington); Jacob E Miller (Mila, Universit\xE9 de Montr\xE9al); Guillaume\
+    \ Rabusseau (Mila, Universit\xE9 de Montr\xE9al ); Byron Boots (University of\
+    \ Washington)"
+  AuthorNames: Adhikary, Sandesh M; Srinivasan, Siddarth; Miller, Jacob E; Rabusseau,
+    Guillaume; Boots, Byron
+- PaperID: '889'
+  PaperTitle: Localizing Changes in High-Dimensional Regression Models
+  Authors: Alessandro Rinaldo (Carnegie Mellon University); Daren Wang (University
+    of Notre Dame); Qin Wen (University of Chicago); Rebecca Willett (U Chicago);
+    Yi Yu (University of Warwick)
+  AuthorNames: Rinaldo, Alessandro; Wang, Daren; Wen, Qin; Willett, Rebecca; Yu, Yi
+- PaperID: '891'
+  PaperTitle: On the Suboptimality of Negative Momentum for Minimax Optimization
+  Authors: Guodong Zhang (University of Toronto); Yuanhao Wang (Princeton University)
+  AuthorNames: Zhang, Guodong; Wang, Yuanhao
+- PaperID: '892'
+  PaperTitle: 'Neural Empirical Bayes: Source Distribution Estimation and its Applications
+    to Simulation-Based Inference'
+  Authors: "Maxime Vandegar (SLAC National Accelerator Laboratory); Michael Kagan\
+    \ (SLAC / Stanford); Antoine Wehenkel (University of Li\xE8ge); Gilles Louppe\
+    \ (University of Li\xE8ge)"
+  AuthorNames: Vandegar, Maxime; Kagan, Michael; Wehenkel, Antoine; Louppe, Gilles
+- PaperID: '893'
+  PaperTitle: Corralling Stochastic Bandit Algorithms
+  Authors: Raman Arora (Johns Hopkins University); Teodor Vanislavov Marinov (Johns
+    Hopkins University); Mehryar Mohri (Google Research & Courant Institute of Mathematical
+    Sciences, NYU)
+  AuthorNames: Arora, Raman; Marinov, Teodor Vanislavov; Mohri, Mehryar
+- PaperID: '897'
+  PaperTitle: Context-Specific Likelihood Weighting
+  Authors: "Nitesh Kumar (KU Leuven); Ond\u0159ej Ku\u017Eelka ()"
+  AuthorNames: "Kumar, Nitesh; Ku\u017Eelka, Ond\u0159ej"
+- PaperID: '898'
+  PaperTitle: Learning Matching Representations for Individualized Organ Transplantation
+    Allocation
+  Authors: Can Xu (University of Cambridge); Ahmed Alaa (UCLA); Ioana Bica (University
+    of Oxford, The Alan Turing Institute); Brent  Ershoff (UCLA); Maxime  Cannesson
+    (UCLA); Mihaela van der Schaar (University of California, Los Angeles)
+  AuthorNames: Xu, Can; Alaa, Ahmed; Bica, Ioana; Ershoff, Brent ; Cannesson, Maxime
+    ; van der Schaar, Mihaela
+- PaperID: '900'
+  PaperTitle: Stochastic Gradient Descent Meets Distribution Regression
+  Authors: Nicole Muecke (Technical University Berlin)
+  AuthorNames: Muecke, Nicole
+- PaperID: '904'
+  PaperTitle: Learning Contact Dynamics using Physically Structured Neural Networks
+  Authors: Andreas Hochlehnert (University College London); Alexander Terenin (Imperial
+    College London); Steindor Saemundsson (Imperial College London); Marc Deisenroth
+    (University College London)
+  AuthorNames: Hochlehnert, Andreas; Terenin, Alexander; Saemundsson, Steindor; Deisenroth,
+    Marc
+- PaperID: '908'
+  PaperTitle: Robustness to Misspecification Via Improper Learning
+  Authors: Annie Marsden (Stanford University); John Duchi (Stanford University);
+    Gregory Valiant (Stanford University)
+  AuthorNames: Marsden, Annie; Duchi, John; Valiant, Gregory
+- PaperID: '915'
+  PaperTitle: Rate-improved inexact augmented Lagrangian method for constrained nonconvex
+    optimization
+  Authors: Zichong Li (Rensselaer Polytechnic Institute); Pin-Yu Chen (IBM Research);
+    Sijia Liu (Michigan State University); Songtao Lu (IBM Research); Yangyang Xu
+    (Rensselaer Polytechnic Institute)
+  AuthorNames: Li, Zichong; Chen, Pin-Yu; Liu, Sijia; Lu, Songtao; Xu, Yangyang
+- PaperID: '918'
+  PaperTitle: Selective Classification via One-Sided Prediction
+  Authors: Aditya Gangrade (Boston University); Anil Kag (Boston University); Venkatesh
+    Saligrama (Boston University)
+  AuthorNames: Gangrade, Aditya; Kag, Anil; Saligrama, Venkatesh
+- PaperID: '920'
+  PaperTitle: Distributionally Robust Optimization for Deep Kernel Multiple Instance
+    Learning
+  Authors: Hitesh Sapkota (Rochester Institute of Technology); Yiming Ying (State
+    University of New York at Albany); Feng Chen (UT Dallas); Qi Yu (Rochester Institute
+    of Technology)
+  AuthorNames: Sapkota, Hitesh; Ying, Yiming; Chen, Feng; Yu, Qi
+- PaperID: '923'
+  PaperTitle: 'vqSGD: Vector Quantized Stochastic Gradient Descent'
+  Authors: Venkata Gandikota (Syracuse University); Daniel M Kane (UCSD); Raj Kumar
+    Maity (University of Massachusetts Amherst); Arya Mazumdar (University of California,
+    San Diego)
+  AuthorNames: Gandikota, Venkata; Kane, Daniel M; Maity, Raj Kumar; Mazumdar, Arya
+- PaperID: '926'
+  PaperTitle: 'Smooth Bandit Optimization: Generalization to Holder Space'
+  Authors: Yusha Liu (Carnegie Mellon University); Yining Wang (University of Florida);
+    Aarti Singh (Carnegie Mellon University)
+  AuthorNames: Liu, Yusha; Wang, Yining; Singh, Aarti
+- PaperID: '927'
+  PaperTitle: List Learning with Attribute Noise
+  Authors: Mahdi Cheraghchi (University of Michigan Ann Arbor); Elena Grigorescu (Purdue
+    University); Brendan Juba (Washington University in St Louis); Karl Wimmer (Duquesne
+    University); Ning Xie (Florida International Unversity)
+  AuthorNames: Cheraghchi, Mahdi; Grigorescu, Elena; Juba, Brendan; Wimmer, Karl;
+    Xie, Ning
+- PaperID: '940'
+  PaperTitle: High-Dimensional Feature Selection for Sample Efficient Treatment Effect
+    Estimation
+  Authors: Kristjan Greenewald (MIT-IBM Watson AI Lab); Karthikeyan Shanmugam (IBM
+    Research NY); Dmitriy Katz (IBM Research)
+  AuthorNames: Greenewald, Kristjan; Shanmugam, Karthikeyan; Katz, Dmitriy
+- PaperID: '942'
+  PaperTitle: Fractional moment-preserving initialization schemes for trainingfully-connected
+    neural networks
+  Authors: Mert Gurbuzbalaban (Rutgers); Yuanhan Hu (Rutgers University)
+  AuthorNames: Gurbuzbalaban, Mert; Hu, Yuanhan
+- PaperID: '943'
+  PaperTitle: 'Inductive Mutual Information Estimation: A Convex Maximum-Entropy Copula
+    Approach'
+  Authors: Yves-Laurent Kom Samo (KXY Technologies, Inc.)
+  AuthorNames: Kom Samo, Yves-Laurent
+- PaperID: '946'
+  PaperTitle: Federated f-Differential Privacy
+  Authors: Qinqing Zheng (University of Pennsylvania); Shuxiao Chen (University of
+    Pennsylvania); Qi Long (University of Pennsylvania); Weijie Su (University of
+    Pennsylvania)
+  AuthorNames: Zheng, Qinqing; Chen, Shuxiao; Long, Qi; Su, Weijie
+- PaperID: '950'
+  PaperTitle: Clustering multilayer graphs with missing nodes
+  Authors: Guillaume Braun (Inria); Hemant Tyagi (Inria Lille - Nord Europe); Christophe
+    Biernacki (Inria)
+  AuthorNames: Braun, Guillaume; Tyagi, Hemant; Biernacki, Christophe
+- PaperID: '951'
+  PaperTitle: 'Implicit Regularization in Deep Learning: A View from Function Space'
+  Authors: "Aristide Baratin (University of Montreal); Thomas George (MILA, Universit\xE9\
+    \ de Montr\xE9al); C\xE9sar Laurent (Mila, Universit\xE9 de Montr\xE9al); R Devon\
+    \ Hjelm (Microsoft Research); Guillaume Lajoie (Mila, Universit\xE9 de Montr\xE9\
+    al); Pascal Vincent (MILA, FAIR); Simon Lacoste-Julien (Mila, Universit\xE9 de\
+    \ Montr\xE9al)"
+  AuthorNames: "Baratin, Aristide; George, Thomas; Laurent, C\xE9sar; Hjelm, R Devon;\
+    \ Lajoie, Guillaume; Vincent, Pascal; Lacoste-Julien, Simon"
+- PaperID: '954'
+  PaperTitle: Aggregating Incomplete and Noisy Rankings
+  Authors: Dimitris Fotakis (National Technical University of Athens); Alkis Kalavasis
+    (National Technical University of Athens ); Konstantinos Stavropoulos (National
+    Technical University of Athens)
+  AuthorNames: Fotakis, Dimitris; Kalavasis, Alkis; Stavropoulos, Konstantinos
+- PaperID: '956'
+  PaperTitle: Quantifying the Privacy Risks of Learning High-Dimensional Graphical
+    Models
+  Authors: Sasi Kumar Murakonda (NUS); Reza Shokri (NUS); George Theodorakopoulos
+    (Cardiff University)
+  AuthorNames: Murakonda, Sasi Kumar; Shokri, Reza; Theodorakopoulos, George
+- PaperID: '962'
+  PaperTitle: Optimal query complexity for private sequential learning against eavesdropping
+  Authors: Jiaming Xu (Duke University); Kuang Xu (Stanford University); Dana Yang
+    (Duke University)
+  AuthorNames: Xu, Jiaming; Xu, Kuang; Yang, Dana
+- PaperID: '975'
+  PaperTitle: 'Mirrorless Mirror Descent: A Natural Derivation of Mirror Descent'
+  Authors: Suriya Gunasekar (Microsoft Research); Blake E Woodworth (TTI-Chicago);
+    Nathan Srebro (Toyota Technical Institute of Chicago)
+  AuthorNames: Gunasekar, Suriya; Woodworth, Blake E; Srebro, Nathan
+- PaperID: '977'
+  PaperTitle: Differentiable Causal Discovery Under Unmeasured Confounding
+  Authors: Rohit Bhattacharya (Johns Hopkins University); Tushar Nagarajan (UT Austin);
+    Daniel Malinsky (Johns Hopkins University); Ilya Shpitser (Johns Hopkins University)
+  AuthorNames: Bhattacharya, Rohit; Nagarajan, Tushar; Malinsky, Daniel; Shpitser,
+    Ilya
+- PaperID: '987'
+  PaperTitle: The Sample Complexity of Meta Sparse Regression
+  Authors: Zhanyu Wang (Purdue University); Jean Honorio (Purdue)
+  AuthorNames: Wang, Zhanyu; Honorio, Jean
+- PaperID: '996'
+  PaperTitle: A Theory of Multiple-Source Adaptation with Limited Target Labeled Data
+  Authors: Yishay Mansour (Google); Mehryar Mohri (Google Research & Courant Institute
+    of Mathematical Sciences, NYU); Jae Ro (Google Research); Ananda Theertha Suresh
+    (Google); Ke Wu (Google)
+  AuthorNames: Mansour, Yishay; Mohri, Mehryar; Ro, Jae; Suresh, Ananda Theertha;
+    Wu, Ke
+- PaperID: '998'
+  PaperTitle: Group testing for connected communities
+  Authors: Pavlos Nikolopoulos (EPFL); Sundara Rajan Srinivasavaradhan (University
+    of California, Los Angeles); Tao Guo (University of California, Los Angeles );
+    Christina Fragouli (); Suhas Diggavi (UCLA)
+  AuthorNames: Nikolopoulos, Pavlos; Srinivasavaradhan, Sundara Rajan; Guo, Tao; Fragouli,
+    Christina; Diggavi, Suhas
+- PaperID: '1000'
+  PaperTitle: 'Federated Learning with Compression: Unified Analysis and Sharp Guarantees'
+  Authors: Farzin Haddadpour (Pennsylvania State University); Mohammad Mahdi Kamani
+    (The Pennsylvania State University); Aryan Mokhtari (UT Austin); Mehrdad Mahdavi
+    (Penn State)
+  AuthorNames: Haddadpour, Farzin; Kamani, Mohammad Mahdi; Mokhtari, Aryan; Mahdavi,
+    Mehrdad
+- PaperID: '1001'
+  PaperTitle: Variational Autoencoder with Learned Latent Structure
+  Authors: Marissa Connor (Georgia Tech); Gregory H Canal (Georgia Institute of Technology);
+    Christopher J Rozell (Georgia Institute of Technology)
+  AuthorNames: Connor, Marissa; Canal, Gregory H; Rozell, Christopher J
+- PaperID: '1003'
+  PaperTitle: 'RankDistil: Knowledge Distillation for Ranking'
+  Authors: Sashank Reddi (Google); Rama Kumar Pasumarthi (Google); Aditya K Menon
+    (Google); Ankit Singh Rawat (Google); Felix Yu (Google); Seungyeon Kim (Google
+    Research); Andreas Veit (Google); Sanjiv Kumar (Google Research)
+  AuthorNames: Reddi, Sashank; Pasumarthi, Rama Kumar; Menon, Aditya K; Rawat, Ankit
+    Singh; Yu, Felix; Kim, Seungyeon; Veit, Andreas; Kumar, Sanjiv
+- PaperID: '1019'
+  PaperTitle: 'Variational Selective Autoencoder: Learning from Partially-Observed
+    Heterogeneous Data '
+  Authors: Yu Gong (Simon Fraser University); Hossein Hajimirsadeghi (Oracle); Jiawei
+    He (Simon Fraser University); Thibaut Durand (Borealis AI); Greg Mori (Simon Fraser
+    University / Borealis AI)
+  AuthorNames: Gong, Yu; Hajimirsadeghi, Hossein; He, Jiawei; Durand, Thibaut; Mori,
+    Greg
+- PaperID: '1025'
+  PaperTitle: On Linear Convergence of Policy Gradient Methods for Finite MDPs
+  Authors: Jalaj Bhandari (); Daniel Russo (Columbia University)
+  AuthorNames: Bhandari, Jalaj; Russo, Daniel
+- PaperID: '1026'
+  PaperTitle: Minimal enumeration of all possible total effects in a Markov equivalence
+    class
+  Authors: Richard F Guo (University of Washington); Emilija Perkovic (University
+    of Washington)
+  AuthorNames: Guo, Richard F; Perkovic, Emilija
+- PaperID: '1027'
+  PaperTitle: Differentially Private Weighted Sampling
+  Authors: Edith Cohen (Google); Ofir Geri (Stanford University); Tamas Sarlos (Google
+    Research); Uri Stemmer (Ben-Gurion University)
+  AuthorNames: Cohen, Edith; Geri, Ofir; Sarlos, Tamas; Stemmer, Uri
+- PaperID: '1028'
+  PaperTitle: Learning the Truth From Only One Side of the Story
+  Authors: Heinrich Jiang (Google Research); Qijia Jiang (Stanford University); Aldo
+    Pacchiano (UC Berkeley)
+  AuthorNames: Jiang, Heinrich; Jiang, Qijia; Pacchiano, Aldo
+- PaperID: '1032'
+  PaperTitle: Convergence of  Gaussian-smoothed optimal transport distance with sub-gamma
+    distributions and  dependent samples
+  Authors: Yixing Zhang (Department of ECE, Duke University); Xiuyuan Cheng (Duke
+    University); Galen Reeves (Duke)
+  AuthorNames: Zhang, Yixing; Cheng, Xiuyuan; Reeves, Galen
+- PaperID: '1039'
+  PaperTitle: Bayesian Inference with Certifiable Adversarial Robustness
+  Authors: Matthew Wicker (University of Oxford); Luca Laurenti (University of Oxford);
+    Andrea Patane (University of Oxford); Zhuotong Chen (University of California,
+    Santa Barbara); Zheng Zhang (UC Santa Barbara); Marta Kwiatkowska (Oxford University)
+  AuthorNames: Wicker, Matthew; Laurenti, Luca; Patane, Andrea; Chen, Zhuotong; Zhang,
+    Zheng; Kwiatkowska, Marta
+- PaperID: '1042'
+  PaperTitle: Hierarchical Clustering in General Metric Spaces using Approximate Nearest
+    Neighbors
+  Authors: Benjamin Moseley (Carnegie Mellon University); Sergei Vassilvtiskii (Google);
+    Yuyan Wang (Carnegie Mellon University)
+  AuthorNames: Moseley, Benjamin; Vassilvtiskii, Sergei; Wang, Yuyan
+- PaperID: '1043'
+  PaperTitle: Statistical Guarantees for Transformation Based Models with applications
+    to Implicit Variational Inference
+  Authors: Sean C Plummer (Texas A&M University ); Shuang  Zhou (Arizona State Univeristy);
+    Anirban  Bhattacharya (Texas A&M University); David Dunson (Duke University);
+    Debdeep Pati (Texas A&M University)
+  AuthorNames: Plummer, Sean C; Zhou, Shuang ; Bhattacharya, Anirban ; Dunson, David;
+    Pati, Debdeep
+- PaperID: '1044'
+  PaperTitle: Reinforcement Learning for Mean Field Games with Strategic Complementarities
+  Authors: Kiyeob Lee (Texas A&M University); Desik Rengarajan (Texas A&M University);
+    Dileep Kalathil (Texas A&M University); Srinivas Shakkottai (Texas A&M University)
+  AuthorNames: Lee, Kiyeob; Rengarajan, Desik; Kalathil, Dileep; Shakkottai, Srinivas
+- PaperID: '1050'
+  PaperTitle: 'Cluster Trellis: Data Structures & Algorithms for Exact Inference in
+    Hierarchical Clustering'
+  Authors: Sebastian Macaluso (Center for Cosmology and Particle Physics & Center
+    for Data Science, New York University); Craig S Greenberg (University of Massachusetts
+    Amherst); Nicholas Monath (University of Massachusetts Amherst); Ji Ah Lee (UMASS);
+    Patrick  Flaherty (UMASS); Kyle Cranmer (New York University); Andrew McGregor
+    (University of Massachusetts Amherst); Andrew McCallum (Univ of Massachusetts
+    Amherst)
+  AuthorNames: Macaluso, Sebastian; Greenberg, Craig S; Monath, Nicholas; Lee, Ji
+    Ah; Flaherty, Patrick ; Cranmer, Kyle; McGregor, Andrew; McCallum, Andrew
+- PaperID: '1055'
+  PaperTitle: 'Beyond Marginal Uncertainty: How Accurately can Bayesian Regression
+    Models Estimate Posterior Predictive Correlations?'
+  Authors: Chaoqi Wang (University of Toronto); Shengyang Sun (University of Toronto);
+    Roger B Grosse (University of Toronto)
+  AuthorNames: Wang, Chaoqi; Sun, Shengyang; Grosse, Roger B
+- PaperID: '1058'
+  PaperTitle: On the Consistency of Metric and Non-Metric K-Medoids
+  Authors: He Jiang (UCSD); Ery Arias-Castro (UCSD)
+  AuthorNames: Jiang, He; Arias-Castro, Ery
+- PaperID: '1060'
+  PaperTitle: Piecewise-Stationary Off-Policy Optimization
+  Authors: Joey Hong (Google); Branislav Kveton (Google Research); Manzil Zaheer (Google
+    Research); Yinlam Chow (Google AI); Amr Ahmed (Google)
+  AuthorNames: Hong, Joey; Kveton, Branislav; Zaheer, Manzil; Chow, Yinlam; Ahmed,
+    Amr
+- PaperID: '1062'
+  PaperTitle: Efficient Interpolation of Density Estimators
+  Authors: Paxton M Turner (MIT); Jingbo Liu (University of Illinois at Urbana-Champaign);
+    Philippe Rigollet (MIT)
+  AuthorNames: Turner, Paxton M; Liu, Jingbo; Rigollet, Philippe
+- PaperID: '1063'
+  PaperTitle: A Statistical Perspective on Coreset Density Estimation
+  Authors: Paxton M Turner (MIT); Jingbo Liu (University of Illinois at Urbana-Champaign);
+    Philippe Rigollet (MIT)
+  AuthorNames: Turner, Paxton M; Liu, Jingbo; Rigollet, Philippe
+- PaperID: '1066'
+  PaperTitle: Shuffled Model of Differential Privacy in Federated Learning
+  Authors: ANTONIOUS M. Girgis (UCLA); Deepesh Data (UCLA); Suhas Diggavi (UCLA);
+    Peter Kairouz (Google); Ananda Theertha Suresh (Google)
+  AuthorNames: Girgis, ANTONIOUS M.; Data, Deepesh; Diggavi, Suhas; Kairouz, Peter;
+    Suresh, Ananda Theertha
+- PaperID: '1068'
+  PaperTitle: 'CLAR: Contrastive Learning of Auditory Representations'
+  Authors: Haider Al-Tahan (The University of Western Ontario); Yalda Mohsenzadeh
+    (The University of Western Ontario)
+  AuthorNames: Al-Tahan, Haider; Mohsenzadeh, Yalda
+- PaperID: '1069'
+  PaperTitle: Designing Transportable Experiments
+  Authors: My Phan (University of Massachusetts Amherst); David Arbour (Adobe Research);
+    Drew Dimmery (Facebook); Anup Rao (Adobe Research)
+  AuthorNames: Phan, My; Arbour, David; Dimmery, Drew; Rao, Anup
+- PaperID: '1070'
+  PaperTitle: 'A Minimax Theorem for Nonconcave-Nonconvex Games or: How I Learned
+    to Stop Worrying about Mixed-Nash and Love Neural Nets'
+  Authors: "Gauthier Gidel (Mila, Universit\xE9 de Montr\xE9al); David Balduzzi (DeepMind);\
+    \ Wojciech M Czarnecki (DeepMind); Marta Garnelo (DeepMind); Yoram Bachrach ()"
+  AuthorNames: Gidel, Gauthier; Balduzzi, David; Czarnecki, Wojciech M; Garnelo, Marta;
+    Bachrach, Yoram
+- PaperID: '1071'
+  PaperTitle: Private optimization without constraint violations
+  Authors: andres munoz (Google); Umar Syed (Google); Sergei Vassilvtiskii (Google);
+    Ellen Vitercik (Carnegie Mellon University)
+  AuthorNames: munoz, andres; Syed, Umar; Vassilvtiskii, Sergei; Vitercik, Ellen
+- PaperID: '1072'
+  PaperTitle: Direct Loss Minimization for Sparse Gaussian Processes
+  Authors: Yadi Wei (Indiana University, Bloomington); Rishit Sheth (Microsoft Research);
+    Roni Khardon (Indiana University, Bloomington)
+  AuthorNames: Wei, Yadi; Sheth, Rishit; Khardon, Roni
+- PaperID: '1076'
+  PaperTitle: Convergence and Accuracy Trade-Offs in Federated Learning and Meta-Learning
+  Authors: "Zachary Charles (Google Research); Jakub Kone\u010Dn\xFD (Google Research)"
+  AuthorNames: "Charles, Zachary; Kone\u010Dn\xFD, Jakub"
+- PaperID: '1078'
+  PaperTitle: Linear Models are Robust Optimal Under Strategic Behavior
+  Authors: Wei Tang (Washington University in St. Louis); Chien-Ju Ho (Washington
+    University in St. Louis); Yang Liu (UC Santa Cruz)
+  AuthorNames: Tang, Wei; Ho, Chien-Ju; Liu, Yang
+- PaperID: '1080'
+  PaperTitle: Matern Gaussian Processes on Graphs
+  Authors: Viacheslav Borovitskiy (Saint Petersburg State University); Iskander Azangulov
+    (Saint Petersburg State University); Alexander Terenin (Imperial College London);
+    Peter Mostowsky (Saint Petersburg State University); Marc Deisenroth (University
+    College London); Nicolas Durrande (Secondmind)
+  AuthorNames: Borovitskiy, Viacheslav; Azangulov, Iskander; Terenin, Alexander; Mostowsky,
+    Peter; Deisenroth, Marc; Durrande, Nicolas
+- PaperID: '1086'
+  PaperTitle: Minimax optimality of Laplacian smoothing
+  Authors: Alden J Green (Carnegie Mellon University); Sivaraman Balakrishnan (CMU);
+    Ryan Tibshirani (Carnegie Mellon University)
+  AuthorNames: Green, Alden J; Balakrishnan, Sivaraman; Tibshirani, Ryan
+- PaperID: '1087'
+  PaperTitle: Evaluating Model Robustness to Dataset Shift
+  Authors: Adarsh Subbaswamy (Johns Hopkins University); Roy Adams (Johns Hopkins
+    University); Suchi Saria (Johns Hopkins University)
+  AuthorNames: Subbaswamy, Adarsh; Adams, Roy; Saria, Suchi
+- PaperID: '1090'
+  PaperTitle: 'Continuum-Armed Bandits: A Function Space Perspective'
+  Authors: Shashank Singh (Google)
+  AuthorNames: Singh, Shashank
+- PaperID: '1094'
+  PaperTitle: Regret-Optimal Filtering
+  Authors: Oron Sabag (Caltech); Babak Hassibi (Caltech)
+  AuthorNames: Sabag, Oron; Hassibi, Babak
+- PaperID: '1098'
+  PaperTitle: Evading the Curse of Dimensionality in Unconstrained Private GLMs
+  Authors: Shuang Song (Google); Thomas Steinke (); Om Thakkar (Google); Abhradeep
+    Thakurta (Google)
+  AuthorNames: Song, Shuang; Steinke, Thomas; Thakkar, Om; Thakurta, Abhradeep
+- PaperID: '1105'
+  PaperTitle: 'One Sketch for All: Non-linear Random Features from Compressed Linear
+    Measurements'
+  Authors: Xiaoyun Li (Rutgers University); Ping Li (Baidu Research)
+  AuthorNames: Li, Xiaoyun; Li, Ping
+- PaperID: '1107'
+  PaperTitle: Reinforcement Learning for Constrained and Multi-Objective Markov Decision
+    Processes
+  Authors: Ather Gattami (RISE AI); Qinbo Bai (Purdue University); Vaneet Aggarwal
+    (Purdue University)
+  AuthorNames: Gattami, Ather; Bai, Qinbo; Aggarwal, Vaneet
+- PaperID: '1109'
+  PaperTitle: Principal Component Regression with Semirandom Observations via Matrix
+    Completion
+  Authors: Aditya Bhaskara (University of Utah); Aravinda Kanchana Ruwanpathirana
+    (University of Utah); Maheshakya Wijewardena (University of Utah)
+  AuthorNames: Bhaskara, Aditya; Ruwanpathirana, Aravinda Kanchana; Wijewardena, Maheshakya
+- PaperID: '1112'
+  PaperTitle: Ridge Regression with Overparametrized Networks Converge to Ridgelet
+    Spectrum
+  Authors: Sho Sonoda (RIKEN AIP); Isao Ishikawa (Ehime University); Masahiro Ikeda
+    (RIKEN AIP)
+  AuthorNames: Sonoda, Sho; Ishikawa, Isao; Ikeda, Masahiro
+- PaperID: '1115'
+  PaperTitle: 'Right Decisions from Wrong Predictions: A Mechanism Design Alternative
+    to Individual Calibration'
+  Authors: Shengjia Zhao (Stanford University); Stefano  Ermon (Stanford University)
+  AuthorNames: 'Zhao, Shengjia; Ermon, Stefano '
+- PaperID: '1116'
+  PaperTitle: Credible Sample Elicitation
+  Authors: Jiaheng Wei (UCSC); Zuyue Fu (Northwestern.edu); Yang Liu (UC Santa Cruz);
+    Xingyu Li (UCSC); Zhuoran Yang (Princeton.edu); Zhaoran Wang (Northwestern U)
+  AuthorNames: Wei, Jiaheng; Fu, Zuyue; Liu, Yang; Li, Xingyu; Yang, Zhuoran; Wang,
+    Zhaoran
+- PaperID: '1118'
+  PaperTitle: Random Coordinate Underdamped Langevin Monte Carlo
+  Authors: Zhiyan Ding (University of Wisconsin-Madison); Qin Li (University of Wisconsin-Madison);
+    Jianfeng Lu (Duke University); Stephen J Wright (University of Wisconsin-Madison)
+  AuthorNames: Ding, Zhiyan; Li, Qin; Lu, Jianfeng; Wright, Stephen J
+- PaperID: '1119'
+  PaperTitle: Influence Decompositions For Neural Network Attribution
+  Authors: Kyle Reing (University of Southern Califor); Greg Ver Steeg (USC Information
+    Sciences Institute); Aram Galstyan (USC Information Sciences Institute)
+  AuthorNames: Reing, Kyle; Ver Steeg, Greg; Galstyan, Aram
+- PaperID: '1120'
+  PaperTitle: Variational inference for nonlinear ordinary differential equations
+  Authors: Sanmitra Ghosh (MRC Biostatistics Unit, School of Clinical Medicine, University
+    of Cambridge); Paul Birrell (Public Health England, Colindale;MRC Biostatistics
+    Unit, School of Clinical Medicine, University of Cambridge);  Daniela De Angelis
+    (MRC Biostatistics Unit, School of Clinical Medicine, University of Cambridge;
+    Public Health England, Colindale)
+  AuthorNames: Ghosh, Sanmitra; Birrell, Paul; De Angelis,  Daniela
+- PaperID: '1130'
+  PaperTitle: Approximation Algorithms for Orthogonal Non-negative Matrix Factorization
+  Authors: Moses Charikar (Stanford University, California); Lunjia Hu (Stanford University)
+  AuthorNames: Charikar, Moses; Hu, Lunjia
+- PaperID: '1131'
+  PaperTitle: Fast Adaptation with Linearized Neural Networks
+  Authors: Wesley J Maddox (New York University); Shuai Tang (UC San Diego); Pablo
+    Moreno (Amazon); Andrew Gordon Gordon Wilson (New York University); Andreas Damianou
+    (Amazon)
+  AuthorNames: Maddox, Wesley J; Tang, Shuai; Moreno, Pablo; Wilson, Andrew Gordon
+    Gordon; Damianou, Andreas
+- PaperID: '1134'
+  PaperTitle: Efficient Methods for Structured Nonconvex-Nonconcave Min-Max Optimization
+  Authors: Jelena Diakonikolas (University of Wisconsin-Madison); Constantinos  Daskalakis
+    (MIT); Michael Jordan (UC Berkeley)
+  AuthorNames: Diakonikolas, Jelena;  Daskalakis, Constantinos; Jordan, Michael
+- PaperID: '1137'
+  PaperTitle: A Change of Variables Method For Rectangular Matrix-Vector Products
+  Authors: Edmond Cunningham (University of Massachusetts Amherst); Madalina Fiterau
+    (University of Massachusetts Amherst)
+  AuthorNames: Cunningham, Edmond; Fiterau, Madalina
+- PaperID: '1139'
+  PaperTitle: "Provably E\uFB03cient Actor-Critic for Risk-Sensitive and Robust Adversarial\
+    \ RL: A Linear-Quadratic Case"
+  Authors: Yufeng Zhang (Northwestern University); Zhuoran Yang (Princeton.edu); Zhaoran
+    Wang (Northwestern U)
+  AuthorNames: Zhang, Yufeng; Yang, Zhuoran; Wang, Zhaoran
+- PaperID: '1146'
+  PaperTitle: Fundamental Limits of Ridge-Regularized Empirical Risk Minimization
+    in High Dimensions
+  Authors: Hossein Taheri (UC Santa Barbara); Ramtin Pedarsani (UC Santa Barbara);
+    Christos Thrampoulidis (University of British Columbia)
+  AuthorNames: Taheri, Hossein; Pedarsani, Ramtin; Thrampoulidis, Christos
+- PaperID: '1148'
+  PaperTitle: 'Bayesian Coresets: Revisiting the Nonconvex Optimization Perspective'
+  Authors: Jacky Y Zhang (Illinois); Rajiv Khanna (University of California, Berkeley);
+    Anastasios Kyrillidis (Rice University ); Sanmi Koyejo (Illinois/Google)
+  AuthorNames: Zhang, Jacky Y; Khanna, Rajiv; Kyrillidis, Anastasios; Koyejo, Sanmi
+- PaperID: '1151'
+  PaperTitle: Causal Inference with Selectively Deconfounded Data
+  Authors: Kyra Gan (Carnegie Mellon University); Andrew Li (); Zachary  Lipton (Carnegie
+    Mellon University); Sridhar Tayur (Carnegie Mellon University)
+  AuthorNames: Gan, Kyra; Li, Andrew; Lipton, Zachary ; Tayur, Sridhar
+- PaperID: '1157'
+  PaperTitle: Animal pose estimation from video data with a hierarchical von Mises-Fisher-Gaussian
+    model
+  Authors: Libby Zhang (Stanford University); Tim Dunn (D); Jesse D Marshall (Harvard
+    University); Bence Olveczky (Harvard University); Scott Linderman (Stanford University)
+  AuthorNames: Zhang, Libby; Dunn, Tim; Marshall, Jesse D; Olveczky, Bence; Linderman,
+    Scott
+- PaperID: '1158'
+  PaperTitle: Mirror Descent View for Neural Network Quantization
+  Authors: Thalaiyasingam Ajanthan (ANU); Kartik Gupta (Australian National University);
+    Philip Torr (University of Oxford); RICHARD HARTLEY (Australian National University,
+    Australia); Puneet Dokania (University of Oxford)
+  AuthorNames: Ajanthan, Thalaiyasingam; Gupta, Kartik; Torr, Philip; HARTLEY, RICHARD;
+    Dokania, Puneet
+- PaperID: '1159'
+  PaperTitle: Power of Hints for Online Learning with Movement Costs
+  Authors: Aditya Bhaskara (University of Utah); Ashok Cutkosky (Boston University);
+    Ravi Kumar (Google); Manish Purohit (Google)
+  AuthorNames: Bhaskara, Aditya; Cutkosky, Ashok; Kumar, Ravi; Purohit, Manish
+- PaperID: '1165'
+  PaperTitle: Stochastic Bandits with Linear Constraints
+  Authors: Aldo Pacchiano (UC Berkeley); Mohammad Ghavamzadeh (Google Research); Peter
+    Bartlett (); Heinrich Jiang (Google Research)
+  AuthorNames: Pacchiano, Aldo; Ghavamzadeh, Mohammad; Bartlett, Peter; Jiang, Heinrich
+- PaperID: '1170'
+  PaperTitle: Significance of Gradient Information in Bayesian Optimization
+  Authors: Shubhanshu Shekhar (University of California, San Diego); Tara Javidi (University
+    of California San Diego)
+  AuthorNames: Shekhar, Shubhanshu; Javidi, Tara
+- PaperID: '1178'
+  PaperTitle: Improving Adversarial Robustness via Unlabeled Out-of-Domain Data
+  Authors: Zhun Deng (Harvard); Linjun Zhang (Rutgers University); Amirata Ghorbani
+    (Stanford); James Zou (Stanford University)
+  AuthorNames: Deng, Zhun; Zhang, Linjun; Ghorbani, Amirata; Zou, James
+- PaperID: '1186'
+  PaperTitle: DAG-structured Clustering by Nearest-Neighbors
+  Authors: Nicholas Monath (University of Massachusetts Amherst); Manzil Zaheer (Google
+    Research); Kumar Avinava Dubey (Google Research); Amr Ahmed (Google); Andrew McCallum
+    (Univ of Massachusetts Amherst)
+  AuthorNames: Monath, Nicholas; Zaheer, Manzil; Dubey, Kumar Avinava; Ahmed, Amr;
+    McCallum, Andrew
+- PaperID: '1192'
+  PaperTitle: Hindsight Expectation Maximization for Goal-conditioned Reinforcement
+    Learning
+  Authors: Yunhao Tang (Columbia University); Alp Kucukelbir (Columbia University)
+  AuthorNames: Tang, Yunhao; Kucukelbir, Alp
+- PaperID: '1194'
+  PaperTitle: 'Follow Your Star:  New Frameworks for Online Stochastic Matching with
+    Known and Unknown Patience'
+  Authors: Nathaniel Grammel (University of Maryland); Brian Brubach (Wellesley College);
+    Will Ma (Columbia University); Aravind Srinivasan (University of Maryland College
+    Park)
+  AuthorNames: Grammel, Nathaniel; Brubach, Brian; Ma, Will; Srinivasan, Aravind
+- PaperID: '1202'
+  PaperTitle: Location Trace Privacy Under Conditional Priors
+  Authors: Casey  Meehan (University of California, San Diego); Kamalika Chaudhuri
+    (University of California, San Diego)
+  AuthorNames: Meehan, Casey ; Chaudhuri, Kamalika
+- PaperID: '1205'
+  PaperTitle: Large Scale K-Median Clustering for Stable Clustering Instances
+  Authors: Konstantin Voevodski (Google)
+  AuthorNames: Voevodski, Konstantin
+- PaperID: '1210'
+  PaperTitle: An Optimal Reduction of TV-Denoising to Adaptive Online Learning
+  Authors: Dheeraj Baby (University of California Santa Barbara); Xuandong Zhao (UC
+    Santa Barbara); Yu-Xiang Wang (UC Santa Barbara)
+  AuthorNames: Baby, Dheeraj; Zhao, Xuandong; Wang, Yu-Xiang
+- PaperID: '1218'
+  PaperTitle: Differentially Private Monotone Submodular Maximization Under Matroid
+    and Knapsack Constraints
+  Authors: Omid Sadeghi (University of Washington); Maryam Fazel (University of Washington)
+  AuthorNames: Sadeghi, Omid; Fazel, Maryam
+- PaperID: '1226'
+  PaperTitle: Federated Multi-armed Bandits with Personalization
+  Authors: Chengshuai Shi (University of Virginia); Cong Shen (University of Virginia);
+    Jing Yang (Penn State University)
+  AuthorNames: Shi, Chengshuai; Shen, Cong; Yang, Jing
+- PaperID: '1230'
+  PaperTitle: Hierachical Inducing Point Gaussian Process for Inter-domian Observations
+  Authors: Luhuan Wu (Columbia University); Andrew Miller (Columbia University); Lauren
+    Anderson (Flatiron Institute); Geoff Pleiss (Columbia University); David Blei
+    (Columbia University); John Cunningham ()
+  AuthorNames: Wu, Luhuan; Miller, Andrew; Anderson, Lauren; Pleiss, Geoff; Blei,
+    David; Cunningham, John
+- PaperID: '1231'
+  PaperTitle: Fast Statistical Leverage Score Approximation in Kernel Ridge Regression
+  Authors: Yifan Chen (University of Illinois at Urbana-Champaign); Yun Yang (Univeristy
+    of Illinois at Urbana-Champaign)
+  AuthorNames: Chen, Yifan; Yang, Yun
+- PaperID: '1233'
+  PaperTitle: 'Dual Principal Component Pursuit for Learning a Union of Hyperplanes:
+    Theory and Algorithms'
+  Authors: Tianyu Ding (Johns Hopkins University); Zhihui Zhu (University of Denver);
+    Manolis Tsakiris (ShanghaiTech University); Rene Vidal (Johns Hopkins University,
+    USA); Daniel P Robinson (Lehigh University)
+  AuthorNames: Ding, Tianyu; Zhu, Zhihui; Tsakiris, Manolis; Vidal, Rene; Robinson,
+    Daniel P
+- PaperID: '1239'
+  PaperTitle: "Accumulations of Projections\u2014A Unified Framework for Random Sketches\
+    \ in Kernel Ridge Regression"
+  Authors: Yifan Chen (University of Illinois at Urbana-Champaign); Yun Yang (Univeristy
+    of Illinois at Urbana-Champaign)
+  AuthorNames: Chen, Yifan; Yang, Yun
+- PaperID: '1240'
+  PaperTitle: Robust hypothesis testing and distribution estimation in Hellinger distance
+  Authors: Ananda Theertha Suresh (Google)
+  AuthorNames: Suresh, Ananda Theertha
+- PaperID: '1245'
+  PaperTitle: Faster Kernel Interpolation for Gaussian Processes
+  Authors: Mohit Yadav (UMass Amherst); Daniel Sheldon (University of Massachusetts,
+    Amherst); Cameron Musco (University of Massachusetts Amherst)
+  AuthorNames: Yadav, Mohit; Sheldon, Daniel; Musco, Cameron
+- PaperID: '1246'
+  PaperTitle: 'SDF-Bayes: Cautious Optimism in Safe Dose-Finding Clinical Trials with
+    Drug Combinations and Heterogeneous Patient Groups'
+  Authors: Hyun-Suk Lee (Sejong University); Cong Shen (University of Virginia); William
+    Zame (UCLA); Jang-Won Lee (Yonsei University); Mihaela van der Schaar (University
+    of Cambridge)
+  AuthorNames: Lee, Hyun-Suk; Shen, Cong; Zame, William; Lee, Jang-Won; van der Schaar,
+    Mihaela
+- PaperID: '1257'
+  PaperTitle: Detection and Defense of Topological Adversarial Attacks on Graphs
+  Authors: Yingxue Zhang (Huawei Technologies Canada); Florence Regol (McGill University);
+    Soumyasundar Pal (McGill University); Sakif H Khan (Huawei Noah's Ark Lab); Liheng
+    Ma (McGill University); Mark Coates (McGill University)
+  AuthorNames: Zhang, Yingxue; Regol, Florence; Pal, Soumyasundar; Khan, Sakif H;
+    Ma, Liheng; Coates, Mark
+- PaperID: '1261'
+  PaperTitle: Training a Single Bandit Arm
+  Authors: Eren  Ozbay (University of Illinois at Chicago); Vijay Kamble (University
+    of Illinois at Chicago)
+  AuthorNames: Ozbay, Eren ; Kamble, Vijay
+- PaperID: '1263'
+  PaperTitle: Learning Infinite-horizon Average-reward MDPs with Linear Function Approximation
+  Authors: Chen-Yu Wei (University of Southern California); Mehdi Jafarnia Jahromi
+    (University of Southern California); Haipeng Luo (USC); Rahul Jain (University
+    of Southern California)
+  AuthorNames: Wei, Chen-Yu; Jafarnia Jahromi, Mehdi; Luo, Haipeng; Jain, Rahul
+- PaperID: '1268'
+  PaperTitle: Multi-armed bandits with cost subsidy
+  Authors: Deeksha Sinha (Massachusetts Institute of Technology); Karthik Abinav Sankararaman
+    (University of Maryland); Abbas Kazerouni (Facebook); Vashist Avadhanula (Facebook)
+  AuthorNames: Sinha, Deeksha; Sankararaman, Karthik Abinav; Kazerouni, Abbas; Avadhanula,
+    Vashist
+- PaperID: '1269'
+  PaperTitle: Causal Modeling with Stochastic Confounders
+  Authors: Thanh Vinh Vo (National University of Singapore); Pengfei Wei (National
+    University of Singapore); Wicher Bergsma (London School of Economics and Political
+    Science); Tze Yun Leong (National University of Singapore)
+  AuthorNames: Vo, Thanh Vinh; Wei, Pengfei; Bergsma, Wicher; Leong, Tze Yun
+- PaperID: '1271'
+  PaperTitle: The Multiple Instance Learning Gaussian Process Probit Model
+  Authors: Fulton Wang (Sandia National Labs); Ali Pinar (Sandia National Laboratories)
+  AuthorNames: Wang, Fulton; Pinar, Ali
+- PaperID: '1279'
+  PaperTitle: 'Beyond Perturbation Stability: LP Recovery Guarantees for MAP Inference
+    on Noisy Stable Instances'
+  Authors: Hunter Lang (MIT); Aravind Reddy (Northwestern University); David Sontag
+    (MIT); Aravindan Vijayaraghavan (Northwestern University)
+  AuthorNames: Lang, Hunter; Reddy, Aravind; Sontag, David; Vijayaraghavan, Aravindan
+- PaperID: '1287'
+  PaperTitle: Meta Learning in the Continuous Time Limit
+  Authors: Ruitu Xu (Yale University); Lin Chen (University of California, Berkeley);
+    Amin Karbasi (Yale)
+  AuthorNames: Xu, Ruitu; Chen, Lin; Karbasi, Amin
+- PaperID: '1291'
+  PaperTitle: Fast and Smooth Interpolation on Wasserstein Space
+  Authors: Julien Clancy (Massachusetts Institute of Technology); Philippe Rigollet
+    (MIT); Sinho Chewi (Massachusetts Institute of Technology); Thibaut Le Gouic (Massachusetts
+    Institute of Technology); Austin Stromme (MIT); George Stepaniants (Massachusetts
+    Institute of Technology)
+  AuthorNames: Clancy, Julien; Rigollet, Philippe; Chewi, Sinho; Le Gouic, Thibaut;
+    Stromme, Austin; Stepaniants, George
+- PaperID: '1299'
+  PaperTitle: Efficient Balanced Treatment Assignments for Experimentation
+  Authors: David Arbour (Adobe Research); Drew Dimmery (Facebook); Anup Rao (Adobe
+    Research)
+  AuthorNames: Arbour, David; Dimmery, Drew; Rao, Anup
+- PaperID: '1301'
+  PaperTitle: Tensor Networks for Probabilistic Sequence Modeling
+  Authors: "Jacob E Miller (Mila, Universit\xE9 de Montr\xE9al); Guillaume Rabusseau\
+    \ (Mila - Universit\xE9 de Montr\xE9al); John Terilla (CUNY)"
+  AuthorNames: Miller, Jacob E; Rabusseau, Guillaume; Terilla, John
+- PaperID: '1302'
+  PaperTitle: Experimental Design for Regret Minimization in Linear Bandits
+  Authors: Andrew J Wagenmaker (University of Washington); Julian Katz-Samuels ();
+    Kevin Jamieson (U Washington)
+  AuthorNames: Wagenmaker, Andrew J; Katz-Samuels, Julian; Jamieson, Kevin
+- PaperID: '1308'
+  PaperTitle: 'DebiNet: Debiasing Linear Models with Nonlinear Overparameterized Neural
+    Networks'
+  Authors: Shiyun Xu (University of Pennsylvania); Zhiqi Bu (University of Pennsylvania)
+  AuthorNames: Xu, Shiyun; Bu, Zhiqi
+- PaperID: '1310'
+  PaperTitle: Dynamic Cutset Networks
+  Authors: Chiradeep Roy (UT Dallas); Tahrima Rahman (UT Dallas); Hailiang Dong (UT
+    Dallas); Nicholas Ruozzi (UT Dallas); Vibhav Gogate (UT Dallas)
+  AuthorNames: Roy, Chiradeep; Rahman, Tahrima; Dong, Hailiang; Ruozzi, Nicholas;
+    Gogate, Vibhav
+- PaperID: '1312'
+  PaperTitle: Associative Convolutional Layers
+  Authors: Hamed Omidvar (UCSD); Vahideh Akhlaghi (UCSD); Hao Su (UC, San Diego);
+    Massimo Franceschetti (UCSD); Rajesh Gupta (UCSD)
+  AuthorNames: Omidvar, Hamed; Akhlaghi, Vahideh; Su, Hao; Franceschetti, Massimo;
+    Gupta, Rajesh
+- PaperID: '1313'
+  PaperTitle: 'Variable Selection with Rigorous Uncertainty Quantification using Deep
+    Bayesian Neural Networks: Posterior Concentration and Bernstein-von Mises Phenomenon'
+  Authors: Jeremiah Z Liu (Harvard University)
+  AuthorNames: Liu, Jeremiah Z
+- PaperID: '1314'
+  PaperTitle: Kernel Interpolation for Scalable Online Gaussian Processes
+  Authors: Samuel Stanton (New York University); Wesley J Maddox (New York University);
+    Ian A Delbridge (Cornell University); Andrew Gordon Gordon Wilson (New York University)
+  AuthorNames: Stanton, Samuel; Maddox, Wesley J; Delbridge, Ian A; Wilson, Andrew
+    Gordon Gordon
+- PaperID: '1315'
+  PaperTitle: Nonlinear Projection Based Gradient Estimation for Query Efficient Blackbox
+    Attacks
+  Authors: "Huichen Li (University of Illinois at Urbana\u2013Champaign); Linyi Li\
+    \ (UIUC); Xiaojun Xu (University of Illinois at Urbana-Champaign); Xiaolu Zhang\
+    \ (Ant Financial Services Group); Shuang Yang (Ant Financial); Bo Li (UIUC)"
+  AuthorNames: Li, Huichen; Li, Linyi; Xu, Xiaojun; Zhang, Xiaolu; Yang, Shuang; Li,
+    Bo
+- PaperID: '1319'
+  PaperTitle: Contrastive learning of strong-mixing continuous-time stochastic processes
+  Authors: Bingbin Liu (Carnegie Mellon University); Pradeep Ravikumar (Carnegie Mellon
+    University); Andrej Risteski (CMU)
+  AuthorNames: Liu, Bingbin; Ravikumar, Pradeep; Risteski, Andrej
+- PaperID: '1321'
+  PaperTitle: 'TenIPS: Inverse Propensity Sampling for Tensor Completion'
+  Authors: Chengrun Yang (Cornell University); Lijun Ding (Cornell University); Ziyang
+    Wu (Cornell University); Madeleine Udell (Cornell University)
+  AuthorNames: Yang, Chengrun; Ding, Lijun; Wu, Ziyang; Udell, Madeleine
+- PaperID: '1327'
+  PaperTitle: Sketch based Memory for Neural Networks
+  Authors: Rina Panigrahy (Google); Xin Wang (Google); Manzil Zaheer (Google Research)
+  AuthorNames: Panigrahy, Rina; Wang, Xin; Zaheer, Manzil
+- PaperID: '1329'
+  PaperTitle: Uniform consistency of cross-validation estimators for high-dimensional
+    ridge regression
+  Authors: Pratik Patil (Carnegie Mellon University); Yuting Wei (Carnegie Mellon
+    University); Alessandro Rinaldo (Carnegie Mellon University); Ryan Tibshirani
+    (Carnegie Mellon University)
+  AuthorNames: Patil, Pratik; Wei, Yuting; Rinaldo, Alessandro; Tibshirani, Ryan
+- PaperID: '1332'
+  PaperTitle: A Dynamical View on Optimization Algorithms of Overparameterized Neural
+    Networks
+  Authors: Zhiqi Bu (University of Pennsylvania); Shiyun Xu (University of Pennsylvania);
+    Kan Chen (University of Pennsylvania)
+  AuthorNames: Bu, Zhiqi; Xu, Shiyun; Chen, Kan
+- PaperID: '1339'
+  PaperTitle: Semi-Supervised Aggregation of Dependent Weak Supervision Sources With
+    Performance Guarantees
+  Authors: Alessio Mazzetto (Brown university); Dylan Sam (Brown University); Andrew
+    H Park (Brown University); Eli Upfal (Brown University); Stephen H Bach (Brown
+    University)
+  AuthorNames: Mazzetto, Alessio; Sam, Dylan; Park, Andrew H; Upfal, Eli; Bach, Stephen
+    H
+- PaperID: '1342'
+  PaperTitle: Principal Subspace Estimation Under Information Diffusion
+  Authors: Fan Zhou (Baidu Research); Ping Li (Baidu Research); Zhixin Zhou (City
+    University of Hong Kong)
+  AuthorNames: Zhou, Fan; Li, Ping; Zhou, Zhixin
+- PaperID: '1350'
+  PaperTitle: A Hybrid Approximation to the Marginal Likelihood
+  Authors: Eric Chuu (Texas A&M University); Debdeep Pati (Texas A&M University);
+    Anirban  Bhattacharya (Texas A&M University)
+  AuthorNames: 'Chuu, Eric; Pati, Debdeep; Bhattacharya, Anirban '
+- PaperID: '1359'
+  PaperTitle: Prediction with Finitely many Errors Almost Surely
+  Authors: Changlong Wu (University of Hawaii at Manoa); Narayana Santhanam ()
+  AuthorNames: Wu, Changlong; Santhanam, Narayana
+- PaperID: '1362'
+  PaperTitle: Density of States Estimation for Out of Distribution Detection
+  Authors: Warren R Morningstar (Google Research); Cusuh Ham (Georgia Institute of
+    Technology); Andrew Gallagher (Google); Balaji Lakshminarayanan (Google DeepMind);
+    Alex Alemi (Google); Joshua V Dillon (Google)
+  AuthorNames: Morningstar, Warren R; Ham, Cusuh; Gallagher, Andrew; Lakshminarayanan,
+    Balaji; Alemi, Alex; Dillon, Joshua V
+- PaperID: '1365'
+  PaperTitle: Product Manifold Learning
+  Authors: Sharon Zhang (Princeton University); Amit Moscovich (Princeton University);
+    Amit Singer (Princeton University)
+  AuthorNames: Zhang, Sharon; Moscovich, Amit; Singer, Amit
+- PaperID: '1366'
+  PaperTitle: Automatic Differentiation Variational Inference with Mixtures
+  Authors: Warren R Morningstar (Google Research); Sharad Vikram (Google); Cusuh Ham
+    (Georgia Institute of Technology); Andrew Gallagher (Google); Joshua V Dillon
+    (Google)
+  AuthorNames: Morningstar, Warren R; Vikram, Sharad; Ham, Cusuh; Gallagher, Andrew;
+    Dillon, Joshua V
+- PaperID: '1369'
+  PaperTitle: 'Fair for All: Best-effort Fairness Guarantees for Classification'
+  Authors: Anilesh K Krishnaswamy (Duke University); Zhihao Jiang (Tsinghua University);
+    Kangning Wang (Duke University); Yu Cheng (University of Illinois at Chicago);
+    Kamesh Munagala (Duke University)
+  AuthorNames: Krishnaswamy, Anilesh K; Jiang, Zhihao; Wang, Kangning; Cheng, Yu;
+    Munagala, Kamesh
+- PaperID: '1371'
+  PaperTitle: Taming heavy-tailed features by shrinkage
+  Authors: Ziwei Zhu (University of Michigan); Wenjing  Zhou  (University of Michigan,
+    Ann Arbor)
+  AuthorNames: 'Zhu, Ziwei; Zhou , Wenjing '
+- PaperID: '1374'
+  PaperTitle: Efficient Designs Of SLOPE Penalty Sequences In Finite Dimension
+  Authors: Yiliang Zhang (University of Pennsylvania); Zhiqi Bu (University of Pennsylvania)
+  AuthorNames: Zhang, Yiliang; Bu, Zhiqi
+- PaperID: '1388'
+  PaperTitle: Comparing the Value of Labeled and Unlabeled Data in Method-of-Moments
+    Latent Variable Estimation
+  Authors: Mayee Chen (Stanford University); Benjamin Cohen-Wang (Stanford University);
+    Stephen O Mussmann (Stanford University); Frederic Sala (Stanford); Christopher
+    Re (Stanford University)
+  AuthorNames: Chen, Mayee; Cohen-Wang, Benjamin; Mussmann, Stephen O; Sala, Frederic;
+    Re, Christopher
+- PaperID: '1394'
+  PaperTitle: 'Homeomorphic-Invariance of EM: Non-Asymptotic Convergence in KL Divergence
+    for Exponential Families via Mirror Descent'
+  Authors: Frederik Kunstner (University of British Columbia); Raunak Kumar (Cornell
+    University); Mark Schmidt (University of British Columbia)
+  AuthorNames: Kunstner, Frederik; Kumar, Raunak; Schmidt, Mark
+- PaperID: '1396'
+  PaperTitle: Provably Efficient Safe Exploration via Primal-Dual Policy Optimization
+  Authors: Dongsheng Ding (University of Southern California); Xiaohan Wei (USC);
+    Zhuoran Yang (Princeton.edu); Zhaoran Wang (Northwestern); Mihailo Jovanovic (University
+    of Southern California)
+  AuthorNames: Ding, Dongsheng; Wei, Xiaohan; Yang, Zhuoran; Wang, Zhaoran; Jovanovic,
+    Mihailo
+- PaperID: '1400'
+  PaperTitle: 'Understanding Robustness in Teacher-Student Setting: A New Perspective'
+  Authors: Zhuolin Yang (UIUC); Zhaoxi Chen (Tsinghua University); Tiffany Cai (Columbia
+    University); Xinyun Chen (UC Berkeley); Bo Li (UIUC); Yuandong Tian (Facebook)
+  AuthorNames: Yang, Zhuolin; Chen, Zhaoxi; Cai, Tiffany; Chen, Xinyun; Li, Bo; Tian,
+    Yuandong
+- PaperID: '1401'
+  PaperTitle: Non-asymptotic Performance Guarantees for Neural Estimation of f-Divergences
+  Authors: Sreejith Sreekumar (Cornell University); Zhengxin  Zhang (Cornell University);
+    Ziv Goldfeld (Cornell University)
+  AuthorNames: Sreekumar, Sreejith; Zhang, Zhengxin ; Goldfeld, Ziv
+- PaperID: '1408'
+  PaperTitle: Finite-Sample Regret Bound for Distributionally Robust Offline Tabular
+    Reinforcement Learning
+  Authors: Zhengqing Zhou (Stanford University); Qinxun Bai (Horizon Robotics); Zhengyuan
+    Zhou (New York University); Linhai Qiu (Google); Jose Blanchet (Stanford University);
+    Peter Glynn (Stanford University)
+  AuthorNames: Zhou, Zhengqing; Bai, Qinxun; Zhou, Zhengyuan; Qiu, Linhai; Blanchet,
+    Jose; Glynn, Peter
+- PaperID: '1415'
+  PaperTitle: Online Model Selection for Reinforcement Learning with Function Approximation
+  Authors: Jonathan Lee (Stanford University); Aldo Pacchiano (UC Berkeley); Vidya
+    Muthukumar (UC Berkeley); Weihao Kong (University of Washington); Emma Brunskill
+    (Stanford University)
+  AuthorNames: Lee, Jonathan; Pacchiano, Aldo; Muthukumar, Vidya; Kong, Weihao; Brunskill,
+    Emma
+- PaperID: '1427'
+  PaperTitle: Sampling in Combinatorial Spaces with SurVAE Flow Augmented MCMC
+  Authors: Priyank Jaini (University of Amsterdam); Didrik Nielsen (DTU Compute);
+    Max Welling (University of Amsterdam)
+  AuthorNames: Jaini, Priyank; Nielsen, Didrik; Welling, Max
+- PaperID: '1428'
+  PaperTitle: Tight Differential Privacy for Discrete-Valued Mechanisms and for the
+    Subsampled Gaussian Mechanism Using FFT
+  Authors: "Antti Koskela (University of Helsinki); Joonas J\xE4lk\xF6 (Aalto University);\
+    \ Lukas Prediger (Aalto University); Antti Honkela (University of Helsinki)"
+  AuthorNames: "Koskela, Antti; J\xE4lk\xF6, Joonas; Prediger, Lukas; Honkela, Antti"
+- PaperID: '1429'
+  PaperTitle: A Parameter-Free Algorithm for Misspecified Linear Contextual Bandits
+  Authors: Kei Takemura (NEC Corporation); Shinji Ito (NEC Corporation); Daisuke Hatano
+    (RIKEN AIP); Hanna Sumita (Tokyo Institute of Technology); Takuro Fukunaga (Chuo
+    University, JST PRESTO, RIKEN AIP); Naonori Kakimura (Keio University); Ken-ichi
+    Kawarabayashi (National Institute of Informatics)
+  AuthorNames: Takemura, Kei; Ito, Shinji; Hatano, Daisuke; Sumita, Hanna; Fukunaga,
+    Takuro; Kakimura, Naonori; Kawarabayashi, Ken-ichi
+- PaperID: '1436'
+  PaperTitle: Good Classifiers are Abundant in the Interpolating Regime
+  Authors: Ryan Theisen (University of California, Berkeley); Jason M Klusowski (Princeton
+    University); Michael Mahoney ("University of California, Berkeley")
+  AuthorNames: Theisen, Ryan; Klusowski, Jason M; Mahoney, Michael
+- PaperID: '1445'
+  PaperTitle: No-Regret Reinforcement Learning with Heavy-Tailed Rewards
+  Authors: Vincent Zhuang (N/A); Yanan Sui (Tsinghua University)
+  AuthorNames: Zhuang, Vincent; Sui, Yanan
+- PaperID: '1467'
+  PaperTitle: A Spectral Analysis of Dot-product Kernels
+  Authors: Meyer Scetbon (ENSAE); Zaid Harchaoui (University of Washington)
+  AuthorNames: Scetbon, Meyer; Harchaoui, Zaid
+- PaperID: '1476'
+  PaperTitle: Towards Flexible Device Participation in Federated Learning
+  Authors: Yichen Ruan (Carnegie Mellon University); Xiaoxi Zhang (Carnegie Mellon
+    University); Shu-Che Liang (Carnegie Mellon University); Carlee Joe-Wong (Carnegie
+    Mellon University)
+  AuthorNames: Ruan, Yichen; Zhang, Xiaoxi; Liang, Shu-Che; Joe-Wong, Carlee
+- PaperID: '1483'
+  PaperTitle: Active Learning under Label Shift
+  Authors: Eric Zhao (California Institute of Technology); Anqi Liu (California Institute
+    of Technology); Animashree Anandkumar (Caltech); Yisong Yue (Caltech)
+  AuthorNames: Zhao, Eric; Liu, Anqi; Anandkumar, Animashree; Yue, Yisong
+- PaperID: '1490'
+  PaperTitle: Tracking Regret Bounds for Online Submodular Optimization
+  Authors: Tatsuya Matsuoka (NEC Corporation); Shinji Ito (NEC Corporation); Naoto
+    Ohsaka (NEC Corporation)
+  AuthorNames: Matsuoka, Tatsuya; Ito, Shinji; Ohsaka, Naoto
+- PaperID: '1495'
+  PaperTitle: Offline detection of change-points in the mean for stationary graph
+    signals.
+  Authors: "Alejandro  D. de la Concha Duarte (Centre Borelli); Nicolas Vayatis (Ecole\
+    \ Normale Sup\xE9rieure Paris-Saclay, Universit\xE9 Paris Saclay); Argyris Kalogeratos\
+    \ (Centre Borelli, ENS Paris-Saclay)"
+  AuthorNames: de la Concha Duarte, Alejandro  D.; Vayatis, Nicolas; Kalogeratos,
+    Argyris
+- PaperID: '1497'
+  PaperTitle: Hyperbolic graph embedding with enhanced semi-implicit variational inference.
+  Authors: Ali Lotfi Rezaabad (The University of Texas at Austin); Rahi Kalantari
+    (University of Texas at Austin); Sriram Vishwanath (Univeristy of Texas at Austin);
+    Mingyuan Zhou (university of texas); Jonathan I Tamir (The University of Texas
+    at Austin)
+  AuthorNames: Lotfi Rezaabad, Ali; Kalantari, Rahi; Vishwanath, Sriram; Zhou, Mingyuan;
+    Tamir, Jonathan I
+- PaperID: '1500'
+  PaperTitle: Rao-Blackwellised parallel MCMC
+  Authors: Tobias Schwedes (Faculty); Ben Calderhead (Voleon)
+  AuthorNames: Schwedes, Tobias; Calderhead, Ben
+- PaperID: '1503'
+  PaperTitle: 'Improving KernelSHAP: Practical Shapley Value Estimation Using Linear
+    Regression'
+  Authors: Ian Covert (University of Washington); Su-In Lee (University of Washington)
+  AuthorNames: Covert, Ian; Lee, Su-In
+- PaperID: '1508'
+  PaperTitle: Calibrated Adaptive Probabilistic ODE Solvers
+  Authors: "Nathanael Bosch (University of T\xFCbingen); Philipp Hennig (University\
+    \ of T\xFCbingen and MPI for Intelligent Systems T\xFCbingen); Filip Tronarp (University\
+    \ of T\xFCbingen)"
+  AuthorNames: Bosch, Nathanael; Hennig, Philipp; Tronarp, Filip
+- PaperID: '1511'
+  PaperTitle: 'Online Learning of Nonlinear Control with Guaranteed Success: An Oracle-Based,
+    Robust Control-Powered Approach'
+  Authors: Dimitar M Ho (Caltech); Hoang M. Le (Microsoft Research); John  Doyle (Caltech);
+    Yisong Yue (Caltech)
+  AuthorNames: Ho, Dimitar M; Le, Hoang M.; Doyle, John ; Yue, Yisong
+- PaperID: '1515'
+  PaperTitle: Probabilistic Sequential Matrix Factorization
+  Authors: Omer Deniz Akyildiz (University of Warwick & The Alan Turing Institute);
+    Gerrit JJ van den Burg (The Alan Turing Institute); Theodoros Damoulas (University
+    of Warwick); Mark Steel (University of Warwick)
+  AuthorNames: Akyildiz, Omer Deniz; van den Burg, Gerrit JJ; Damoulas, Theodoros;
+    Steel, Mark
+- PaperID: '1520'
+  PaperTitle: An Analysis of LIME for Text Data
+  Authors: "Dina DM Mardaoui (Polytech Nice Sophia); Damien Garreau (Universit\xE9\
+    \ C\xF4te d'Azur)"
+  AuthorNames: Mardaoui, Dina DM; Garreau, Damien
+- PaperID: '1523'
+  PaperTitle: 'Wyner-Ziv Estimators: Efficient Distributed Mean Estimation with Side-Information'
+  Authors: Prathamesh Mayekar (Indian Institute of Science); Ananda Theertha Suresh
+    (Google); Himanshu Tyagi (IISC)
+  AuthorNames: Mayekar, Prathamesh; Suresh, Ananda Theertha; Tyagi, Himanshu
+- PaperID: '1530'
+  PaperTitle: Scalable Gaussian Process Variational Autoencoders
+  Authors: "Metod Jazbec (ETH); Vincent Fortuin (ETH Z\xFCrich); Michael  A L Pearce\
+    \ (Warwick University); Stephan Mandt (University of California, Irivine); Gunnar\
+    \ R\xE4tsch (ETH Zurich)"
+  AuthorNames: "Jazbec, Metod; Fortuin, Vincent; Pearce, Michael  A L; Mandt, Stephan;\
+    \ R\xE4tsch, Gunnar"
+- PaperID: '1545'
+  PaperTitle: Causal Autoregressive Flows
+  Authors: Ilyes Khemakhem (UCL); Ricardo Monti (UCL); Robert Leech (Kings College
+    London); Aapo Hyvarinen (University of Helsinki)
+  AuthorNames: Khemakhem, Ilyes; Monti, Ricardo; Leech, Robert; Hyvarinen, Aapo
+- PaperID: '1546'
+  PaperTitle: 'Explore the Context: Optimal Data Collection for Context-Conditional
+    Dynamics Models'
+  Authors: Jan Achterhold (Max Planck Institute for Intelligent Systems); Joerg Stueckler
+    (Max-Planck-Institute for Intelligent Systems)
+  AuthorNames: Achterhold, Jan; Stueckler, Joerg
+- PaperID: '1548'
+  PaperTitle: A Kernel-Based Approach to Non-Stationary Reinforcement Learning in
+    Metric Spaces
+  Authors: Omar Darwiche Domingues (Inria); Pierre Menard (Inria); Matteo Pirotta
+    (Facebook AI Research); Emilie Kaufmann (CNRS); Michal Valko (DeepMind)
+  AuthorNames: Darwiche Domingues, Omar; Menard, Pierre; Pirotta, Matteo; Kaufmann,
+    Emilie; Valko, Michal
+- PaperID: '1555'
+  PaperTitle: Spectral Tensor Train Parameterization of Deep Learning Layers
+  Authors: Anton Obukhov (ETH Zurich); Maxim Rakhuba (HSE University); Alexander Liniger
+    (ETH Zurich); Zhiwu Huang (ETH Zurich); Stamatios Georgoulis (ETH Zurich); Dengxin  Dai
+    (ETH Zurich); Luc Van Gool (ETH Zurich)
+  AuthorNames: Obukhov, Anton; Rakhuba, Maxim; Liniger, Alexander; Huang, Zhiwu; Georgoulis,
+    Stamatios; Dai, Dengxin ; Van Gool, Luc
+- PaperID: '1557'
+  PaperTitle: 'Local SGD: Unified Theory and New Efficient Methods'
+  Authors: Eduard Gorbunov (Moscow Institute of Physics and Technology); Filip Hanzely
+    (TTIC); Peter Richtarik (KAUST)
+  AuthorNames: Gorbunov, Eduard; Hanzely, Filip; Richtarik, Peter
+- PaperID: '1558'
+  PaperTitle: Towards a Theoretical Understanding of the Robustness of Variational
+    Autoencoders
+  Authors: Alexander Camuto (University of Oxford & The Alan Turing Institute); Matthew
+    Willetts (University of Oxford & The Alan Turing Institute); Stephen Roberts (Oxford);
+    Chris Holmes (University of Oxford); Tom Rainforth (University of Oxford)
+  AuthorNames: Camuto, Alexander; Willetts, Matthew; Roberts, Stephen; Holmes, Chris;
+    Rainforth, Tom
+- PaperID: '1563'
+  PaperTitle: 'Learn to Expect the Unexpected: Probably Approximately Correct Domain
+    Generalization'
+  Authors: Vikas K Garg (MIT); Adam Tauman Kalai (Microsoft Research); Katrina Ligett
+    (Hebrew University); Steven Wu (Carnegie Mellon University)
+  AuthorNames: Garg, Vikas K; Kalai, Adam Tauman; Ligett, Katrina; Wu, Steven
+- PaperID: '1565'
+  PaperTitle: The Base Measure Problem and its Solution
+  Authors: Alexey Radul (Google); Boris Alexeev (Google)
+  AuthorNames: Radul, Alexey; Alexeev, Boris
+- PaperID: '1566'
+  PaperTitle: 'Revisiting Projection-free Online Learning: the Strongly Convex Case'
+  Authors: Ben Kretzu (Technion); Dan Garber (Technion)
+  AuthorNames: Kretzu, Ben; Garber, Dan
+- PaperID: '1581'
+  PaperTitle: A Theoretical Characterization of Semi-supervised Learning with Self-training
+    for Gaussian Mixture Models
+  Authors: Samet Oymak (University of California, Riverside); Talha Cihad Gulcu (Unaffiliated)
+  AuthorNames: Oymak, Samet; Gulcu, Talha Cihad
+- PaperID: '1582'
+  PaperTitle: Logistic Q-Learning
+  Authors: "Joan Bas Serrano (Universitat Pompeu Fabra); Sebastian Curi (ETH); Andreas\
+    \ Krause (ETH Z\xFCrich); Gergely Neu (Universitat Pompeu Fabra)"
+  AuthorNames: Bas Serrano, Joan; Curi, Sebastian; Krause, Andreas; Neu, Gergely
+- PaperID: '1583'
+  PaperTitle: 'Graph Community Detection from Coarse Measurements: Recovery Conditions
+    for the Coarsened Weighted Stochastic Block Model'
+  Authors: Nafiseh Ghoroghchian (University of Toronto); Gautam Dasarathy (Arizona
+    State University); Stark Draper (University of Toronto)
+  AuthorNames: Ghoroghchian, Nafiseh; Dasarathy, Gautam; Draper, Stark
+- PaperID: '1584'
+  PaperTitle: 'Sequential Random Sampling Revisited: Hidden Shuffle Method'
+  Authors: Michael Shekelyan (University of Warwick); Graham Cormode (University of
+    Warwick)
+  AuthorNames: Shekelyan, Michael; Cormode, Graham
+- PaperID: '1587'
+  PaperTitle: Dirichlet Pruning for Convolutional Neural Networks
+  Authors: Kamil Adamczewski (Max Planck Institute for Intelligent Systems); Mijung
+    Park (Max Planck Institute for Intelligent Systems)
+  AuthorNames: Adamczewski, Kamil; Park, Mijung
+- PaperID: '1589'
+  PaperTitle: Couplings for Multinomial Hamiltonian Monte Carlo
+  Authors: Kai Xu (University of Edinburgh); Tor Erlend Fjelde (University of Cambridge);
+    Charles Sutton (Google); Hong Ge (University of Cambridge)
+  AuthorNames: Xu, Kai; Fjelde, Tor Erlend; Sutton, Charles; Ge, Hong
+- PaperID: '1598'
+  PaperTitle: Learning Bijective Feature Maps for Linear ICA
+  Authors: Alexander Camuto (University of Oxford & The Alan Turing Institute); Matthew
+    Willetts (University of Oxford & The Alan Turing Institute); Chris Holmes (University
+    of Oxford); Brooks Paige (University College London); Stephen Roberts (Oxford)
+  AuthorNames: Camuto, Alexander; Willetts, Matthew; Holmes, Chris; Paige, Brooks;
+    Roberts, Stephen
+- PaperID: '1601'
+  PaperTitle: 'Diagnostic Uncertainty Calibration: Towards Reliable Machine Predictions
+    in Medical Domain'
+  Authors: Takahiro Mimori (RIKEN); Keiko Sasada (Kumamoto University); Hirotaka Matsui
+    (Kumamoto University); Issei Sato (The university of Tokyo/RIKEN)
+  AuthorNames: Mimori, Takahiro; Sasada, Keiko; Matsui, Hirotaka; Sato, Issei
+- PaperID: '1609'
+  PaperTitle: One-pass Stochastic Gradient Descent in overparametrized two-layer neural
+    networks
+  Authors: Hanjing Zhu (Duke University); Jiaming Xu (Duke University)
+  AuthorNames: Zhu, Hanjing; Xu, Jiaming
+- PaperID: '1618'
+  PaperTitle: On the Memory Mechanism of Tensor-Power Recurrent Models
+  Authors: Hejia Qiu (University of Nottingham, Ningbo, China); Chao Li (RIKEN); Ying
+    Weng (University of Nottingham); Zhun Sun (BIGO Ltd.); Xingyu He (University of
+    Nottingham Ningbo China); Qibin Zhao (RIKEN AIP)
+  AuthorNames: Qiu, Hejia; Li, Chao; Weng, Ying; Sun, Zhun; He, Xingyu; Zhao, Qibin
+- PaperID: '1619'
+  PaperTitle: Instance-Wise Minimax-Optimal Algorithms for Logistic Bandits
+  Authors: Marc Abeille (Criteo AI Lab); Louis Faury (Criteo AI Lab); Clement Calauzenes
+    (Criteo)
+  AuthorNames: Abeille, Marc; Faury, Louis; Calauzenes, Clement
+- PaperID: '1628'
+  PaperTitle: Causal Inference under Networked Interference and Intervention Policy
+    Enhancement
+  Authors: Yunpu Ma (LMU); Volker Tresp (Siemens AG and Ludwig Maximilian University
+    of Munich )
+  AuthorNames: Ma, Yunpu; Tresp, Volker
+- PaperID: '1630'
+  PaperTitle: 'GANs with Conditional Independence Graphs: On Subadditivity of Probability
+    Divergences'
+  Authors: Mucong Ding (University of Maryland); Constantinos Daskalakis (MIT); Soheil
+    Feizi (University of Maryland)
+  AuthorNames: Ding, Mucong; Daskalakis, Constantinos; Feizi, Soheil
+- PaperID: '1635'
+  PaperTitle: Latent Gaussian process with composite likelihoods and numerical quadrature
+  Authors: "Siddharth Ramchandran (Aalto University); Miika Koskinen (Helsinki Biobank\
+    \ / HUS Helsinki University Hospital); Harri L\xE4hdesm\xE4ki (Aalto University)"
+  AuthorNames: "Ramchandran, Siddharth; Koskinen, Miika; L\xE4hdesm\xE4ki, Harri"
+- PaperID: '1636'
+  PaperTitle: Deep Generative Pattern-Set Mixture Models
+  Authors: "Sahra Ghalebikesabi (University of Oxford); Rob Cornish (Oxford); Chris\
+    \ Holmes (Oxford University); Luke  Kelly (Universit\xE9 Paris Dauphine)"
+  AuthorNames: 'Ghalebikesabi, Sahra; Cornish, Rob; Holmes, Chris; Kelly, Luke '
+- PaperID: '1637'
+  PaperTitle: Minimax Estimation of Laplacian Constrained Precision Matrices
+  Authors: " Jiaxi  Ying (HKUST); Jos\xE9 Vin\xEDcius de Miranda Cardoso  (HKUST);\
+    \ Daniel Palomar (The Hong Kong University of Science and Technology)"
+  AuthorNames: "Ying,  Jiaxi ; de Miranda Cardoso , Jos\xE9 Vin\xEDcius; Palomar,\
+    \ Daniel"
+- PaperID: '1652'
+  PaperTitle: A Stochastic Approximate Gradient Ascent Method for Bayesian Experimental
+    Design with Implicit Models
+  Authors: Jiaxin Zhang (Oak Ridge National Laboratory); Sirui Bi (Johns Hopkins University);
+    Guannan Zhang (Oak Ridge National Laboratory)
+  AuthorNames: Zhang, Jiaxin; Bi, Sirui; Zhang, Guannan
+- PaperID: '1659'
+  PaperTitle: Distribution Regression for Sequential Data
+  Authors: Maud Lemercier (University of Warwick); Cristopher Salvi (University of
+    Oxford); Theodoros Damoulas (University of Warwick); Edwin V. Bonilla (CSIRO's
+    Data61); Terry J Lyons (University of Oxford)
+  AuthorNames: Lemercier, Maud; Salvi, Cristopher; Damoulas, Theodoros; Bonilla, Edwin
+    V.; Lyons, Terry J
+- PaperID: '1664'
+  PaperTitle: 'Completing the Picture: Randomized Smoothing Suffers from Curse of
+    Dimensionality for a Large Family of Distributions '
+  Authors: "Yihan Wu (Technical University of Munich); Aleksandar Bojchevski (Technical\
+    \ University of Munich); Aleksei Kuvshinov (Technical University of Munich); Stephan\
+    \ G\xFCnnemann (Technical University of Munich)"
+  AuthorNames: "Wu, Yihan; Bojchevski, Aleksandar; Kuvshinov, Aleksei; G\xFCnnemann,\
+    \ Stephan"
+- PaperID: '1666'
+  PaperTitle: Direct-Search Methods for a Class of Non-Convex Min-Max Games
+  Authors: Sotirios-Konstantinos Anagnostidis (ETH Zurich); Aurelien Lucchi (ETH Zurich);
+    Youssef Diouane (ISAE-SUPAERO)
+  AuthorNames: Anagnostidis, Sotirios-Konstantinos; Lucchi, Aurelien; Diouane, Youssef
+- PaperID: '1668'
+  PaperTitle: Self-Supervised Steering Angle Prediction for Vehicle Control Using
+    Visual Odometry
+  Authors: Qadeer Ahmed Khan (Technical University of Munich); Patrick Wenzel (Technical
+    University of Munich); Daniel Cremers (TU Munich)
+  AuthorNames: Khan, Qadeer Ahmed; Wenzel, Patrick; Cremers, Daniel
+- PaperID: '1671'
+  PaperTitle: Learning Temporal Point Processes with Intermittent Observations
+  Authors: Vinayak Gupta (IIT Delhi); Srikanta Bedathur (IIT Delhi); Sourangshu Bhattacharya
+    (IIT KHARAGPUR); Abir De (IIT Bombay)
+  AuthorNames: Gupta, Vinayak; Bedathur, Srikanta; Bhattacharya, Sourangshu; De, Abir
+- PaperID: '1676'
+  PaperTitle: 'On the number of linear functions composing deep neural network: Towards
+    a refined definition of neural networks complexity'
+  Authors: Yuuki Takai (RIKEN); Akiyoshi Sannai (RIKEN); Matthieu Cordonnier (ENS
+    Paris-Saclay)
+  AuthorNames: Takai, Yuuki; Sannai, Akiyoshi; Cordonnier, Matthieu
+- PaperID: '1677'
+  PaperTitle: Robust Learning under Strong Noise via SQs
+  Authors: Ioannis Anagnostides (National Technical University of Athens); Themis
+    Gouleakis (Max Planck Institute for Informatics); Ali Marashian (Sharif University
+    of Technology)
+  AuthorNames: Anagnostides, Ioannis; Gouleakis, Themis; Marashian, Ali
+- PaperID: '1682'
+  PaperTitle: Recovery Guarantees for Kernel-based Clustering under Non-parametric
+    Mixture Models
+  Authors: "Leena C Vankadara (University of T\xFCbingen); Sebastian Bordt (Max Planck\
+    \ Institute for Intelligent Systems, T\xFCbingen, Germany); Ulrike von Luxburg\
+    \ (University of T\xFCbingen); Debarghya Ghoshdastidar (Technical University of\
+    \ Munich)"
+  AuthorNames: C Vankadara, Leena; Bordt, Sebastian; von Luxburg, Ulrike; Ghoshdastidar,
+    Debarghya
+- PaperID: '1689'
+  PaperTitle: Convergence Properties of Stochastic Hypergradients
+  Authors: Riccardo Grazzi (Italian Institute of Technology - University College of
+    London); Massimiliano Pontil (IIT); Saverio Salzo (Istituto Italiano di Tecnologia)
+  AuthorNames: Grazzi, Riccardo; Pontil, Massimiliano; Salzo, Saverio
+- PaperID: '1691'
+  PaperTitle: 'Entropy Partial Transport with Tree Metrics: Theory and Practice'
+  Authors: Tam Le (RIKEN AIP); Truyen Nguyen (The University of Akron)
+  AuthorNames: Le, Tam; Nguyen, Truyen
+- PaperID: '1694'
+  PaperTitle: Combinatorial Gaussian Process Bandits with Probabilistically Triggered
+    Arms
+  Authors: Ilker Demirel (Bilkent University); Cem Tekin (Bilkent University)
+  AuthorNames: Demirel, Ilker; Tekin, Cem
+- PaperID: '1699'
+  PaperTitle: Differentiable Divergences Between Time Series
+  Authors: Mathieu Blondel (Google); Arthur Mensch (); Jean-Philippe Vert (Google)
+  AuthorNames: Blondel, Mathieu; Mensch, Arthur; Vert, Jean-Philippe
+- PaperID: '1705'
+  PaperTitle: Local Competition and Stochasticity for Adversarial Robustness in Deep
+    Learning
+  Authors: Konstantinos P. Panousis (National and Kapodistrian University of Athens);
+    Sotirios  Chatzis (Cyprus University of Technology); Antonios Alexos (University
+    of California Irvine); Sergios Theodoridis (National and Kapodistrian University
+    of Athens)
+  AuthorNames: Panousis, Konstantinos P.; Chatzis, Sotirios ; Alexos, Antonios; Theodoridis,
+    Sergios
+- PaperID: '1717'
+  PaperTitle: Differentiating the Value Function by using Convex Duality
+  Authors: "Sheheryar Mehmood (University of T\xFCbingen); Peter Ochs (University\
+    \ of Tuebingen)"
+  AuthorNames: Mehmood, Sheheryar; Ochs, Peter
+- PaperID: '1736'
+  PaperTitle: Rate-Regularization and Generalization in Variational Autoencoders
+  Authors: Alican Bozkurt (Northeastern University); Babak Esmaeili (Northeastern
+    University); Jean-Baptiste Tristan (Boston College); Dana Brooks (Northeastern
+    University); Jennifer Dy (Northeastern); Jan-Willem van de Meent (Northeastern
+    University)
+  AuthorNames: Bozkurt, Alican; Esmaeili, Babak; Tristan, Jean-Baptiste; Brooks, Dana;
+    Dy, Jennifer; van de Meent, Jan-Willem
+- PaperID: '1738'
+  PaperTitle: Asymptotics of Ridge(less) Regression under General Source Condition
+  Authors: "Dominic Richards (University of Oxford); Jaouad Mourtada (CREST, ENSAE);\
+    \ Lorenzo Rosasco (Universit\xE0 degli Studi di Genova)"
+  AuthorNames: Richards, Dominic; Mourtada, Jaouad; Rosasco, Lorenzo
+- PaperID: '1741'
+  PaperTitle: Longitudinal Variational Autoencoder
+  Authors: "Siddharth Ramchandran (Aalto University); Gleb Tikhonov (Aalto University);\
+    \ Kalle Kujanp\xE4\xE4 (Aalto University); Miika Koskinen (Helsinki Biobank /\
+    \ HUS Helsinki University Hospital); Harri L\xE4hdesm\xE4ki (Aalto University)"
+  AuthorNames: "Ramchandran, Siddharth; Tikhonov, Gleb; Kujanp\xE4\xE4, Kalle; Koskinen,\
+    \ Miika; L\xE4hdesm\xE4ki, Harri"
+- PaperID: '1742'
+  PaperTitle: An Adaptive-MCMC Scheme for Setting Trajectory Lengths in Hamiltonian
+    Monte Carlo
+  Authors: Matthew D Hoffman (Google); Alexey Radul (Google); Pavel Sountsov (Google)
+  AuthorNames: Hoffman, Matthew D; Radul, Alexey; Sountsov, Pavel
+- PaperID: '1743'
+  PaperTitle: Model updating after interventions paradoxically introduces bias
+  Authors: James Liley (University of Edinburgh); Samuel Emerson (University of Durham);
+    Bilal Mateen (University College London); Catalina Vallejos (University of Edinburgh);
+    Louis Aslett (); Sebastien Vollmer (Turing)
+  AuthorNames: Liley, James; Emerson, Samuel; Mateen, Bilal; Vallejos, Catalina; Aslett,
+    Louis; Vollmer, Sebastien
+- PaperID: '1744'
+  PaperTitle: On Multilevel Monte Carlo Unbiased Gradient Estimation for Deep Latent
+    Variable Models
+  Authors: Yuyang Shi (University of Oxford); Rob Cornish (Oxford); Arnaud Doucet
+    (Oxford University)
+  AuthorNames: Shi, Yuyang; Cornish, Rob; Doucet, Arnaud
+- PaperID: '1753'
+  PaperTitle: Flow-based Alignment Approaches for Probability Measures in Different
+    Spaces
+  Authors: Tam Le (RIKEN AIP); Nhat Ho (University of Texas at Austin); Makoto Yamada
+    (RIKEN AIP)
+  AuthorNames: Le, Tam; Ho, Nhat; Yamada, Makoto
+- PaperID: '1772'
+  PaperTitle: 'LENA: Communication-Efficient Distributed Learning with Self-Triggered
+    Gradient Uploads'
+  Authors: Hossein Shokri Ghadikolaei (KTH Royal Institute of Technology ); Sebastian
+    Stich (EPFL); Martin Jaggi (EPFL)
+  AuthorNames: Shokri Ghadikolaei, Hossein; Stich, Sebastian; Jaggi, Martin
+- PaperID: '1777'
+  PaperTitle: Learning Shared Subgraphs in Ising Model Pairs
+  Authors: Burak Varici (Renseelaer Polytechnic Institute); Saurabh Sihag (Rensselaer
+    Polytechnic Institute); Ali Tajer (RPI)
+  AuthorNames: Varici, Burak; Sihag, Saurabh; Tajer, Ali
+- PaperID: '1780'
+  PaperTitle: 'Faster & More Reliable Tuning of Neural Networks: Bayesian Optimization
+    with Importance Sampling'
+  Authors: Setareh Ariafar (Google); Zelda Mariet (Google); Dana Brooks (Northeastern
+    University); Jennifer Dy (Northeastern); Jasper Snoek (Google Brain)
+  AuthorNames: Ariafar, Setareh; Mariet, Zelda; Brooks, Dana; Dy, Jennifer; Snoek,
+    Jasper
+- PaperID: '1782'
+  PaperTitle: Bayesian Active Learning by Soft Mean Objective Cost of Uncertainty
+  Authors: Guang Zhao (Texas A&M University); Edward Dougherty (Texas A&M University);
+    Byung-Jun Yoon (Texas A&M University); Francis J. Alexander (Brookhaven National
+    Laboratory); Xiaoning  Qian (Texas A&M University)
+  AuthorNames: 'Zhao, Guang; Dougherty, Edward; Yoon, Byung-Jun; Alexander, Francis
+    J.; Qian, Xiaoning '
+- PaperID: '1784'
+  PaperTitle: Revisiting the Role of Euler Numerical Integration on Acceleration and
+    Stability in Convex Optimization
+  Authors: "Peiyuan Zhang (ETH Z\xFCrich); Antonio Orvieto (ETH Zurich); Hadi Daneshmand\
+    \ (INRIA); Thomas Hofmann (ETH Zurich); Roy S. Smith (ETH Zurich)"
+  AuthorNames: Zhang, Peiyuan; Orvieto, Antonio; Daneshmand, Hadi; Hofmann, Thomas;
+    Smith, Roy S.
+- PaperID: '1787'
+  PaperTitle: Improved Exploration in Factored Average-Reward Reinforcement Learning
+  Authors: Mohammad Sadegh Talebi (University of Copenhagen); Anders Jonsson (UPF);
+    Odalric Maillard (Inria)
+  AuthorNames: Talebi, Mohammad Sadegh; Jonsson, Anders; Maillard, Odalric
+- PaperID: '1788'
+  PaperTitle: 'Toward a General Theory of Online Selective Sampling: Trading Off Mistakes
+    and Queries'
+  Authors: Steve Hanneke (Toyota Technological Institute at Chicago); Liu Yang (Independent)
+  AuthorNames: Hanneke, Steve; Yang, Liu
+- PaperID: '1789'
+  PaperTitle: Regularized ERM on random subspaces
+  Authors: "Andrea Della Vecchia (University of Genova); Jaouad Mourtada (CREST, ENSAE);\
+    \ Ernesto De Vito (University of Genova); Lorenzo Rosasco (Universit\xE0 degli\
+    \ Studi di Genova)"
+  AuthorNames: Della Vecchia, Andrea; Mourtada, Jaouad; De Vito, Ernesto; Rosasco,
+    Lorenzo
+- PaperID: '1805'
+  PaperTitle: On the Importance of Hyperparameter Optimization for Model-based Reinforcement
+    Learning
+  Authors: "Baohe Zhang (University of Freiburg); Raghu Rajan (University of Freiburg);\
+    \ Luis Pineda (FAIR); Nathan O Lambert (UC Berkeley); Andr\xE9 Biedenkapp (University\
+    \ of Freiburg); Kurtland Chua (Princeton University); Frank Hutter (University\
+    \ of Freiburg); Roberto Calandra (Facebook)"
+  AuthorNames: "Zhang, Baohe; Rajan, Raghu; Pineda, Luis; Lambert, Nathan O; Biedenkapp,\
+    \ Andr\xE9; Chua, Kurtland; Hutter, Frank; Calandra, Roberto"
+- PaperID: '1806'
+  PaperTitle: Meta-Learning Divergences for Variational Inference
+  Authors: Ruqi Zhang (Cornell University); Yingzhen Li (Microsoft Research Cambridge);
+    Christopher De Sa (Cornell University); Sam Devlin (Microsoft Research); Cheng
+    Zhang (Microsoft)
+  AuthorNames: Zhang, Ruqi; Li, Yingzhen; De Sa, Christopher; Devlin, Sam; Zhang,
+    Cheng
+- PaperID: '1809'
+  PaperTitle: Hidden Cost of Randomized Smoothing
+  Authors: Jeet Mohapatra (MIT); Ching-Yun Ko (MIT); Lily Weng (MIT); Pin-Yu Chen
+    (IBM Research); Sijia Liu (Michigan State University); Luca Daniel (Massachusetts
+    Institute of Technology)
+  AuthorNames: Mohapatra, Jeet; Ko, Ching-Yun; Weng, Lily; Chen, Pin-Yu; Liu, Sijia;
+    Daniel, Luca
+- PaperID: '1814'
+  PaperTitle: Critical Parameters for Scalable Distributed Learning
+  Authors: Sebastian Stich (EPFL); Amirkeivan Mohtashami (EPFL); Martin Jaggi (EPFL)
+  AuthorNames: Stich, Sebastian; Mohtashami, Amirkeivan; Jaggi, Martin
+- PaperID: '1815'
+  PaperTitle: Improving Classifier Confidence using Lossy Label-Invariant Transformations
+  Authors: Sooyong Jang (University of Pennsylvania); Insup Lee (University of Pennsylvania);
+    James Weimer (University of Pennsylvania)
+  AuthorNames: Jang, Sooyong; Lee, Insup; Weimer, James
+- PaperID: '1825'
+  PaperTitle: Graph Gamma Process Linear Dynamical Systems
+  Authors: Rahi Kalantari (University of Texas at Austin); Mingyuan Zhou (University
+    of Texas at Austin)
+  AuthorNames: Kalantari, Rahi; Zhou, Mingyuan
+- PaperID: '1844'
+  PaperTitle: Does Invariant Risk Minimization Capture Invariance?
+  Authors: Pritish Kamath (Toyota Technological Institute at Chicago); Akilesh Tangella
+    (TTI-Chicago); Danica J. Sutherland (University of British Columbia); Nathan Srebro
+    (Toyota Technical Institute of Chicago)
+  AuthorNames: Kamath, Pritish; Tangella, Akilesh; Sutherland, Danica J.; Srebro,
+    Nathan
+- PaperID: '1857'
+  PaperTitle: A unified view of likelihood ratio and reparameterization gradients
+  Authors: Paavo Parmas (Okinawa Inst. of Sci. and Tech); Masashi Sugiyama (RIKEN/The
+    University of Tokyo)
+  AuthorNames: Parmas, Paavo; Sugiyama, Masashi
+- PaperID: '1861'
+  PaperTitle: 'A Linearly Convergent Algorithm for Decentralized Optimization: Sending
+    Less Bits for Free!'
+  Authors: Dmitry Kovalev (KAUST); Anastasia Koloskova (EPFL); Martin Jaggi (EPFL);
+    Peter Richtarik (KAUST); Sebastian Stich (EPFL)
+  AuthorNames: Kovalev, Dmitry; Koloskova, Anastasia; Jaggi, Martin; Richtarik, Peter;
+    Stich, Sebastian

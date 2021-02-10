@@ -1,16 +1,17 @@
 ---
 layout: default
 title: Accepted Papers
-hide: true
-navigation_weight: 11
+hide: false
+weight: 10
 ---
 
-<h1>AISTATS 2021 Accepted Papers</h1>
-<style type="text/css">
-  b { font-weight: bold; }
-</style>
-<ul style="font-size: 10pt">
-	<li><b> TBD </b></li>
-<!-- <li><b>Linearly Convergent Frank-Wolfe without Line-Search</b><br />Fabian Pedregosa (Google)*; Geoffrey Negiar (UC Berkeley); Armin Askari (UC Berkeley); Martin Jaggi (EPFL)</li>
-<li><b>Guarantees of Stochastic Greedy Algorithms for Non-monotone Submodular Maximization</b><br />Shinsaku Sakaue (NTT)*</li> -->
+<h1>{{ site.conference.short_name }} {{ site.conference.year }} Accepted Papers</h1>
+
+{%- if site.data.accepted_papers -%}
+<ul>
+	{%- for paper in site.data.accepted_papers -%}
+	<li> <b>{{paper.PaperTitle}}</b> <br>{{paper.AuthorNames}}</li>
+	{%- endfor -%}
 </ul>
+{%- endif -%}
+
