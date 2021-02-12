@@ -36,7 +36,7 @@ credit_card_image: credit.png
 
 conference:
   draft: true # set to True if the programme is draft only.
-  image: virtual_conference.jpeg
+  image: #virtual_conference.jpeg
   hide_tentative: true
   proceedings:
     url:
