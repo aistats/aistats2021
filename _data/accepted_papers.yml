@@ -1744,8 +1744,8 @@
   AuthorNames: James Liley, Samuel Emerson, Bilal Mateen, Catalina Vallejos, Louis Aslett, Sebastien Vollmer
 - PaperID: '1744'
   PaperTitle: On Multilevel Monte Carlo Unbiased Gradient Estimation for Deep Latent Variable Models
-  Authors: Yuyang Shi (University of Oxford); Rob Cornish (Oxford); Arnaud Doucet (Oxford University)
-  AuthorNames: Yuyang Shi, Rob Cornish, Arnaud Doucet
+  Authors: Yuyang Shi (University of Oxford); Rob Cornish (Oxford)
+  AuthorNames: Yuyang Shi, Rob Cornish
 - PaperID: '1753'
   PaperTitle: Flow-based Alignment Approaches for Probability Measures in Different Spaces
   Authors: Tam Le (RIKEN AIP); Nhat Ho (University of Texas at Austin); Makoto Yamada (RIKEN AIP)
