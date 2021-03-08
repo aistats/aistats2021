@@ -152,6 +152,12 @@ conference:
       given: Fei
       url: https://viterbi-web.usc.edu/~feisha/
       institute: University of Southern California
+  - type: Mentorship Session Chair
+    people:
+    - famliy: Khan
+      Given: Emtiyaz
+      url: https://emtiyaz.github.io/
+      institute: RIKEN AIP, on behalf of MeMentor Team
 
 previous_meeting:
   name:
