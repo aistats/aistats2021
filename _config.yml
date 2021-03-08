@@ -154,10 +154,10 @@ conference:
       institute: University of Southern California
   - type: Mentorship Session Chair
     people:
-    - famliy: Khan
+    - family: Khan
       given: Emtiyaz
       url: https://emtiyaz.github.io/
-      institute: RIKEN AIP, on behalf of MeMentor Team
+      institute: RIKEN AIP on behalf of MeMentor Team
 
 previous_meeting:
   name:
