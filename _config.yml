@@ -96,8 +96,8 @@ conference:
     people:
     - family: Banerjee
       given: Arindam
-      url: https://www-users.cs.umn.edu/~banerjee/
-      institute: University of Minnesota
+      url: https://arindam.cs.illinois.edu
+      institute: University of Illinois Urbana-Champaign
     - family: Fukumizu
       given: Kenji
       url: https://www.ism.ac.jp/~fukumizu/
@@ -157,7 +157,7 @@ conference:
     - family: Khan
       given: Emtiyaz
       url: https://emtiyaz.github.io/
-      institute: RIKEN AIP on behalf of MeMentor Team
+      institute: RIKEN AIP on behalf of <a href="http://mementor.net/">MeMentor</a> Team
 
 previous_meeting:
   name:
