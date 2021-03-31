@@ -1543,7 +1543,7 @@
   Authors: "Nathanael Bosch (University of T\xFCbingen); Philipp Hennig (University of T\xFCbingen and MPI for Intelligent Systems T\xFCbingen); Filip Tronarp (University of T\xFCbingen)"
   AuthorNames: Nathanael Bosch, Philipp Hennig, Filip Tronarp
 - PaperID: '1511'
-  PaperTitle: 'Online Learning of Nonlinear Control with Guaranteed Success: An Oracle-Based, Robust Control-Powered Approach'
+  PaperTitle: 'Online Robust Control of Nonlinear Systems with Large Uncertainty'
   Authors: Dimitar M Ho (Caltech); Hoang M. Le (Microsoft Research); John  Doyle (Caltech); Yisong Yue (Caltech)
   AuthorNames: Dimitar M Ho, Hoang M. Le, John Doyle, Yisong Yue
 - PaperID: '1515'
