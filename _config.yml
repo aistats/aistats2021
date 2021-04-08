@@ -158,6 +158,20 @@ conference:
       given: Emtiyaz
       url: https://emtiyaz.github.io/
       institute: RIKEN AIP on behalf of <a href="http://mementor.net/">MeMentor</a> Team
+  - type: Logistics and Conference Planning
+    people:
+    - family: Perry
+      given: Mary Ellen
+      institute: Level 5
+    - family: Campbell
+      given: Lee
+      institute: Level 5
+    - family: Brockmeyer
+      given: Brad
+      institute: Brockmeyer Consulting
+    - family: Nettleton
+      given: Brian
+      institute: Cornerstone Software
 
 previous_meeting:
   name:
