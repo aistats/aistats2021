@@ -14,6 +14,7 @@ plugins:
 - jekyll-feed
 - jekyll-seo-tag
 - jekyll-remote-theme
+- jekyll-redirect-from
 remote_theme: aistats/jekyll-theme
 style: aistats
 
@@ -29,6 +30,6 @@ markdown: kramdown
 # change encoding for the generated output files to utf-8
 encoding: utf-8
 
-banner: san_diego.jpg # Banner image should be placed in assets/images
+banner: virtual_conference_banner.jpg # Banner image should be placed in assets/images
 
 credit_card_image: credit.png
