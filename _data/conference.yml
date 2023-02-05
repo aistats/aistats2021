@@ -1,0 +1,138 @@
+draft: false # set to True if the programme is draft only.
+image: #virtual_conference.jpeg
+hide_tentative: true
+proceedings:
+  url:
+  show: false
+room:
+venue: A Virtual Conference
+venue_url:
+location: A Virtual Conference
+full_name: Artificial Intelligence and Statistics
+short_name: AISTATS
+name: Artificial Intelligence and Statistics
+year: 2021
+instance: 24th
+styling: International Conference on
+dates:
+- 2021-04-13
+- 2021-04-14
+- 2021-04-15
+submission:
+show: false
+url: http://cmt3.research.microsoft.com/AISTATS2021/
+name: Microsoft CMT website
+deadlines:
+  - name: Submission server open
+    type: submission
+    text: Wednesday, September 16, 2020
+    date: 2020-09-18 08:00 -08:00
+  - name: Abstract submission deadline
+    type: submission
+    text: Thursday, October 8, 2020, 08:00 AM PST
+    date: 2020-10-08 08:00 -08:00
+  - name: Paper submission deadline
+    type: submission
+    text: Thursday, October 15, 2020, 08:00 AM PST
+    date: 2020-10-15 08:00 -08:00
+  - name: Supplementary material submission deadline
+    type: submission
+    text: Thursday, October 22, 2020, 08:00 AM PST
+    date: 2020-10-22 08:00 -08:00
+  - name: Reviews released
+    text: Wednesday, November 25, 2020
+    date: 2020-11-25
+  - name: Author rebuttals due
+    text: Wednesday, December 2, 2020, 20:59 PM PST
+    date: 2020-12-02 20:59 -08:00
+  - name: Final decisions
+    type: decision
+    text: Friday, January 22, 2021
+    date: 2021-01-22
+  - name: Camera-ready papers deadline
+    type: submission
+    text: Thursday, February 25, 2020, 16:00 PM PST
+    date: 2021-02-25 16:00 -08:00
+  # - name: Registration deadline
+  #   date:
+chairs:
+- type: Program Chairs
+  people:
+  - family: Banerjee
+    given: Arindam
+    url: https://arindam.cs.illinois.edu
+    institute: University of Illinois Urbana-Champaign
+  - family: Fukumizu
+    given: Kenji
+    url: https://www.ism.ac.jp/~fukumizu/
+    institute: The Institute of Statistical Mathematics
+- type: Virtual Conference Chair
+  people:
+  - family: Dasarathy
+    given: Gautam
+    url: http://gautamdasarathy.com/
+    institute: Arizona State University
+- type: Workflow Chair
+  people:
+  - family: Jitkrittum
+    given: Wittawat
+    url: http://wittawat.com/
+    institute: Google Research
+  - family: Mototake
+    given: Yoh-ichi
+    url: https://www.ism.ac.jp/~mototake/
+    institute: The Institute of Statistical Mathematics
+- type: Publication Chair
+  people:
+  - family: Muandet
+    given: Krikamol
+    url: http://www.krikamol.org/
+    institute: Max Planck Institute for Intelligent Systems
+- type: Publicity Chair
+  people:
+  - family: Giaquinto
+    given: Robert
+    url: https://www-users.cs.umn.edu/~giaquinto/
+    institute: University of Minnesota
+# - type: Family Chair
+#   people:
+#   - family:
+#     given:
+#     url:
+#     institute:
+- type: D&I Chair
+  people:
+  - family: Williamson
+    given: Sinead
+    url: https://sinead.github.io
+    institute: University of Texas at Austin
+  - family: Koyejo
+    given: Sanmi
+    url: https://sanmi.cs.illinois.edu
+    institute: University of Illinois at Urbana-Champaign
+- type: Sponsorship Chair
+  people:
+  - family: Sha
+    given: Fei
+    url: https://viterbi-web.usc.edu/~feisha/
+    institute: University of Southern California
+- type: Mentorship Session Chair
+  people:
+  - family: Khan
+    given: Emtiyaz
+    url: https://emtiyaz.github.io/
+    institute: RIKEN AIP on behalf of <a href="http://mementor.net/">MeMentor</a> Team
+- type: Logistics and Conference Planning
+  people:
+  - family: Perry
+    given: Mary Ellen
+    institute: Level 5
+  - family: Campbell
+    given: Lee
+    institute: Level 5
+  - family: Brockmeyer
+    given: Brad
+    institute: Brockmeyer Consulting
+  - family: Nettleton
+    given: Brian
+    institute: Cornerstone Software
