@@ -19,9 +19,9 @@ dates:
 - 2021-04-14
 - 2021-04-15
 submission:
-show: false
-url: http://cmt3.research.microsoft.com/AISTATS2021/
-name: Microsoft CMT website
+  show: false
+  url: http://cmt3.research.microsoft.com/AISTATS2021/
+  name: Microsoft CMT website
 deadlines:
   - name: Submission server open
     type: submission
